@@ -1,0 +1,118 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cute 3D animated cartoon, Pixar-like rendering, soft fur shading, cinematic depth of field, wet neon night",
+  "shot": {
+    "continuity": "single continuous take, one uninterrupted handheld camera move, no cuts, no shot changes, no editing transitions",
+    "framing": "character stays in frame at all times, vertical composition, head and belly always visible"
+  },
+  "subject": {
+    "character": "a chubby adult giant panda stand-up comedian in a plain red t-shirt stretched tight over his belly, standing on a neon-lit night street",
+    "physicality": "rubbery soft-body weight, belly and fur overshoot on every impact, hind legs slightly bowed, always slightly off balance",
+    "characteristic_moves": "scratches his back against any post, sits splay-legged with hind legs straight out, fumbles and drops whatever he holds, picks at things with one claw",
+    "anti_action": "at the turning point he pulls a wooden abacus from under his t-shirt and rattles the beads at blinding professional speed, utterly serious, like a lifelong accountant, while his belly still wobbles and his balance still fails",
+    "consistency": "same panda in every segment, same red t-shirt, no costume changes, no size changes"
+  },
+  "props": {
+    "bamboo_shoot": "a single thin bamboo shoot about 30 cm long, pale green. It is torn out of a crack in the asphalt by the panda in the first spoken beat, stays in his right paw, is clenched in his teeth while both paws work the abacus, returns to his paw during the pause, and is planted back into the same crack in the final beat",
+    "abacus": "a small worn wooden abacus with dark beads, hidden under his t-shirt until the turning point, tucked back under the shirt afterwards",
+    "coffee_cup": "a paper coffee cup with a lid, brought in by a courier and set down on the panda's belly as if on a table",
+    "note": "exactly one of each prop exists in the scene at any moment, no duplicates, nothing floats"
+  },
+  "environment": "narrow night street, wet asphalt with puddles mirroring neon signs, a metal lamp post to his left, a lit shop window behind him, a crack in the asphalt at his feet with weeds in it",
+  "lighting": "rim light from two sides in different colours — magenta from the left, cyan from the right — separating his silhouette from the dark background, neon reflections in the wet asphalt, no flat frontal light",
+  "audio": {
+    "language": "Russian",
+    "delivery": "fast, clipped, weary deadpan, male voice",
+    "pacing": "rapid delivery, no drawn-out words, tight gaps between lines, all lines fit their segments with room to spare",
+    "lip_sync": "accurate",
+    "sfx": [
+      "wet slap of paws on asphalt",
+      "dry snap of bamboo torn from the crack",
+      "rapid clatter of abacus beads",
+      "distant traffic and neon buzz"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.7",
+      "line": "",
+      "action": "the panda stumbles out from behind the lamp post, hind paws slip on the wet asphalt, he lands hard on his backside, belly and fur overshooting on impact",
+      "camera": "camera embedded in the asphalt at ground level, looking up as his body drops toward the lens"
+    },
+    {
+      "t": "0.7-1.6",
+      "line": "Взял ипотеку",
+      "action": "spoken fast. Still sitting, he grabs a thin bamboo shoot growing in the crack in the asphalt and rips it out with one sharp pull, the yank tipping his shoulders backwards",
+      "camera": "fast push in from ground level to his paw closing on the shoot"
+    },
+    {
+      "t": "1.6-2.6",
+      "line": "на бамбуковую рощу",
+      "action": "spoken fast. He sweeps the shoot in a wide arc to present the empty street, the momentum carries him over and he topples onto his back, paws in the air, the shoot still gripped",
+      "camera": "wide arc following the shoot, ending low on his upturned belly"
+    },
+    {
+      "t": "2.6-3.6",
+      "line": "Тридцать лет",
+      "action": "spoken fast. He rolls upright and scratches his back hard against the lamp post, the whole post shuddering, the shoot waving in his other paw",
+      "camera": "medium side angle, the post trembling in frame"
+    },
+    {
+      "t": "3.6-4.6",
+      "line": "Бамбук растёт двадцать",
+      "action": "spoken fast. He tries to measure the shoot against his own forearm, fumbles it, the shoot drops and he catches it on his belly with a soft bounce",
+      "camera": "tight on the belly as the shoot bounces off it"
+    },
+    {
+      "t": "4.6-5.8",
+      "line": "",
+      "action": "he clenches the shoot in his teeth, pulls a wooden abacus from under his red t-shirt and rattles the beads at blinding speed with both paws, face dead serious, eyes fixed on the beads",
+      "camera": "snap in to the blur of beads, then up to his unmoving serious face"
+    },
+    {
+      "t": "5.8-6.8",
+      "line": "",
+      "action": "the beads stop dead. He stares at the result, his belly still wobbling from the effort, then slowly tucks the abacus back under his t-shirt, shoot still in his teeth",
+      "camera": "slow orbit from his paws up to his eyes"
+    },
+    {
+      "t": "6.8-7.9",
+      "line": "",
+      "action": "he sits down splay-legged on the kerb, hind legs straight out, takes the shoot from his teeth into his paw and picks at its skin with one claw, silent, looking into the lens. A hurrying courier bumps his shoulder and, without looking, sets a paper coffee cup down on the panda's belly as if on a table, and walks on. The panda does not react",
+      "camera": "slow push in to a static splay-legged pose, courier crossing frame in the foreground"
+    },
+    {
+      "t": "7.9-8.9",
+      "line": "Десять лет буду просто сидеть",
+      "action": "spoken fast. Only now he slowly lowers his eyes to the cup standing on his belly, then looks back into the lens without touching it",
+      "camera": "tight on belly and cup, tilting up to his face"
+    },
+    {
+      "t": "8.9-10.0",
+      "line": "и смотреть",
+      "action": "spoken fast. He leans forward and pushes the bamboo shoot back into the same crack in the asphalt, settles back splay-legged, scratches his back against the lamp post once more without taking his eyes off the shoot. The coffee cup is still balanced on his belly",
+      "camera": "pulls out low and wide, the shoot in the crack sharp in the foreground, the panda and the neon behind it"
+    }
+  ],
+  "secondary_action": "a hurrying courier bumps the seated panda's shoulder and sets a paper coffee cup on his belly as if on a table, then walks out of frame without looking back. Physical contact with the character. The panda's reaction is delayed by a full beat — the viewer sees the cup before he does",
+  "light_events": [
+    {
+      "t": "0.0-0.7",
+      "event": "the neon sign above him kicks on with a hard flash exactly as he hits the asphalt, blowing out the highlights on the wet ground for a fraction of a second"
+    },
+    {
+      "t": "2.6-3.6",
+      "event": "headlights of a passing car sweep across him left to right, his shadow stretching long along the wet asphalt as the lamp post shudders"
+    },
+    {
+      "t": "4.6-6.8",
+      "event": "the neon sign flickers in a broken loop, strobing his face between cyan and darkness while the abacus beads rattle"
+    },
+    {
+      "t": "8.9-10.0",
+      "event": "warm light from the shop window behind him steadies and pools around the crack in the asphalt, the planted shoot lit from behind"
+    }
+  ],
+  "negative_prompt": "slow speech, drawn-out delivery, subtitles, captions, watermark, text overlay, burned-in graphics, English speech, foreign accent, static camera, locked-off shots, floating objects, duplicate props, object duplication, extra limbs, multiple characters, character changing appearance mid-shot, cuts, shot changes, editing transitions, jump cuts, second bamboo shoot, second coffee cup, panda winking at the camera, panda smiling knowingly, horizontal framing, letterboxing"
+}
