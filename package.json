@@ -1,0 +1,20 @@
+{
+  "name": "vibepost-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Генерация коротких вертикальных роликов серии «уличная экономика»: идеи через Gemini, видео через Veo, бесплатная русская озвучка, доставка в VibePost",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "ideas": "node scripts/ideas.mjs",
+    "reels": "node scripts/reels.mjs",
+    "video": "node scripts/generate-video.mjs",
+    "video:file": "node scripts/generate-video.mjs --file",
+    "voiceover": "node scripts/voiceover-series.mjs",
+    "telegram:link": "node scripts/telegram-link.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^2.12.0",
+    "msedge-tts": "^2.0.7"
+  }
+}
