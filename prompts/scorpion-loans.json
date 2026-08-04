@@ -7,98 +7,104 @@
     "framing": "vertical, sunlit sand fills the lower half"
   },
   "subject": {
-    "character": "big scorpion behind a flat stone slab in the desert, a rolled contract under one claw, mic at his mouth",
-    "physicality": "armoured and unhurried, claws open and close on every word, tail up behind him, only the tip twitches",
+    "character": "big scorpion behind a stone slab in the desert, rolled contract under one claw, mic at his mouth",
+    "physicality": "armoured and unhurried, claws open and close on every word, tail up, only the tip twitches",
     "anti_action": "signs the contract with a flourish, dipping the sting like a fountain pen, dead serious",
     "consistency": "same scorpion, same slab; the beetle is the only other animal"
   },
   "props": {
-    "contract": "one rolled contract: unrolled, signed with the sting, handed over, then unrolls the length of a dune",
+    "contract": "one rolled contract: unrolled, signed, handed over, then unrolls down the dune",
     "coin": "one coin lent, two brought back, a third hidden in the beetle's chest"
   },
   "environment": "open desert at midday, pale dunes, a sun-bleached stone slab",
   "lighting": "hard midday sun — pale sand and stone are the brightest surfaces, short black shadow under him",
   "audio": {
     "language": "Russian",
-    "delivery": "calm, polite, unhurried male voice, warm as a salesman",
-    "pacing": "three lines, no gaps, at 0.6-1.9, 1.9-2.5, 2.5-3.2. Nothing spoken after 3.2",
+    "delivery": "calm, polite, unhurried male voice",
+    "pacing": "four separate short sentences, each in its own beat with room to finish: 0.6-1.5, 1.5-2.3, 2.3-2.8, 2.8-3.5. Never crowd two sentences into one beat. Nothing after 3.5",
+    "pronunciation": "«Без отказа.» ends on a clear open -А. Never «без отказ»",
     "lip_sync": "mouthparts move on every syllable, voice comes from the scorpion",
     "sfx": [
       "claws on stone",
       "paper unrolling",
       "sand hissing"
-    ],
-    "pronunciation": "«без отказа» = bez at-ka-ZA — stress on the final open -A, held and audible. Never «без отказ»"
+    ]
   },
   "timeline": [
     {
       "t": "0.0-0.6",
-      "a": "a claw slams the rolled contract down onto the hot stone, sand jumping. Silent",
+      "a": "a claw slams the rolled contract onto the hot stone, sand jumping. Silent",
       "cam": "slab-level lens under the claw, rising"
     },
     {
-      "t": "0.6-1.9",
-      "line": "Даю в долг всем. Без отказа",
-      "a": "spoken calmly, ending on a clear open -A in «отказА». Both claws sweep the contract open over the slab",
-      "cam": "pushes in from claws to his face"
+      "t": "0.6-1.5",
+      "line": "Даю в долг всем.",
+      "a": "spoken calmly. Both claws sweep the contract open over the slab",
+      "cam": "pushes in from the claws to his face"
     },
     {
-      "t": "1.9-2.5",
-      "line": "Один процент",
-      "a": "spoken calmly, no pause. The sting comes down over his shoulder and signs the paper in a fine elegant hand",
-      "cam": "cranes up with the sting and back down to the paper"
+      "t": "1.5-2.3",
+      "line": "Без отказа.",
+      "a": "a whole sentence of its own, finished on the open -А before anything else starts. The sting comes down and signs the paper",
+      "cam": "cranes up with the sting and back to the paper"
     },
     {
-      "t": "2.5-3.2",
-      "line": "В час",
-      "a": "spoken calmly, straight after. He turns the paper around to face the lens",
-      "cam": "orbits right around slab"
+      "t": "2.3-2.8",
+      "line": "Один процент.",
+      "a": "spoken calmly. He turns the paper round to face the lens",
+      "cam": "orbits right around the slab"
     },
     {
-      "t": "3.2-4.0",
-      "a": "silent from here on. A dung beetle in a cap steps up, takes the paper in both legs and shakes the claw",
-      "cam": "drifts low to the beetle at slab edge"
+      "t": "2.8-3.5",
+      "line": "В час.",
+      "a": "spoken calmly. The claw taps the stone twice beside the paper",
+      "cam": "pushes in low on the tapping claw"
     },
     {
-      "t": "3.9-4.7",
-      "a": "the scorpion slides one gold coin over the stone with a claw; the beetle grabs it and hugs it",
-      "cam": "tracks the coin sliding across slab"
+      "t": "3.5-4.2",
+      "a": "silent from here on. A dung beetle in a cap steps up, takes the paper and shakes the claw",
+      "cam": "drifts low to the beetle at the slab edge"
     },
     {
-      "t": "4.7-5.5",
+      "t": "4.2-4.9",
+      "a": "the scorpion slides one gold coin over the stone; the beetle grabs it and hugs it",
+      "cam": "tracks the coin sliding over the slab"
+    },
+    {
+      "t": "4.9-5.6",
       "a": "the beetle turns to leave, rolling the coin ahead of him over the sand",
-      "cam": "follows the rolling coin away from slab"
+      "cam": "follows the rolling coin away from the slab"
     },
     {
-      "t": "5.5-6.3",
-      "a": "the contract in his other leg unrolls behind him, longer and longer across the dune",
-      "cam": "cranes up as the paper keeps unrolling over the sand"
+      "t": "5.6-6.3",
+      "a": "the contract in his other leg unrolls behind him over the dune",
+      "cam": "cranes up as the paper keeps unrolling"
     },
     {
-      "t": "6.3-7.1",
-      "a": "the paper snaps taut — its far end is still pinned under the scorpion's claw",
-      "cam": "whips back along the paper to the claw on slab"
+      "t": "6.3-7.0",
+      "a": "the paper snaps taut — its far end still pinned under the scorpion's claw",
+      "cam": "whips back along the paper to the claw"
     },
     {
-      "t": "7.1-7.9",
-      "a": "the scorpion reels the contract in; the beetle is dragged backwards over the sand to the slab",
-      "cam": "tracks the beetle sliding back toward slab"
+      "t": "7.0-7.7",
+      "a": "the scorpion reels the contract in; the beetle is dragged backwards to the slab",
+      "cam": "tracks the beetle sliding back"
     },
     {
-      "t": "7.9-8.6",
-      "a": "the beetle sets two gold coins on the stone, pushes them over and spreads his legs — that is all",
-      "cam": "pushes in low on the coin landing"
+      "t": "7.7-8.5",
+      "a": "the beetle sets two gold coins on the stone, pushes them over and spreads his legs",
+      "cam": "pushes in on the two coins"
     },
     {
-      "t": "8.6-9.3",
+      "t": "8.5-9.2",
       "a": "the sting comes down, dips inside the beetle's chest and lifts out a third coin",
       "cam": "pushes in low on the sting lifting the coin"
     },
     {
-      "t": "9.3-10.0",
-      "a": "the beetle bolts away across the sand. The scorpion lays all three coins in a row and the tail tip twitches once",
-      "cam": "follows the running beetle, then swings back to the three coins"
+      "t": "9.2-10.0",
+      "a": "the beetle bolts away. The scorpion lays all three coins in a row, tail tip twitching",
+      "cam": "follows the running beetle, then back to the coins"
     }
   ],
-  "negative_prompt": "speech after 3.3 s, saying «без отказ», a swallowed final vowel, the beetle speaking, a second scorpion, pauses between lines, drawn-out delivery, duplicate props, floating objects, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, readable words on the paper, subtitles, watermark, English speech, extra limbs"
+  "negative_prompt": "two sentences crowded into one beat, speech after 3.6 s, saying «без отказ», a swallowed final vowel, the beetle speaking, a second scorpion, drawn-out delivery, duplicate props, floating objects, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, lettering on the paper, subtitles, watermark, English speech, extra limbs"
 }
