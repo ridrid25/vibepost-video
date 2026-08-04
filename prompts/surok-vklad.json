@@ -1,0 +1,42 @@
+{
+  "версия": "сурок-1",
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar-like, soft fur",
+  "shot": {
+    "continuity": "one take, camera in motion in every segment, never locked off",
+    "framing": "vertical, the sunlit meadow floor fills the lower half at all times"
+  },
+  "subject": {
+    "character": "fat groundhog in a knitted vest, standing at the mouth of his burrow in a bright summer meadow, microphone at his muzzle",
+    "physicality": "round heavy body, half-lidded eyes, deadpan, blinks slowly, cheeks stuffed",
+    "anti_action": "sorts seeds into perfectly straight rows at blinding speed, dead serious",
+    "consistency": "same groundhog, same vest"
+  },
+  "props": "the burrow works three times: he leans out of it, he stuffs the seeds down into it, and at the end it swallows him whole",
+  "environment": "bright summer meadow at noon, pale dry grass, sunlit sandy earth around the burrow, sunflower seeds",
+  "lighting": "hard midday sun straight overhead — the pale grass and sand are the brightest surfaces and all action happens on them, deep black inside the burrow for contrast, seeds catch the sun and throw moving glints",
+  "audio": {
+    "language": "Russian",
+    "delivery": "fast, clipped, bored deadpan, male voice",
+    "pacing": "rapid; all speech inside the first five seconds",
+    "lip_sync": "accurate",
+    "sfx": ["seeds rattling", "wind in dry grass", "earth crumbling"]
+  },
+  "timeline": [
+    {"t": "0.0-0.7", "a": "shoots up out of the burrow at the lens, showering sand across the frame", "cam": "lens at ground level; sun flares as he blocks it"},
+    {"t": "0.7-1.6", "line": "Мои деньги работают", "a": "spoken fast. Sweeps a heap of seeds toward himself with both paws", "cam": "pushes in from paws to face"},
+    {"t": "1.6-2.3", "line": "Без выходных", "a": "spoken fast. Slaps a paw over the heap, dust jumps, stares into lens", "cam": "orbits right, dry grass passing close across the lens"},
+    {"t": "2.3-3.4", "a": "sorts the seeds into perfectly straight rows at blinding speed, face unmoving", "cam": "cranes into a top-down over the rows, still turning"},
+    {"t": "3.4-4.2", "line": "Я не работаю", "a": "spoken fast. Flicks one seed out of the row with a claw", "cam": "cranes down low, grass swaying into frame"},
+    {"t": "4.2-5.0", "line": "Мы договорились", "a": "spoken fast. Cheeks puff, tail whips and knocks the rows apart, seeds scattering", "cam": "handheld jolt on the tail hit"},
+    {"t": "5.0-6.0", "a": "a magpie drops onto his shoulder, wings wide, and snatches a beakful of seeds", "cam": "circles him at ground height; wings cut the sunlight"},
+    {"t": "6.0-6.8", "a": "he grooms a paw in fast licks, eyes sliding to the gap in the rows", "cam": "drifts in on his face; grass shadows cross it"},
+    {"t": "6.8-7.6", "a": "he tips his head over the burrow mouth and lets the whole load of seeds pour out of his cheeks into the dark", "cam": "tracks the pouring seeds down into the burrow"},
+    {"t": "7.6-8.6", "line": "Ваши тоже работают", "a": "spoken fast, calm. Rakes every last seed off the sand into the burrow with one wide sweep", "cam": "follows the sweeping paw and the pouring seeds"},
+    {"t": "8.6-9.3", "a": "smiles once — the only smile — and drops straight down into the burrow", "cam": "pushes in on the burrow mouth as he disappears"},
+    {"t": "9.3-10.0", "a": "bare sand, no seeds left. The magpie lands beside the hole, picks up the last seed in its beak and flies off", "cam": "cranes down to sand level, following the magpie"}
+  ],
+  "secondary_action": "magpie on the shoulder, physical contact, delayed reaction",
+  "negative_prompt": "seeds thrown away from him, dim scene, underexposed, dark foreground, locked-off camera, slow camera move, motion blur, tongue out, big round eyes, cute, kawaii, grinning through the take, any lettering in frame, slow speech, subtitles, watermark, English speech, extra limbs, multiple characters, horizontal framing"
+}

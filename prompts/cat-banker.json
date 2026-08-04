@@ -1,112 +1,100 @@
 {
+  "версия": "кот-11",
   "duration_seconds": 10,
   "aspect_ratio": "9:16",
-  "style": "3D cartoon, Pixar-like, soft fur, shallow depth of field, night bank",
+  "style": "3D cartoon, Pixar-like",
   "shot": {
-    "continuity": "single continuous take, no cuts",
-    "framing": "cat and counter always in frame, vertical"
+    "continuity": "one take, camera moving in every segment, never locked off",
+    "framing": "vertical, the brightest lit surface fills the lower half — counter until 8.6 s, lit floor after"
   },
   "subject": {
-    "character": "plump grey cat in a banker's waistcoat behind a marble bank counter, microphone at his mouth",
-    "physicality": "heavy soft body, tail flicks on its own, slow blink, always shifting weight",
-    "characteristic_moves": "swipes objects off the counter with one paw while staring into the lens, grooms himself the instant something goes wrong as if intended",
-    "anti_action": "stacks coins into perfect towers at blinding speed, obsessively precise, dead serious, tail still knocking the counter",
-    "consistency": "same cat, same waistcoat, no size or colour changes"
+    "character": "plump grey tomcat in a black top hat and waistcoat behind a marble bank counter, mic at his mouth",
+    "physicality": "heavy soft body, half-lidded eyes, deadpan, grooms himself the instant something goes wrong, smiles only in the final beat",
+    "anti_action": "stacks coins into perfect towers at blinding speed, belly wobbling, counter creaking",
+    "consistency": "same cat, same hat and waistcoat; only the hat leaves his head and returns"
   },
-  "props": "one coin: clawed out of the marble in the first spoken beat, held under his paw, added on top of the coin tower; at the end the waistcoat is left swinging empty on the chair",
-  "environment": "night bank hall, marble counter, brass lamp, chair, rain on the window",
-  "lighting": "rim light two sides, warm amber left, cold blue window right, no flat frontal light",
+  "environment": "night bank hall, white marble counter, rouble coins, brass lamp, rain on the window",
+  "lighting": "hard brass lamp over the white marble — the marble is the brightest surface, its light spills onto the floor so the last beat is lit just as brightly. Cold blue window rim one side, warm brass rim the other",
   "audio": {
     "language": "Russian",
     "delivery": "fast, clipped, bored deadpan, male voice",
-    "pacing": "rapid, no drawn-out words, tight gaps, lines fit their segments",
+    "pacing": "three lines back to back with no gap at 0.6-1.6, 1.6-2.1, 2.1-3.5. Last word done by 3.5 s; after that the cat says nothing, mouth shut",
     "lip_sync": "accurate",
     "sfx": [
-      "claw on marble",
       "coins clinking",
       "rain on glass",
-      "lamp click",
-      "coin rolling on floor"
+      "hat rolling on stone"
     ]
   },
   "timeline": [
     {
-      "t": "0.0-0.7",
-      "line": "",
-      "action": "lands hard on the counter, skids on marble, instantly grooms a shoulder as if planned",
-      "camera": "low, body dropping toward lens"
+      "t": "0.0-0.6",
+      "a": "slams a paw flat on the marble at the lens, coins jump and clatter. Silent",
+      "cam": "lens at counter level, marble ramps up to white"
     },
     {
-      "t": "0.7-1.7",
+      "t": "0.6-1.6",
       "line": "Ваш вклад в надёжных лапах",
-      "action": "spoken fast. Claws a coin out of a gap in the marble, the effort tipping him sideways"
+      "a": "spoken fast. Claws a coin out of the marble, the effort tipping him sideways",
+      "cam": "pushes in from paw to face"
     },
     {
-      "t": "1.7-2.4",
+      "t": "1.6-2.1",
       "line": "В моих",
-      "action": "spoken fast. Slaps his paw over the coin, counter shudders, stares into lens"
+      "a": "spoken fast, no pause. Slaps his paw over the coin, the counter shudders",
+      "cam": "orbits right past the lamp"
     },
     {
-      "t": "2.4-3.3",
-      "line": "Процент капает",
-      "action": "spoken fast. Nudges a stray coin off the counter edge, eyes on lens"
+      "t": "2.1-3.5",
+      "line": "Ваши деньги никуда не денутся",
+      "a": "spoken fast, straight after the last line. Rakes the whole spill of coins to himself",
+      "cam": "tracks the sliding coins, rising"
     },
     {
-      "t": "3.3-3.9",
-      "line": "Мне",
-      "action": "spoken fast. Ears flatten, tail whips and knocks the brass lamp, it rocks"
+      "t": "3.5-4.2",
+      "a": "mouth shut from here on. Stacks the coins into towers at blinding speed, face unmoving",
+      "cam": "cranes into top-down over the towers, turning"
     },
     {
-      "t": "3.9-5.1",
-      "line": "",
-      "action": "sweeps coins in and stacks them into towers at blinding speed, his coin on top, face unmoving",
-      "camera": "snap in to blurred paws, then face"
+      "t": "4.2-5.0",
+      "a": "a pigeon crashes onto his shoulder, wings wide, rips a coin off — the tower topples",
+      "cam": "cranes low, the wing chopping the lamp beam across the marble"
     },
     {
-      "t": "5.1-6.2",
-      "line": "",
-      "action": "paws stop dead, he inspects the tower, tail still knocking the counter"
+      "t": "5.0-5.8",
+      "a": "grooms a paw in fast licks, eyes on the gap. Behind him the tower keeps collapsing, coins rolling to the floor. The pigeon leaves frame with its coin",
+      "cam": "drifts in on his face, lamp shadow crossing"
     },
     {
-      "t": "6.2-7.4",
-      "line": "",
-      "action": "sits motionless, claw tapping marble. A pigeon lands on his shoulder, walks along it, lifts the top coin. He does not react"
+      "t": "5.8-6.4",
+      "a": "takes the hat off and lowers it to counter level, brim flat on the marble",
+      "cam": "tracks the hat down to the counter"
     },
     {
-      "t": "7.4-8.4",
-      "line": "Больше вы меня не увидите",
-      "action": "spoken fast. Only now his eyes slide to the emptied tower, then straight into the lens, unblinking"
+      "t": "6.4-7.2",
+      "a": "rakes every coin along the marble straight into the hat, coins pouring in",
+      "cam": "follows the paw and the pouring coins"
     },
     {
-      "t": "8.4-9.2",
-      "line": "",
-      "action": "the brass lamp clicks off, the hall goes dark except the blue window, his silhouette still at the counter"
+      "t": "7.2-7.9",
+      "a": "puts the loaded hat back on his head and smiles once — the only smile",
+      "cam": "pushes in on his face"
     },
     {
-      "t": "9.2-10.0",
-      "line": "",
-      "action": "the lamp comes back on: the chair is empty, the waistcoat hangs swinging on its back, a single coin rolls across the marble and drops out of frame",
-      "camera": "slow push in to the empty chair"
+      "t": "7.9-8.6",
+      "a": "dissolves into a puff of smoke and is gone, counter empty",
+      "cam": "keeps drifting as smoke lights up in the beam"
+    },
+    {
+      "t": "8.6-9.3",
+      "a": "the loaded hat drops through the smoke, bounces off the counter and rolls across the lit floor, coins spraying",
+      "cam": "cranes to floor level, following the hat"
+    },
+    {
+      "t": "9.3-10.0",
+      "a": "the pigeon hops to the last coin on the floor, takes it in its beak and flies out of frame",
+      "cam": "pushes in low on the pigeon as it lifts off"
     }
   ],
-  "secondary_action": "a pigeon lands on the seated cat's shoulder, steals the top coin and flies off. Physical contact, his reaction delayed a full beat",
-  "light_events": [
-    {
-      "t": "0.0-0.7",
-      "event": "lamp flares on impact, hard shadow across the marble"
-    },
-    {
-      "t": "3.3-3.9",
-      "event": "knocked lamp swings, light slides across his face"
-    },
-    {
-      "t": "8.4-9.2",
-      "event": "lamp switches off, only cold blue window light remains"
-    },
-    {
-      "t": "9.2-10.0",
-      "event": "lamp switches back on, warm pool of light on the empty chair"
-    }
-  ],
-  "negative_prompt": "slow speech, drawn-out delivery, subtitles, captions, watermark, text overlay, burned-in graphics, English speech, foreign accent, static camera, floating objects, duplicate props, extra limbs, multiple characters, character changing appearance mid-shot, cuts, jump cuts, horizontal framing, cat visible in the final shot"
+  "negative_prompt": "any speech after 3.6 seconds, pause between the lines, drawn-out delivery, coins thrown away from him, hat staying on the counter, a second cat, duplicate props, floating objects, dim scene, underexposed, dark foreground, locked-off camera, slow camera move, big round eyes, cute, kawaii, grinning through the take, any lettering in frame, subtitles, watermark, English speech, extra limbs, horizontal framing"
 }

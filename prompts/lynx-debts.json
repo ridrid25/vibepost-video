@@ -1,0 +1,95 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "photoreal 3D, soft daylight forest",
+  "shot": {
+    "continuity": "one take, camera moving in every segment",
+    "framing": "vertical, the sunlit forest floor fills the lower half of frame"
+  },
+  "subject": {
+    "character": "female lynx walking unhurried through an autumn forest toward the lens, tufted ears, calm half-lidded eyes, a crumpled bill stuck to one paw",
+    "physicality": "heavy silent tread, shoulders rolling, never hurries, never looks back, flicks an ear instead of turning her head",
+    "anti_action": "steps over the wreckage without breaking stride, exactly as calm as before, tail perfectly still",
+    "consistency": "same lynx throughout; the beaver is the only other animal"
+  },
+  "props": {
+    "iou": "one crumpled overdue bill — printed form with ruled lines, a red stamp and columns of figures, no readable words: stuck to her paw, flicked off, snatched from the beaver, trodden into the water",
+    "dam": "the beaver's dam with a plank desk and stacks of the same printed bills"
+  },
+  "environment": "autumn forest, low sun through the trunks, fallen leaves, a stream and a beaver dam",
+  "lighting": "low sun straight down the forest floor — leaves and paper are the brightest surfaces, warm rim on her back, cool shade behind the trunks",
+  "audio": {
+    "language": "Russian",
+    "delivery": "unhurried, low, satisfied female voice. Stress: kre-dee-TO-ry, never KRE-dee-to-ry",
+    "pacing": "three lines, no gaps, inside 0.6-1.6, 1.6-2.5, 2.5-4.0. Nothing spoken after 4.0",
+    "lip_sync": "jaw and lips shape every syllable, the voice comes from the lynx herself",
+    "sfx": [
+      "leaves crunching",
+      "paper",
+      "dam cracking",
+      "water"
+    ],
+    "pronunciation": "кредиторы = kre-dee-TO-ry, stress on the third syllable"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "a heavy paw crushes a dry leaf right at the lens, the IOU note stuck to her pad. Silent",
+      "cam": "ground-level lens under the paw, rising with her step"
+    },
+    {
+      "t": "0.6-1.6",
+      "line": "С долгами я справляюсь отлично",
+      "a": "spoken calmly. She flicks the note off her pad without breaking stride, it spins away",
+      "cam": "pushes in from the paw up to her face"
+    },
+    {
+      "t": "1.6-2.5",
+      "line": "А вот мои кредиторы? Не очень",
+      "a": "spoken calmly. Behind her shoulder a beaver at his dam desk waves a fistful of papers and slaps the desk",
+      "cam": "orbits right, bringing the beaver into frame over her shoulder"
+    },
+    {
+      "t": "2.5-4.0",
+      "line": "У кого-то же должен быть плохой день",
+      "a": "spoken calmly, straight after. She walks on, snatching the top paper off his desk in passing without looking",
+      "cam": "tracks alongside her past the dam"
+    },
+    {
+      "t": "4.0-4.8",
+      "a": "silent from here on. The beaver bolts after her, his whole stack going up into the air",
+      "cam": "swings back to the beaver as the papers rise"
+    },
+    {
+      "t": "4.8-5.6",
+      "a": "she steps over a fallen trunk without changing pace, tail still",
+      "cam": "cranes low along the trunk with her"
+    },
+    {
+      "t": "5.6-6.4",
+      "a": "the beaver slams into the trunk at full speed and folds over it",
+      "cam": "holds low as he hits, papers raining"
+    },
+    {
+      "t": "6.4-7.2",
+      "a": "the dam gives way behind him, water bursting through with all his paper",
+      "cam": "swings up to the dam breaking open"
+    },
+    {
+      "t": "7.2-8.0",
+      "a": "the water takes the beaver off his feet and carries him past the lens",
+      "cam": "tracks him going by in the water"
+    },
+    {
+      "t": "8.0-8.8",
+      "a": "she stops, licks a paw twice, ear flicking at the noise behind her",
+      "cam": "pushes in on her face"
+    },
+    {
+      "t": "8.8-10.0",
+      "a": "the snatched paper drifts down into the water in front of her. She treads it under and walks on into the sun",
+      "cam": "follows the paper down, then rises with her walking away"
+    }
+  ],
+  "negative_prompt": "speech after 4.1 s, the beaver speaking, a second lynx, money, coins, banknotes, pauses between lines, drawn-out delivery, the lynx running, the lynx looking back, holding still, freezing, duplicate props, floating objects, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, readable words on the paper, subtitles, watermark, English speech, foreign accent, extra limbs"
+}

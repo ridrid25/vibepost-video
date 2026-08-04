@@ -1,0 +1,109 @@
+{
+  "версия": "жираф-1",
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, modern feature-animation look",
+  "shot": {
+    "continuity": "one take, camera moving in every segment",
+    "framing": "vertical, pale sand fills the lower half"
+  },
+  "subject": {
+    "character": "tall spotted giraffe in a loose grey tie at a white mailbox on a post",
+    "physicality": "the whole body rocks with the neck, weight shifting between the forelegs; the neck sweeps like a crane arm across the frame; tongue hooks things; splays forelegs wide to reach the ground; chews constantly",
+    "anti_action": "rolls the paper into a tight scroll at blinding speed, dead serious",
+    "consistency": "same giraffe, same tie, every segment"
+  },
+  "props": {
+    "bill": "long blank paper roll, unrolls to the full length of his neck; one fresh roll only at 9.0",
+    "mailbox": "white box on a post at head height, lid claps"
+  },
+  "environment": "noon savanna, pale dry sand, acacia, bleached sky",
+  "lighting": "hard white noon sun from the left rimming the neck, warm sand bounce from the right, nothing underexposed",
+  "audio": {
+    "language": "Russian",
+    "delivery": "fast, clipped, bored deadpan, male voice",
+    "pacing": "three lines back to back, no gaps, at 0.6-1.5, 1.5-2.2, 2.2-3.4. Last word done by 3.4 s",
+    "lip_sync": "accurate",
+    "sfx": [
+      "mailbox lid",
+      "paper unrolling",
+      "chewing"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "his head drops from top of frame in a long arc to the mailbox, lid clapping open under his muzzle",
+      "cam": "rises from the sand along the post"
+    },
+    {
+      "t": "0.6-1.5",
+      "line": "С моей высоты налоги — мелочь",
+      "a": "spoken fast. Tongue hooks the roll out of the box, paper dropping open down his neck",
+      "cam": "pushes in from the box to his face"
+    },
+    {
+      "t": "1.5-2.2",
+      "line": "Пузатая, но мелочь",
+      "a": "spoken fast, no pause. Throws his head up, paper snapping straight along the whole neck",
+      "cam": "cranes up the neck with the paper"
+    },
+    {
+      "t": "2.2-3.4",
+      "line": "А платить — всё равно наклоняться",
+      "a": "spoken fast, no pause. Swings the neck sideways in a wide arc, paper sweeping over the sand",
+      "cam": "orbits the post following the paper"
+    },
+    {
+      "t": "3.4-4.2",
+      "a": "chewing from here on, no more speech. Forelegs slide wide apart, he shakes the open paper down its whole length, sand kicking up, post shuddering",
+      "cam": "orbits low around the post"
+    },
+    {
+      "t": "4.2-5.0",
+      "a": "a second giraffe leans in from the side, its head bumping his neck, and chews the loose end of the paper",
+      "cam": "drifts round to their two heads"
+    },
+    {
+      "t": "5.0-5.8",
+      "a": "the two heads pull the paper taut between them, both chewing, the sheet snapping tight and the post rocking",
+      "cam": "tracks the stretched paper head to head"
+    },
+    {
+      "t": "5.8-6.5",
+      "a": "hauls the paper up, the second giraffe rising with it by its teeth, then letting go and leaving frame",
+      "cam": "rises with the lifting paper"
+    },
+    {
+      "t": "6.5-7.4",
+      "a": "rolls the paper into a perfect tight scroll at blinding speed with neck and tongue, post shuddering",
+      "cam": "cranes up the neck with the tightening scroll"
+    },
+    {
+      "t": "7.4-8.2",
+      "a": "head drops the full height, forelegs splayed, muzzle pushing the scroll into the low slot at the post foot, body straining",
+      "cam": "drops to sand level with the head"
+    },
+    {
+      "t": "8.2-9.0",
+      "a": "the scroll springs back out into his teeth. He chews it down in three bites and straightens up",
+      "cam": "pulls back and rises with him"
+    },
+    {
+      "t": "9.0-10.0",
+      "a": "the lump travels down the whole neck as he shakes himself; the lid claps and a fresh roll drops on the sand",
+      "cam": "follows the lump down the neck, then swings up to the box"
+    }
+  ],
+  "light_events": [
+    {
+      "t": "2.2-3.4",
+      "event": "the sweeping paper drags a hard shadow across the sand"
+    },
+    {
+      "t": "6.5-7.4",
+      "event": "his head slides its shadow up the white post"
+    }
+  ],
+  "negative_prompt": "any speech after 3.5 s, pauses between lines, drawn-out delivery, slow speech, foreign accent, a still neck, a third giraffe, duplicate props, floating objects, underexposed, brightness jumps, whip pan, snap zoom, cuts, locked-off camera, lettering in frame, subtitles, watermark, English speech, extra limbs"
+}

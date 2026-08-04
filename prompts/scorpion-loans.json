@@ -1,0 +1,99 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "photoreal 3D, harsh desert daylight",
+  "shot": {
+    "continuity": "one take, camera moving in every segment",
+    "framing": "vertical, sunlit sand fills the lower half"
+  },
+  "subject": {
+    "character": "big scorpion behind a flat stone slab in the desert, a rolled contract under one claw, mic at his mouth",
+    "physicality": "armoured and unhurried, claws open and close on every word, the tail stays up behind him, only the tip twitches",
+    "anti_action": "signs the contract with a flourish, dipping the sting like a fountain pen, dead serious",
+    "consistency": "same scorpion, same slab; the beetle is the only other animal"
+  },
+  "props": {
+    "contract": "one rolled contract: unrolled on the slab, signed with the sting, handed over, then unrolls the length of a dune",
+    "coin": "two gold coins the beetle carries away"
+  },
+  "environment": "open desert at midday, pale dunes, a sun-bleached stone slab",
+  "lighting": "hard midday sun — pale sand and stone are the brightest surfaces, short black shadow under him",
+  "audio": {
+    "language": "Russian",
+    "delivery": "calm, polite, unhurried male voice, warm as a salesman",
+    "pacing": "three lines, no gaps, at 0.6-1.8, 1.8-2.4, 2.4-3.1. The first line must finish the word «отказа» in full, not clipped. Nothing spoken after 3.1",
+    "lip_sync": "mouthparts move on every syllable, voice comes from the scorpion",
+    "sfx": [
+      "claws on stone",
+      "paper unrolling",
+      "sand hissing"
+    ],
+    "pronunciation": "«без отказа» = bez at-KA-za, the final -za fully voiced"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "a claw slams the rolled contract down onto the hot stone, sand jumping. Silent",
+      "cam": "slab-level lens under the claw, rising"
+    },
+    {
+      "t": "0.6-1.8",
+      "line": "Даю в долг всем. Без отказа",
+      "a": "spoken calmly, the word «отказа» finished in full. Both claws sweep the contract open across the whole slab",
+      "cam": "pushes in from claws to his face"
+    },
+    {
+      "t": "1.8-2.4",
+      "line": "Один процент",
+      "a": "spoken calmly, no pause. The sting comes down over his shoulder and signs the paper in a fine elegant hand",
+      "cam": "cranes up with the sting and back down to the paper"
+    },
+    {
+      "t": "2.4-3.1",
+      "line": "В час",
+      "a": "spoken calmly, straight after. He turns the paper around to face the lens",
+      "cam": "orbits right around slab"
+    },
+    {
+      "t": "3.1-3.9",
+      "a": "silent from here on. A dung beetle in a cap steps up, takes the paper in both legs and shakes the claw",
+      "cam": "drifts low to the beetle at slab edge"
+    },
+    {
+      "t": "3.9-4.7",
+      "a": "the scorpion slides two gold coins across the stone with a claw; the beetle grabs both and hugs them",
+      "cam": "tracks the coin sliding across slab"
+    },
+    {
+      "t": "4.7-5.5",
+      "a": "the beetle turns to leave, rolling both coins ahead of him through the sand",
+      "cam": "follows the rolling coin away from slab"
+    },
+    {
+      "t": "5.5-6.3",
+      "a": "the contract in his other leg unrolls behind him, longer and longer across the dune",
+      "cam": "cranes up as the paper keeps unrolling over the sand"
+    },
+    {
+      "t": "6.3-7.1",
+      "a": "the paper snaps taut — its far end is still pinned under the scorpion's claw",
+      "cam": "whips back along the paper to the claw on slab"
+    },
+    {
+      "t": "7.1-7.9",
+      "a": "the scorpion pulls the contract in with one claw; the beetle is dragged backwards through the sand, both coins with him",
+      "cam": "tracks the beetle sliding back toward slab"
+    },
+    {
+      "t": "7.9-8.8",
+      "a": "both coins roll back onto the stone on their own and settle flat under the claw",
+      "cam": "pushes in low on the coin landing"
+    },
+    {
+      "t": "8.8-10.0",
+      "a": "the scorpion rolls the contract up again and sets it down ready. The tail tip twitches once",
+      "cam": "rises from slab to his face against the white sky"
+    }
+  ],
+  "negative_prompt": "speech after 3.2 s, a clipped or swallowed last syllable, the beetle speaking, a second scorpion, pauses between lines, drawn-out delivery, the tail striking, duplicate props, floating objects, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, readable words on the paper, subtitles, watermark, English speech, extra limbs"
+}

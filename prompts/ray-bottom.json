@@ -1,0 +1,98 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "photoreal 3D, bright shallow water",
+  "shot": {
+    "continuity": "one take, camera moving in every segment",
+    "framing": "vertical, sunlit white sand fills the lower half"
+  },
+  "subject": {
+    "character": "wide flat stingray half-buried in white sand in shallow water, mic on a stand at his mouth",
+    "physicality": "the whole disc ripples like a wave head to tail, eyes on top, unbothered; sand puffs up whenever he moves",
+    "anti_action": "lays scallop shells out in a perfectly straight row at blinding speed, like counting chips, dead serious",
+    "consistency": "same ray, same patch of sand; the clownfish is the only other animal"
+  },
+  "props": {
+    "shells": "a row of pale scallop shells used as coins: laid out, counted, scattered by the surge, and one left at the end",
+    "clownfish": "small clownfish that keeps trying to take a shell"
+  },
+  "environment": "sunlit sand flat in knee-deep clear water, bright caustics on the bottom, no reef, no city",
+  "lighting": "hard midday sun straight down through clear water — the white sand is the brightest surface in frame, moving caustic net over everything, nothing in shadow",
+  "audio": {
+    "language": "Russian",
+    "delivery": "calm, flat, unbothered male voice",
+    "pacing": "three lines, no gaps, at 0.6-1.8, 1.8-2.4, 2.4-3.2. Every final syllable fully voiced. Nothing spoken after 3.2",
+    "lip_sync": "the mouth on the underside moves on every syllable, the voice comes from the ray",
+    "sfx": [
+      "muffled underwater rumble",
+      "sand hissing",
+      "shells clicking"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "the sand bursts upward and the ray rises out of it into frame. Silent",
+      "cam": "low over the sand, rising with him"
+    },
+    {
+      "t": "0.6-1.8",
+      "line": "Мне говорят — диверсифицируй",
+      "a": "spoken calmly, the last syllable finished in full. One wing sweeps a row of shells out of the sand",
+      "cam": "pushes in from the shells to his eyes"
+    },
+    {
+      "t": "1.8-2.4",
+      "line": "А я на дне",
+      "a": "spoken calmly, no pause. He drops flat, sand puffing out from under the whole disc",
+      "cam": "drops with him to sand level"
+    },
+    {
+      "t": "2.4-3.2",
+      "line": "Ниже уже некуда",
+      "a": "spoken calmly, straight after. The tail taps the sand twice beside the shells",
+      "cam": "orbits right around him"
+    },
+    {
+      "t": "3.2-4.0",
+      "a": "silent from here on. He lays the shells out in a perfectly straight row at blinding speed",
+      "cam": "cranes into top-down over the row, turning"
+    },
+    {
+      "t": "4.0-4.8",
+      "a": "a clownfish darts in and tugs at the end shell; the ray lifts one wingtip and it bolts",
+      "cam": "follows the fish in and out"
+    },
+    {
+      "t": "4.8-5.6",
+      "a": "a surge rolls through: the whole row of shells slides sideways across the sand",
+      "cam": "tracks the sliding shells"
+    },
+    {
+      "t": "5.6-6.4",
+      "a": "the ray does not move at all while the water drags sand past him in streaks",
+      "cam": "pushes in low along the streaming sand to his eyes"
+    },
+    {
+      "t": "6.4-7.2",
+      "a": "the surge passes; he sweeps both wings and gathers every scattered shell back under himself",
+      "cam": "orbits low with the sweeping wings"
+    },
+    {
+      "t": "7.2-8.0",
+      "a": "he settles down flat over them and the sand drifts back over his back until only the eyes show",
+      "cam": "cranes down to eye level on the sand"
+    },
+    {
+      "t": "8.0-8.9",
+      "a": "the clownfish returns and finds bare sand, nosing where the row used to be",
+      "cam": "drifts with the fish across the empty sand"
+    },
+    {
+      "t": "8.9-10.0",
+      "a": "one shell slides out from under the ray's wing and settles in front of the fish. The eyes blink once",
+      "cam": "pushes in on the shell landing, then up to the eyes"
+    }
+  ],
+  "negative_prompt": "speech after 3.3 s, a clipped or swallowed last syllable, the fish speaking, a second ray, pauses between lines, drawn-out delivery, any sign board, any lettering, English text in frame, deep water, dark blue background, underwater city, reef, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, subtitles, watermark, English speech, extra fins"
+}
