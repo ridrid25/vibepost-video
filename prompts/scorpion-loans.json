@@ -21,14 +21,14 @@
   "audio": {
     "language": "Russian",
     "delivery": "calm, polite, unhurried male voice, warm as a salesman",
-    "pacing": "three lines, no gaps, at 0.6-1.8, 1.8-2.4, 2.4-3.1. The first line finishes «отказа» in full. Nothing spoken after 3.1",
+    "pacing": "three lines, no gaps, at 0.6-1.9, 1.9-2.5, 2.5-3.2. Nothing spoken after 3.2",
     "lip_sync": "mouthparts move on every syllable, voice comes from the scorpion",
     "sfx": [
       "claws on stone",
       "paper unrolling",
       "sand hissing"
     ],
-    "pronunciation": "«без отказа» = bez at-KA-za, the final -za fully voiced"
+    "pronunciation": "«без отказа» = bez at-ka-ZA — stress on the final open -A, held and audible. Never «без отказ»"
   },
   "timeline": [
     {
@@ -37,25 +37,25 @@
       "cam": "slab-level lens under the claw, rising"
     },
     {
-      "t": "0.6-1.8",
+      "t": "0.6-1.9",
       "line": "Даю в долг всем. Без отказа",
-      "a": "spoken calmly, the word «отказа» finished in full. Both claws sweep the contract open across the whole slab",
+      "a": "spoken calmly, ending on a clear open -A in «отказА». Both claws sweep the contract open over the slab",
       "cam": "pushes in from claws to his face"
     },
     {
-      "t": "1.8-2.4",
+      "t": "1.9-2.5",
       "line": "Один процент",
       "a": "spoken calmly, no pause. The sting comes down over his shoulder and signs the paper in a fine elegant hand",
       "cam": "cranes up with the sting and back down to the paper"
     },
     {
-      "t": "2.4-3.1",
+      "t": "2.5-3.2",
       "line": "В час",
       "a": "spoken calmly, straight after. He turns the paper around to face the lens",
       "cam": "orbits right around slab"
     },
     {
-      "t": "3.1-3.9",
+      "t": "3.2-4.0",
       "a": "silent from here on. A dung beetle in a cap steps up, takes the paper in both legs and shakes the claw",
       "cam": "drifts low to the beetle at slab edge"
     },
@@ -100,5 +100,5 @@
       "cam": "follows the running beetle, then swings back to the three coins"
     }
   ],
-  "negative_prompt": "speech after 3.2 s, a clipped last syllable, the beetle speaking, a second scorpion, pauses between lines, drawn-out delivery, duplicate props, floating objects, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, readable words on the paper, subtitles, watermark, English speech, extra limbs"
+  "negative_prompt": "speech after 3.3 s, saying «без отказ», a swallowed final vowel, the beetle speaking, a second scorpion, pauses between lines, drawn-out delivery, duplicate props, floating objects, dim scene, dark foreground, locked-off camera, slow camera move, snap zoom, whip pan, readable words on the paper, subtitles, watermark, English speech, extra limbs"
 }
