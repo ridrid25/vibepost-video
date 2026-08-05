@@ -32,5 +32,5 @@
 {"t": "6.90-7.60", "a": "the head turns 180 degrees to the shadow, the body does not stir. He sees it", "cam": "arc round to his face"},
 {"t": "7.60-8.00", "a": "he lowers his arms. He has accepted it", "cam": "pull back up out of the box"}
 ],
-"negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 5.4, voice over, still mouth, subtitles, captions, watermark, text on the label, English speech, foreign accent, cuts, static camera, locked-off shots, floating objects, duplicate props, extra limbs, a second box, straw or mantis body in frame, other insects, the fly in background, appearance changing mid-shot"
+"negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 5.4, voice over, still mouth, subtitles, captions, watermark, text on the label, English speech, foreign accent, cuts, static camera, locked-off shots, floating objects, duplicate props, extra limbs, a second box, a second straw, a second mantis, other insects, the fly in background, appearance changing mid-shot"
 }

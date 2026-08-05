@@ -1,35 +1,68 @@
 {
-"duration_seconds": 6,
-"aspect_ratio": "9:16",
-"style": "photoreal 3D macro, deadpan satire",
-"refs": "@bogomol; @Voice: Sadachbia",
-"character": "@bogomol — a praying mantis, slender green-brown, long triangular head, huge amber eyes, thin spined raptorial arms folded in the prayer stance; only the head turns on a still body; an arm strikes and snaps back; the same mantis in all three clips",
-"cast": "one fat fly with a drinking straw, always huge at the lens, nearer than the mantis, never in background, never speaking; and a shadow that is not an animal: two curved lines, source outside frame",
-"props": "one parcel box, flaps taped shut, bubble wrap inside; one strip of packing tape; one drinking straw held by the fly; one shipping label on the box side with no letters or numbers, only a pictogram of a female mantis silhouette — a printed label, not an overlay",
-"environment": "a concrete doorstep in an empty warm evening yard, blurred brick wall behind, dust in the air; the box stands on the step",
-"lighting": "hard cyan rim from the left, warm amber kick from the right wrapping the silhouette, deep shadows, very high contrast",
-"light_events": [
-"0.0-0.5 a shadow of two curved lines settles over the box and over him, warm light left only on the step",
-"4.0-4.8 the daylight slot between the flaps narrows to one bright stripe across his eyes"
-],
-"voice": "male, low warm chest voice around 130 Hz, dry, weary, deadpan, unhurried — @Voice: Sadachbia, same voice in all three clips",
-"lip_sync": "he talks like a person: mouthparts open and close clearly on every syllable; his own voice, never a voice over",
-"audio": {
-"language": "Russian",
-"delivery": "weary deadpan, native Russian, normal tempo, four syllables per second",
-"pacing": "even tempo, never rushed, no swallowed endings; nothing spoken after 2.4",
-"pronunciation": "«возвратов» = vaz-VRA-taf, stress on VRA",
-"sfx": ["straw on cardboard", "tape splitting", "flap closing"]
-},
-"speech_rule": "in a speech beat he touches nothing: only the mouth works and the camera moves; the fly may move, the shadow stays still",
-"timeline": [
-{"t": "0.00-0.50", "a": "silent. He looks straight into the lens, pleased with himself. The shadow lies over the box and over him, light only on the step beside it", "cam": "level with him at the rim"},
-{"t": "0.50-2.40", "line": "Зато никаких возвратов. (vaz-VRA-taf)", "a": "normal tempo, touches nothing; only the mouth works, eyes on the lens, body swaying slightly. The fly brings the straw right up to his face, huge at the lens. The shadow on him does not move", "cam": "push in slowly on his face"},
-{"t": "2.40-3.20", "a": "silent from here on. He does not look at the fly. The fly drops the straw: it falls past the lens and knocks on the box side; the fly darts off", "cam": "follow the falling straw"},
-{"t": "3.20-4.00", "a": "one arm shoots up — the same stroke that slit the tape — and drags the packing tape up from behind the rim with a dry crack", "cam": "whip up with the arm"},
-{"t": "4.00-4.80", "a": "he swings a flap over himself and lays the tape across it; the slot of light narrows to a stripe", "cam": "inside the box, looking up at the flap"},
-{"t": "4.80-5.40", "a": "a thin foreleg comes out of the slot and smooths the tape flat from outside so it lies without a bubble, then withdraws", "cam": "outside again, close on the leg"},
-{"t": "5.40-6.00", "a": "the box stands whole and taped shut. On the lid the shadow: two curved lines slowly closing. The fly flies up out of frame, alive", "cam": "held steady on the closed box"}
-],
-"negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 2.5, voice over, still mouth, subtitles, captions, watermark, text on the label, English speech, foreign accent, cuts, floating objects, duplicate props, extra limbs, a second box, straw or mantis body in frame, other insects, the fly in background, appearance changing mid-shot"
+  "duration_seconds": 6,
+  "aspect_ratio": "9:16",
+  "style": "photoreal 3D macro, deadpan satire",
+  "refs": "@bogomol; @Voice: Sadachbia",
+  "character": "@bogomol — a praying mantis, slender green-brown, long triangular head, huge amber eyes, thin spined raptorial arms folded in the prayer stance; only the head turns on a still body; an arm strikes and snaps back; the same mantis in all three clips",
+  "cast": "one fat fly with a drinking straw, always huge at the lens, nearer than the mantis, never in background, never speaking; and a shadow that is not an animal: two curved lines, source outside frame",
+  "props": "one parcel box, flaps taped shut, bubble wrap inside; one strip of packing tape; one drinking straw held by the fly; one shipping label on the box side with no letters or numbers, only a pictogram of a female mantis silhouette — a printed label, not an overlay",
+  "environment": "a concrete doorstep in an empty warm evening yard, blurred brick wall behind, dust in the air; the box stands on the step",
+  "lighting": "hard cyan rim from the left, warm amber kick from the right wrapping the silhouette, deep shadows, very high contrast",
+  "light_events": [
+    "0.0-0.5 a shadow of two curved lines settles over the box and over him, warm light left only on the step",
+    "4.0-4.8 the daylight slot between the flaps narrows to one bright stripe across his eyes"
+  ],
+  "voice": "male, low warm chest voice around 130 Hz, dry, weary, deadpan, unhurried — @Voice: Sadachbia, same voice in all three clips",
+  "lip_sync": "he talks like a person: mouthparts open and close clearly on every syllable; his own voice, never a voice over",
+  "audio": {
+    "language": "Russian",
+    "delivery": "weary deadpan, native Russian, normal tempo, four syllables per second",
+    "pacing": "even tempo, never rushed, no swallowed endings; nothing spoken after 2.4",
+    "pronunciation": "«возвратов» = vaz-VRA-taf, stress on VRA",
+    "sfx": [
+      "straw on cardboard",
+      "tape splitting",
+      "flap closing"
+    ]
+  },
+  "speech_rule": "in a speech beat he touches nothing: only the mouth works and the camera moves; the fly may move, the shadow stays still",
+  "timeline": [
+    {
+      "t": "0.00-0.50",
+      "a": "silent. He looks straight into the lens, pleased with himself. The shadow lies over the box and over him, light only on the step beside it",
+      "cam": "level with him at the rim"
+    },
+    {
+      "t": "0.50-2.40",
+      "line": "Зато никаких возвратов. (vaz-VRA-taf)",
+      "a": "normal tempo, touches nothing; only the mouth works, eyes on the lens, body swaying slightly. The fly brings the straw right up to his face, huge at the lens. The shadow on him does not move",
+      "cam": "push in slowly on his face"
+    },
+    {
+      "t": "2.40-3.20",
+      "a": "silent from here on. He does not look at the fly. The fly drops the straw: it falls past the lens and knocks on the box side; the fly darts off",
+      "cam": "follow the falling straw"
+    },
+    {
+      "t": "3.20-4.00",
+      "a": "one arm shoots up — the same stroke that slit the tape — and drags the packing tape up from behind the rim with a dry crack",
+      "cam": "whip up with the arm"
+    },
+    {
+      "t": "4.00-4.80",
+      "a": "he swings a flap over himself and lays the tape across it; the slot of light narrows to a stripe",
+      "cam": "outside, low at the slot"
+    },
+    {
+      "t": "4.80-5.40",
+      "a": "a thin foreleg comes out of the slot and smooths the tape flat from outside so it lies without a bubble, then withdraws",
+      "cam": "outside, close on the leg"
+    },
+    {
+      "t": "5.40-6.00",
+      "a": "the box stands whole and taped shut. On the lid the shadow: two curved lines slowly closing. The fly flies up out of frame, alive",
+      "cam": "drifts down onto the closed box, barely moving"
+    }
+  ],
+  "negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 2.5, voice over, still mouth, subtitles, captions, watermark, text on the label, English speech, foreign accent, cuts, floating objects, duplicate props, extra limbs, a second box, a second straw, a second mantis, other insects, the fly in background, appearance changing mid-shot"
 }
