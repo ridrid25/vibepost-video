@@ -1,0 +1,43 @@
+{
+  "scene": "1/2",
+  "duration_seconds": 8,
+  "aspect_ratio": "9:16",
+  "style": "photoreal 3D macro, deadpan satire, one take",
+  "refs": "@bogomol stills + voice sample",
+  "subject": {
+    "character": "a praying mantis, slender green-brown, triangular head, huge amber eyes, folded raptorial arms, on a dry stem. The head turns on a still body. Same mantis in both scenes",
+    "anti_action": "he smooths the crumpled price tag flat and re-hangs it on the stem like a shop display, in earnest"
+  },
+  "cast": "a fat fly with a tiny foam mic, ALWAYS huge at the lens, nearer than the mantis, never in background, never speaks",
+  "props": "one paper price tag on the stem, one foam mic in the fly's legs. The scrawled price is the only text, a real prop not an overlay",
+  "environment": "a dry grey stem from a crack in concrete, an empty warm evening yard blurred behind, a long shadow falling in from the left",
+  "lighting": "warm amber rim from the right, cool cyan bounce from the left off the concrete, long shadow from the left, high contrast",
+  "light_events": [{"t": "1.7-2.9", "event": "the shadow from the left grows longer"}],
+  "voice": "male, low warm chest voice around 130 Hz, dry, weary, deadpan, unhurried, same voice in both scenes",
+  "lip_sync": "he talks like a person: mouthparts open and close clearly on every syllable; the voice is his own, never a voice over",
+  "audio": {
+    "language": "Russian",
+    "delivery": "unhurried, weary deadpan, native Russian, no accent, normal conversational tempo",
+    "pacing": "normal even tempo, no rushing, each line ends inside its beat, nothing after 5.25",
+    "pronunciation": "«От самки» = at-SAM-ki, stress on SAM",
+    "sfx": ["wind", "paper rustle", "fly wings at the lens"]
+  },
+  "speech_rule": "while he speaks he touches nothing: only the mouth works and the camera moves. Anything moving then is the fly or the wind",
+  "timeline": [
+    {"t": "0.0-0.6", "a": "silent. Head snaps 180 degrees to the lens, body frozen; the fly lunges the mic in", "cam": "rises past fly"},
+    {"t": "0.6-1.3", "line": "Покупать?", "a": "speaking at normal tempo, speaking only; the fly shoves the mic at his mouth"},
+    {"t": "1.3-1.7", "a": "silent. One arm crushes the tag into a ball, which drops and wedges in the fork of the stem and stays there"},
+    {"t": "1.7-2.85", "line": "Предпочитаю", "a": "speaking at normal tempo, speaking only; the fly hovers back, wings blurring the lens", "cam": "orbits right"},
+    {"t": "2.85-3.15", "a": "silent. His body sways once like a leaf"},
+    {"t": "3.15-4.3", "line": "с доставкой на дом.", "a": "speaking at normal tempo, speaking only; the fly bobs at the lens", "cam": "keeps orbiting"},
+    {"t": "4.3-4.55", "a": "silent. He re-grips the stem, head tilting down"},
+    {"t": "4.55-5.25", "line": "От самки... (at-SAM-ki)", "a": "speaking at normal tempo, speaking only; the fly freezes and lowers the mic", "cam": "pushes in"},
+    {"t": "5.25-5.85", "a": "silent from here on. Arms fold in prayer and snap out at empty air with a dry click", "cam": "arcs low"},
+    {"t": "5.85-6.35", "a": "the fly lands on his head, the mic knocking against his jaws"},
+    {"t": "6.35-6.85", "a": "he lifts the crumpled ball out of the fork of the stem", "cam": "cranes onto the tag"},
+    {"t": "6.85-7.35", "a": "he smooths it flat against the stem"},
+    {"t": "7.35-7.7", "a": "he hangs it back on the stem like a shop display"},
+    {"t": "7.7-8.0", "a": "the shadow slides over the stem, the tip of a second pair of folded arms enters at the left edge", "cam": "pulls back low"}
+  ],
+  "negative_prompt": "slow speech, drawn-out delivery, touching props while speaking, speech after 5.3, voice over, motionless mouth, subtitles, burned-in captions, subtitle bars, watermark, UI text, English speech, foreign accent, static camera, locked-off shots, cuts, jump cuts, floating objects, duplicate props, a second tag or mic, a second mantis fully visible in frame, a whole second body, any insect other than the mantis and the one fly, the fly speaking or in background, appearance changing mid-shot"
+}
