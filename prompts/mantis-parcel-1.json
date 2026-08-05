@@ -1,0 +1,37 @@
+{
+"duration_seconds": 8,
+"aspect_ratio": "9:16",
+"style": "photoreal 3D macro, deadpan satire",
+"refs": "@bogomol; @Voice: Sadachbia",
+"character": "@bogomol — a praying mantis, slender green-brown, long triangular head, huge amber eyes, thin spined raptorial arms folded in the prayer stance; only the head turns on a still body; an arm strikes and snaps back; the same mantis in all three clips",
+"cast": "one fat fly with a drinking straw, always huge at the lens, nearer than the mantis, never in background, never speaking; and a shadow that is not an animal: two curved lines, source outside frame",
+"props": "one parcel box, flaps taped shut, bubble wrap inside; one strip of packing tape; one drinking straw held by the fly; one shipping label on the box side with no letters or numbers, only a pictogram of a female mantis silhouette — a printed label, not an overlay",
+"environment": "a concrete doorstep in an empty warm evening yard, blurred brick wall behind, dust in the air; the box stands on the step",
+"lighting": "hard cyan rim from the left, warm amber kick from the right wrapping the silhouette, deep shadows, high contrast",
+"light_events": [
+"0.0-0.5 the falling box sweeps a shadow across his face",
+"5.7-6.5 the warm kick dims, leaving only the cyan rim on him"
+],
+"voice": "male, low warm chest voice around 130 Hz, dry, weary, deadpan, unhurried — @Voice: Sadachbia, same voice in all three clips",
+"lip_sync": "he talks like a person: mouthparts open and close clearly on every syllable; his own voice, never a voice over",
+"audio": {
+"language": "Russian",
+"delivery": "weary deadpan, native Russian, normal tempo, four syllables per second",
+"pacing": "even tempo, never rushed, no swallowed endings; nothing spoken after 6.5",
+"pronunciation": "«От самки» = at-SAM-ki, stress on SAM",
+"sfx": ["cardboard thud", "tape splitting", "fly wings"]
+},
+"speech_rule": "in a speech beat he touches nothing: only the mouth works and the camera moves; the fly, flaps and wind may move",
+"timeline": [
+{"t": "0.00-0.50", "a": "silent. A box drops from above and lands before his face, dust jumping. He does not flinch: body locked in the stance, only the head lowers", "cam": "low, rising"},
+{"t": "0.50-0.85", "a": "silent. The fly comes in huge at the lens and pokes the straw at his face, buzzing a question", "cam": "past the fly"},
+{"t": "0.85-1.60", "line": "Покупать?", "a": "normal tempo, touches nothing; head turns 180 degrees to the fly, body still, contempt; the fly pulls the straw back", "cam": "orbit left with the head"},
+{"t": "1.60-2.45", "a": "silent. One arm shoots out, slits the tape in one stroke and snaps back; the tape splits with a crack", "cam": "whip down to the tape"},
+{"t": "2.45-4.85", "line": "Предпочитаю с доставкой на дом.", "a": "normal tempo, touches nothing; only the mouth works, the body sways. The flaps swing open by themselves, wrap bulges out; the fly circles his head at the lens", "cam": "dive over the rim: the bottom is empty, only wrap"},
+{"t": "4.85-5.70", "a": "silent. One arm peels up the corner of the label, head tilting 90 degrees sideways", "cam": "crane to the label"},
+{"t": "5.70-6.50", "line": "От самки... (at-SAM-ki)", "a": "normal tempo, touches nothing; the words stop half way, the fly freezes in mid-air", "cam": "push in on his face"},
+{"t": "6.50-7.30", "a": "silent from here on. Complete stillness, antennae twitch once", "cam": "drift around him"},
+{"t": "7.30-8.00", "a": "the folded arms come down very slowly", "cam": "pull back low"}
+],
+"negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 6.6, voice over, still mouth, subtitles, captions, watermark, text on the label, English speech, foreign accent, cuts, static camera, locked-off shots, floating objects, duplicate props, extra limbs, a second box, straw or mantis body in frame, other insects, the fly in background, appearance changing mid-shot"
+}
