@@ -18,7 +18,7 @@
     "language": "Russian",
     "delivery": "weary deadpan, native Russian, normal tempo, four syllables per second",
     "pacing": "even tempo, never rushed, no swallowed endings; nothing spoken after 6.4",
-    "pronunciation": "«От самки» = at-SAM-ki, stress on SAM",
+    "pronunciation": "«на дом» = NA dom, stress on NA, never na-DOM",
     "sfx": [
       "cardboard thud",
       "tape splitting",
@@ -50,7 +50,7 @@
     },
     {
       "t": "2.45-4.85",
-      "line": "Предпочитаю с доставкой на дом.",
+      "line": "Предпочитаю с доставкой на дом. (NA dom)",
       "a": "normal tempo, touches nothing; only the mouth works, the body sways. The flaps swing open by themselves, wrap bulges out; the fly circles his head at the lens",
       "cam": "dive over the rim: the bottom is empty, only wrap"
     },
@@ -76,5 +76,5 @@
       "cam": "pull back low"
     }
   ],
-  "negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 6.5, voice over, still mouth, subtitles, captions, watermark, text on the label, English speech, foreign accent, cuts, static camera, locked-off shots, floating objects, duplicate props, extra limbs, a second box, a second straw, a second mantis, other insects, the fly in background, appearance changing mid-shot"
+  "negative_prompt": "slow speech, drawn-out delivery, swallowed endings, touching props while speaking, speech after 6.5, voice over, subtitles, watermark, text on the label, English speech, foreign accent, cuts, static camera, floating objects, duplicate props, extra limbs, a second box, a second straw, a second mantis, other insects, the fly in background, appearance changing mid-shot"
 }
