@@ -1,0 +1,110 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "photoreal 3D macro, deadpan satire",
+  "character": "a praying mantis, green-brown, triangular head, huge amber eyes, spined arms in the prayer stance; an arm shoots out and snaps back; fussy about creases like a tidy packer",
+  "cast": "one fat fly with a straw as a microphone, always huge at the lens, nearer than the mantis, never speaking; at the end it drops the straw and flies off alive. One foreign leg at the frame edge in the last beat is intended",
+  "props": "one box: taped shut, slit open, empty, then shut over him from inside — it came not with goods but for goods. Bubble wrap: bulging out, shaken out, smoothed under him, popping. Tape: slit, flapping, pulled back over the seam. One label: no letters, only a pictogram of a female mantis silhouette, keep it",
+  "environment": "a concrete doorstep in a warm empty evening yard",
+  "lighting": "hard cyan rim left, warm amber kick right around the silhouette, deep shadows, high contrast",
+  "light_events": [
+    {
+      "t": "0.0-0.4",
+      "event": "the falling box sweeps a shadow across his face"
+    },
+    {
+      "t": "8.4-10.0",
+      "event": "the warm kick dies, a wide shadow crosses the closed box"
+    }
+  ],
+  "voice": "male, low dry warm chest voice around 130 Hz, weary, deadpan, adult",
+  "lip_sync": "he talks like a person: mouthparts open and close on every syllable, sharp articulation",
+  "audio": {
+    "language": "Russian",
+    "delivery": "native Russian, weary deadpan, four and a half syllables per second",
+    "pronunciation": "«на дом» = NA dom",
+    "pacing": "a short pause after each sentence, endings voiced, nothing spoken after 6.0",
+    "sfx": [
+      "cardboard thud",
+      "tape splitting",
+      "fly wings"
+    ]
+  },
+  "speech_rule": "he keeps working while he speaks: the mouth moves on every syllable and the arms go on handling the box",
+  "timeline": [
+    {
+      "t": "0.0-0.2",
+      "a": "silent. A box lands before him, dust jumping; he does not flinch",
+      "c": "low, rising"
+    },
+    {
+      "t": "0.2-2.45",
+      "line": "Предпочитаю с доставкой на дом.",
+      "a": "even tempo, mouth on every syllable; he taps the lid twice, swings the box label-side to the fly, which pushes the straw at him",
+      "c": "push past the fly"
+    },
+    {
+      "t": "2.45-2.8",
+      "a": "silent. An arm shoots out, slits the tape, snaps back",
+      "c": "whip to the seam"
+    },
+    {
+      "t": "2.8-3.55",
+      "line": "От самки.",
+      "a": "even tempo; the head turns 180 degrees on a still body, a claw taps the pictogram twice",
+      "c": "orbit left with the head"
+    },
+    {
+      "t": "3.55-4.2",
+      "a": "silent. He throws both flaps open, wrap bulges out, the bottom is empty",
+      "c": "dive over the rim"
+    },
+    {
+      "t": "4.2-6.0",
+      "line": "Зато никаких возвратов.",
+      "a": "even tempo, last word fully voiced; he tears a strip of wrap free and shakes it out over the empty bottom",
+      "c": "rise off the empty bottom"
+    },
+    {
+      "t": "6.0-6.45",
+      "a": "silent from here on. He peels the label corner and smooths it back",
+      "c": "crane to the label"
+    },
+    {
+      "t": "6.45-6.95",
+      "a": "he steps over the rim into the box",
+      "c": "top-down straight into the box"
+    },
+    {
+      "t": "6.95-7.45",
+      "a": "he pulls the wrap under him and smooths the crease",
+      "c": "top-down close on the wrap"
+    },
+    {
+      "t": "7.45-7.9",
+      "a": "he pulls both flaps shut over himself",
+      "c": "flaps swing shut at the lens"
+    },
+    {
+      "t": "7.9-8.3",
+      "a": "he drags the flapping strips over the seam, a bubble pops under him",
+      "c": "low across the lid"
+    },
+    {
+      "t": "8.3-8.7",
+      "a": "a thin leg comes out of the last gap and presses the tape flat",
+      "c": "macro on the leg"
+    },
+    {
+      "t": "8.7-9.2",
+      "a": "the fly drops the straw and flies off alive",
+      "c": "follow the fly up"
+    },
+    {
+      "t": "9.2-10.0",
+      "a": "a foreign leg, larger than his, lands on the lid; the label faces us",
+      "c": "pull back off the box"
+    }
+  ],
+  "negative_prompt": "slow speech, drawn-out delivery, swallowed endings, voice over, subtitles, captions, watermark, text overlay, burned-in graphics, text on the label, English speech, foreign accent, static camera, floating objects, duplicate props, malformed anatomy, a whole second mantis in frame, the fly harmed, character changing appearance mid-shot"
+}
