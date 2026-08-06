@@ -116,9 +116,12 @@ def build_ass(cues, w=1080, h=1920):
             "Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding\n"
             f"Style: P,{F['font']},{F['size']},&H0000E5FF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,"
             f"100,100,1,0,1,6,3,2,90,90,{F['mv']},204\n"
-            # H — заголовок: выравнивание 8 (верх по центру), плашка BorderStyle 3.
-            f"Style: H,{F['font']},{HOOK_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,"
-            f"100,100,2,0,3,10,0,8,60,60,{HOOK_MV},204\n\n[Events]\nFormat: Layer,Start,End,Style,Name,"
+            # H — заголовок: выравнивание 8 (верх по центру). Фон ПРОЗРАЧНЫЙ:
+            # BorderStyle 1 — обводка с тенью, как у нижних титров. Раньше
+            # стояла плашка (BorderStyle 3), и чёрный прямоугольник закрывал
+            # верх кадра. Читаемость держат толстая обводка и тень.
+            f"Style: H,{F['font']},{HOOK_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,"
+            f"100,100,2,0,1,6,3,8,60,60,{HOOK_MV},204\n\n[Events]\nFormat: Layer,Start,End,Style,Name,"
             "MarginL,MarginR,MarginV,Effect,Text\n")
     lines = []
     if HOOK:
