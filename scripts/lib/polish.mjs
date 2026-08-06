@@ -67,6 +67,11 @@ export async function polishVideo({
 }) {
   if (!fs.existsSync(input)) throw new Error(`Клип не найден: ${input}`);
   const font = findFont();
+  // Раньше при отсутствии шрифта текст молча не рисовался, и ролик уходил
+  // в канал без титров. Молчать тут нельзя: лучше остановиться.
+  if ((hook || subtitle) && !font) {
+    throw new Error("Не найден шрифт для титров — проверь FONT_CANDIDATES в assemble.mjs");
+  }
   const useMusic = music && fs.existsSync(music);
   const scratch = fs.mkdtempSync(path.join(os.tmpdir(), "veo-polish-"));
 

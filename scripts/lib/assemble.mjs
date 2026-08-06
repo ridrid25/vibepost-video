@@ -15,7 +15,15 @@ import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
 
+// Кириллица нужна обязательно, поэтому берём только шрифты с её покрытием.
+// Windows идёт первым: конвейер живёт на машине Татьяны, а раньше в списке
+// были одни linux-пути — совпадений не находилось, и текст молча не рисовался.
 const FONT_CANDIDATES = [
+  "C:/Windows/Fonts/arialbd.ttf",
+  "C:/Windows/Fonts/arial.ttf",
+  "C:/Windows/Fonts/segoeuib.ttf",
+  "C:/Windows/Fonts/segoeui.ttf",
+  "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
   "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
   "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
   "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
