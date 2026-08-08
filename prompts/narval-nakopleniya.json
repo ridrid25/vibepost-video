@@ -1,0 +1,74 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D cartoon, Pixar quality, slapstick, deadpan",
+  "character": "NARWHAL: plump speckled grey, heavy-lidded eyes, one long spiral tusk, deadpan face all clip. No neck, the tusk moves only with the whole front body. No arms, he holds nothing: props ride the tusk like a bead on a needle. He never looks at what is on it",
+  "setting": "a round hole in a white ice field, open sea behind. In frame from the start: left of the hole a rusty outboard motor on its side, propeller up; right of it a big grey plastic box on its side, lid latched; on the near ice edge below a thick roll of bubble wrap, free end folded out; a grey foam mic ball on the tusk tip",
+  "lighting": "polar noon, clear sky, high sun. Ice is the brightest surface, bottom third, bouncing light up under him. Pale turquoise water, the wet tusk flares a sun glint on every swing",
+  "audio": {
+    "language": "Russian, exactly the words in the line fields",
+    "delivery": "weary deadpan male chest voice, even",
+    "pacing": "silent only at 2.8-3.1 and 6.4-6.7, each line runs into the next with no breath, nothing after 8.4",
+    "lip_sync": "mouth opens and closes on every syllable, not a voice over"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.5",
+      "a": "silent. He punches through and rises chest high in one shove, water sheeting off in slabs. Camera low, rising with him, one unbroken shot"
+    },
+    {
+      "t": "0.5-1.42",
+      "line": "Мечты должны",
+      "a": "the front body turns left, tusk level, the mic riding the tip like on a stand"
+    },
+    {
+      "t": "1.42-2.8",
+      "line": "остаться мечтами,",
+      "a": "no breath. The body rears, tusk vertical, the mic slides down it into his nose. Face unchanged"
+    },
+    {
+      "t": "2.8-3.1",
+      "a": "silent. One sharp nod of the whole body, the mic flies off past the lens and out for good"
+    },
+    {
+      "t": "3.1-4.48",
+      "line": "иначе их потом",
+      "a": "the tusk swings down-left, scoops the motor from below, it rolls over and slides to mid-tusk. His chest hits the edge, ice cracks"
+    },
+    {
+      "t": "4.48-5.4",
+      "line": "нужно чинить",
+      "a": "no breath. One hard swing sideways: the motor coughs a thin blue puff and sheds gears onto the ice, water slops over the edge into his face. No reaction"
+    },
+    {
+      "t": "5.4-6.4",
+      "line": "или хранить,",
+      "a": "no breath. One long arc right: the motor flies off into the hole with a splash, the bare tip ends the same arc through the box lid, the box slides to the tusk base onto his head askew"
+    },
+    {
+      "t": "6.4-6.7",
+      "a": "silent. Delayed reaction: one sharp head swing, the lid unlatches and drops in the water"
+    },
+    {
+      "t": "6.7-7.4",
+      "line": "а денег",
+      "a": "the box slides forward over his eyes and tips mouth down, one coin drops out, bounces off the ice and rings"
+    },
+    {
+      "t": "7.4-8.4",
+      "line": "на это нет.",
+      "a": "no breath. The head sinks slowly to the ice with the whole body, the empty box rides forward off the tip and rolls out of frame left"
+    },
+    {
+      "t": "8.4-9.4",
+      "a": "silent, one move: the tusk enters the bubble wrap roll, its free end catches the tip, the body rears, the roll runs to the base laying a thick matte opaque bubble sleeve and drops off an empty tube under his chin"
+    },
+    {
+      "t": "9.4-10.0",
+      "a": "silent. Dead still, deadpan into the lens. Wrapped tusk, one coin on the ice"
+    }
+  ],
+  "prop_continuity": "the tusk carries one thing at a time, never two, and is bare between them: mic 0.0-2.8, motor 3.1-5.4, box 5.4-8.4, wrap 8.4-9.4. None returns. The coin lies on the ice from 7.0 to the last frame",
+  "must_appear": "allowed: one object threaded on the tusk; a thin blue puff from the motor; gears on the ice; the box over part of his face; the tusk wrapped in thick matte opaque milky white bubble wrap, big bubbles; one coin; splash and water over his face",
+  "negative_prompt": "human, hand, mic stand; two objects on the tusk at once, duplicate props, floating objects; a second narwhal, other animals, a second or broken tusk; clear, glossy or cling film; cardboard box, transparent container; smoke over the frame, fog, haze, grey sky, night, dark water, underwater; foreign accent, speech after 8.4, pauses between phrases, slow drawn-out delivery; cuts, whip pan, snap zoom, slow motion; any text, letters or numbers, subtitles, watermark"
+}
