@@ -11,7 +11,11 @@ subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", v,
                 "-vf", "fps=12,scale=240:-1", f"{tmp}/%03d.png"], check=True)
 fr = [np.asarray(Image.open(f).convert("L"), float) for f in sorted(glob.glob(f"{tmp}/*.png"))]
 d = [np.abs(fr[i+1] - fr[i]).mean() for i in range(len(fr) - 1)]
-sec = [float(np.mean(d[s*12:(s+1)*12])) for s in range(len(d)//12)]
+# Хвост округляли вниз, и последняя секунда не попадала в замер вовсе:
+# у клипа 10.0 с выходило девять полос, а в десятой как раз панч.
+# Считаем и неполную секунду — лишь бы в ней было не меньше четырёх кадров.
+sec = [float(np.mean(d[s*12:(s+1)*12]))
+       for s in range((len(d) + 8) // 12) if len(d[s*12:(s+1)*12]) >= 4]
 cuts = [round(i/12, 1) for i, x in enumerate(d) if x > 45]
 
 for i, m in enumerate(sec):
