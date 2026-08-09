@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D animation, Pixar-quality chitin shading, matte surfaces, deadpan slapstick",
+  "shot": "vertical, low angle from the nest entrance, orbital drift all film; camera pushes in on the padlock and scanner pad from 2.5s, no cuts",
+  "character": "WASP: burst-start zero to full speed; two-phase stop, wings jerk once more; double head-jerk overshoot; wings clap out of sync; sharp head-snap turns; same design throughout",
+  "cast": "BEE CASHIER: heavy monolithic clerk, decides from the torso, lands full-weight, one full-amplitude swing; same design throughout",
+  "props": "hive-computer: branch wax comb as one flat screen, one support only; grid of colored hexagon icons, one plain glyph each, no letters, no logos; metal padlock on a hinge; flat scanner pad in the bee's thorax; one nectar drop nearby",
+  "setting": "sunlit meadow at high noon, the branch is the only support in frame",
+  "lighting": "hard overhead midday sun, crisp highlights, strong contrast, sharp shadows, no haze",
+  "audio": {
+    "language": "Russian, lines exactly as written",
+    "delivery": "male, low warm chest voice ~130Hz, dry deadpan, steady, unrushed, native Russian, no accent, @Voice: Sadachbia",
+    "pacing": "even rate, ~4-4.5 syll/sec, beats adjoin with no gap, finishes with room to spare",
+    "lip_sync": "mouthparts open and close each syllable, voice comes from the wasp, never a voiceover",
+    "pronunciation": "«плачу»: stress on second syllable, pla-CHOO not PLA-cha; even pace, no pause before it",
+    "sfx": ["wings out of sync", "spark crackle", "two-tone beep", "padlock clang", "shackle spring", "panel thud"]
+  },
+  "timeline": [
+    {"t": "0.0-0.6", "a": "Burst-start, chest slams the screen at full speed, rebounds a body-length, two-phase stop: body locks, wings jerk once more", "camera": "low angle, orbital drift begins"},
+    {"t": "0.6-1.0", "a": "Double head-jerk overshoot at the padlock; a leg reaches the hinge, recoils on touch, body rocks"},
+    {"t": "1.0-1.5", "a": "Bee drops onto the branch, full weight, branch sways; one torso-turn spins the screen to the lens, icon grid flares on"},
+    {"t": "1.5-2.1", "a": "Wasp hits the grid in a hit-bounce-hit series; each icon blinks out, jerks sideways; after the third hit she grimaces"},
+    {"t": "2.1-2.5", "a": "Jabs the center icon, padlock snaps shut over the grid with a clang, knocks her back half a body-length"},
+    {"t": "2.5-2.9", "a": "Bee turns her torso to the lens, padlock and thorax scanner pad fill the frame", "camera": "push-in begins, holds to the end"},
+    {"t": "2.9-3.4", "a": "Stinger presses flat against the pad; a spark, two-tone signal, stinger yanks back sharply, body sways"},
+    {"t": "3.4-3.6", "a": "Padlock hangs shut, antennae flick once, wasp's weight already shifting back for the lunge"},
+    {"t": "3.6-4.7", "line": "Лето, мёд, нектар,", "a": "Whole body snaps sideways across the frame, wings blur, chest and forelegs slam onto the nectar drop with a splash, droplets scattering, rocks back upright; mouthparts free, open on each syllable"},
+    {"t": "4.7-5.8", "line": "а я всё равно", "a": "Bee throws her weight onto the shackle, wrenches it half a turn; wasp's mouth moves for the line"},
+    {"t": "5.8-6.9", "line": "плачу за доступ", "a": "Shackle springs open with a click; wasp's mouth continues the line"},
+    {"t": "6.9-8.2", "line": "к своему улью.", "a": "Wasp's wings clap shut in one sharp sweep, resolving the earlier out-of-sync flapping; mouth finishes the line"},
+    {"t": "8.2-8.8", "a": "Bee hooks the open padlock on her abdomen as a trophy, jingle; wasp lunges into the screen's gap, wings beat out of sync to tear free"},
+    {"t": "8.8-10.0", "a": "Sharp push, she's inside, screen slams shut with a thud, dust puff; head snaps to lens, abdomen trembles in tight pulses"}
+  ],
+  "negative_prompt": "night, dusk, lamp, dim, moody, low key; slow speech; extra insects, human hands; real brand logos, readable text, subtitles, watermark; English speech, foreign accent; cuts, jump cuts, static camera; floating objects, duplicate props; extra limbs, character changes mid-shot",
+  "motion_rule": "EVERY second something large crosses, slams, or fills frame — never only a small limb moving alone"
+}

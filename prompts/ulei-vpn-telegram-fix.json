@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 10,
+  "aspect": "vertical 9:16",
+  "character": "PCHELA — plump cartoon business bee, black-yellow fuzz, round glasses, red bow tie, wings always buzzing, never fully still",
+  "second": "BARYGA — sly cartoon bee, leaner than PCHELA, comb-over, monocle, red necktie, gold tooth — crouched by an old open dollar-shaped bag at the hive's base",
+  "prop_main": "the HIVE is an old beige computer tower in the grass, rusty padlock on its hatch, striped VPN curtain on a rod, telescoping antenna flat on top, a small lever on its side",
+  "prop_bag": "an old brown leather bag molded into a rounded dollar-sign ($) shape, standing open in the grass, flap folded back, buckles catching the sun",
+  "prop_icons": "three or four small round badges hover near flowers, colorful and logo-like but generic — none copy a real brand",
+  "setting": "sunny garden meadow, bright midday sun, high-key light, saturated green grass and flowers, no shadow pooling, sun glints off BARYGA's gold tooth and off the padlock",
+  "camera": "handheld-feel camera always moving: whip-pan on the dive, wide-to-close shot changes, pushes in tight for the final bite, constantly reframing",
+  "voice": "female, warm mid-range chest voice, brisk confident business tone, same energy on every line, no dragging",
+  "lip_sync": "PCHELA talks like a person, mouth opens and closes on every syllable, voice is hers, not a voice over. BARYGA never speaks",
+  "pronunciation": "ПлачУ — stress on the final syllable, rhymes with plah-CHOO (paying), never PLAH-chu (crying). Even conversational pace.",
+  "timeline": [
+    {"t": "0.0-0.6", "a": "PCHELA dives into frame from the top corner, wings blurring, and lands hard on top of the computer-shaped hive"},
+    {"t": "0.6-1.3", "a": "she grabs the rusty padlock with both front legs and yanks it; it rattles but holds, she frowns"},
+    {"t": "1.3-2.0", "a": "she flies up and tugs the striped VPN curtain aside with one pull, cloth rippling on the rod"},
+    {"t": "2.0-2.8", "line": "Есть обход!", "a": "still gripping the curtain rod, wings buzzing, she turns her head to camera as she speaks"},
+    {"t": "2.8-3.5", "a": "the padlock springs open and drops into the grass with a puff of dust at impact"},
+    {"t": "3.5-4.2", "a": "PCHELA grabs the small lever on the hive's side and yanks it down; a thin antenna telescopes up with a visible click-click motion"},
+    {"t": "4.2-4.9", "a": "PCHELA taps the antenna tip with one leg and colorful concentric radio-signal rings burst outward, one after another"},
+    {"t": "4.9-5.6", "a": "PCHELA pokes her head into the hive doorway, closing her grip on a big crumbly honeycomb chunk, loose bits already flaking off it"},
+    {"t": "5.6-6.05", "line": "ПлачУ", "a": "she thrusts the honeycomb chunk up high, grinning, wings buzzing"},
+    {"t": "6.05-6.5", "line": "мёдом!", "a": "still holding the honeycomb aloft, grin widening, wings still buzzing"},
+    {"t": "6.5-7.2", "a": "BARYGA darts in close to camera and snatches a loose piece crumbling off PCHELA's honeycomb, wings buzzing"},
+    {"t": "7.2-7.9", "a": "BARYGA squeezes the stolen honey into the open dollar-shaped bag, packing it in with both claws"},
+    {"t": "7.9-8.5", "a": "BARYGA presses one claw to her lips, gold tooth biting down, in a mock-secret hush, grinning at camera"},
+    {"t": "8.5-9.0", "a": "camera pushes in tight on PCHELA's grinning face mid-bite of her own honeycomb, crumbs flying, unaware of BARYGA"},
+    {"t": "9.0-10.0", "a": "BARYGA winks and snaps the dollar-bag buckle shut with a click; PCHELA takes one more big bite, crumbs flying; camera pulls back wide"}
+  ],
+  "must_appear": "computer-shaped hive, open padlock, VPN curtain pulled aside, antenna, signal rings, logo badges, honeycomb, PCHELA, BARYGA, dollar-shaped bag, honey packed into it, gloating grin, mock-secret hush, buckle snapped shut",
+  "negative_prompt": "no floating objects except badges, signal rings and honey in the bag, no duplicate props (padlock, antenna, bag), no extra limbs, no dollar sign as flat text, no subtitles, no watermark, no foreign accent, no slow speech, static camera, locked-off shots, visible cuts, night, dusk, dark scene, lamp, dim, moody, low key, Cyrillic lettering"
+}

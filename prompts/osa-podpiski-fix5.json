@@ -1,0 +1,34 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D animation, Pixar-quality chitin shading, matte surfaces, deadpan slapstick",
+  "shot": "vertical, low angle from the nest entrance, orbital drift all film; shot size pushes in on the padlock and scanner pad from 2.5s, no cuts",
+  "character": "WASP: burst-start zero to full speed, no wind-up; two-phase stop — body locks, wings jerk once more; double head-jerk overshoot; wings clap out of sync, a stress marker; sharp head-snap turns; same design throughout",
+  "cast": "BEE CASHIER: heavy monolithic clerk, decides from the torso not a limb, lands full-weight — impact felt, one decisive full-amplitude swing, never small motions; same design throughout",
+  "props": "hive-computer: branch wax comb blends into one flat screen in a frame, one support only — the branch, no second stand; grid of colored hexagon icons, each with one plain glyph (cloud, bolt, spiral, orbit ring, drop, star), no letters, no logos; metal padlock on a hinge riveted to the frame; flat scanner pad in the bee's thorax; one nectar drop nearby",
+  "setting": "sunlit meadow at high noon, the branch is the only support in frame",
+  "lighting": "hard overhead midday sun, crisp highlights, strong contrast, sharp small shadows, no haze",
+  "audio": {
+    "language": "Russian, lines exactly as written",
+    "delivery": "male, low warm chest voice ~130Hz, dry deadpan, steady, unrushed, native Russian, no accent, @Voice: Sadachbia",
+    "pacing": "even rate, ~4.3-4.5 syll/sec, two lines in adjoining beats with no gap, both finish with room to spare",
+    "lip_sync": "mouthparts open and close each syllable, voice comes from the wasp, never a voiceover",
+    "pronunciation": "«плачу»: stress on second syllable, pla-CHOO not PLA-cha; even pace, no pause before it",
+    "sfx": ["wings out of sync", "spark crackle", "two-tone beep", "padlock clang", "key click, shackle spring", "panel thud"]
+  },
+  "timeline": [
+    {"t": "0.0-0.6", "a": "No wind-up burst-start, chest slams the screen at full speed, rebounds a body-length, two-phase stop: body locks, wings jerk once more", "camera": "low angle, orbital drift begins"},
+    {"t": "0.6-1.0", "a": "Double head-jerk overshoot at the padlock; a leg reaches the hinge, recoils on touch, body rocks"},
+    {"t": "1.0-1.5", "a": "Bee drops onto the branch from the next cell, full weight, branch sways; one torso-turn spins the screen to the lens, icon grid flares on"},
+    {"t": "1.5-2.1", "a": "Wasp hits the grid in a hit-bounce-hit series, one leg; each icon blinks out, jerks sideways; after the third hit she grimaces, antennae flatten"},
+    {"t": "2.1-2.5", "a": "Jabs the center icon — the padlock snaps shut over the grid with a clang, knocks her back half a body-length"},
+    {"t": "2.5-2.9", "a": "Bee turns her torso to the lens, padlock and thorax scanner pad fill the frame", "camera": "push-in begins, holds to the end"},
+    {"t": "2.9-3.4", "a": "Stinger presses flat, not piercing, to the pad; a spark, two-tone signal, stinger yanks back sharply, body sways"},
+    {"t": "3.4-3.6", "a": "Short freeze, padlock hangs shut, wasp staring at it"},
+    {"t": "3.6-4.7", "line": "Лето, мёд, нектар,", "a": "On the branch, in one unbroken reach the proboscis crosses frame to a nectar drop, licks it clean, coils back the same path"},
+    {"t": "4.7-8.2", "line": "а я всё равно плачу за доступ к своему улью.", "a": "Bee throws her weight onto the key, turns it half a circle, shackle springs open with a click — one event; in one sharp sweep the wings clap shut together, resolving the earlier out-of-sync flapping; mouth only moves for the line"},
+    {"t": "8.2-8.8", "a": "Bee lifts the open padlock off the hinge, hooks it on her abdomen as a trophy with a jingle; the wasp lunges into the screen's gap, snags an instant, wings beat the frame out of sync to tear free"},
+    {"t": "8.8-10.0", "a": "One sharp push, she's inside, the screen slams shut behind her with a thud, a short dust puff; head snaps to the lens, holds, abdomen trembles in tight frequent pulses"}
+  ],
+  "negative_prompt": "night, dusk, lamp, dim lighting, dark scene, neon-lit; slow speech, drawn-out delivery; a second wasp, a second bee, a third insect, human hands; real brand logos (OpenAI, ChatGPT, Claude, Anthropic, Gemini, Google, Microsoft), readable letters, readable text, subtitles, watermark; English speech, foreign accent; cuts, jump cuts; floating objects, duplicate props, a second stand for the screen; extra limbs, extra characters, character changing appearance mid-shot"
+}

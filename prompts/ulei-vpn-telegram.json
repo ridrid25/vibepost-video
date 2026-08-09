@@ -1,0 +1,29 @@
+{
+  "duration_seconds": 10,
+  "aspect": "vertical 9:16",
+  "character": "PCHELA — a plump cartoon business bee, black-and-yellow fuzzy stripes, tiny round glasses, a red bow tie around her neck, translucent wings that stay visibly buzzing at all times, expressive brows, never fully still even when facing camera",
+  "second": "two small pink piglets in the background, working the whole time on a lean-to hut made of sticks and branches next to a mud puddle — a running side-gag, unrelated to the bee's plot",
+  "prop_main": "the HIVE is shaped like an old beige desktop computer tower standing upright in the grass, a rusty padlock hangs on its front hatch, a striped canvas curtain printed with bold latin letters VPN hangs across it on a rod, a thin telescoping antenna is retracted flat on its top",
+  "prop_icons": "three or four small round badge icons hover near nearby flowers, colorful and logo-like but generic: a green rounded speech-bubble badge, a black six-point-star badge, a blue-red-yellow-green pinwheel badge — none of them copy any real brand exactly",
+  "setting": "sunny garden meadow, bright midday sun, high-key outdoor light, saturated green grass and flowers, no shadow pooling",
+  "camera": "handheld-feel dynamic camera always moving: whip-pan on the opening dive, wide-to-close shot size changes, camera pushes in tight for the final bite, constantly reframing",
+  "voice": "female, warm mid-range chest voice, brisk business tone, normal conversational pace",
+  "lip_sync": "the bee talks like a person, her mouth opens and closes clearly on every syllable, the voice comes from her and is never a voice over",
+  "timeline": [
+    {"t": "0.0-0.6", "a": "PCHELA dives into frame from the top corner, wings blurring, and lands hard on top of the computer-shaped hive"},
+    {"t": "0.6-1.3", "a": "she grabs the rusty padlock with both front legs and yanks it; it rattles but holds, she frowns"},
+    {"t": "1.3-2.0", "a": "she flies up and tugs the striped VPN curtain aside with one pull, cloth rippling on the rod"},
+    {"t": "2.0-2.8", "line": "Есть обход!", "a": "still gripping the curtain rod, wings buzzing, she turns her head to camera as she speaks"},
+    {"t": "2.8-3.5", "a": "the padlock springs open and drops into the grass with a puff of dust at impact"},
+    {"t": "3.5-4.2", "a": "a thin antenna telescopes up out of the top of the hive with a visible click-click motion"},
+    {"t": "4.2-4.9", "a": "colorful concentric radio-signal rings burst outward from the antenna tip, one after another"},
+    {"t": "4.9-5.6", "a": "PCHELA dives forward weaving between the two floating logo-like badges, wind ruffling their edges"},
+    {"t": "5.6-6.5", "line": "Мёд на месте!", "a": "she pokes her head into the open hive doorway and pulls back out holding a golden honeycomb chunk, grinning"},
+    {"t": "6.5-7.2", "a": "background beat: one piglet drops a bundle of sticks into the puddle, a big muddy splash, the other piglet ducks away"},
+    {"t": "7.2-7.9", "a": "PCHELA loops once in the air above the hive, honeycomb glinting, the radio rings still pulsing behind her"},
+    {"t": "7.9-8.7", "a": "camera pushes in tight on her grinning face as she bites the honeycomb, crumbs flying"},
+    {"t": "8.7-10.0", "a": "wide pull-back final shot: antenna up, curtain open, padlock on the ground, piglets' half-built stick hut behind, PCHELA hovering center, wings still blurring"}
+  ],
+  "must_appear": "computer-shaped hive, rusty padlock on the ground open, striped VPN curtain pulled aside, telescoping antenna, colorful radio-signal rings, colorful logo-like badges, two piglets building a stick hut by a puddle, golden honeycomb, PCHELA the bee",
+  "negative_prompt": "no floating unsupported objects except the described badges and signal rings, no duplicate padlocks, no duplicate antennas, no extra bee limbs, no baked-in subtitles, no watermark, no foreign language or accent, static camera, locked-off shots, visible cuts, night, dark scene, Cyrillic lettering painted anywhere in the scene"
+}
