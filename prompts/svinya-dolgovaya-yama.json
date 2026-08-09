@@ -1,0 +1,38 @@
+{
+  "duration_seconds": 10.3,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D Pixar slapstick deadpan; tactile look, dirt/dust in skin and fabric, no glossy sheen, matte textures, hard sunlit daylight",
+  "shot": "pit-level angle; camera moves only: push-in on mole 3.1-3.45; whip revealing pit walls 5.8-6.4; continuous push-in on her face 7.0-9.9, no cut; other beats static",
+  "character": "PIG: plump pink pig builder, heavy-lidded eyes, dirty apron, doomed cheerful optimism, same design as prior clips; trotters lean, press, toss, plant, scrawl, snort, slump",
+  "cast": "MOLE: agent mole, striped tie, folder under arm, active every beat, never speaks",
+  "props": "SHOVEL: one shovel, reused every action. FOLDER: mole's folder open to signature line. LADDER: already leaning on the pit's inner wall before mole reaches it, never floating.",
+  "setting": "freshly dug foundation pit, construction site, dark soil at rim, ladder on wall, small burrow for mole nearby, no walls built yet",
+  "lighting": "hard bright midday sun, full daylight, no shade; crisp hard shadows; sun reaches pit floor, floor as bright as rim at every depth",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male low warm chest voice ~130Hz, dry unrushed flat deadpan, @Voice: Sadachbia",
+    "pacing": "«Рыла яму»: RY-la YA-mu, 4 syll/0.9s. «под фундамент»: pod fun-DA-ment, stress DA, 4 syll/0.9s, no pause after 'яму'. «А выкопала»: a VY-ko-pa-la, stress VY, 5 syll/1.1s. «долговую яму»: dol-go-VU-yu YA-mu, stress VU+YA, 6 syll/1.2s, upper edge, unrushed, don't rush the prior beat. Nothing after 9.9.",
+    "lip_sync": "mouth opens/closes clearly each syllable, her own voice, never voice-over",
+    "sfx": ["shovel punching into ground", "mole bursting up with spray and shake-off", "hoof scrawling a signature", "stamp slapping down", "loose dirt trickling down"]
+  },
+  "timeline": [
+    {"t": "0.0-0.7", "a": "silent. HOOK: lean slams shovel into ground; dirt flies. Shovel #1."},
+    {"t": "0.7-1.3", "a": "silent. Tosses dirt over shoulder; trotters spin/slip. Shovel #2."},
+    {"t": "1.3-2.2", "line": "Рыла яму", "a": "calm, mouth clear each syllable, same rhythm, still pressing the shovel, no new action."},
+    {"t": "2.2-3.1", "line": "под фундамент", "a": "calm, no pause, same press and sway, no new gesture."},
+    {"t": "3.1-3.45", "a": "silent. Mole bursts up in a fountain of dirt, shakes off."},
+    {"t": "3.45-3.8", "a": "silent. Mole jabs a claw at the signature line."},
+    {"t": "3.8-4.5", "a": "silent. Plants shovel as a stand, frees a hoof, scrawls signature blind. Shovel #3."},
+    {"t": "4.5-5.1", "a": "silent. Mole stamp-slaps the paper once."},
+    {"t": "5.1-5.45", "a": "silent. Mole grabs the ladder on the wall."},
+    {"t": "5.45-5.8", "a": "silent. Mole dives with the ladder into the burrow, tail flashing; dirt crumbles on her snout."},
+    {"t": "5.8-6.4", "a": "silent. ANTI-ACTION: she snorts dirt off her snout, same opening tic, now pointless — walls already higher than her shoulders. Pit never changes size, only the reveal does."},
+    {"t": "6.4-7.0", "a": "silent. Reaches for the shovel at the rim, slips, slides back down. Shovel #4, missed."},
+    {"t": "7.0-7.6", "a": "silent. Sinks onto haunches, hooves buckling, gaze lifting."},
+    {"t": "7.6-8.7", "line": "А выкопала", "a": "keeps sinking onto haunches, snout trembling, gaze on the sky."},
+    {"t": "8.7-9.9", "line": "долговую яму", "a": "settling deeper, dust off her shoulders, tail sagging, unrushed."},
+    {"t": "9.9-10.3", "a": "silent. Rests in final pose; at frame top the shovel sways, out of reach. Shovel #5, final."}
+  ],
+  "must_appear": "single shovel for all five actions; mole bursts up, shakes off, jabs signature line; her blind signature; the stamp slap; ladder leaning before mole grabs and dives in, tail flashing; pit depth shown only by camera reveal, not size change; she keeps sinking through both final lines, dust and tail moving; final shot holds her face and the shovel in focus",
+  "negative_prompt": "night, dusk, lamp, dim, moody, dark, underexposed, low-key, pit darker than rim; floating or unsupported props, airborne ladder or shovel; duplicate shovel, second shovel, duplicate ladder, second ladder, stacked props; morphing pit, hole changing size instead of camera reveal; second pig, second mole, other animals; extra limbs, human hands; camera movement beyond described; cuts, jump cuts; costume change mid-shot; rushed or slow speech, drawn-out delivery, foreign accent, English speech, mid-sentence pauses; subtitles, captions, watermark, text overlay, readable text"
+}

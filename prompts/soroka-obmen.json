@@ -1,0 +1,102 @@
+{
+  "duration_seconds": 8,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar fur, bright slapstick, midday light",
+  "subject": {
+    "character": "EUROPEAN MAGPIE, black-white plumage, blue-green sheen, hoarder for shiny things",
+    "physicality": "compact, jerky head moves, wings tight except like hands, rocks on impact; head tilt when pleased, one wing slap, one-sweep gather, otherwise still",
+    "consistency": "same magpie every segment, no costume changes"
+  },
+  "cast": {
+    "sparrow": "HOUSE SPARROW money-changer, speckled, brisk; loupe on a cord, brass scale — weighs, taps, rejects; large, close, below the magpie"
+  },
+  "props": {
+    "foil": "one foil scrap, never duplicated",
+    "wrapper": "candy wrapper, distinct from the foil",
+    "cap": "bottle cap",
+    "counter": "single wood counter, nothing stacked"
+  },
+  "environment": "sidewalk currency stall, midday, weathered counter, bright daylight, no artificial light",
+  "audio": {
+    "language": "Russian",
+    "voice": "male, warm chest voice ~130Hz, dry, measured",
+    "voice_reference": "@Voice: Sadachbia — locked, pinned reference",
+    "delivery": "dry, weary deadpan, calm, native Russian, no accent",
+    "pacing": "even pace ~4.5 syll/sec, no drawn-out words",
+    "lip_sync": "mouth moves clearly each syllable, no voice over",
+    "sfx": [
+      "clack of talons landing"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.7",
+      "action": "MAGPIE drops onto the counter, wings snap shut; foil, wrapper, cap fan from her beak, apart. SPARROW flinches.",
+      "camera": "low at counter-edge, tilting up as she drops"
+    },
+    {
+      "t": "0.7-1.05",
+      "action": "SPARROW hops up, grabs the loupe, bends over the objects.",
+      "camera": "handheld drop to counter height"
+    },
+    {
+      "t": "1.05-2.4",
+      "line": "Не держу в рублях.",
+      "action": "MAGPIE speaks, still and level, every syllable clear, even measured pace. SPARROW sets the wrapper on the pan; it dips, swings.",
+      "camera": "low-angle hold on the magpie, creep toward the sparrow's claws and the swinging scale"
+    },
+    {
+      "t": "2.4-3.0",
+      "action": "Silent. The pan settles, SPARROW nods. MAGPIE's tail snaps down in one sharp flick — her only movement — the foil scrap untouched beside the scale.",
+      "camera": "push-in tightening on the counter as the scale stops and her tail snaps down"
+    },
+    {
+      "t": "3.0-3.5",
+      "action": "MAGPIE tilts her head sharply, pleased with herself.",
+      "camera": "handheld sway on the head tilt"
+    },
+    {
+      "t": "3.5-4.0",
+      "action": "SPARROW raps the cap twice, flicks it aside.",
+      "camera": "snap-pan to the wing flick, cap sliding off"
+    },
+    {
+      "t": "4.0-4.5",
+      "action": "MAGPIE slaps one wing flat by the cap, rocking from the impact.",
+      "camera": "push-in timed to the slap"
+    },
+    {
+      "t": "4.5-5.0",
+      "action": "SPARROW shrugs, nudges the cap back toward the pile.",
+      "camera": "handheld settle on the claw's nudge"
+    },
+    {
+      "t": "5.0-5.3",
+      "action": "MAGPIE freezes, snaps a look into the lens, head tilt — out of place, a serious line coming.",
+      "camera": "push-in on her eye as she looks to camera"
+    },
+    {
+      "t": "5.3-5.82",
+      "line": "В фольге",
+      "action": "MAGPIE speaks. SPARROW lifts the loupe to the case.",
+      "camera": "low-angle, creep to sparrow's hands"
+    },
+    {
+      "t": "5.82-6.85",
+      "line": "стабильнее.",
+      "action": "MAGPIE speaks. SPARROW snaps the loupe into the case, decisive.",
+      "camera": "creep tight on the loupe"
+    },
+    {
+      "t": "6.85-7.3",
+      "action": "Silent. MAGPIE holds still. SPARROW shuts the loupe case and raps a claw twice, closing the inspection.",
+      "camera": "creep-in tightening on the counter as she shuts the case and raps the wood"
+    },
+    {
+      "t": "7.3-8.0",
+      "action": "MAGPIE sweeps the pile into one heap and takes flight; one foil scrap drops back onto the counter.",
+      "camera": "whip-tilt up on takeoff, then down to the falling foil"
+    }
+  ],
+  "negative_prompt": "slow speech, drawn-out delivery, subtitles, captions, watermark, text overlay, burned-in graphics, English speech, foreign accent, night, dusk, lamp light, dim lighting, moody lighting, low key lighting, deep shadows, static camera, locked-off shots, floating objects, floating props, stacked objects, duplicate props, object duplication, extra limbs, a third character or background birds entering frame, magpie or sparrow changing appearance mid-shot, blurry mouth, unclear articulation, voice over, mismatched lip sync, sparrow reduced to a blurry background shape"
+}

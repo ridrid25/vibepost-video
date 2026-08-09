@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar-quality, dusty vest, hard hat, matte non-glossy, faint grain, deadpan slapstick",
+  "shot": "vertical, waist-level static take, locked off except one push-in on his face 7.6-9.6; bull large and close to lens from 3.2, frame never pulls back",
+  "character": "PIGLET FOREMAN: businesslike pig, dignity to the last; trotters grip/press/lift/flinch; upright throughout, back curves only in final beat; same design throughout",
+  "cast": "BULL BANK COLLECTOR: large bull, necktie, stamp always in his free hand, never set down; heavy torso jerks; close to lens from entrance; never speaks; same design",
+  "props": "form: sheet, ОДОБРЕНО stamp from the hook, gains a 2nd stamp at beat 7. brick: price tag, from the wheelbarrow, lifted/rotated, set beside the ready row, thrown back into the wheelbarrow. trowel: in his trotter from beat 3. wheelbarrow: crashes in at beat 4, bolts at beat 10, clips gravel. ready row, gravel, bucket: present since 0.0. No on-screen text except stamp marks.",
+  "setting": "bright sunny morning, open construction site, no walls or roof; pre-built brick row by a poured foundation; gravel pile at the yard's edge; overturned bucket nearby",
+  "lighting": "hard bright morning sun as key light, crisp rim from low sun behind camera-left, fully lit daylight",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male, low warm chest voice ~130Hz, dry, businesslike deadpan, weary restraint, native Russian, no accent, @Voice: Sadachbia",
+    "pacing": "three lines, ~5 syll/sec, no drawn-out words, 0.6s hold after each line",
+    "lip_sync": "piglet talks like a person, snout/jaw open-close each syllable, his own voice, never a voice over",
+    "sfx": ["paper flapping", "stamp thud", "gravel spray"]
+  },
+  "timeline": [
+    {"t": "0.0-0.5", "a": "Hook: shakes the form, ОДОБРЕНО stamp swings up, hard hat bounces"},
+    {"t": "0.5-1.3", "line": "Банк одобрил", "a": "dry, deadpan; rockets onto stiff hind trotters in one sharp bound, form slammed to his chest, hard hat clacking from the jolt"},
+    {"t": "1.3-2.1", "line": "ипотеку!", "a": "no gap; bound peaks in a rigid plank on tiptoe, spine cracking straight with a pop, snout tipped skyward"},
+    {"t": "2.1-3.2", "a": "Drops off the plank onto all four trotters with a thud; lays the form flat, snatches the trowel, smooths mortar on the foundation"},
+    {"t": "3.2-4.15", "a": "Wheelbarrow crashes in, bull brakes hard, shoving the piglet's shoulder, muzzle huge at the lens; flips the side board, brick with its tag exposed"},
+    {"t": "4.15-5.15", "line": "Это... весь кирпич?", "a": "flat disbelief. Lifts the brick, one 180-degree rotation, eyes on the tag"},
+    {"t": "5.15-6.15", "a": "Rotation finishes, brick held up in silence; bull snatches the form, slams his stamp"},
+    {"t": "6.15-7.0", "a": "Piglet sets the brick beside the ready row, flush; bull grabs it, hurls it into the wheelbarrow"},
+    {"t": "7.0-7.6", "a": "Wheelbarrow bolts, wheel clips the gravel pile, dust sprays the piglet; he rocks back, snaps the trowel up"},
+    {"t": "7.6-9.0", "line": "Первый платёж — авансом (a-VAN-som — stress on the second syllable, never AVAN-som)", "a": "flat and dry, eyes on the lens; trowel lowers slowly", "camera": "only push-in begins here, tightening to end"},
+    {"t": "9.0-10.0", "a": "Trowel settles on the foundation in silence; sits on the bucket, back curving first time, tracing the rim, pointless now"}
+  ],
+  "must_appear": "ОДОБРЕНО stamp in the hook; bound onto tiptoe with the spine-crack pop; brick rotated with its price tag; stamp struck on the form; brick thrown into the wheelbarrow; wheel clipping gravel, spraying the piglet; trowel lowering on the punchline",
+  "negative_prompt": "night, dusk, lamp, dim, moody, low-key, dark scene; bricks stacking, tiered construction, floating objects; duplicate brick, form, trowel, wheelbarrow, stamp; stamp leaving his hand; second piglet or bull, other animals, crowd, human hands; bull far from lens after entrance; camera moves besides the single push-in; cuts; costume changes; extra limbs; slow speech, English speech, foreign accent, wrong stress on авансом; subtitles, watermark, text overlay"
+}

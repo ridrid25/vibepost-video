@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 11,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar-quality, slapstick, deadpan",
+  "shot": "grounded low angle, camera does not move until the final beat's push-in",
+  "character": "PIG: plump pink pig, deadpan heavy-lidded eyes, dusty builder's apron; trotters grip/sweep/count/pin; appetizing waddle-limp gait",
+  "cast": "GOAT: shaggy grey-and-white goat, small stubby horns, blank chewing gaze; large, close to lens, never speaks",
+  "props": "trough of kitchen scraps; torn palace blueprint pinned to a post, corner ripped and flapping; apron hem loose; burlap sack of construction rubble sits by the trough from the start",
+  "setting": "yard by an unfinished house foundation, concrete slab",
+  "lighting": "hard midday sun, crisp shadows",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male low warm chest voice ~130Hz, dry unrushed flat deadpan, @Voice: Sadachbia",
+    "pacing": "5-part line, word-boundary splits, 4.0-4.8 syll/sec, breath only after part 1. «Копила»:ko-PI-la(2) «мусора»:MU-so-ra(1) «строительного»:stro-I-tel-no-vo(3). Nothing after 8.55",
+    "lip_sync": "pig talks like a person, mouth opens and closes clearly every syllable, voice is the pig's own, never a voice over",
+    "sfx": "wet chomping, satisfied grunt, loud burp, apron snap, paper tearing, goat bleat and chewing"
+  },
+  "timeline": [
+    {"t": "0.00-0.90", "a": "silent. Snout buried in the trough, wet chomping, tail wagging hard; torn blueprint flaps on the post"},
+    {"t": "0.90-1.50", "a": "silent. Waddle-limps one step sideways along the trough, snout still down, still chewing hard"},
+    {"t": "1.50-2.10", "a": "silent. Snout snaps up out of the trough in one sharp jerk, a spray of scraps flies past the lens, grinning wide"},
+    {"t": "2.10-2.80", "a": "silent. Grabs the apron hem with a trotter and yanks it hard across her snout in one sharp swipe, smearing more than cleaning"},
+    {"t": "2.80-3.20", "a": "silent. Chest puffs, loud burp, apron snaps back to her side"},
+    {"t": "3.20-4.45", "line": "Копила на домик,", "a": "steady. Both trotters haul the burlap sack onto her lap, straining, eyes flicking once to the blueprint"},
+    {"t": "4.45-4.80", "a": "silent, real inhale, trotters still braced under the sack"},
+    {"t": "4.80-5.70", "line": "а хватило", "a": "steady. Peers into the sack, snout wrinkling at what's inside"},
+    {"t": "5.70-6.60", "line": "лишь на пакет", "a": "steady, no pause. Grips the sack's corner, squeezing, rubble shifting inside"},
+    {"t": "6.60-7.30", "line": "мусора", "a": "steady, no pause. Tips the sack hard, gravel crashes out in a heavy stream, dust bursting up"},
+    {"t": "7.30-8.55", "line": "строительного.", "a": "steady, no pause. Sack drops, thuds hard on the slab in a puff of dust; gaze slides down to the trough, landing on the last syllable"},
+    {"t": "8.55-9.10", "a": "silent. Goat trots in from the right, beelines straight for the blueprint on the post"},
+    {"t": "9.10-9.80", "a": "silent. Goat locks its teeth onto the torn corner, plants its hooves, rips the blueprint off the post whole in one pull, paper crumpling in its teeth"},
+    {"t": "9.80-10.30", "a": "silent. Goat's flank brushes her shoulder passing; pig glances, shrugs, turns back to the trough"},
+    {"t": "10.30-11.00", "a": "silent. Snout dips back into the trough, chomping resumes; goat behind her chews and swallows the last scrap of paper", "cam": "only camera move in the clip: slow push-in on her snout in the trough, ending the shot"}
+  ],
+  "must_appear": "pig chomping snout-down in the trough; snout snapping up, scraps flying; apron swiped across her snout; the burp; sack hauled onto her lap and squeezed, gravel trickling out; goat ripping the blueprint off the post",
+  "negative_prompt": "night, dusk, lamp, dim, moody, low-key, dark scene, underexposed; second pig, second goat, other animals; duplicate trough, post, apron, or sack; floating objects, props stacked in tiers; camera movement besides the single push-in; cuts, jump cuts; extra limbs; human hands; costume changes; rushed delivery, slow speech, drawn-out delivery, pauses mid-sentence, speech after 8.60, foreign accent, English speech; subtitles, captions, watermark, text overlay, readable text on the blueprint"
+}

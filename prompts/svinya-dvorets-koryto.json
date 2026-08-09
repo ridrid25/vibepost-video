@@ -1,0 +1,35 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, slapstick deadpan, hard midday sun",
+  "shot": "grounded low angle, holds at trough height, push-in on her face at the end",
+  "character": "PIG: plump pink pig, deadpan heavy-lidded eyes, mud-streaked apron, trotters root/wipe/thump, limps on stiff right hind leg, delighted not pained",
+  "cast": "GOAT: shaggy grey-brown billy goat, short horns, calm chewer, never speaks, bigger and closer to lens than the pig",
+  "props": "MIC on a stand swings in 1.15-1.70, holds at her snout, dips in trough 8.95-9.50, stays wet. TROUGH: battered wood, scrap peels and dishwater, unchanged whole clip, one flat support, nothing stacked. SIGN: 'Дворец' painted on a warped board, torn and muddy, pinned on a fence post behind her; goat tears a strip free 8.40-8.95, post bare after",
+  "setting": "yard by the unfinished house foundation, cracked slab, packed dirt",
+  "lighting": "hard midday sun, crisp shadows, high exposure",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male low warm chest voice ~130Hz, dry flat deadpan, @Voice: Sadachbia",
+    "pacing": "even 4.3-4.4 syll/sec, one sentence across four bits with no pause between them, answers the mic, not declaiming. Nothing after 6.76",
+    "lip_sync": "pig talks like a person, mouth opens/closes clearly every syllable, her own voice, never voice over, answering the mic",
+    "sfx": "wet chewing, trough splash, apron wipe, burp, paper tear, goat chew, mic drip"
+  },
+  "timeline": [
+    {"t": "0.00-0.60", "a": "silent. Hook: limps in, stiff right hind leg, delighted bounce, cheeks bulging"},
+    {"t": "0.60-1.15", "a": "silent. Snout rams into trough, water and a leaf burst past lens; torn 'Дворец' sign flaps on the post behind her"},
+    {"t": "1.15-1.70", "a": "silent. Mic swings in, stops at her snout; she recoils mid-chew, wet leaf on cheek"},
+    {"t": "1.70-3.08", "line": "Копила на домик,", "a": "rocks back, body swaying, snout lifts dripping from the trough, deadpan stare on the mic, continues into next line"},
+    {"t": "3.08-4.23", "line": "а хватило лишь", "a": "no pause. Rocks forward, still swaying, eyes slide toward the sign, deadpan"},
+    {"t": "4.23-5.61", "line": "на пакет мусора", "a": "no pause. Chin dips toward the trough, swaying continues, deadpan stare"},
+    {"t": "5.61-6.76", "line": "строительного.", "a": "no pause, sentence ends here. Swaying eases into a lean, trotter already rising toward her snout for the wipe, deadpan stare, mouth closes on last syllable"},
+    {"t": "6.76-7.30", "a": "silent. Wipes snout with the apron hem, smears more mud than she clears, chin lifted toward the sign"},
+    {"t": "7.30-7.85", "a": "silent. Chest puffs, loud burp, trotter thumps sternum once"},
+    {"t": "7.85-8.40", "a": "silent. Goat trots in, bigger and closer to lens than her, bites the sign's flapping corner"},
+    {"t": "8.40-8.95", "a": "silent. Goat tears a strip of the sign free, paper crackles, post snaps back bare, chews unbothered"},
+    {"t": "8.95-9.50", "a": "silent. Shrugs one shoulder, rams snout back into the trough; mic dips into the trough beside her snout"},
+    {"t": "9.50-10.00", "a": "silent. Lifts head to stare into the lens, a peel stuck to her forehead, slow blink; goat still chewing the strip behind her shoulder", "cam": "push-in on her face, ending the shot"}
+  ],
+  "must_appear": "delighted limp; snout rammed into the trough; mic parks at her snout; torn 'Дворец' sign visible from the start; body swaying hard through both lines; apron-hem wipe; audible burp; goat bigger than her, tearing the sign; her shrug back to the trough",
+  "negative_prompt": "black bars, non-full-frame video; night, dusk, dim, moody, low key, lamp, candle, neon, dark scene, underexposed; human hands; second pig, second goat, other animals; duplicate trough, mic, or sign; floating objects, stacked props; cuts, jump cuts; extra limbs; pig reciting instead of answering the mic; rushed delivery, slow speech, drawn-out delivery, pause mid-sentence, speech after 5.40, foreign accent, English speech; static pose; subtitles, captions, watermark, text overlay, readable text except the 'Дворец' sign lettering"
+}

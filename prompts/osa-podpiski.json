@@ -1,0 +1,35 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D animation, Pixar-quality chitin and fur shading, matte non-glossy surfaces, faint grain, deadpan slapstick, not glossy game-render 3D",
+  "shot": "vertical, low angle from the nest entrance, slow orbital drift around the branch for most of the film, one push-in tightening to a close-up on the wax terminal at the climax, same camera language throughout, no cuts",
+  "character": "WASP: sharp asymmetric physicality, burst-start from zero to full speed with no wind-up, instant two-phase stop (body locks first, wings jerk once more after), double head-jerk with overshoot, wings clap out of sync left/right as a stress marker, head turns in sharp snaps; same design throughout",
+  "cast": "GATE BEE: heavy monolithic clerk, moves from the torso, lands with her full body weight pressing forward, never floats in, turns objects with her torso not a limb, head almost still and only tilts to react, closes or strikes with one decisive full-amplitude leg swing; large, close to the lens the whole film; same design throughout",
+  "props": "wax membrane at the nest entrance stamped with a lock pattern, present from 0.0; a wax terminal tablet the bee carries, growing a wax cross, then a relief menu of hex-cells in different colors with no text, then pulsing; a wax shutter door at the entrance the bee slides shut; a wax stamp bearing that same lock pattern, pressed onto the wasp's leg at the climax; one nectar drop on a flower beside the branch. No towers or stacked props, no on-screen text anywhere, the branch is the only support",
+  "setting": "sunlit flower meadow at high noon, one flowering branch holding the wasp's nest as the only support in frame, a neighboring honeycomb cell for the bee, soft-focus wildflowers behind",
+  "lighting": "hard bright midday sun as key light, crisp highlights on both insects, strong daylight contrast, sharp small shadows, no haze",
+  "audio": {
+    "language": "Russian, lines exactly as written",
+    "delivery": "male, low warm chest voice around 130Hz, dry deadpan, steady and unrushed, native Russian, no accent, @Voice: Sadachbia",
+    "pacing": "two lines split across two adjoining beats with no gap between them, even conversational rate, both lines finish with room to spare in their beats",
+    "lip_sync": "the wasp's mouthparts open and close clearly on every syllable, the voice comes from her, never a voice over",
+    "sfx": ["wings buzzing out of sync", "wax thud", "small static-electric spark crackle", "two-tone refusal beep", "wax powder hiss"]
+  },
+  "timeline": [
+    {"t": "0.00-0.65", "a": "Burst-start with no wind-up, slams her abdomen into the invisible membrane at the entrance, freezes in a two-phase stop, body locks first, wings jerk once more, then tumbles backward", "camera": "low angle from the entrance, slow orbital drift begins"},
+    {"t": "0.65-1.10", "a": "Sharp double head-jerk with overshoot; one leg reaches for the lock pattern on the membrane, body tips forward balancing on three legs, the leg recoils back the instant it touches the pattern"},
+    {"t": "1.10-1.60", "a": "Bee lands full-body from the neighboring cell, her torso filling the frame's edge, both front legs decisively pull a wax terminal tablet out"},
+    {"t": "1.60-2.10", "a": "Bee tilts head and torso together, a scanner antenna sweeps across the wasp's abdomen, a beep sounds, a wax cross grows softly on the terminal with no flash"},
+    {"t": "2.10-2.60", "a": "Wasp sharply jabs a leg at her own nest, torso lunging forward on the edge of falling, then spreads her wings wide in a proud gesture, but they lose shape and sag half a beat early, breaking mid-gesture"},
+    {"t": "2.60-3.05", "a": "Bee swings the terminal around with her whole torso toward the lens, a wax relief menu rises in a wave, hex cells of different colors, no text", "camera": "push-in tightens toward a close-up on the terminal"},
+    {"t": "3.05-3.65", "a": "Wasp presses her stinger flat, not piercing, against the terminal, a small soft white-yellow static spark, a two-tone refusal beep, she yanks the stinger back and shakes its tip as if startled"},
+    {"t": "3.65-4.75", "line": "Лето, мёд, нектар,", "a": "Already settled on the branch, in one unbroken reach she extends her proboscis to a nectar drop on the neighboring flower and licks it clean, the motion starting and finishing inside this beat"},
+    {"t": "4.75-8.25", "line": "а я всё равно плачу за доступ к своему улью.", "a": "Her wings fold from full spread toward closed in one continuous even sweep, not finished yet; meanwhile the bee holds the terminal large in frame, its wax relief pulsing outward and back, the beat's event belongs to the bee, the wasp's mouth only speaks"},
+    {"t": "8.25-8.60", "a": "Bee slides the wax shutter door shut with one decisive full-amplitude leg swing, stopping abruptly, a light puff of wax powder at the stop"},
+    {"t": "8.60-8.95", "a": "Wasp bursts again with the same zero-to-full start, aiming at a small side gap to sneak a leg through, overshoots past the gap from the momentum, snaps herself back"},
+    {"t": "8.95-9.45", "a": "Bee lands full-body forward again, the same heavy landing as before but onto the wasp now, catches her leg with both front legs, stamps the same lock pattern onto it with one decisive downward strike; wasp yanks her leg back with the same instant stop as the opening beat, now as a reaction"},
+    {"t": "9.45-10.00", "a": "Wasp settles onto the threshold, her wings finish folding along that same line of motion, a sharp short snap of her head lands square on the lens, her abdomen holds a small continuous buzzing vibration underneath"}
+  ],
+  "must_appear": "the lock pattern on the entrance membrane early on; the wax terminal pulled out and its wax cross growing; the colored hex-cell menu with no text; the flat non-piercing stinger touch with its spark and refusal beep; the wasp drinking the nectar drop while speaking the first line; her wings folding through the long line while she speaks the second line; the wax shutter door closing abruptly with a puff of wax powder; the same lock pattern stamped onto the wasp's leg at the climax; the final head-snap into the lens",
+  "negative_prompt": "night, dusk, evening scene, lamp, dim lighting, moody, low-key, dark scene, candle-lit, neon-lit; fast speech, quick delivery, rapid talking, hurried voice, clipped words, slow speech, drawn-out delivery; a second wasp, a second bee, a third insect species, crowd, human hands; readable on-screen text, subtitles, captions, watermark, text overlay, burned-in graphics; English speech, foreign accent; static camera, locked-off shots, cuts, jump cuts; floating objects, duplicate props, object duplication, tiered or stacked props; extra limbs, character changing appearance mid-shot"
+}

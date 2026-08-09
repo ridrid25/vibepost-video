@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 11,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar-quality, slapstick, deadpan; worn textures, chalky dust on skin and fabric, no glossy CG sheen, faint grain",
+  "shot": "grounded low angle, level with the slab, locked off except a final push-in on her face, 9.9-11.0",
+  "character": "PIG: plump pink pig, heavy-lidded deadpan eyes, dusty apron, doomed cheerful optimism; trotters swing/dig/scoop/grip/pat; waddling gait, same design and costume as prior clips",
+  "cast": "GOAT: shaggy grey-and-white, stubby horns, blank chewing, never speaks; bigger, closer to lens, enters mid-freeze with a shoulder-brush, teeth lock onto a shard, chews to the end",
+  "props": "piggy bank: glazed ceramic miniature of the pig herself, same snout and apron, knee-height, coin slot on back, shatters in beat one. hammer: falls from her grip at 0.6, stays put. slab crack: in concrete from 0.0, reused as screw's socket 8.4-9.4. coins: land flat, one loose mound, never floating or stacked. screw: rusty, thumb-sized, dull vs coins. shard: snout-piece, chewed by goat from 5.4",
+  "setting": "yard by an unfinished house, bare concrete slab with a crack present, no walls or roof",
+  "lighting": "hard overhead midday sun, full bright daylight, harsh shadows, matte non-glossy surfaces",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male low warm chest voice ~130Hz, dry unrushed flat deadpan, @Voice: Sadachbia",
+    "pacing": "3 lines, 4.4-4.6 syll/sec, no pause lines 1-2, silence 4.1-6.0 (digs, pulls screw, freezes only 5.4-6.0), punchline resumes. Nothing after 11.0",
+    "lip_sync": "mouth opens and closes clearly on every syllable, her own voice, never a voice over",
+    "sfx": "hammer strike, ceramic shatter, coins ringing, hammer thud, coins raked, clink pulling screw, goat hooves, crunch on shard, screw creak"
+  },
+  "timeline": [
+    {"t": "0.0-0.6", "a": "Hammer at top of swing in frame one, strikes down, the miniature bank shatters, coins fan out, dust kicks up, hammer falls from her grip"},
+    {"t": "0.6-1.3", "a": "Snout dips, trotters rake coins toward her, hammer lies still on the slab"},
+    {"t": "1.3-1.9", "a": "Scoops coins into one loose mound, pats it once, pleased grin, ear twitches"},
+    {"t": "1.9-3.2", "line": "Три года копила,", "a": "plain. Only her body sways forward, back, side to side; trotters planted, nothing else moves"},
+    {"t": "3.2-4.1", "line": "а хватило…", "a": "no pause. Sway leans forward, snout dips over the mound, trotters never lift"},
+    {"t": "4.1-4.8", "a": "One trotter digs into the mound, jingling"},
+    {"t": "4.8-5.4", "a": "Pulls out not a coin but one rusty screw, holds it before her face"},
+    {"t": "5.4-6.0", "a": "She freezes, blank stare at the screw; goat enters large and close, one stride, shoulder-brush passing, teeth lock onto a shard"},
+    {"t": "6.0-7.1", "line": "на один шуруп.", "a": "resumes after the freeze, punchline. Shoulders sag, trotter with the screw stays raised; goat crunches the shard behind her"},
+    {"t": "7.1-7.8", "a": "Goat keeps crunching loudly, deadpan head tilt; she shrugs one shoulder, turns toward the crack"},
+    {"t": "7.8-8.4", "a": "Kneels toward the crack, screw poised at its mouth"},
+    {"t": "8.4-9.4", "a": "Screws it into the crack with small turns of her trotter, dry creak, dust puffing out"},
+    {"t": "9.4-9.9", "a": "One pat on the screw, steps back"},
+    {"t": "9.9-11.0", "a": "Gaze lifts into the lens, doomed-pleased half-smile; goat still chewing over her shoulder", "cam": "only camera move in the clip: slow push-in on her face, ending the shot"}
+  ],
+  "must_appear": "miniature replica of herself shattering; hammer falling and staying on slab; goat entering during her freeze, grabbing a shard, crunching through the punchline; screw driven into the crack visible since 0.0",
+  "negative_prompt": "night, dusk, lamp, dim, moody, dark scene, underexposed; floating objects, props in tiers, coins stacked; second piggy bank, intact bank later, duplicate hammer, second screw, third animal besides the pig and goat; camera movement besides the push-in; cuts; extra limbs, human hands; costume changes; rushed or slow speech, speech after 11.0, foreign accent; subtitles, watermark, text overlay"
+}

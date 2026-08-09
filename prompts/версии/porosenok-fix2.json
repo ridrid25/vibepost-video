@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar-quality, dusty vest, hard hat, matte, deadpan slapstick",
+  "shot": "vertical, waist-level static, locked off except one push-in on his face 7.6-9.6; bull large, close to lens from 3.2, never pulls back",
+  "character": "PIGLET FOREMAN: businesslike pig, dignity to the last; back curves only in final beat; same design throughout",
+  "cast": "BULL BANK COLLECTOR: large bull, necktie, stamp in his free hand; close to lens from entrance; never speaks",
+  "props": "form: ОДОБРЕНО stamp from hook, 2nd stamp at beat 7. brick: price tag, from wheelbarrow, rotated, set by ready row, thrown back in. trowel: from tool belt at drop-thud. wheelbarrow: in at beat 5, off at beat 9. ready row, gravel, bucket present from 0.0. No on-screen text but stamp marks.",
+  "setting": "bright sunny morning, open construction site; brick row by a poured foundation; gravel pile, overturned bucket",
+  "lighting": "bright morning sun, fully lit daylight",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male, low warm chest voice ~130Hz, dry, businesslike deadpan, native Russian, no accent, @Voice: Sadachbia",
+    "pacing": "~5 syll/sec, 0.6s hold after each line",
+    "lip_sync": "piglet talks like a person, snout/jaw open-close each syllable, own voice, never a voice over",
+    "sfx": ["paper flap", "stamp thud", "spine-crack pop", "landing thud"]
+  },
+  "timeline": [
+    {"t": "0.0-0.5", "a": "Hook: one hard shake of the form throws him off balance — stamp swings, hard hat clacks, knees buckle into a low coiled crouch, held there"},
+    {"t": "0.5-1.3", "line": "Банк одобрил", "a": "dry, deadpan; crouch uncoils, trotters trembling, climbing toward tiptoe, form shaking on chest, rise uneven, never smooth — same rise, no new gesture"},
+    {"t": "1.3-2.1", "line": "ипотеку!", "a": "no gap; climb reaches full stretch still trembling, no slowdown, spine snaps straight with a crack-pop on the last syllable, snout skyward"},
+    {"t": "2.1-3.2", "a": "Drops hard onto all four trotters, thud kicks up dust, form slaps flat; snatches the trowel from tool belt in the same motion, slaps mortar on the foundation"},
+    {"t": "3.2-4.15", "a": "Wheelbarrow crashes in, bull brakes hard, shoves his shoulder, muzzle huge at lens; flips the board, piglet grabs the tagged brick, starts lifting it"},
+    {"t": "4.15-5.15", "line": "Это... весь кирпич?", "a": "flat disbelief; already-lifted brick keeps turning its 180-degree rotation, eyes on the tag — no new grab, just the turn finishing"},
+    {"t": "5.15-6.15", "a": "Rotation finishes, brick held up in silence; bull snatches the form, slams his stamp"},
+    {"t": "6.15-7.0", "a": "Piglet sets the brick beside the ready row, flush; bull grabs it, hurls it into the wheelbarrow"},
+    {"t": "7.0-7.6", "a": "Bull kicks the wheelbarrow rolling off behind him without stepping back, staying close to the lens; wheel clips the gravel, spraying grit on the piglet; he snaps the trowel up"},
+    {"t": "7.6-9.0", "line": "Первый платёж — авансОм (a-VAN-som, never AVAN-som)", "a": "flat and dry, eyes on the lens; trowel lowers slowly", "camera": "only push-in begins here, tightening to end"},
+    {"t": "9.0-10.0", "a": "Trowel settles in silence; sits on the bucket, back curving first time, tracing its rim"}
+  ],
+  "must_appear": "ОДОБРЕНО stamp in the hook; shake into a coiled crouch; trembling rise ending in a crack-pop on the last syllable, no slowdown before it; hard drop-thud onto all fours; brick rotated with its tag, no second grab; stamp struck; brick into the wheelbarrow; bull staying close as the wheelbarrow rolls off; trowel lowering on the punchline",
+  "negative_prompt": "night, dusk, lamp, dim, moody, low-key, dark scene; bricks stacking, floating objects; duplicated brick, form, trowel, wheelbarrow, or stamp; stamp leaving his hand; second piglet or bull, crowd, human hands; camera moves besides the single push-in; cuts; extra limbs; new gesture inside either speech beat, second brick grab during the rotation line; easing or slowing before the crack-pop, stillness during the rise; slow speech, English speech, foreign accent, wrong stress on авансом; subtitles, watermark, text overlay"
+}

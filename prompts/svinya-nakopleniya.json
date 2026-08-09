@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 9.6,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar-quality, slapstick, deadpan, hard midday sun",
+  "shot": "grounded low angle, camera does not move until the final push-in",
+  "character": "PIG: plump pink pig, deadpan heavy-lidded eyes, blinks slowly, dusty builder's apron; trotters grip/sweep/count/pin",
+  "cast": "CAT: scruffy grey tabby contractor, work vest, never speaks; large, bigger than pig",
+  "props": "hammer, piggy bank, coins, blueprint pinned to a stake, cat's black debris bag with a receipt taped on — all on one wooden plank, nothing stacked",
+  "setting": "yard by an unfinished house, concrete slab",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male low warm chest voice ~130Hz, dry unrushed flat deadpan, @Voice: Sadachbia",
+    "pacing": "two sentences only, calm even tempo throughout, never rushed, no pause inside either sentence. «строительного»: stroh-EE-tyel-no-vo, stress on the second syllable EE, never on TYEL. Nothing after 7.95",
+    "lip_sync": "pig talks like a person, mouth opens and closes clearly every syllable, voice is the pig's own, never a voice over",
+    "sfx": "hammer strike, ceramic shattering, coins clinking, blueprint flapping, bag tearing, gravel pouring, paper pinned"
+  },
+  "timeline": [
+    {"t": "0.00-0.40", "a": "silent. Hammer already mid-downswing, blurred arc cutting a third of the frame; blueprint corner snapping hard behind her"},
+    {"t": "0.40-0.85", "a": "silent. Hammer connects, bank shatters in one burst, shards and coins spray the lower frame, dust kicks up; recoil jolts her half a step back"},
+    {"t": "0.85-1.40", "a": "silent. Hammer drops from her grip, bounces off the plank; last coins rain down, rolling to a stop"},
+    {"t": "1.40-2.05", "line": "Копила", "a": "calm. Trotters sweep coins into a pile briskly, dust puffing, body rocking with each sweep"},
+    {"t": "2.05-2.70", "line": "на домик,", "a": "calm, no pause. Last sweep finishes the pile in a puff of dust, snout snaps up toward the blueprint"},
+    {"t": "2.70-3.30", "a": "silent. Counts coins loud, trotter slamming on each one, tail whipping; last coin gets a lighter tap, slam easing off, brow furrows"},
+    {"t": "3.30-3.95", "a": "silent. Cat lands hard from the right, shoulder bumps hers, jolting her sideways a step; sets a black debris bag beside the coins"},
+    {"t": "3.95-4.30", "a": "silent. Cat rips the bag open, upends it over the coins — half its gravel and dust spill in"},
+    {"t": "4.30-5.20", "line": "а хватило", "a": "calm. Grabs the open bag, hefts it off the plank, straining"},
+    {"t": "5.20-6.10", "line": "лишь на пакет", "a": "calm, no pause. Peers into the bag, snout wrinkling; cat yanks the bag hard, lurching it"},
+    {"t": "6.10-6.75", "line": "мусора", "a": "calm, no pause. Bag still lurching, trotters lock hard onto the corner, gravel scraping inside"},
+    {"t": "6.75-7.95", "line": "строительного.", "a": "calm, no pause. Bag lifted, gravel sifting from a hole"},
+    {"t": "7.95-8.30", "a": "silent. Cat jabs a claw at a receipt taped to the bag, staring at her; her ear flicks once"},
+    {"t": "8.30-8.95", "a": "silent. Pulls the blueprint off the stake, pins it over the bag, covering the receipt; turns to camera"},
+    {"t": "8.95-9.60", "a": "silent. Turn completes into a steady stance facing lens, weight rocking faintly hoof to hoof; snout jabs once at the scattered gravel, pointless now", "cam": "only camera move in the clip: slow push-in on her face, ending the shot"}
+  ],
+  "must_appear": "hammer shattering the piggy bank; coins piled then counted; cat landing, bumping her shoulder; bag upended over the coins, gravel mixing in; receipt taped to the bag; blueprint moved to bag; final push-in",
+  "negative_prompt": "night, dusk, dim, moody, low key, lamp, dark scene, underexposed; human hands; extra pigs, cats; duplicate hammer, bag, or blueprint, a second intact piggy bank; floating objects, props stacked in tiers; camera movement besides the push-in; cuts, jump cuts; extra limbs; costume changes; frozen pose, motionless hold; slow speech, rushed delivery, drawn-out delivery, pauses mid-sentence, speech after 7.95, foreign accent, English speech; subtitles, captions, watermark, text overlay, readable text"
+}

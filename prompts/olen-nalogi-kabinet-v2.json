@@ -1,0 +1,45 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, deadpan slapstick",
+  "shot": {"continuity": "one continuous take, camera moves every beat; the paper is the only wipe", "framing": "vertical, forest into luxury office"},
+  "subject": {
+    "character": "red deer stag, joyful gait, deadpan eyes; after the wipe, a mounted trophy head — only eyes and mouth move, neck fixed to a plaque",
+    "secondary_character": "woodpecker on the door frame, red cap; insert 6.8-7.4s, a third of frame, hammers a paper",
+    "background_character": "fox on the rug; insert 3.8-4.3s, a third of frame: glances slyly, snatches a paper, folds an airplane"
+  },
+  "props": {
+    "notice": "stamped paper from the forest, pinned to the plaque",
+    "woodpecker_notice": "second stamped paper, at the frame",
+    "papers": "folder of stamped papers on the desk, spills open; fox takes one",
+    "fortochka": "small vent pane, ajar, in the window"
+  },
+  "setting": "sunlit office, tall windows, daylight, dark wood panelling",
+  "audio": {
+    "language": "Russian, exact line fields",
+    "delivery": "male, low warm chest voice ~130 Hz, dry, unrushed deadpan, @Voice: Sadachbia",
+    "pacing": "seven lines, three groups, no gap inside a group, unrushed",
+    "pronunciation": "найдёт: nai-DYOT, not NAI-dyot",
+    "lip_sync": "mouth moves each syllable, his own voice, never voice over",
+    "sfx": ["hooves on turf", "woodpecker drumming"]
+  },
+  "timeline": [
+    {"t": "0.0-0.5", "a": "silent. Deer bursts from birches, joyful gallop, tail up, dust kicking", "cam": "whip-pan to catch him mid-leap"},
+    {"t": "0.5-0.9", "a": "silent. Mid-leap, a paper drops, slaps his face, whites the lens", "cam": "hard track, push through the paper"},
+    {"t": "0.9-1.6", "a": "silent. Wipe clears: forest gone, now a mounted trophy head over the desk, eyes open", "cam": "settles on the mounted face"},
+    {"t": "1.6-2.5", "line": "Свежий воздух,", "a": "mouth moves, eyes steady, unrushed; papers drifting below", "cam": "close-up on the face"},
+    {"t": "2.5-3.8", "line": "зелёная травка.", "a": "same delivery; light slides across antlers, a paper drifts off the desk", "cam": "creep tightens close-up"},
+    {"t": "3.8-4.3", "a": "silent. Camera swings onto the fox: glances slyly, snatches a paper, folds an airplane", "cam": "arcs onto fox, holds close"},
+    {"t": "4.3-4.85", "a": "silent. Head swings back; a gust scatters papers, light flares hard on the antlers", "cam": "whips back, arcs with the flare"},
+    {"t": "4.85-6.15", "line": "А налоговая", "a": "same delivery, eyes narrow; the gust keeps papers sliding, light sweeps antlers, a moving shadow crosses his face", "cam": "hard push, arcing with the light"},
+    {"t": "6.15-6.8", "line": "всё равно", "a": "same delivery, eyes narrowed; last papers settle, light sweeps the plaque, catching the stamp", "cam": "creep deeper"},
+    {"t": "6.8-7.4", "a": "silent. Woodpecker lands, grips a paper, hammers it to the frame, chips fly", "cam": "hard push onto woodpecker"},
+    {"t": "7.4-7.9", "line": "тебя", "a": "camera on the face, mouth moves; woodpecker drums at the edge, final strike lands, stops", "cam": "pulls back onto the face, woodpecker at the edge"},
+    {"t": "7.9-8.4", "line": "найдёт,", "a": "office quiet; last chips drift past the eye, gaze locked", "cam": "creep a hair closer"},
+    {"t": "8.4-8.9", "line": "олень.", "a": "delivery finishes, gaze on lens", "cam": "slow steady creep"},
+    {"t": "8.9-9.3", "a": "silent. Frame holds the plaque, papers stirring in the draft, woodpecker and fox", "cam": "push reveals everyone and every paper"},
+    {"t": "9.3-9.7", "a": "silent. Eyes slide to his paper on the plaque", "cam": "pull-back begins"},
+    {"t": "9.7-10.0", "a": "silent. Light flares on the antlers; fox flings the airplane through the vent", "cam": "pull-back opens wide"}
+  ],
+  "negative_prompt": "night, dusk, evening light, candle, neon, dim, moody, low-key, dark scene, underexposed, haze; floating or duplicate props, a fourth paper; second stag, second woodpecker or second fox; human hand; a torso below the mounted head; fox touching the head; missing or blurred insert; subtitles, captions, watermark; English speech, slow or drawn-out delivery, gaps between lines; extra cuts besides the wipe, locked-off camera, snap zoom; extra limbs, horizontal framing"
+}

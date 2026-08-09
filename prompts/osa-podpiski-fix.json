@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D, Pixar-quality, matte, faint grain, deadpan slapstick",
+  "shot": "vertical, low angle from the nest, orbital drift, push-in to the terminal at the climax, no cuts",
+  "character": "WASP: sharp asymmetric physicality, burst-start with no wind-up, instant two-phase stop; same design throughout",
+  "cast": "GATE BEE: heavy monolithic clerk, lands full weight forward, closes with one decisive leg swing; large, close to lens; same design throughout",
+  "props": "wax membrane with a lock pattern from 0.0; wax terminal growing a cross then a hex-cell menu, then pulsing; wax shutter the bee slides shut; wax stamp with the lock pattern on her leg at the climax; one nectar drop on a flower. No stacked props, no on-screen text",
+  "setting": "sunlit flower meadow at high noon, one flowering branch as the only support, a neighboring honeycomb cell for the bee",
+  "lighting": "hard bright midday sun as key light, crisp highlights, strong contrast, sharp small shadows",
+  "audio": {
+    "language": "Russian, lines exactly as written",
+    "delivery": "male, low warm chest voice ~130Hz, dry deadpan, steady, native Russian, no accent, @Voice: Sadachbia",
+    "pacing": "second line splits into three beats, плачу isolated at normal tempo for the stress guide, ~4.3 syll/sec",
+    "lip_sync": "mouthparts open/close clearly each syllable, her own voice, never a voice over",
+    "sfx": ["wing buzz out of sync", "wax thud", "spark crackle", "refusal beep", "powder hiss"]
+  },
+  "timeline": [
+    {"t": "0.00-0.65", "a": "Burst-start, slams her abdomen into the membrane, two-phase stop, tumbles backward", "camera": "low angle, orbital drift begins"},
+    {"t": "0.65-1.10", "a": "Double head-jerk with overshoot; a leg reaches for the lock, recoils on touch"},
+    {"t": "1.10-1.60", "a": "Bee lands full-body from the neighboring cell, pulls out a wax terminal"},
+    {"t": "1.60-2.10", "a": "Bee's antenna sweeps the wasp's abdomen, a beep sounds, a wax cross grows"},
+    {"t": "2.10-2.60", "a": "Wasp jabs a leg at her nest, spreads her wings wide, sag early, breaking mid-gesture"},
+    {"t": "2.60-3.05", "a": "Bee swings the terminal around, a wax relief menu rises, colored hex cells, no text", "camera": "push-in begins"},
+    {"t": "3.05-3.65", "a": "Wasp presses her stinger flat against the terminal; a spark, a refusal beep; yanks it back"},
+    {"t": "3.65-4.75", "line": "Лето, мёд, нектар,", "a": "Extends her proboscis to the nectar drop and licks it clean, finishing inside this beat"},
+    {"t": "4.75-5.91", "line": "а я всё равно", "a": "Wings begin a brisk continuous fold from full spread, body rocks back with the motion"},
+    {"t": "5.91-6.38", "line": "плачу (pla-CHU, stress on second syllable, not PLA-chu)", "a": "Wings keep folding at the same steady sweep, no new action"},
+    {"t": "6.38-8.25", "line": "за доступ к своему улью.", "a": "Wings snap fully shut right as the line starts, then hold closed, still"},
+    {"t": "8.25-8.60", "a": "Bee slides the wax shutter shut with one decisive leg swing, a puff of wax powder at the stop"},
+    {"t": "8.60-8.95", "a": "Wasp bursts again zero-to-full, aims a leg at a gap, overshoots, snaps back"},
+    {"t": "8.95-9.45", "a": "Bee lands onto the wasp, catches her leg, stamps the lock pattern onto it; wasp yanks her leg back with the same instant stop as the opening"},
+    {"t": "9.45-10.00", "a": "Wasp settles on the threshold, wings finish folding, a sharp head-snap on the lens, a small buzz underneath"}
+  ],
+  "must_appear": "the lock pattern early on; the wax terminal and its wax cross growing; the hex-cell menu with no text; the stinger touch with its spark and beep; the nectar drop on the first line; wings folding through the closing line, finishing in a snap; the shutter closing with a puff of wax powder; the lock pattern stamped on the wasp's leg at the climax; the final head-snap into the lens",
+  "negative_prompt": "night, dusk, lamp, dim, moody, low-key, dark scene; fast, rapid, hurried speech; slow, drawn-out delivery; second wasp, second bee, crowd, human hands; on-screen text, subtitles, watermark; English speech, foreign accent; static camera, cuts; floating objects, duplicate props, extra limbs, appearance changing"
+}

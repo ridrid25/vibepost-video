@@ -1,0 +1,43 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, deadpan slapstick",
+  "shot": {"continuity": "one continuous take, camera moves every beat, single generation, no joined clips", "framing": "vertical, sunlit birch clearing"},
+  "subject": {
+    "character": "red deer stag, heavy antlers, deadpan eyes, chews constantly, never reacts to anything",
+    "secondary_character": "woodpecker, red cap; close insert 6.8-7.4s, large, fills a third of frame, hammers its OWN notice",
+    "background_character": "fox at the edge; close insert 3.8-4.3s, large, fills a third of frame, folds its notice into a paper airplane; else background"
+  },
+  "props": {
+    "notice": "stag's notice on the bark by his face, faint stamp, nailed to the trunk, torn edge",
+    "woodpecker_notice": "second, smaller notice lower on the trunk",
+    "fox_notice": "third notice, folded into a paper airplane",
+    "grass_tuft": "grass tuft torn from the ground, stays in his mouth"
+  },
+  "setting": "sunlit birch clearing, midday, dry grass, hard sun, dappled shadow, high-contrast daylight",
+  "audio": {
+    "language": "Russian, exactly the line fields",
+    "delivery": "male, low warm chest voice ~130 Hz, dry, unrushed deadpan, native Russian, @Voice: Sadachbia",
+    "pacing": "seven lines, four groups, no gap in a group, unrushed",
+    "lip_sync": "mouth opens and closes clearly each syllable, jaw keeps chewing, never a voice over",
+    "sfx": ["hooves on turf", "woodpecker drumming on paper", "paper crackling"]
+  },
+  "timeline": [
+    {"t": "0.0-0.5", "a": "silent. Full gallop at lens, legs edge to edge, dust exploding", "cam": "handheld chase, rushing to meet him"},
+    {"t": "0.5-1.6", "a": "silent. Hard skid, dust past lens; yanks a grass tuft in as fox runs in from the side, notice in its jaws", "cam": "brakes hard, swings to the fox, settles on muzzle"},
+    {"t": "1.6-2.5", "line": "Свежий воздух,", "a": "chewing without a flicker, eyes on lens", "cam": "close-up on muzzle"},
+    {"t": "2.5-3.8", "line": "зелёная травка", "a": "same unbroken chewing, gaze steady", "cam": "creep tightens close-up"},
+    {"t": "3.8-4.3", "a": "silent. Camera swings onto the fox, large and close, filling a third of frame, folding its notice into a paper airplane", "cam": "arcs onto fox, holds close"},
+    {"t": "4.3-4.85", "a": "silent. Swings back onto the stag mid-roll, shoulder in sunlight, antlers flaring", "cam": "arcs back, pans with turn"},
+    {"t": "4.85-6.15", "line": "А налоговая", "a": "chewing resumes exactly as before, eyes narrow slightly", "cam": "pushes to close-up"},
+    {"t": "6.15-6.8", "line": "всё равно", "a": "same unbroken chewing, narrowed eyes hold", "cam": "creep deeper"},
+    {"t": "6.8-7.4", "a": "silent. Woodpecker drops onto the trunk, large and close, fills a third of frame, drums into its own notice, chips fly. Ear flicks once, chewing never stops", "cam": "hard push onto woodpecker, filling frame"},
+    {"t": "7.4-7.9", "line": "тебя", "a": "drumming full force; final strike lands, drumming stops", "cam": "close-up, woodpecker still large"},
+    {"t": "7.9-8.4", "line": "найдёт (nai-DYOT — stress on the second syllable, never NAI-dyot)", "a": "forest quiet, jaw still working the tuft, no reaction", "cam": "creep a hair closer"},
+    {"t": "8.4-8.9", "line": "олень", "a": "final chew finishes, gaze back on lens, unbothered", "cam": "slow steady creep"},
+    {"t": "8.9-9.3", "a": "silent. Frame opens on the trunk, both notices, woodpecker and fox", "cam": "push reveals all four at once"},
+    {"t": "9.3-9.7", "a": "silent. Freezes, grass tuft in mouth, eyes sliding only to his own notice", "cam": "slow pull-back begins"},
+    {"t": "9.7-10.0", "a": "silent. Notice peels loose, swings from antler, resumes chewing; woodpecker gives one last peck; fox flings its airplane into the sky", "cam": "pull-back opens wide on clearing"}
+  ],
+  "negative_prompt": "night, dusk, candle, neon, dim, moody, low-key, dark scene, underexposed, haze; notices floating unsupported; extra notices; a second stag, a second woodpecker, a second fox, a third species; human hand; subtitles, captions, watermark; English speech, drawn-out delivery, gaps between lines, mouth stopping mid-chew; jump cuts, stitched clips, locked-off, whip pan, snap zoom; extra limbs, appearance changing, horizontal framing"
+}

@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 9,
+  "aspect_ratio": "9:16",
+  "style": "cinematic 3D animation, Pixar-quality, slapstick, deadpan, hard midday sun",
+  "shot": "single locked-off low angle, one slow push-in only in the final beat",
+  "character": "PIG: plump pink pig, deadpan heavy-lidded eyes, blinks slowly, dusty builder's apron; trotters grip/sweep/count/pin; gait is a happy appetizing waddle-limp when she moves",
+  "cast": "GOAT: shaggy grey-and-white goat, small stubby horns, blank chewing gaze, jaw grinding sideways nonstop; large, close to lens, never speaks",
+  "props": "trough of kitchen scraps, front and center, pig snout-deep in it. Torn palace blueprint pinned to a single post behind her, corner already ripped and flapping. Apron hem hangs loose at her side, ready to wipe",
+  "setting": "yard by an unfinished house foundation, midday, hard sun, concrete slab, packed dirt, same yard as before",
+  "audio": {
+    "language": "Russian, line verbatim",
+    "delivery": "male low warm chest voice ~130Hz, dry unrushed flat deadpan, @Voice: Sadachbia",
+    "pacing": "one sentence only, unrushed tempo, no pause inside it",
+    "lip_sync": "pig talks like a person, mouth opens and closes clearly every syllable, voice is the pig's own, never a voice over",
+    "sfx": "wet chomping and slurping, satisfied grunt, loud burp, paper tearing and being chewed, goat bleat"
+  },
+  "timeline": [
+    {"t": "0.00-0.90", "a": "silent. Snout buried in the trough, wet chomping, tail wagging hard with appetite; torn blueprint flaps on the post behind her"},
+    {"t": "0.90-1.70", "a": "silent. Waddle-limps one step sideways along the trough, snout still down, still chewing hard"},
+    {"t": "1.70-2.30", "a": "silent. Straightens up, snout and cheeks dripping, chewing slows to a stop"},
+    {"t": "2.30-2.90", "a": "silent. Grabs the apron hem, wipes snout and cheeks with it, smearing more than cleaning"},
+    {"t": "2.90-3.30", "a": "silent. Chest puffs, loud burp, apron falls back to her side"},
+    {"t": "3.30-4.40", "line": "Всё-таки свой дом.", "a": "mouth moves, satisfied deadpan look toward the blueprint on the post, eyes half-closed"},
+    {"t": "4.40-5.00", "a": "silent. Goat trots in from the right, beelines straight for the blueprint on the post"},
+    {"t": "5.00-5.80", "a": "silent. Goat locks its teeth onto the torn corner, plants its hooves, starts pulling"},
+    {"t": "5.80-6.50", "a": "silent. Pig glances sideways at the goat, unbothered, blinks slowly, snout drifts back toward the trough"},
+    {"t": "6.50-7.30", "a": "silent. Goat rips the blueprint off the post whole, paper crumpling in its teeth, chewing hard"},
+    {"t": "7.30-8.00", "a": "silent. Pig gives one small shrug of the trotters, turns fully back to the trough"},
+    {"t": "8.00-9.00", "a": "silent. Snout dips back into the trough, chomping resumes; goat behind her swallows the last scrap of paper, one final satisfied chew", "cam": "only camera move in the clip: slow push-in on her snout in the trough, ending the shot"}
+  ],
+  "must_appear": "pig chomping snout-down in the trough; torn palace blueprint flapping on the post behind her; apron hem wiping her snout and cheeks; the burp; goat arriving and tearing the blueprint off the post; goat chewing and swallowing the paper whole",
+  "negative_prompt": "night, dusk, evening light, lamp, dim, moody, low key, low-key, dark scene, candle, neon, underexposed; second pig, second goat, other animals; duplicate trough, post, or apron; floating objects, props stacked in tiers; camera movement besides the single push-in; cuts, jump cuts; extra limbs; human hands; costume changes; rushed delivery, drawn-out delivery, pauses mid-sentence, foreign accent, English speech; subtitles, captions, watermark, text overlay, readable text on the blueprint"
+}
