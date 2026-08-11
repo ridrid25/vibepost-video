@@ -37,17 +37,27 @@ export async function deliverReel({ filePath, name, caption, log = () => {} }) {
   }
 
   const ingestUrl = process.env.VIBEPOST_INGEST_URL;
-  const vpKey = process.env.VIBEPOST_KEY;
-  if (ingestUrl && vpKey) {
+  const vpSecret = process.env.VIBEPOST_INGEST_SECRET;
+  // VIBEPOST_KEY held the service_role key back when ingest-video authorised by
+  // JWT. It now checks its own X-Ingest-Secret header, so the old variable no
+  // longer works — and silently doing nothing is exactly how this stayed broken
+  // unnoticed. Say it out loud instead.
+  if (ingestUrl && !vpSecret && process.env.VIBEPOST_KEY) {
+    log(
+      "VibePost не отправлен: в .env остался VIBEPOST_KEY, а нужен " +
+        "VIBEPOST_INGEST_SECRET (это другое значение — секрет приёмника, не service_role-ключ)",
+    );
+  }
+  if (ingestUrl && vpSecret) {
     try {
       const { sendToVibePost } = await import("./vibepost.mjs");
-      // No scheduled_at on purpose: the reel arrives as a draft and the owner
-      // schedules it herself after previewing.
-      await sendToVibePost({ ingestUrl, key: vpKey, filePath, name, caption });
+      // The reel lands in «Входящие» as status='new': she previews it, picks a
+      // caption in the bot and schedules it herself. Nothing auto-publishes.
+      await sendToVibePost({ ingestUrl, secret: vpSecret, filePath, name, caption });
       result.vibepost = true;
-      log("отправлено в VibePost (черновик) ✓");
+      log("отправлено в VibePost (Входящие) ✓");
     } catch (error) {
-      log(`VibePost не отправлен: ${redact(error?.message ?? String(error), [vpKey])}`);
+      log(`VibePost не отправлен: ${redact(error?.message ?? String(error), [vpSecret])}`);
     }
   }
 

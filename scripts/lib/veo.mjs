@@ -29,10 +29,11 @@ export const ENV_EXAMPLE_SECTIONS = [
   {
     comment: [
       "Автоотправка готовых роликов из `npm run voiceover` (по желанию).",
-      "VibePost: URL Edge Function ingest-video и service_role-ключ Supabase.",
-      "ВНИМАНИЕ: service_role-ключ мощный — держи .env в секрете (он в .gitignore).",
+      "VibePost: URL Edge Function ingest-video и секрет приёмника.",
+      "Секрет лежит в Vault проекта VibePost под именем vibepost_ingest_secret.",
+      "Это НЕ service_role-ключ: им можно только положить ролик во «Входящие».",
     ],
-    keys: ["VIBEPOST_INGEST_URL", "VIBEPOST_KEY"],
+    keys: ["VIBEPOST_INGEST_URL", "VIBEPOST_INGEST_SECRET"],
   },
   {
     comment: ["Optional polish knobs (safe defaults if left empty)"],
