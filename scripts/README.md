@@ -103,7 +103,7 @@ reels should go through `ideas` → `reels` instead.
 | `TELEGRAM_BOT_TOKEN`   | Optional. Bot token to auto-deliver finished videos. **Secret.**     |
 | `TELEGRAM_CHAT_ID`     | Optional. Target chat; set automatically by `npm run telegram:link`. |
 | `VIBEPOST_INGEST_URL`  | Optional. URL of the VibePost `ingest-video` Edge Function.          |
-| `VIBEPOST_KEY`         | Optional. Supabase **service_role** key. **Secret.**                 |
+| `VIBEPOST_INGEST_SECRET` | Optional. Ingest secret of that function (Vault: `vibepost_ingest_secret`). Not the service_role key. **Secret.** |
 | `VEO_SPEED`            | Optional. Playback speed of `npm run video` output (default `1.25`). |
 | `VEO_MUSIC_VOLUME`     | Optional. Background music level, 0–1 (default `0.42`).              |
 | `VEO_MUSIC`            | Optional. Set to `off` to disable the background music bed.          |
