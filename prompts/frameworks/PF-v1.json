@@ -1,0 +1,40 @@
+{
+  "id": "PF-v1",
+  "status": "STANDARD",
+  "evidence_scope": "production_technical",
+  "audience_performance_evidence": "UNKNOWN",
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "stable_structure": [
+    "objective",
+    "hook",
+    "character",
+    "scene",
+    "action_timeline",
+    "camera",
+    "pacing",
+    "emotion",
+    "punchline",
+    "loop",
+    "visual_style",
+    "constraints",
+    "experiment_variable"
+  ],
+  "standard_rules": [
+    "Use structured JSON rather than prose.",
+    "Start with a readable physical action or conflict in the first frame.",
+    "Use one physical event per 0.6-1.2 second beat; no beat longer than 1.5 seconds.",
+    "Let props and character action create motion; camera only reinforces existing action.",
+    "Introduce props through action, keep continuity, and reuse a key prop in the payoff or loop.",
+    "Keep Russian speech verbatim in line fields and all production descriptions in English.",
+    "Change exactly one material experiment variable; keep the remaining production parameters stable.",
+    "Run Critic before generation and allow at most three material correction iterations after a technically usable render."
+  ],
+  "failed_patterns": [
+    "Long establishing shots before the action.",
+    "Camera movement used as a substitute for physical events.",
+    "Static beats without character or physically interacting secondary action.",
+    "Treating one successful video as a confirmed audience rule."
+  ],
+  "promotion_note": "TikTok audience rules remain UNKNOWN until independent experiments with sufficient samples are available."
+}

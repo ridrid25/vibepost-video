@@ -104,6 +104,8 @@ reels should go through `ideas` → `reels` instead.
 | `TELEGRAM_CHAT_ID`     | Optional. Target chat; set automatically by `npm run telegram:link`. |
 | `VIBEPOST_INGEST_URL`  | Optional. URL of the VibePost `ingest-video` Edge Function.          |
 | `VIBEPOST_INGEST_SECRET` | Optional. Dedicated `ingest-video` secret. **Secret.**             |
+| `VIBEPOST_BRIGADE_URL` | Content Brigade Edge Function URL; exact VibePost host only.        |
+| `VIBEPOST_BRIGADE_SECRET` | Dedicated Content Brigade API secret. **Secret.**                 |
 | `VEO_SPEED`            | Optional. Playback speed of `npm run video` output (default `1.25`). |
 | `VEO_MUSIC_VOLUME`     | Optional. Background music level, 0–1 (default `0.42`).              |
 | `VEO_MUSIC`            | Optional. Set to `off` to disable the background music bed.          |
@@ -114,6 +116,33 @@ then run `npm run telegram:link` to capture the chat id.
 
 Reels arrive in VibePost as **drafts** — the scheduler never posts them until
 they are scheduled by hand.
+
+## Content Brigade v2
+
+Live analytics are read from VibePost through a narrow Edge Function secret;
+the Supabase `service_role` key is never stored in this project.
+
+```bash
+npm run brigade -- --live
+npm run brigade -- --cycle
+npm run brigade -- --studio studio-metrics.json
+npm run brigade -- --record-prompt prompt-record.json
+```
+
+`--live` loads API snapshots, manual Studio values, experiments, Lessons and
+the current Prompt Framework. Missing retention remains `null`; a tiny or
+uncontrolled sample returns `INCONCLUSIVE`/`UNKNOWN`, never a fabricated Lesson.
+`--cycle` calls the same server-authoritative Learning Engine used by pg_cron.
+It persists comparable experiment checkpoints and creates at most a
+`HYPOTHESIS` Lesson from one result; evidence gates control later promotion.
+
+Required local values are `VIBEPOST_BRIGADE_URL` and the dedicated
+`VIBEPOST_BRIGADE_SECRET`. They belong only in `.env`.
+
+These values are optional for normal video production. The scheduled Learning
+Engine runs inside Supabase and does not require its secret to be copied to this
+computer. Configure them only when a developer needs the manual `--live` or
+write commands.
 
 ## Notes
 

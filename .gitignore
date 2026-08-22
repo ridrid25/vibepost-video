@@ -9,3 +9,19 @@ series-output/
 # Готовые ролики — тяжёлые, в историю кода не нужны
 *.mp4
 *.mov
+
+# Рабочие кадры, аудиоанализ и промежуточные сборки. Они сохраняются на диске,
+# но не являются исходниками проекта.
+.tmp-*/
+_incoming/
+_krot/
+videos/
+*.bak
+video-postprod_v1/__pycache__/
+video-postprod_v1/_*/
+video-postprod_v1/_*.wav
+video-postprod_v1/_*.jpg
+video-postprod_v1/_*.png
+video-postprod_v1/_*.txt
+video-postprod_v1/*.wav
+video-postprod_v1/*.words.json

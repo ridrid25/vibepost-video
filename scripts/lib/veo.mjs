@@ -35,6 +35,13 @@ export const ENV_EXAMPLE_SECTIONS = [
     keys: ["VIBEPOST_INGEST_URL", "VIBEPOST_INGEST_SECRET"],
   },
   {
+    comment: [
+      "Content Brigade: exact VibePost Edge Function URL and its narrow secret.",
+      "Never store SUPABASE_SERVICE_ROLE_KEY in this project.",
+    ],
+    keys: ["VIBEPOST_BRIGADE_URL", "VIBEPOST_BRIGADE_SECRET"],
+  },
+  {
     comment: ["Optional polish knobs (safe defaults if left empty)"],
     keys: ["VEO_SPEED", "VEO_MUSIC_VOLUME", "VEO_MUSIC"],
   },
