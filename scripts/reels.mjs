@@ -133,6 +133,7 @@ async function buildOne(idea, source, config) {
       filePath: output,
       name: idea.slug,
       caption: `${idea.hook}\n\n${idea.text}`,
+      prompt: idea.prompt,
       log,
     });
     return output;
@@ -228,7 +229,7 @@ main().catch((error) => {
   logSafeError(error?.message ?? error, [
     process.env.GOOGLE_API_KEY,
     process.env.TELEGRAM_BOT_TOKEN,
-    process.env.VIBEPOST_KEY,
+    process.env.VIBEPOST_INGEST_SECRET,
   ]);
   process.exitCode = 1;
 });

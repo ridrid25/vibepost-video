@@ -17,10 +17,11 @@ import { redact } from "./secret.mjs";
  * @param {string} o.filePath        Finished mp4.
  * @param {string} o.name            Short slug, used as the VibePost name.
  * @param {string} [o.caption]       Post caption.
+ * @param {string} [o.prompt]        Exact production prompt used for the render.
  * @param {(line: string) => void} [o.log]
  * @returns {Promise<{telegram: boolean, vibepost: boolean}>} what actually went out
  */
-export async function deliverReel({ filePath, name, caption, log = () => {} }) {
+export async function deliverReel({ filePath, name, caption, prompt, log = () => {} }) {
   const result = { telegram: false, vibepost: false };
 
   const tgToken = process.env.TELEGRAM_BOT_TOKEN;
@@ -37,18 +38,32 @@ export async function deliverReel({ filePath, name, caption, log = () => {} }) {
   }
 
   const ingestUrl = process.env.VIBEPOST_INGEST_URL;
-  const vpKey = process.env.VIBEPOST_KEY;
-  if (ingestUrl && vpKey) {
+  const ingestSecret = process.env.VIBEPOST_INGEST_SECRET;
+  const legacyKey = process.env.VIBEPOST_KEY;
+  if (ingestUrl && ingestSecret) {
     try {
       const { sendToVibePost } = await import("./vibepost.mjs");
-      // No scheduled_at on purpose: the reel arrives as a draft and the owner
-      // schedules it herself after previewing.
-      await sendToVibePost({ ingestUrl, key: vpKey, filePath, name, caption });
+      await sendToVibePost({
+        ingestUrl,
+        secret: ingestSecret,
+        filePath,
+        name,
+        caption,
+        prompt,
+        source: "content-brigade-v2",
+      });
       result.vibepost = true;
       log("отправлено в VibePost (черновик) ✓");
     } catch (error) {
-      log(`VibePost не отправлен: ${redact(error?.message ?? String(error), [vpKey])}`);
+      log(`VibePost не отправлен: ${redact(error?.message ?? String(error), [ingestSecret])}`);
     }
+  } else if (ingestUrl && legacyKey) {
+    log(
+      "VibePost не отправлен: VIBEPOST_KEY устарел. " +
+        "Задайте отдельный VIBEPOST_INGEST_SECRET; service_role больше не используется.",
+    );
+  } else if (ingestUrl) {
+    log("VibePost не отправлен: задайте VIBEPOST_INGEST_SECRET в .env");
   }
 
   if (!tgToken && !ingestUrl) log("доставка не настроена — ролик только на диске");
