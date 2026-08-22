@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, satire",
+  "character": "tall spotted giraffe in a loose grey tie at a white mailbox on a post; the neck sweeps like a crane arm, forelegs splay to reach the ground; he fills two thirds of the frame in every window",
+  "cast": "one darker giraffe without a tie; it works large at the lens, never still, never talks",
+  "motion_rule": "the tied giraffe is the subject of every window, the other adds to his move; no window ends in a pose; shot size never repeats",
+  "props": "one paper bill roll printed with big dark columns of digits down its whole length; the mailbox lid claps",
+  "environment": "noon savanna, pale dry sand, acacia, bleached sky, hard white sun; sand fills the lower half",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, bored deadpan, steady 4.4 syllables per second, never drawn out, native Russian stress",
+    "pronunciation": "налоги is na-LO-gi; мелочь is ME-loch; пузатая is pu-ZA-ta-ya; наклоняться is na-klo-NYAT-sa",
+    "pacing": "one phrase from 0.6 to 6.8, no breath at any join, nothing said after 6.8",
+    "lip_sync": "jaw and lips shape every syllable, never a voice-over",
+    "sfx": "lid clap 0.3;paper unroll 1.2;snap 2.9;rustle 4.6;whirr 6.9;gulp 7.9;avalanche 8.6;lid clap 9.8",
+    "music": "none"
+  },
+  "timeline": [
+    {"t": "0.0-0.6", "a": "his head drops from the top of the frame in a long arc, the lid claps open under his muzzle and the digit roll bursts out into the lens", "c": "macro on the box, ripped up with his head"},
+    {"t": "0.6-1.75", "line": "С моей высоты", "a": "his tongue hooks the roll out and it drops open down his whole neck, digits running past the lens, the other giraffe shoving its muzzle into the falling paper", "c": "close, cranes up the neck"},
+    {"t": "1.75-2.9", "line": "налоги — мелочь.", "a": "he throws his head up and the paper snaps straight along the neck, the other giraffe hanging off the loose end at the lens", "c": "wide, pulls back with the snap"},
+    {"t": "2.9-4.5", "line": "Пузатая, но мелочь.", "a": "he swings the neck sideways in a wide arc, the digit sheet sweeping over the sand and slapping the lens, the other giraffe chasing it", "c": "low, orbits the post"},
+    {"t": "4.5-5.2", "line": "А платить —", "a": "his forelegs slide wide apart and he shakes the open paper down its length, sand kicking into the lens", "c": "waist, drops with him"},
+    {"t": "5.2-6.8", "line": "всё равно наклоняться.", "a": "he folds the whole neck to the sand, muzzle grinding along the ground, the other giraffe at the lens pushing his head lower", "c": "sand level, slides under his jaw"},
+    {"t": "6.8-7.6", "a": "he rolls the digit sheet into a tight scroll at blinding speed with neck and tongue, digits blurring past the lens, the post shuddering", "c": "close, spins with the scroll"},
+    {"t": "7.6-8.5", "a": "he swallows the scroll whole and the lump travels the full length of his neck, the other giraffe pressing its ear to the neck at the lens to hear it go down", "c": "macro, rides the lump down"},
+    {"t": "8.5-9.3", "a": "the lid blows open and a paper avalanche pours over both of them, digits filling the frame, burying him to the eyes", "c": "wide, driven back by the paper"},
+    {"t": "9.3-10.0", "a": "only his head is above the drift, a strip of digits draped over his eyes, he chews it flat and the lid claps once more behind him", "c": "macro on his face, slides in"}
+  ],
+  "must_appear": "big dark digits printed down the whole roll, readable in the first and last second; the paper snapping straight along the neck; the neck folded to the sand; the lump travelling down the neck; the paper avalanche burying him; the last frame is his head in the drift under a strip of digits",
+  "negative_prompt": "night, dusk, dim light, underexposed, a blank paper roll, letters or words on the paper, Cyrillic writing, currency symbols, static camera, cuts, whip pan, a talking head, a still neck, the second giraffe frozen or out of frame, subtitles, watermark, English speech, voice-over, slow speech, drawn-out vowels, pauses between lines, the phrase repeated, any word after 6.8, a third giraffe, extra limbs, deformed anatomy, duplicate props"
+}

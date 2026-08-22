@@ -1,0 +1,71 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, cute satire",
+  "anatomy": "T-Rex: exactly two hind legs, two front arms SHORTER than his head; pterodactyl two legs two wings",
+  "motion_rule": "the T-Rex acts in every beat and travels with his whole bulk, never talking from a stand; the granny walks into the lens at 4.35 and works huge there to the end; the arms fall short",
+  "camera_moves": "low angle, ONE continuous take, no cuts, camera always moving: push on the cleaver, arc along the counter, travel with him, low push as she lifts the slab, creep to his snout",
+  "character": "grumpy old T-Rex butcher, wrinkled hide, enormous head, tiny front arms, stained apron, sleeves rolled up, one white daisy behind his ear",
+  "cast": "one T-Rex butcher, one granny pterodactyl customer in a headscarf, huge at the lens; nobody else",
+  "props": "ONE wooden market counter on the ground, one level; a single mound of meat on it; one wooden sign, drawings only: two radishes crossed out, a chicken beside them, no letters no digits; one cleaver",
+  "environment": "clear noon, open market row, wooden stalls, short grass; dust low",
+  "lighting": "blazing noon sun overhead, bright throughout, hard crisp shadows, sun through the slab when she lifts it",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "gravelly old male voice, market barker, steady 4.5 syllables per second, never hurried",
+    "pronunciation": "natural native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window, no pause where a phrase spans two windows, silence in wordless beats, the granny never speaks",
+    "lip_sync": "jaw works each syllable, mouth free of props while he speaks, voice always from the T-Rex",
+    "sfx": "cleaver thud 0.0;sign thump into meat 1.5;mound scraping boards 3.65;cleaver bang 4.35;wet poke 5.05;wing flap 6.0;slab slap on counter 8.8",
+    "music": "none"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "he swings the cleaver down through the mound with his whole bulk behind it, the counter jumping under the blow"
+    },
+    {
+      "t": "0.6-1.5",
+      "line": "Свежайшее!",
+      "a": "he heaves the whole mound round to face camera, apron flapping, rolled sleeves shaking on the tiny arms"
+    },
+    {
+      "t": "1.5-2.3",
+      "a": "he drives the sign into the mound with his foot, stamping it deep; the pictures come up facing the lens"
+    },
+    {
+      "t": "2.3-3.65",
+      "line": "Вчера — две редиски,",
+      "a": "he strides the length of the counter, snout jabbing at the crossed-out radishes, a tiny arm churning air short of them"
+    },
+    {
+      "t": "3.65-4.35",
+      "line": "сегодня —",
+      "a": "he drives his whole bulk back down the boards, shouldering the mound along the counter ahead of him"
+    },
+    {
+      "t": "4.35-5.05",
+      "line": "курица.",
+      "a": "he slams the cleaver into the boards beside the drawn chicken, whole bulk behind it, as the granny walks into the lens, her headscarf filling the frame"
+    },
+    {
+      "t": "5.05-6.0",
+      "a": "he throws his whole bulk back off the counter as she, huge at the lens, pokes one finger deep into the meat"
+    },
+    {
+      "t": "6.0-7.0",
+      "a": "he drives his bulk up the counter after the slab, neck craning, as she lifts it against the sun; the sun burns straight through it, his arms falling short"
+    },
+    {
+      "t": "7.0-8.8",
+      "line": "Завтра приходи с коровой.",
+      "a": "he drives his bulk down the counter after her, head leading, apron swinging off his chest"
+    },
+    {
+      "t": "8.8-10.0",
+      "a": "he lunges as she slaps the slab back onto the counter; the daisy drops from behind his ear onto the meat and she snatches it, huge at the lens"
+    }
+  ],
+  "must_appear": "the T-Rex acting in every beat, moving his whole bulk; arms shorter than his head; stained apron, rolled sleeves, daisy behind his ear; ONE counter, one mound of meat; sign: two crossed-out radishes and a chicken; granny in a headscarf huge at the lens from 4.35",
+  "negative_prompt": "cyrillic, letters, digits, subtitles, watermark, night, dim light, dark scene, hard cut, jump cut, shot change, human hands, second dinosaur, extra limbs, extra legs, deformed anatomy, slow motion, slow speech, static camera, T-Rex standing still, talking without moving his feet, T-Rex absent from frame, floating props, pterodactyl small in the background, accented Russian"
+}

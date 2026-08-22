@@ -1,0 +1,76 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, sharp satire",
+  "character": "speckled rainbow trout in a huge fur coat, two pectoral fins, one dorsal, one tail fin and nothing else, proud stubborn face, human female voice out of her own mouth",
+  "cast": "one old fisherman, padded jacket, grey beard, huge at the lens from 7.0, net in both arms, scoops her out and swings it over his back, never speaks",
+  "motion_rule": "one leads every window and it is the trout, driving with her whole body; coat, coins and jet move because she hit them, the coins running and steaming all window after each blow; the fisherman moves only from 7.0, around her",
+  "camera_moves": "one take, camera always with her; shot size changes four times",
+  "props": "coin mound on the fountain floor, coins going soft and steaming into puddles under her fins; a pumped jet firing packed snow, low granite rim; her fur coat until 2.8 then gone in steam; the net from 7.0; a gold crown from 8.7",
+  "environment": "city fountain at a mall entrance, blazing noon sun, heavy snow pouring through the sunlight and steaming away where it lands, bright throughout, hard shadows",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "human female voice from the trout herself, weary deadpan pride, 4.4 syllables per second, never hurried, native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window; no breath at the joins 0.6-1.5 to 1.5-2.0, 2.8-3.9 to 3.9-4.8 and 5.4-6.1 to 6.1-7.0, each a single phrase over two windows; mouth opens on every syllable, silence in wordless beats; all speech is over by 7.0, after it only a wordless laugh at 8.7 in the same voice",
+    "sfx": "splash 0.0;hiss 0.6;steam 1.5;fur whip 2.0;tail slam 2.8;sizzle 3.9;blast 4.8;rip 5.4;thrash 6.1;swoosh 7.0;slap 7.8;chime 8.7",
+    "music": "none"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "explodes snout first out of the coin mound into the lens in her fur coat, snow pouring through the sun, steaming off the water"
+    },
+    {
+      "t": "0.6-1.5",
+      "line": "Деньги тают,",
+      "a": "slams her tail into the change under her, the coins going soft and running away all window"
+    },
+    {
+      "t": "1.5-2.0",
+      "line": "как снег.",
+      "a": "slaps the melting money with her pectoral fin, steam blasting off it over the lens"
+    },
+    {
+      "t": "2.0-2.8",
+      "a": "spins on the spot with her whole body, whipping the fur coat off over her head, it flies at the lens and goes to steam"
+    },
+    {
+      "t": "2.8-3.9",
+      "line": "А я всё равно",
+      "a": "turns her whole body on the spot, driving a wave across the melting coins"
+    },
+    {
+      "t": "3.9-4.8",
+      "line": "продолжаю",
+      "a": "hammers her tail through the coin puddles, molten money flung up in steam"
+    },
+    {
+      "t": "4.8-5.4",
+      "a": "throws her whole body back into the jet, it fires packed snow over her, melting off her back in a wall of steam"
+    },
+    {
+      "t": "5.4-6.1",
+      "line": "плыть против",
+      "a": "rams her snout into the pounding jet, body arching"
+    },
+    {
+      "t": "6.1-7.0",
+      "line": "течения.",
+      "a": "hammers her tail on the spot, snout in the jet, the water pushing her back to the rim"
+    },
+    {
+      "t": "7.0-7.8",
+      "a": "a landing net drops into the fountain at the lens and scoops her out of the water, she thrashes across the mesh"
+    },
+    {
+      "t": "7.8-8.7",
+      "a": "the old fisherman swings the net with her in it over his back, she rides up past the lens trailing steam"
+    },
+    {
+      "t": "8.7-10.0",
+      "a": "she flares into solid gold on his back, a gold crown snapping onto her head, laughs with her whole body and blows a playful kiss straight into the lens"
+    }
+  ],
+  "must_appear": "two pectoral fins, one dorsal, one tail; the coat whipped off into steam; coins steaming under her fins; the net scooping her out; the gold crown, the laugh and the kiss into the lens; mouth open on every syllable",
+  "negative_prompt": "cyrillic, subtitles, watermark, night, dark scene, static camera, hard cut, slow motion, slow speech, human arms on the trout, extra limbs, extra fins, deformed anatomy, floating props, a held macro with nothing moving, the trout absent from frame, two mouths moving at once, male voice, the fisherman speaking, accented Russian, second trout, second fisherman, snow lying unmelted, her coat back on after 2.8, gold on her before 8.7"
+}

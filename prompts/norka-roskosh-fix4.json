@@ -1,0 +1,36 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar quality, satire",
+ "character": "vain mink, sleek glossy dark-brown fur, in a rich sheepskin coat embroidered with red, blue and yellow patterns and a tall black fur papakha, smug, always in motion",
+ "props": "picket fence across a snowy yard, two pickets set wide apart, fence intact all clip; smoking grill with shashlik beyond; metal skewers; torn strips of embroidered sheepskin; five scruffy half-rats at the pickets close to the lens — scrawny father, fat mother, three kids, patchy dull fur",
+ "motion_rule": "mink crosses to a new spot every window and never speaks from one place, her own action is only striding, spinning and leaping; shot size changes every window; the rats grab, haul and tear at her coat every window, large and close to the lens",
+ "environment": "snowy backyard, bright sunny midday, hard shadows",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "smug female voice, native Russian stress, calm",
+  "pronunciation": "stress: shi-KAR-ny, no-SHU, se-BYA, GLAV-no-ye in three clear syllables, sa-SYE-di, za-VEE-do-va-li — never ZA-vi-do-va-li",
+  "pacing": "brisk lively pacing, no drawling, lines fit the windows",
+  "lip_sync": "mouth opens and closes clearly on every syllable, never a voice-over",
+  "sfx": "snow crunch, teeth clacking, tearing cloth, squeaks",
+  "music": "none"
+ },
+ "timeline": [
+  {"t": "0.0-0.3", "a": "mink bursts from a snowbank in a blast of snow, coat flaring | all five rats snap their heads round and pour off the grill at her", "c": "wide"},
+  {"t": "0.3-1.55", "line": "Свой шикарный мех", "a": "mink flings the coat open, dark fur blazing at the lens | a kid already swinging on the hem is torn off and tumbles into the snow", "c": "macro"},
+  {"t": "1.55-2.3", "line": "я ношу", "a": "mink strides on along the fence, heels ploughing snow | two rats clamped to the hem in their teeth are dragged behind her, digging in their heels", "c": "mid"},
+  {"t": "2.3-3.3", "line": "не для себя.", "a": "mink spins hard, coat flying out in a full circle | both rats are flung off in a wide arc and crash into the snowbank", "c": "low"},
+  {"t": "3.3-4.05", "line": "Главное,", "a": "mink strides through, shaking snow off in a fan | father vaults the grill, thrusts both paws over the pickets and rips the skewers out of her paw", "c": "top down"},
+  {"t": "4.05-5.3", "line": "чтобы соседи", "a": "mink glides along the pickets right to left | mother locks her teeth on the papakha and hauls, all four kids pile onto the coat tail, the whole family skidding through the snow behind her", "c": "waist"},
+  {"t": "5.3-6.55", "line": "завидовали!", "a": "mink leaps a snowbank, coat and fur fanning mid-air | the papakha rips loose in mother's teeth, kids hanging off the tail are dragged through the air with her", "c": "close"},
+  {"t": "6.55-7.05", "a": "mother's snarling muzzle fills the lens, bared teeth, skewer gripped in her fist, shreds of papakha fur in her mouth | mink shrinks back clutching the coat", "c": "macro"},
+  {"t": "7.05-7.55", "a": "all five rats launch off the pickets in one heap and bury the mink, the coat vanishing under bodies", "c": "low"},
+  {"t": "7.55-8.05", "a": "the heap thrashes, torn strips of embroidered sheepskin and papakha fluff spraying into the lens", "c": "close"},
+  {"t": "8.05-8.55", "a": "mink's paw shoots out of the heap gripping one strip, mother yanks it back, the strip snaps between them", "c": "macro"},
+  {"t": "8.55-9.05", "a": "mink tears free bare-furred, shreds trailing, scrabbling backwards through the snow to the fence, two kids still riding her tail", "c": "wide"},
+  {"t": "9.05-9.5", "a": "mink squeezes between the two wide pickets, whining, ribs scraping, boards bowing apart, kids shaken off", "c": "macro"},
+  {"t": "9.5-10.0", "a": "mink drops onto her own side, back to the fence, panting | beyond it the five rats fight over the shreds, mother pulling a strip over her head", "c": "mid"}
+ ],
+ "must_appear": "fence intact every frame; her bare fur close and glinting at 0.3-1.55; rats hauling at the coat in every speech window; skewers taken at 3.3; the whole family dragged behind her at 4.05; mother's bared teeth filling the lens at 6.55; the coat torn to shreds 7.05-8.55; mink squeezing between the pickets at 9.05",
+ "negative_prompt": "night, dark scene, dusk, evening, subtitles, captions, watermark, static camera, locked-off shots, same shot size twice, only her head moving, speaking from one spot, a window where the rats do nothing, the fence breaking, blood, wounds, extra limbs, character changing mid-shot, English speech, Latin letters, any word after 6.55"
+}

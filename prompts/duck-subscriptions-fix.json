@@ -1,0 +1,37 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar quality, satire",
+"character": "white farm duck, angry payer talking to the lens; fills two thirds of the frame height in every window",
+"cast": "duckling intern in a tie, only 4.4-5.8: holds his toy terminal to her tear, never speaks",
+"motion_rule": "no window ends in a pose: its last frame is already the first of the next move; long windows carry two moves in opposite directions",
+"camera_moves": "one take; each window's camera move must happen there; never held still, never the same size twice",
+"props": "terminal on a garden stump; receipt tape from the slot; cord on her left leg, always visible; his toy terminal, gone with him",
+"environment": "village pond at noon, direct sun, hard shadows; the background never stands still, never over a third of the frame",
+"audio": {
+ "language": "Russian, lines verbatim",
+ "delivery": "female voice from the duck, native Russian stress",
+ "pronunciation": "плачу at 1.4 is pla-CHU, paying money; плачу at 3.9 is PLA-chu, weeping, never pla-CHU",
+ "pacing": "one continuous phrase 0.5 to 6.7, no breath at any join; after 6.7 no word at all",
+ "sfx": "thud 0.0;rip 0.5;squeak 5.1;stomp 5.8;beep 7.4;scrape 8.8;rumble 9.4",
+ "music": "none"
+},
+"timeline": [
+{"t": "0.0-0.5", "a": "she slams both wings on the terminal, it skids across the stump", "c": "close on it, rips up to her face"},
+{"t": "0.5-1.4", "line": "Каждый месяц", "a": "0.5-0.9 she bites the tape and rips it out of the slot; 0.9-1.4 she hauls it, backing away, the tape unreeling", "c": "tracks back, the pond slides across"},
+{"t": "1.4-2.1", "line": "плачу, как", "a": "she snaps back, the tape whips the full width of the frame, the cord goes taut", "c": "whips left after the tape"},
+{"t": "2.1-3.2", "line": "привязанная!", "a": "2.1-2.6 she hauls the cord and hoists the knotted leg over her head; 2.6-3.2 she rises onto the stump on the free leg, the hoisted leg swinging the cord in a full circle", "c": "pushes in to her chest"},
+{"t": "3.2-3.9", "line": "Вот, даже", "a": "she drags a wing down her face crown to beak and past her chest, doubling over", "c": "drops to the beak, tight"},
+{"t": "3.9-4.4", "line": "плачу,", "a": "her chest heaves in one sob, her head throws back, a fat tear jumps off the beak", "c": "tilts up with her head"},
+{"t": "4.4-5.1", "line": "а они", "a": "the duckling shoves his toy terminal under her beak, she rears her body back", "c": "pulls out to hold both"},
+{"t": "5.1-5.8", "line": "всё равно", "a": "she sweeps a wing through, he rolls out past the frame edge, she carries the swing round", "c": "swings out after him and back"},
+{"t": "5.8-6.7", "line": "списывают!", "a": "5.8-6.2 she stamps both feet on the terminal, the tape jumping; 6.2-6.7 she stamps faster, it slides to the stump edge", "c": "low at stump level, kicked by each stamp"},
+{"t": "6.7-7.3", "a": "she throws her chest down on the stump, wings flung up, the roped leg kicked out", "c": "drops with her chest"},
+{"t": "7.3-8.0", "a": "7.3-7.6 her head snaps up, the tear flies off the beak; 7.6-8.0 she swings the head round to the terminal, it flashes a green tick", "c": "swings to the terminal"},
+{"t": "8.0-8.8", "a": "8.0-8.4 she braces both feet on the stump and throws her body back; 8.4-8.8 she hauls on, sliding back through the grass", "c": "tracks back, the village slides out"},
+{"t": "8.8-9.4", "a": "she drags the terminal off the stump, it swings down on the cord above the grass", "c": "falls with it"},
+{"t": "9.4-10.0", "a": "she rolls onto her back and hauls the terminal at the lens, tape trailing, her body filling the frame", "c": "the terminal into the lens"}
+],
+"must_appear": "green tick right after her tear; her roped left leg in every window",
+"negative_prompt": "cyrillic, subtitles, dark scene, slow motion, any Russian word outside the lines, speech after 6.7, the duckling speaking, male voice, extra legs, extra wings, props moving untouched, a second adult duck, the duckling in frame after 5.8, a locked camera, the duck small against the scenery, a pose held to the end of a window, a move played out early, both плачу said with the same stress, the terminal still on the stump after 9.4"
+}

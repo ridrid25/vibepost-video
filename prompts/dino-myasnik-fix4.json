@@ -1,0 +1,96 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, cute satire",
+  "character": "grumpy old T-Rex butcher on two hind legs, huge head, front arms SHORTER than his head, stained apron, daisy behind his ear; buyer an old granny pterodactyl, two legs two wings, in a headscarf with a string bag, wings beating three times",
+  "motion_rule": "T-Rex drives his bulk across frame EVERY window, speech included, never behind the counter; granny in frame from 1.35, takes it from 7.25; action tempo doubled — hero, props and background all at a run, three things moving at once; speech tempo unchanged",
+  "camera_moves": "low angle, ONE take, camera always moving, shot size changing every window",
+  "props": "long counter; mound of meat shoved along it; wooden sign, drawings only: two radishes crossed out and a chicken; cleaver; stone scale with a boulder that hops off and rolls; sausages on a hook whipping like a lasso; clay pot hopping the boards",
+  "environment": "clear noon, market row, wooden stalls, grass, two woolly mammoths grazing far on the horizon",
+  "lighting": "blazing noon sun, bright throughout, hard shadows",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "T-Rex gravelly old male barker; granny creaky indignant old female; both 4.6 syllables per second, never hurried; native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window, no pause inside a phrase across two windows, silence in wordless beats; he stops 7.25, she answers 7.6; jaw works each syllable, voice from the mouth that moves",
+    "sfx": "boards 0.0;bang 1.35;wing 1.4;sign 2.2;boulder 2.35;mammoth trumpet 3.9;cleaver 4.45;wing 5.2;pot 5.6;wing 7.3;mammoth trumpet 8.0;snatch 8.85",
+    "music": "none"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.3",
+      "a": "charges the row shouldering the mound, mammoths grazing far behind"
+    },
+    {
+      "t": "0.3-1.35",
+      "who": "trex",
+      "line": "Мамонтятина!",
+      "a": "hurls the mound to the lens, bulk turning after it, camera arcing his snout"
+    },
+    {
+      "t": "1.35-2.2",
+      "line": "Свежайшая!",
+      "a": "rams the counter with his hip, granny swinging in at his elbow on a wing beat"
+    },
+    {
+      "t": "2.2-2.5",
+      "a": "stamps the sign into the mound, boulder hopping off the scale, rolling away"
+    },
+    {
+      "t": "2.5-2.95",
+      "line": "Вчера —",
+      "a": "swings his bulk back down the row, camera travelling with him"
+    },
+    {
+      "t": "2.95-3.8",
+      "line": "две редиски,",
+      "a": "rams the crossed-out radishes, sausages whipping off their hook, granny under him"
+    },
+    {
+      "t": "3.8-4.45",
+      "line": "сегодня —",
+      "a": "wheels to the lens, tail sweeping the stalls, mound sliding after, mammoth trumpeting behind"
+    },
+    {
+      "t": "4.45-5.1",
+      "line": "курица.",
+      "a": "slams the cleaver into the boards by the drawn chicken, granny huge at the lens"
+    },
+    {
+      "t": "5.1-5.5",
+      "a": "throws his bulk down the row as she beats her wings and rips the slab into her bag"
+    },
+    {
+      "t": "5.5-5.95",
+      "line": "Завтра",
+      "a": "shoulders the mound after her, clay pot hopping the boards ahead of him"
+    },
+    {
+      "t": "5.95-6.6",
+      "line": "с коровой",
+      "a": "drives into the lens, snout filling the frame over her headscarf"
+    },
+    {
+      "t": "6.6-7.25",
+      "line": "приходи.",
+      "a": "swings away, tail lashing the mound, sausages swinging over him"
+    },
+    {
+      "t": "7.25-7.6",
+      "a": "she heaves the bag against the sun on a third wing beat, he barging under it"
+    },
+    {
+      "t": "7.6-8.85",
+      "who": "granny",
+      "line": "Из-за такой цены",
+      "a": "hauls the bag into the lens, headscarf huge, he lunging after, mammoths trumpeting"
+    },
+    {
+      "t": "8.85-10.0",
+      "who": "granny",
+      "line": "вымереть можно.",
+      "a": "daisy drops on the meat, she snatches meat and flower away, he crashing after"
+    }
+  ],
+  "must_appear": "arms shorter than his head; apron, daisy behind his ear; meat moving; granny in a headscarf, wings beating three times; two mammoths grazing far behind, trumpeting; crossed-out radishes and a chicken on the sign; boulder, sausages, pot moving by themselves",
+  "negative_prompt": "cyrillic, subtitles, watermark, night, dark scene, hard cut, human hands, second dinosaur, slow motion, slow speech, static camera, T-Rex behind the counter, floating props, mammoths near the counter, pterodactyl small in the background, wings folded all clip, two mouths moving at once, male voice on her line, accented Russian"
+}

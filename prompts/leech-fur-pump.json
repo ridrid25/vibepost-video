@@ -1,0 +1,100 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar quality, satire",
+"character": "giant leech, glossy dark olive, boneless waves, in a lush fur coat with a huge collar; a wide mouth full of tiny sharp teeth, lips shaping speech, eyes above it; she never holds a pose",
+"props": "a chrome pump machine, a bundle of thin tubes running from it into her fur, pink fluid punching along them in pulses; a hookah beside her, she takes it only between phrases and never while she speaks; a tray of mandarins; a cat and a dog in smart little outfits at her heels all clip",
+"motion_rule": "every window her whole body moves and the camera moves with it; the pets work close to the lens in every window; the tubes pulse in every window; shot size and angle change every window",
+"environment": "a rich glass hall flooded with white light, walls of blinking computer racks behind glass, a velvet banquette, polished floor, hard shadows",
+"audio": {
+"language": "Russian, lines verbatim",
+"delivery": "smug oily female voice, native Russian stress, greedy and bossy, biting off each word",
+"pronunciation": "доноры is do-NO-ry; отрывать is ot-ry-VAT",
+"pacing": "phrases at 0.5-2.34, 2.49-5.14, 5.29-6.35, silent after",
+"lip_sync": "her lips shape every syllable, never a voice-over",
+"sfx": "pump thud 0.2;slurp 6.6",
+"music": "none"
+},
+"timeline": [
+{
+"t": "0.0-0.5",
+"a": "the pump slams, pink punches down every tube, her fur flies at the lens and whips away",
+"c": "macro, torn off the fur"
+},
+{
+"t": "0.5-1.32",
+"line": "Да все вокруг —",
+"a": "she surges up off the banquette and sweeps along the glass racks, fur streaming; the cat is flung off her heel",
+"c": "low, swings along the racks"
+},
+{
+"t": "1.32-2.34",
+"line": "мои доноры.",
+"a": "she rolls onto her side at the lens, teeth bared, the tube bundle jerking behind her; the dog scrambles up to her",
+"c": "close, orbits her"
+},
+{
+"t": "2.34-2.49",
+"a": "she snaps a mandarin off the tray, fur bursting up",
+"c": "macro, whip pan to the tray"
+},
+{
+"t": "2.49-3.1",
+"line": "Пусть текут",
+"a": "she pours down the banquette head first at the lens, tubes bulging in time; the cat hammers her heels",
+"c": "floor level, dollies back"
+},
+{
+"t": "3.1-3.71",
+"line": "по чуть-чуть,",
+"a": "she coils round the pump, glass and lights streaking past; the dog rides her tail",
+"c": "top down, spirals with her"
+},
+{
+"t": "3.71-4.53",
+"line": "зато долго",
+"a": "she rears the full height of the racks and slams back down, fur exploding; the pets tumble off",
+"c": "wide, cranes with her"
+},
+{
+"t": "4.53-5.14",
+"line": "и верно.",
+"a": "she throws the fur over the lens and rips it away, face right at us",
+"c": "macro, through the fur"
+},
+{
+"t": "5.14-5.29",
+"a": "the pump kicks and every tube jerks at once, pink surging",
+"c": "insert, snaps to the pump"
+},
+{
+"t": "5.29-5.9",
+"line": "Отрывать?",
+"a": "she swells triple and rams the lens, mouth wide, tiny sharp teeth clear",
+"c": "macro, swallowed"
+},
+{
+"t": "5.9-6.35",
+"line": "Зачем?",
+"a": "she whips round and lands back on the banquette, fur settling over the cat",
+"c": "waist, whips after her"
+},
+{
+"t": "6.35-7.4",
+"a": "she takes the hookah from the dog, drags on it, pink pulsing up the tube, and blows a fat cloud at the lens",
+"c": "close, pushes through the cloud"
+},
+{
+"t": "7.4-8.5",
+"a": "she bites the mandarin in half, peel flying, and rolls the whole length of the banquette; the cat catches a piece",
+"c": "low mid, races beside her"
+},
+{
+"t": "8.5-10.0",
+"a": "the pump goes wild, every tube pulsing, she swells in the fur and grins; a white tag swings off the pump into the lens unrolling ПОДПИСКА in black capitals",
+"c": "macro, onto the tag"
+}
+],
+"must_appear": "the tubes run from the pump into her fur and pulse pink all clip; the last frame is the ПОДПИСКА tag filling the frame",
+"negative_prompt": "a hookah pipe at her lips while she speaks, tubes at her mouth, lying still, only her head moving, holding a pose, an empty banquette, static camera, same shot size twice, night, dark scene, a talking head, garbled words, Latin letters on the tag, two cats, two dogs, legs on the leech, subtitles, watermark, English speech, any word after 6.35"
+}

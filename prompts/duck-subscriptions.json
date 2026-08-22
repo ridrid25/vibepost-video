@@ -1,0 +1,37 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar quality, sharp satire",
+ "character": "white farm duck, exactly two legs, two wings, one beak, offended payer talking to the lens like to a support line",
+ "cast": "a duckling intern in a tie, alive only 4.4-5.8: he holds his toy terminal to her tear and milks it while she sobs, never speaks",
+ "motion_rule": "she leads every window, driving with her whole body; each move fills its window and the next starts the instant it ends, nothing is played out; props move only because she hit them; the duckling moves only 4.4-5.8",
+ "camera_moves": "one take with her, shot size changes five times, the camera never replaces her action",
+ "props": "payment terminal on a garden stump, one support only; receipt tape from its slot; twisted cord on her left leg, the leg always visible, never under her body; his toy terminal, gone with him",
+ "environment": "village pond at noon, direct sun, short hard shadows",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "human female voice from the duck, native Russian stress, no accent",
+  "pronunciation": "first плачу at 1.4 is pla-CHU, stress on CHU, paying money; second плачу at 3.9 is PLA-chu, stress on PLA, weeping; the second is never pla-CHU, the two sound different",
+  "pacing": "one continuous phrase from 0.5 to 6.7, no breath at the joins 1.4, 2.1, 3.2, 3.9, 4.4, 5.1, 5.8; after 6.7 she says no word at all",
+  "sfx": "thud 0.0;rip 0.5;squeak 5.1;stomp 5.8;beep 7.4;scrape 8.8;rumble 9.4",
+  "music": "none"
+ },
+ "timeline": [
+  {"t": "0.0-0.5", "a": "she slaps a flat wing on the terminal, it tilts on the stump"},
+  {"t": "0.5-1.4", "line": "Каждый месяц", "a": "she bites the tape end and rips it out of the slot with one head jerk"},
+  {"t": "1.4-2.1", "line": "плачу, как", "a": "she throws her body back, the ripped tape whipping out full length across the frame, the leg cord snapping straight"},
+  {"t": "2.1-3.2", "line": "привязанная!", "a": "she yanks the cord again, swings her chest to the lens and hoists the knotted leg up"},
+  {"t": "3.2-3.9", "line": "Вот, даже", "a": "she drags a whole wing down her face from crown to beak, doubling over"},
+  {"t": "3.9-4.4", "line": "плачу,", "a": "she throws her head back and her whole chest heaves in one sob, a fat tear swelling on her beak"},
+  {"t": "4.4-5.1", "line": "а они", "a": "the duckling pushes his toy terminal under her beak, she rears her whole body back"},
+  {"t": "5.1-5.8", "line": "всё равно", "a": "she shoves the duckling away with an open wing, he rolls out past the frame edge"},
+  {"t": "5.8-6.7", "line": "списывают!", "a": "she stamps both feet on the terminal body, the tape jumping at every hit"},
+  {"t": "6.7-7.3", "a": "she throws her chest down over the stump, wings flung up, the roped leg kicked out"},
+  {"t": "7.3-8.0", "a": "her head snaps up off the stump, the tear flies off her beak and the terminal flashes a green tick"},
+  {"t": "8.0-8.8", "a": "she braces both feet on the stump side and throws her body back, hauling the cord tight"},
+  {"t": "8.8-9.4", "a": "she drags the terminal off the stump, it swings down on the cord above the grass"},
+  {"t": "9.4-10.0", "a": "she rolls onto her back and hauls the terminal after her at the lens, tape trailing, her body filling the frame"}
+ ],
+ "must_appear": "the green tick right after her tear; her roped left leg visible in every window",
+ "negative_prompt": "cyrillic, subtitles, watermark, night, dusk, dark scene, hard cut, slow motion, slow speech, any Russian word outside the lines, speech after 6.7, the duckling speaking, male voice, accented Russian, extra limbs, extra legs, a third leg, extra wings, duplicated limbs, deformed anatomy, malformed feet, props moving untouched, a held macro with nothing moving, human arms on the duck, a second adult duck, a second big terminal on the stump, the duckling in frame after 5.8, the duck standing still, both плачу said with the same stress, the terminal still on the stump after 9.4"
+}

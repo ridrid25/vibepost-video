@@ -1,0 +1,78 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, blazing noon sun, sharp satire",
+  "character": "speckled rainbow trout, two pectoral fins, one dorsal fin, one tail fin and nothing else, proud stubborn face, human female voice out of her own mouth",
+  "cast": "one fat seagull huge at the lens, greasy feathers, two wings two legs; rakes coins with beak and foot, cuts off her path, screams into her face, never speaks words",
+  "motion_rule": "the trout drives every window with her whole body; coins keep sliding the entire window after each tail slap; the gull is in frame from 2.1 and leaves downward at 8.3",
+  "camera_moves": "one take, camera always moving with her; shot size changes only four times",
+  "props": "mound of coins on the fountain floor; loose coins sliding over the tiles; the pumped fountain jet; low granite rim; spray beading on the lens",
+  "prop_continuity": "one coin mound, one jet, one gull; the stolen coin stays in the beak until 8.3; coins at the lens are airborne only because her tail launched them",
+  "environment": "city fountain at a mall entrance, bright midday, sun burning in the spray",
+  "lighting": "blazing overhead noon sun, bright throughout, hard shadows on the water",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "human female voice from the trout herself, weary deadpan pride, 4.4 syllables per second, never hurried, native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window; no breath at the joins 0.7-1.6 to 1.6-2.1, 2.9-4.0 to 4.0-4.9 and 6.5-7.4 to 7.4-8.3, each is one phrase across two windows; her mouth opens on every syllable, silence in wordless beats",
+    "sfx": "splash 0.0;coins 0.7;coins on lens 1.6;screech 2.1;wave 2.9;slap 4.0;water rip 4.9;wingbeat 5.7;jet roar 6.5;thrash 8.3;burst 8.9",
+    "music": "none"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.7",
+      "a": "bursts snout first out of the coin mound into the lens, face filling frame, water flinging off her scales onto the glass"
+    },
+    {
+      "t": "0.7-1.6",
+      "line": "Деньги тают,",
+      "a": "slams her tail into the change under her, the mound fanning apart over the tiles all window"
+    },
+    {
+      "t": "1.6-2.1",
+      "line": "как снег.",
+      "a": "slaps her tail again, scooping the coins from below, they fly at the lens and plaster the frame"
+    },
+    {
+      "t": "2.1-2.9",
+      "a": "she lunges after one coin and misses, the gull rams its beak into the lens from above and rips that coin from under her snout"
+    },
+    {
+      "t": "2.9-4.0",
+      "line": "А я всё равно",
+      "a": "turns her whole body on the spot, driving a wave at the gull"
+    },
+    {
+      "t": "4.0-4.9",
+      "line": "продолжаю",
+      "a": "slaps her pectoral fin across the beak, beak flying aside with the coin"
+    },
+    {
+      "t": "4.9-5.7",
+      "a": "throws her whole body off the gull toward the fountain jet, ripping the water open"
+    },
+    {
+      "t": "5.7-6.5",
+      "a": "spins her whole body under the gull wing, shoves the bird off with her tail and dives sideways"
+    },
+    {
+      "t": "6.5-7.4",
+      "line": "плавать против",
+      "a": "breaks back up and rams her snout into the pounding jet, body arching"
+    },
+    {
+      "t": "7.4-8.3",
+      "line": "течения.",
+      "a": "hammers her tail on the spot with her snout in the jet while the water pushes her back to the rim"
+    },
+    {
+      "t": "8.3-8.9",
+      "a": "thrashes sideways in the jet and slides back down the tiles, staring into the lens, the gull dropping out of frame with the coin"
+    },
+    {
+      "t": "8.9-10.0",
+      "a": "leaps into the pounding jet and hangs in the air at full speed, fins hammering, going nowhere"
+    }
+  ],
+  "must_appear": "two pectoral fins, one dorsal, one tail; coins flying at the lens; gull huge at the lens raking coins; her leap into the jet at 8.9; mouth open on every syllable",
+  "negative_prompt": "cyrillic, subtitles, watermark, night, dark scene, static camera, hard cut, slow motion, slow speech, human hands, extra limbs, extra fins, duplicated limbs, deformed anatomy, duplicate props, props hovering motionless in mid-air, a held macro with nothing moving, the trout absent from frame, two mouths moving at once, male voice on the gull, accented Russian, second trout, second gull, fish walking on land, drained fountain"
+}

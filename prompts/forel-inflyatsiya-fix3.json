@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, sharp satire",
+  "character": "speckled rainbow trout in a huge fur coat, two pectoral fins, one dorsal, one tail and nothing else, proud stubborn face, her own human female voice",
+  "cast": "a fat carp in a gold chain riding the current belly up, never a fin stroke, she clears him at 4.4; an old thief, padded jacket, fur hat, grey beard, at the lens from 6.6, net in both arms, never speaks",
+  "motion_rule": "one leads every window and it is the trout, driving with her whole body; each move fills its own window and the next starts the instant it ends, nothing settles; props and carp move only because she hit them; the thief moves only from 6.6",
+  "camera_moves": "one take, camera always with her; shot size changes five times",
+  "props": "coin mound on the fountain floor going soft and steaming under her fins; a pumped jet firing packed snow, low granite rim; her fur coat until 2.4 then gone; the net from 6.6; a gold crown from 7.4",
+  "environment": "city fountain at a mall entrance, blazing noon sun, heavy snow pouring through the sunlight and steaming where it lands, hard shadows",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "human female voice from the trout herself, weary deadpan pride, 4.4 syllables per second, never hurried, native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window; no breath at the joins 0.5-1.9, 2.4-4.4, 5.0-6.6; mouth opens on every syllable, silence in wordless beats; all speech over by 6.6, then only a wordless laugh at 7.4 in the same voice",
+    "sfx": "splash 0.0;hiss 0.5;steam 1.4;whip 1.9;slam 2.4;sizzle 3.5;blast 4.4;rip 5.0;thrash 5.7;swoosh 6.6;chime 7.4;fizz 8.2;crunch 9.4",
+    "music": "none"
+  },
+  "timeline": [
+    {"t": "0.0-0.5", "a": "explodes snout first out of the coin mound into the lens in her fur coat, snow through the sun"},
+    {"t": "0.5-1.4", "line": "Деньги тают,", "a": "slams her tail into the change under her, the coins going soft and running away"},
+    {"t": "1.4-1.9", "line": "как снег.", "a": "slaps the melting money with her pectoral fin, steam blasting over the lens"},
+    {"t": "1.9-2.4", "a": "spins on the spot, whipping the fur coat off over her head, it flies at the lens and goes to steam"},
+    {"t": "2.4-3.5", "line": "А я всё равно", "a": "turns her whole body on the spot, driving a wave across the melting coins"},
+    {"t": "3.5-4.4", "line": "продолжаю", "a": "hammers her tail through the coin puddles, molten money flung up in steam"},
+    {"t": "4.4-5.0", "a": "launches backwards clean over the fat carp in the gold chain sliding the other way, into the jet, which fires packed snow over her back in steam"},
+    {"t": "5.0-5.7", "line": "плыть против", "a": "rams her snout into the pounding jet, body arching"},
+    {"t": "5.7-6.6", "line": "течения.", "a": "hammers her tail on the spot, snout in the jet, the water shoving her back"},
+    {"t": "6.6-7.4", "a": "the old thief swings his net through the water and scoops her out in one snap, she thrashes across the mesh"},
+    {"t": "7.4-8.2", "a": "she flares into solid gold in the net, a crown snapping on her head, smiles into the lens, laughs with her whole body and blows a kiss"},
+    {"t": "8.2-8.9", "a": "she bursts into a shoal of tiny goldfish that pour through the mesh past his face, the net empty"},
+    {"t": "8.9-9.4", "a": "he claws at the back of his head, then yanks his jacket shut, the shoal glittering behind him"},
+    {"t": "9.4-10.0", "a": "he drags his hat down over his eyes and stamps off past the lens, empty net swinging, furious"}
+  ],
+  "must_appear": "the shoal pouring through the mesh; his empty net and angry walk off; mouth open on every syllable",
+  "negative_prompt": "cyrillic, subtitles, watermark, night, dark scene, hard cut, slow motion, slow speech, human arms on the trout, extra limbs, extra fins, floating props, a held macro with nothing moving, no fish in frame, two mouths at once, male voice, the old man speaking, accented Russian, a second full size trout, a second carp, a second old man, snow lying unmelted, her coat back on after 2.4, gold on her before 7.4, the net still holding her after 8.9, the old man catching the shoal"
+}

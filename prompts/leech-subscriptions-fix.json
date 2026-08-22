@@ -1,0 +1,100 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar quality, satire",
+"character": "giant leech, glossy dark olive, amber stripe, boneless waves; a wide lipped mouth for speech only, eyes wide above it; her feeding suckers are on her underside, never on her head; two thirds of frame height",
+"props": "rubbery tubes plugged into the suckers on her belly, pink fluid crawling along each, white tags on them; they stretch thin and snap back when she leaps; one red crab at the lens cuts them all clip, a white tag on his claw reading ОТПИСКА",
+"motion_rule": "the leech is the subject of every window and lands on a new stone in each, head high, never resting it down; the crab works at the lens in every window; no window ends still; shot size never repeats",
+"environment": "sunlit shallows at noon, a long ridge of flat stones running from the lens into the water, hard shadows",
+"audio": {
+"language": "Russian, lines verbatim",
+"delivery": "smug oily female voice, native Russian stress, greedy and bossy, biting off each word",
+"pronunciation": "доноры is do-NO-ry; отрывать is ot-ry-VAT",
+"pacing": "0.5-2.34 first phrase, 2.49-5.14 second, 5.29-6.35 third, nothing after 6.35",
+"lip_sync": "her lips shape every syllable, never a voice-over",
+"sfx": "pop 0.2;snip 0.4;splat 2.2",
+"music": "none"
+},
+"timeline": [
+{
+"t": "0.0-0.5",
+"a": "she rips off a stone with a pop and flies at the lens, tubes stretching thin; the crab snips one at us",
+"c": "macro, driven back"
+},
+{
+"t": "0.5-1.32",
+"line": "Да все вокруг —",
+"a": "she lands two stones nearer, bounces on, hops to the next, belly suckers popping off; the crab runs the ridge",
+"c": "low wide, rides the hops"
+},
+{
+"t": "1.32-2.34",
+"line": "мои доноры.",
+"a": "she rears head high and sweeps it across the lens, body waving; the crab snips a stub, pink spraying at us",
+"c": "close, pulled in"
+},
+{
+"t": "2.34-2.49",
+"a": "she whips down the ridge, hauling the stretched tubes",
+"c": "stone level, whip pan"
+},
+{
+"t": "2.49-3.1",
+"line": "Пусть текут",
+"a": "a wave runs tail to head and stands her upright off the far stone; the crab clacks and side steps",
+"c": "mid, cranes up"
+},
+{
+"t": "3.1-3.71",
+"line": "по чуть-чуть,",
+"a": "she pours stone to stone like thick syrup, head still up; the crab tilts the ОТПИСКА tag into the lens",
+"c": "top down, sinks in"
+},
+{
+"t": "3.71-4.53",
+"line": "зато долго",
+"a": "she rolls off the ridge into the water, two suckers tear free and slap back, then arcs at the lens; the crab cuts three tubes",
+"c": "mid, arcs with her"
+},
+{
+"t": "4.53-5.14",
+"line": "и верно.",
+"a": "she leaps back onto the near stone, head high, dragging the bunch in; the crab lunges at the lens",
+"c": "close, swings to her"
+},
+{
+"t": "5.14-5.29",
+"a": "every sucker lets go at once, her body snapping away down the ridge",
+"c": "wide, thrown back"
+},
+{
+"t": "5.29-5.9",
+"line": "Отрывать?",
+"a": "she swells triple and rams the lens head first, mouth wide and clear; the crab saws at the glass",
+"c": "macro, swallowed"
+},
+{
+"t": "5.9-6.35",
+"line": "Зачем?",
+"a": "she balls up, whips round to camera and lands a stone closer; the crab swings and misses",
+"c": "waist, orbits her"
+},
+{
+"t": "6.35-7.4",
+"a": "she gallops the ridge in waves, the tubes stretching to threads; the crab jams a claw under her",
+"c": "low mid, drifts out"
+},
+{
+"t": "7.4-8.5",
+"a": "she rears at the lens, then throws herself sideways into the water, suckers peeling; the crab cuts two more tubes",
+"c": "close, drops with her"
+},
+{
+"t": "8.5-10.0",
+"a": "a fresh tube snaps onto her belly, pink running in jerks, she swells off the stones; a tag flies at the lens unrolling ПОДПИСКА in black capitals, she blinks behind it",
+"c": "macro, onto the tag"
+}
+],
+"must_appear": "every tube ends on her belly, never at her mouth; last frame is the ПОДПИСКА tag filling the frame, the leech blinking behind it",
+"negative_prompt": "a tube at her mouth or lips, drinking through a straw, her head lying on a stone, her body flat and still, sleepy eyes, staying on one stone, night, dark scene, a talking head, garbled or misspelled words, Latin letters on the tags, the crab talking, two crabs, legs or bones on the leech, subtitles, English speech, any word after 6.35"
+}

@@ -1,0 +1,36 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar quality, satire",
+ "character": "vain mink, glossy dark-brown fur, rich sheepskin coat embroidered red, blue and yellow, tall black fur papakha, smug, always in motion",
+ "props": "picket fence at the yard's far edge, two pickets set wide apart, intact all clip; smoking grill with shashlik and skewers; torn strips of sheepskin; five scruffy half-rats - lean father, fat mother, three kids, patchy dull fur - all on her side from 0.3",
+ "motion_rule": "two or more rats ride the mink's body every window, never on or behind the fence until 9.5; she fights back every window - wrenching, kicking, elbowing, spinning them off - never merely walking; new spot and shot size every window; one more piece of the coat lost every window",
+ "environment": "snowy backyard, bright sunny midday, hard shadows",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "smug female voice, native Russian stress, calm",
+  "pronunciation": "stress: shi-KAR-ny, no-SHU, se-BYA, GLAV-no-ye in three clear syllables, sa-SYE-di, za-VEE-do-va-li - never ZA-vi-do-va-li",
+  "pacing": "brisk lively pacing, no drawling, lines fit the windows",
+  "lip_sync": "mouth moves on every syllable, never a voice-over",
+  "sfx": "snow crunch, teeth clacking, tearing cloth, squeaks",
+  "music": "none"
+ },
+ "timeline": [
+  {"t": "0.0-0.3", "a": "all five rats vault the fence and land on the mink mid-stride, she staggers", "c": "wide"},
+  {"t": "0.3-1.55", "line": "Свой шикарный мех", "a": "mink wrenches the coat open, dark fur blazing at the lens, shakes a kid off her wrist | mother rides her shoulder, father swings from the papakha", "c": "macro"},
+  {"t": "1.55-2.3", "line": "я ношу", "a": "mink ploughs forward kicking a kid off her boot | two rats grip the hem in their teeth and drag behind, heels digging in", "c": "mid"},
+  {"t": "2.3-3.3", "line": "не для себя.", "a": "mink spins hard, coat flying out in a full circle | both rats fly off into the snowbank, embroidery ripping loose in their teeth", "c": "low"},
+  {"t": "3.3-4.05", "line": "Главное,", "a": "mink elbows father off her chest | falling, he rips the skewers from her paw with a strip of the hem", "c": "top down"},
+  {"t": "4.05-5.3", "line": "чтобы соседи", "a": "mink hauls right to left leaning into the weight | mother bites the papakha and pulls back, three kids piled on the tail, the family skidding behind her", "c": "waist"},
+  {"t": "5.3-6.55", "line": "завидовали!", "a": "mink leaps a snowbank, coat and fur fanning mid-air | the papakha rips loose in mother's teeth, kids on the tail dragged with her", "c": "close"},
+  {"t": "6.55-7.05", "a": "mother's snarling muzzle fills the lens, bared teeth, skewer in her fist, papakha fur in her mouth | mink shrinks back", "c": "macro"},
+  {"t": "7.05-7.55", "a": "all five launch in one heap and bury the mink, the coat vanishing under bodies", "c": "low"},
+  {"t": "7.55-8.05", "a": "the heap thrashes, torn sheepskin and papakha fluff spraying into the lens", "c": "close"},
+  {"t": "8.05-8.55", "a": "mink's paw shoots from the heap gripping a strip, mother yanks it back, it snaps between them", "c": "macro"},
+  {"t": "8.55-9.05", "a": "mink tears free bare-furred, shreds trailing, scrabbling backwards to the fence, two kids on her tail", "c": "wide"},
+  {"t": "9.05-9.5", "a": "mink squeezes between the two wide pickets, whining, ribs scraping, boards bowing, kids shaken off", "c": "macro"},
+  {"t": "9.5-10.0", "a": "mink drops on her own side, back to the fence, panting | beyond it the rats fight over the shreds, mother pulling a strip over her head", "c": "mid"}
+ ],
+ "must_appear": "skewers taken at 3.3; family dragged behind her at 4.05; bared teeth filling the lens at 6.55; coat in shreds 7.05-8.55; mink between the pickets at 9.05; fence intact every frame",
+ "negative_prompt": "night, dark scene, dusk, evening, subtitles, captions, watermark, static camera, same shot size twice, only her head moving, rats on the fence before 9.5, a gap between mink and rats, a window where the rats do nothing, the mink walking calmly, the fence breaking, blood, wounds, extra limbs, character changing mid-shot, English speech, Latin letters, any word after 6.55"
+}

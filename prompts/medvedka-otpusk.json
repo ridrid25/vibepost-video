@@ -1,0 +1,72 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, satire",
+  "character": "male mole cricket, velvet brown, huge flat shovel forelegs, fat belly, a tiny straw sun hat on his head from frame one; exactly six legs, front pair as arms; two thirds of frame height",
+  "cast": "two earthworms in round sun glasses, pink and coral; they work large at the lens, never in the background, never talk",
+  "motion_rule": "the cricket is the subject of every window, the worms add to his move, never replace it; no window ends in a pose; the camera moves in every window, shot size never repeats",
+  "props": "glossy paper travel vouchers with palm trees, an inflatable ring, loose soil he throws with his shovels; everything lies on the tunnel floor or is held in a leg",
+  "environment": "cutaway burrow at noon, a wide hole in the ceiling, midday sun pouring straight down, warm ochre soil, hard shadows, brightly lit like a studio set",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, steady 4.4 syllables per second, never drawn out, native Russian stress, no accent",
+    "pronunciation": "курортах is ku-ROR-takh; землёй is zem-LYOY; путёвки is pu-TYOV-ki; сгрызу is sgry-ZU; тоски is tos-KEE",
+    "pacing": "one phrase from 0.7 to 6.7, no breath at any join, nothing said after 6.7",
+    "lip_sync": "jaw and lips shape every syllable, never a voice-over",
+    "sfx": "burst 0.2;scrape 1.4;rumble 2.9;paper rustle 4.2;tear 5.8;gulp 7.0;splat 8.0;soil hiss 8.9",
+    "music": "none"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.7",
+      "a": "he bursts head first through the tunnel wall into the lens, soil blasting off his shovels and blanking the frame",
+      "c": "low wide, driven back"
+    },
+    {
+      "t": "0.7-2.3",
+      "line": "О курортах мечтаю,",
+      "a": "he digs into the wall with both shovels, hurling soil back over his own body, a worm at the lens holding a palm tree voucher up to his face",
+      "c": "waist, orbits onto the voucher"
+    },
+    {
+      "t": "2.3-3.9",
+      "line": "но пока лишь под землёй.",
+      "a": "he shoves his whole body deeper down the narrow tunnel, the walls crumbling onto his back, the second worm rolling the ring past the lens",
+      "c": "low mid, rides ahead of him"
+    },
+    {
+      "t": "3.9-5.5",
+      "line": "Мои путёвки — планы,",
+      "a": "he snatches that voucher from the worm and rips the rest out of the same soil, fanning them open beside his head, never across his face, one worm hanging on the fan at the lens",
+      "c": "wide, pulls back with the fan"
+    },
+    {
+      "t": "5.5-6.7",
+      "line": "сгрызу их с тоски.",
+      "a": "he stuffs the fan of paper into his jaws and tears through it, shreds flying into the lens",
+      "c": "close, dives into the shreds"
+    },
+    {
+      "t": "6.7-7.5",
+      "a": "he chews, his cheeks balloon, he swallows and chokes, eyes bulging, the worms hammering his back at the lens",
+      "c": "macro on the eyes, pushes in"
+    },
+    {
+      "t": "7.5-8.3",
+      "a": "he spits a wet ball of chewed paper straight into the lens, where it slaps and slides down",
+      "c": "close, whips back with the splat"
+    },
+    {
+      "t": "8.3-9.2",
+      "a": "he drops on his back into the inflatable ring and shovels loose soil over his belly like beach sand, both legs pumping, the sun shaft from the ceiling cutting the flying dust",
+      "c": "top down, arcs over him"
+    },
+    {
+      "t": "9.2-10.0",
+      "a": "he lays a torn voucher over his eyes like sunglasses, tips the straw hat down with one shovel and keeps patting soil onto his belly, the worms fanning him with shreds at the lens",
+      "c": "macro on his face, slides in"
+    }
+  ],
+  "must_appear": "the straw hat on him from the first frame; shovels throwing soil in every dig; the paper torn in his jaws; bulging eyes and the spit ball hitting the lens; soil shovelled over his belly like sand; the last frame is his face under a torn voucher with the palm trees still visible on it",
+  "negative_prompt": "night, dusk, dark tunnel, dim light, low key, static camera, cuts, a talking head, him motionless while speaking, the worms still or out of frame, subtitles, text overlay, watermark, English speech, voice-over, talking worms, slow speech, drawn-out vowels, foreign accent, the phrase repeated, any word after 6.7, a third worm, extra legs, deformed anatomy, floating objects, stacked props, duplicate props"
+}

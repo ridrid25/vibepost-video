@@ -1,0 +1,105 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar quality, satire",
+ "character": "tall spotted giraffe in a loose grey tie at a white mailbox on a post; the neck sweeps like a crane arm; two thirds of frame height",
+ "cast": "one darker giraffe without a tie; in every window, large at the lens, never still, never talks",
+ "motion_rule": "the paper is never still: it is pulled, whipped, torn or thrown; the tied giraffe leads, the other adds to his move; action never stops in the silent windows; no window ends in a pose; shot size never repeats",
+ "props": "a paper bill roll printed with big black columns of digits down its length; the mailbox lid claps",
+ "environment": "noon savanna, pale sand, acacia, bleached sky, hard white sun",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "male voice, bored deadpan, 4.4 syllables per second inside a line, native Russian stress",
+  "pronunciation": "налоги is na-LO-gi; наклоняться is na-klo-NYAT-sa",
+  "pacing": "each line fills its own window at full speed; the windows without a line are SILENT, not slowed speech; nothing said after 7.9",
+  "lip_sync": "lips shape every syllable, mouth shut in the silent beats, never a voice-over",
+  "sfx": "lid clap 0.2;unroll 0.5;band snap 2.8;rip 4.4;slap 6.0;avalanche 8.8",
+  "music": "none"
+ },
+ "timeline": [
+  {
+   "t": "0.0-0.4",
+   "a": "the lid claps open and the digit roll fires into the lens while his head dives from the top of frame to meet it",
+   "c": "macro, ripped up with his head"
+  },
+  {
+   "t": "0.4-1.6",
+   "line": "С моей высоты",
+   "a": "the other giraffe bites the loose end and runs backwards, stretching the roll into a taut band over the whole frame, digits streaming past the lens",
+   "c": "close, cranes up the neck"
+  },
+  {
+   "t": "1.6-2.75",
+   "line": "налоги — мелочь.",
+   "a": "the two haul the band in opposite directions, it jerks tight and whips the lens, hooves bursting sand under it",
+   "c": "wide, pulls back"
+  },
+  {
+   "t": "2.75-3.05",
+   "a": "he throws his head up, the band snapping straight along his neck, the other swinging off the far end",
+   "c": "low, whips up"
+  },
+  {
+   "t": "3.05-3.95",
+   "line": "Пузатая,",
+   "a": "the other puffs its belly out at the lens and struts past on stiff legs, the band bouncing over its back",
+   "c": "waist, orbits the belly"
+  },
+  {
+   "t": "3.95-4.25",
+   "a": "he bats the roll and it swings over the post, digits blurring",
+   "c": "close, swings"
+  },
+  {
+   "t": "4.25-4.95",
+   "line": "но мелочь.",
+   "a": "he pinches the sheet in his lips and it rips down the middle, the other catching the torn half at the lens",
+   "c": "macro on the tear, drifts out"
+  },
+  {
+   "t": "4.95-5.2",
+   "a": "his forelegs slide wider, sand kicking into the lens",
+   "c": "sand level, driven back"
+  },
+  {
+   "t": "5.2-5.9",
+   "line": "А платить —",
+   "a": "he shakes the paper down its whole length, the other jumping through it",
+   "c": "wide, rises off sand"
+  },
+  {
+   "t": "5.9-6.25",
+   "a": "the roll slaps flat on the sand, dust bursting into the lens",
+   "c": "top down, drops on it"
+  },
+  {
+   "t": "6.25-7.05",
+   "line": "всё равно",
+   "a": "his neck starts folding down, the horizon rolling up the frame with it",
+   "c": "close, tips with the neck"
+  },
+  {
+   "t": "7.05-7.9",
+   "line": "наклоняться.",
+   "a": "he grinds his muzzle along the ground, the other at the lens pressing his head lower",
+   "c": "sand level, under his jaw"
+  },
+  {
+   "t": "7.9-8.8",
+   "a": "he rolls the sheet into a scroll and swallows it, the lump travelling down his whole neck",
+   "c": "macro, rides the lump down"
+  },
+  {
+   "t": "8.8-9.4",
+   "a": "the lid blows open, a paper avalanche pours over both",
+   "c": "wide, driven back"
+  },
+  {
+   "t": "9.4-10.0",
+   "a": "only his head is above the drift, digits over his eyes, he chews them flat",
+   "c": "macro on his face"
+  }
+ ],
+ "must_appear": "big black digits down the whole roll, readable; the paper moving in every second; both giraffes in frame while he speaks; the avalanche burying him",
+ "negative_prompt": "a roll hanging still, a standing pose, a second with nothing moving, the second giraffe out of frame or frozen, night, dim light, a blank paper roll, letters or Cyrillic on the paper, static camera, subtitles, English speech, drawn-out vowels, speech in the silent beats, any word after 7.9, deformed anatomy"
+}

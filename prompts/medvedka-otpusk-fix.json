@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, satire",
+  "character": "male mole cricket, brown, huge flat shovel forelegs, fat belly, a tiny straw sun hat from frame one; exactly six legs, front pair as arms; he fills two thirds of the frame from the first second",
+  "cast": "two earthworms in round sun glasses, pink and coral; they work large at the lens, never still, never talk",
+  "motion_rule": "the cricket is the subject of every window, the worms add to his move; no window ends in a pose; shot size never repeats",
+  "props": "travel vouchers with palm trees, an inflatable ring, loose soil, all on the floor or in a leg",
+  "environment": "cutaway burrow at noon, a hole in the ceiling, sun straight down, warm ochre soil, hard shadows, lit like a studio set",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, steady 4.4 syllables per second, never drawn out, native Russian stress, no accent",
+    "pronunciation": "курортах is ku-ROR-takh; землёй is zem-LYOY; путёвки is pu-TYOV-ki; сгрызу is sgry-ZU; тоски is tos-KEE",
+    "pacing": "one phrase from 0.7 to 6.7, no breath at any join, nothing said after 6.7",
+    "lip_sync": "jaw and lips shape every syllable, never a voice-over",
+    "sfx": "crack 0.1;burst 0.3;scrape 1.4;rumble 2.9;paper rustle 4.2;tear 5.8;gulp 7.0;splat 8.0;soil hiss 8.9",
+    "music": "none"
+  },
+  "timeline": [
+    {"t": "0.0-0.7", "a": "the soil wall fills the frame, blows apart as both shovels punch through into the lens, soil blasting over the glass; his hatted face lands right against it, eyes huge on us", "c": "macro on the wall, ripped back as his face lands"},
+    {"t": "0.7-1.6", "line": "О курортах", "a": "he hauls himself out of the hole straight at the lens, filling more frame with every push, the pink worm slapping a palm tree voucher onto the lens and ripping it away", "c": "close, backs off ahead of him"},
+    {"t": "1.6-2.3", "line": "мечтаю,", "a": "he swings both shovels wide and hurls soil back over his own body, the coral worm rolling the ring past the lens under his chin", "c": "waist, orbits around him"},
+    {"t": "2.3-3.9", "line": "но пока лишь под землёй.", "a": "he shoves his whole body deeper down the tunnel, the walls crumbling onto his back, both worms swept along at the lens", "c": "low mid, rides ahead of him"},
+    {"t": "3.9-5.5", "line": "Мои путёвки — планы,", "a": "he snatches that voucher and rips the rest out of the soil, fanning them open beside his head, never across his face, one worm swinging on the fan at the lens", "c": "wide, pulls back with the fan"},
+    {"t": "5.5-6.7", "line": "сгрызу их с тоски.", "a": "he stuffs the fan of paper into his jaws and tears through it, shreds flying into the lens", "c": "close, dives into the shreds"},
+    {"t": "6.7-7.5", "a": "he chews, cheeks ballooning, swallows and chokes, eyes bulging, the worms hammering his back at the lens", "c": "macro on the eyes, pushes in"},
+    {"t": "7.5-8.3", "a": "he spits a wet ball of chewed paper into the lens, where it slaps and slides down", "c": "close, whips back with the splat"},
+    {"t": "8.3-9.2", "a": "he drops on his back into the ring and shovels loose soil over his belly like beach sand, both legs pumping, the sun shaft cutting the dust", "c": "top down, arcs over him"},
+    {"t": "9.2-10.0", "a": "he lays a torn voucher over his eyes like sunglasses, tips the hat down with a shovel and pats soil onto his belly, the worms fanning him with shreds at the lens", "c": "macro on his face, slides in"}
+  ],
+  "must_appear": "the wall bursting into the lens in the first half second; his hatted face against the glass by 0.6; the paper torn in his jaws; bulging eyes and the spit ball on the lens; soil shovelled over his belly like sand; the last frame is his face under a torn voucher",
+  "negative_prompt": "night, dark tunnel, dim light, a calm wide opening, the cricket small or far in the first second, the worms frozen or out of frame, static camera, cuts, a talking head, him motionless while speaking, subtitles, English speech, voice-over, talking worms, slow speech, drawn-out vowels, foreign accent, the phrase repeated, any word after 6.7, a third worm, extra legs, deformed anatomy"
+}

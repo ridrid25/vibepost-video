@@ -1,0 +1,90 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, cute satire",
+  "anatomy": "T-Rex: exactly two hind legs, two front arms SHORTER than his head; pterodactyl two legs two wings",
+  "motion_rule": "the T-Rex acts in every beat and travels with his whole bulk, never reaching from a standing pose; the pterodactyl works huge at the lens in his speech beats; the arms fall short",
+  "camera_moves": "low angle, camera always moving, new framing every beat: push, arc, orbit, whip with the dragged meat, low push on the charge, creep to his snout at the end",
+  "character": "grumpy old T-Rex, wrinkled hide, enormous head, tiny front arms",
+  "cast": "one T-Rex, one pterodactyl vendor huge at the lens; nobody else",
+  "props": "ONE flat stone slab on the ground as the counter, one level; wooden price board, one big numeral 500, no letters; one slab of meat on the stone 4.85, dragged along it 5.6-8.4, torn away 8.4",
+  "environment": "clear noon, riverside meadow, short grass; dust low",
+  "lighting": "blazing noon sun overhead, bright throughout, hard crisp shadows, rim light on his back",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "gravelly old male voice, steady 4.5 syllables per second, never hurried",
+    "pronunciation": "natural native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window, no pause where a phrase spans two windows, silence in wordless beats",
+    "lip_sync": "jaw works each syllable, mouth free of props while he speaks, voice always from the T-Rex",
+    "sfx": "board clatter 0.0,2.5;meat slap 4.85;meat scraping stone 5.6-8.4;wing slap and jaw clack 8.4;stone grind, board thwack 9.1"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.7",
+      "a": "he headbutts the board on the stone, it flips a body length up and slaps back down"
+    },
+    {
+      "t": "0.7-0.92",
+      "line": "Что?",
+      "a": "he snaps his head up off the stone, rocking back on his heels"
+    },
+    {
+      "t": "0.92-1.37",
+      "line": "Опять",
+      "a": "he stomps a full stride at the board, whole bulk lurching in, stone shuddering under his foot"
+    },
+    {
+      "t": "1.37-2.5",
+      "line": "мамонтятина",
+      "a": "he drives his whole bulk along the stone past the board, a tiny arm churning air short of it"
+    },
+    {
+      "t": "2.5-3.1",
+      "a": "he overshoots and staggers sideways; pterodactyl huge at the lens shoves the board into his cheek"
+    },
+    {
+      "t": "3.1-4.2",
+      "line": "подорожала?",
+      "a": "he turns his whole bulk to camera, head leading; pterodactyl knocked spinning off him, board clattering back"
+    },
+    {
+      "t": "4.2-4.85",
+      "line": "Дожили!",
+      "a": "he whips his tail round, sweeping the board off the stone into the grass"
+    },
+    {
+      "t": "4.85-5.6",
+      "a": "he treads the board into the dirt; pterodactyl huge at the lens slaps the slab of meat down on the stone"
+    },
+    {
+      "t": "5.6-6.25",
+      "line": "Могли б уж",
+      "a": "he heaves his whole bulk after the meat as the pterodactyl, huge at the lens, hauls it down the stone"
+    },
+    {
+      "t": "6.25-7.1",
+      "line": "и вымереть,",
+      "a": "he hurls himself sideways along the stone, hind legs pounding, tail sweeping the grass, pterodactyl beating wings huge at the lens"
+    },
+    {
+      "t": "7.1-7.95",
+      "line": "а не расти",
+      "a": "he charges the last stretch of the stone, hind legs driving, the slab shunting under him, pterodactyl hauling the meat ahead of his snout"
+    },
+    {
+      "t": "7.95-8.4",
+      "line": "в цене.",
+      "a": "he throws his head down after it, jaws snapping shut on the meat as the last word lands"
+    },
+    {
+      "t": "8.4-9.1",
+      "a": "he lunges after the pterodactyl that rips the meat from his jaws and wing-slaps his snout, his jaws clacking air"
+    },
+    {
+      "t": "9.1-10.0",
+      "a": "he shoves the stone with his snout, it grinds round; the pinned board springs from under his foot onto his nose and slides to his eye as he rears back"
+    }
+  ],
+  "must_appear": "the T-Rex acting in every beat, moving his whole bulk; arms shorter than his head; ONE stone slab; board, numeral 500; meat on the stone 4.85-8.4; pterodactyl huge at the lens",
+  "negative_prompt": "cyrillic, subtitles, watermark, night, dim light, dark scene, human hands, second dinosaur, extra limbs, extra legs, deformed anatomy, slow motion, slow speech, static camera, T-Rex standing still, reaching without moving his feet, T-Rex absent from frame, pterodactyl small in the background, accented Russian"
+}

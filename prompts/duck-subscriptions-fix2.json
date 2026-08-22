@@ -1,0 +1,37 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar quality, satire",
+"character": "white farm duck, angry payer at the lens; never less than two thirds of the frame height in every window",
+"cast": "fat gander manager in a tight waistcoat, owns the terminal, feeds off the tape, from 2.1",
+"motion_rule": "no window ends in a pose: its last frame starts the next move; long windows carry two moves in opposite directions",
+"camera_moves": "one take; each window's camera move happens there; never held still, never the same size twice",
+"props": "terminal post beeps and prints receipt tape by itself; the tape never stops, looping over the ground; card-chip cords on her legs, one more at every beep; her egg bank drops a coin at each beep",
+"environment": "village pond at noon, direct sun, hard shadows; the background never stands still, never over a third of frame",
+"audio": {
+ "language": "Russian, lines verbatim",
+ "delivery": "female duck voice, native Russian stress",
+ "pronunciation": "плачу at 1.4 is pla-CHU, paying money; плачу at 3.9 is PLA-chu, weeping, never pla-CHU",
+ "pacing": "one phrase 0.5 to 6.7, no breath at any join; after 6.7 no word at all",
+ "sfx": "beep 0.0;clink 1.9;beep 3.2;beep 5.1;whip 6.7;slap 8.4;beep 8.8",
+ "music": "none"
+},
+"timeline": [
+{"t":"0.0-0.5","a":"a beep, the cord on her leg snaps taut and hauls her half a body back, wings flung up","c":"mid, kicked back with the jerk"},
+{"t":"0.5-1.4","line":"Каждый месяц","a":"0.5-0.9 she leans her body forward, neck at the lens; 0.9-1.4 the cord throws her back to the post","c":"waist, arcs right round the post"},
+{"t":"1.4-2.1","line":"плачу, как","a":"she sweeps a wing under the tape and whips it into a loop across the frame, a coin rolling off","c":"close on the tape, down to the coin"},
+{"t":"2.1-3.2","line":"привязанная!","a":"2.1-2.6 the gander drops a second cord on her leg, she squats under it; 2.6-3.2 she wheels left round the post and tangles, three cords now","c":"full height, walks left round the post"},
+{"t":"3.2-3.9","line":"Вот, даже","a":"she slams a wing on the terminal, it beeps and shoots fresh tape that whips across her chest","c":"low mid, rises up the post"},
+{"t":"3.9-4.4","line":"плачу,","a":"a fat tear swells and drops off her beak onto the tape, her beak falling after it","c":"macro on the beak, in to the tear"},
+{"t":"4.4-5.1","line":"а они","a":"her head snaps round to the gander, a wing thrown out at him across the frame","c":"mid, whips to the gander"},
+{"t":"5.1-5.8","line":"всё равно","a":"he catches a coin from her egg bank in his beak, the bank tips at her feet","c":"waist on him, drops after the bank"},
+{"t":"5.8-6.7","line":"списывают!","a":"5.8-6.2 he treads the terminal button, the tape bursts out and knocks her off her feet; 6.2-6.7 she falls sideways, its loops winding onto her, hens bolting","c":"wide, pulls back and tilts"},
+{"t":"6.7-7.3","a":"she hooks the tape with a foot and yanks it sideways round the gander's legs","c":"low on the legs, slides sideways"},
+{"t":"7.3-8.0","a":"7.3-7.6 she rolls over her back, winding him into the tape; 7.6-8.0 she stands and hauls the tape in, he topples forward","c":"mid, orbits the pair"},
+{"t":"8.0-8.8","a":"8.0-8.4 she rips the chip end of her cord off her leg upward; 8.4-8.8 she slaps it onto his leg, the cords sliding off her onto him","c":"close on the chip, pushes down"},
+{"t":"8.8-9.4","a":"she treads the button, coins burst out of him and shower the frame, jolting him","c":"wide, lifts over the coins"},
+{"t":"9.4-10.0","a":"she sits on the empty egg bank, pins the last coin under a wing, head turning to the lens","c":"mid front, eases in on her face"}
+],
+"must_appear": "the tape fills the frame at 1.4; the tear on her beak at 3.9; a cord on her leg in every window she is in, to 8.4",
+"negative_prompt": "cyrillic, subtitles, dark scene, slow motion, any Russian word outside the lines, speech after 6.7, the gander speaking, extra limbs, a copy of the duck, a locked camera, the duck small in frame, a pose held to the end of a window, a move played out early, both плачу said with the same stress"
+}

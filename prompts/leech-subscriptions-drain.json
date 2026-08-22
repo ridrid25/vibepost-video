@@ -1,0 +1,37 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar quality, satire",
+"character": "giant leech, glossy dark olive, amber stripe, boneless waves and suckers, front sucker opens like a mouth with eyes above; two thirds of frame height",
+"cast": "one red crab, big at the lens, cutting tubes with his claws all clip, never talking; a white tag on his claw reads ОТПИСКА in black capitals from frame one",
+"props": "thin clear tubes from her belly to the shore, pink fluid crawling along each, white tags on them; one wet flat stone, the only thing she rests on",
+"motion_rule": "the leech is the subject of every window, never holds a pose, the crab adds to her move; no window ends still; shot size never repeats",
+"environment": "sunlit shallows at noon, direct sun, hard shadows, shore blurred behind",
+"audio": {
+"language": "Russian, lines verbatim",
+"delivery": "smug oily female voice, native Russian stress, unhurried",
+"pronunciation": "доноры is do-NO-ry; отрывать is ot-ry-VAT",
+"pacing": "0.5-2.34 first phrase, 2.49-5.14 second, 5.29-6.35 third, nothing after 6.35",
+"lip_sync": "her sucker shapes every syllable, never a voice-over",
+"sfx": "slap 0.2;snip 0.4;splat 2.2;creak 4.9;gulp 8.8",
+"music": "none"
+},
+"timeline": [
+{"t":"0.0-0.5","a":"she fires at the lens, sucker slapping the glass, body whipping back; the crab snips a tube, the half flying at us","c":"macro, driven back"},
+{"t":"0.5-1.32","line":"Да все вокруг —","a":"she swells and topples across the stone, then balls up and hops, rear sucker peeling; the crab loads a new tube under his claw","c":"low wide, rides the fall"},
+{"t":"1.32-2.34","line":"мои доноры.","a":"she stretches double at the lens, eyes point blank, then rolls off in a wave; the crab snips a stub, pink spraying at us","c":"close, pulled in"},
+{"t":"2.34-2.49","a":"she snaps onto the stone and drags the whole bunch of tubes under her; the crab winds up","c":"stone level, whip pan"},
+{"t":"2.49-3.1","line":"Пусть текут","a":"a wave runs tail to head and stands her up above the stone; the crab clacks twice and side steps","c":"mid, cranes up"},
+{"t":"3.1-3.71","line":"по чуть-чуть,","a":"she goes slack and spreads flat twice her width, pulsing; the crab tilts the ОТПИСКА tag into the lens, filling it","c":"top down, sinks in"},
+{"t":"3.71-4.53","line":"зато долго","a":"she rolls left, a sucker tears free and slaps back, then arcs up at the lens; the crab cuts three tubes, the stubs spit pink","c":"mid, arcs with her"},
+{"t":"4.53-5.14","line":"и верно.","a":"she screws down, sucks on and hauls the bunch in, the stone creaking; the crab lunges at the lens","c":"close, swings to her"},
+{"t":"5.14-5.29","a":"she lets go, her body snapping back, the tubes whipping the stone","c":"wide, thrown back"},
+{"t":"5.29-5.9","line":"Отрывать?","a":"she swells triple and rams the lens, sucker sliding across it; the crab saws at the glass","c":"macro, swallowed"},
+{"t":"5.9-6.35","line":"Зачем?","a":"she balls up and whips round to camera, sucker at the lens; the crab swings and misses","c":"waist, orbits her"},
+{"t":"6.35-7.4","a":"a wave hauls the tubes under her belly, she rides them up and spills over the water; the crab jams a claw under her","c":"low mid, drifts out"},
+{"t":"7.4-8.5","a":"she reaches close to the lens, then rolls off, suckers peeling in turn, eyes at us; the crab cuts two more tubes","c":"close, drops with her"},
+{"t":"8.5-10.0","a":"a fresh tube plugs the crab and feeds her belly, pink running in jerks, she swells; a tag flies at the lens unrolling ПОДПИСКА in black capitals, the crab recoils, she blinks behind it","c":"macro, onto the tag"}
+],
+"must_appear": "ОТПИСКА on the crab claw tag all clip; pink fluid crawling in every tube; last frame is the ПОДПИСКА tag filling the frame, the leech blinking behind it",
+"negative_prompt": "night, dark scene, static camera, a talking head, the leech motionless, garbled or misspelled words, Latin letters on the tags, the crab talking, two crabs, floating props, legs or bones on the leech, subtitles, English speech, voice-over, any word after 6.35, deformed anatomy"
+}

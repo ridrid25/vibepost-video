@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D cartoon, Pixar quality, satire",
+"character":"big bronze turkey, red wattled head, floral shorts unchanged, ploughing forward body first, fills two thirds of the frame height",
+"props":"sauce bucket he boots along the sand ahead of his feet, intact all clip; hourglass in the tail poult's wing all clip; wide brush in the smallest poult's hands; three downy poults whose place is his body, never the ground",
+"motion_rule":"all three poults touch him every window - wings, chest, tail base; he fights back every window - wrenching, kicking, elbowing, shaking off - never merely walks; new angle and shot size every window",
+"environment":"wet sand, bright sunny midday, hard shadows, sea; background under a third of the frame",
+"audio":{"language":"Russian, lines verbatim","delivery":"weary male voice, native Russian stress, deadpan","pronunciation":"stress: OT-pusk, na-DYE-yesh-sya, do-ZHIT, chet-ver-GA, GLAV-nym, BLYU-dom, VYER-no","pacing":"lively even pacing, no drawling, each line fits its window","lip_sync":"mouth moves on every syllable, never a voice-over","sfx":"sand scraping, feathers thumping, sauce sloshing, beak clacks","music":"none"},
+"timeline":[
+{"t":"0.0-0.3","a":"boots the bucket a step ahead | two poults swing on his wings, third rides his tail base with the hourglass","c":"wide low"},
+{"t":"0.3-1.25","line":"Отпуск — это","a":"wrenches his wing up to shake the pair off, ploughs on | they latch back, chest poult lays an orange stroke","c":"mid profile"},
+{"t":"1.25-2.0","line":"когда ты","a":"his other foot boots the bucket on, he treads his own orange trail | tail poult digs in and is dragged","c":"low on feet"},
+{"t":"2.0-2.9","line":"надеешься","a":"elbows the left poult in the ribs, stride unbroken | it slides to his hip, the other climbs his shoulder","c":"wide 3/4"},
+{"t":"2.9-3.5","line":"дожить","a":"jerks his chest off the brush, leans forward hauling all three | that poult drags a wide orange stroke across him","c":"close on chest"},
+{"t":"3.5-4.6","line":"до четверга,","a":"fans his tail open, flinging the rear poult wide, striding on | it swings out and hangs on again, hourglass kept","c":"full caravan"},
+{"t":"4.6-5.45","line":"чтобы стать","a":"kicks a heel back at the tail poult, misses, spins half a step | it grips higher and brakes him","c":"mid o/s"},
+{"t":"5.45-6.3","line":"главным блюдом,","a":"throws his head over his shoulder, snaps his beak at the brush, feet never planting | the stroke runs up his neck","c":"macro on head"},
+{"t":"6.3-6.9","line":"верно?","a":"shakes off both wings in one heave, stride unbroken | both poults are tossed up and slap back down","c":"side profile"},
+{"t":"6.9-7.6","a":"falls chest first and skids, ploughing an orange furrow | the loosened pair land on his back and ride","c":"low wide"},
+{"t":"7.6-8.3","a":"skids to a halt, neck out, beak burying in sand, the bucket stops at his head | tail poult drives its heels in","c":"mid front at the lens"},
+{"t":"8.3-9.0","a":"presses his chest out of the sand onto his wing elbow | smallest poult puts the brush in his wing, pats his side","c":"close on brush"},
+{"t":"9.0-9.5","a":"rising to one knee, pulls two strokes across his own chest | two poults hang on his shoulders watching","c":"waist on chest"},
+{"t":"9.5-10.0","a":"stops mid-stroke, turns his head into the lens | tail poult stands the hourglass in the sand and turns it","c":"macro front"}
+],
+"must_appear":"bucket and hourglass from 0.0; bucket booted ahead of his feet all clip; orange strokes on his chest at 2.9 and 9.0; his feet never plant before 7.6; hourglass turned at 9.5",
+"negative_prompt":"night, dark scene, subtitles, captions, watermark, cyrillic, letters, numbers, readable text, static camera, same shot size twice, only his head moving, the poults away from him, a gap between him and the poults, a window where the poults do nothing, him merely walking, extra limbs, deformed anatomy, character changing mid-shot, English speech, Latin letters, any word after 6.9, kitchen, oven, props hovering in mid-air, blood"
+}

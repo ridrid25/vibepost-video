@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, satire",
+  "character": "fat male honeybee drone, amber, barrel belly, honey-smeared; white headband reading 3 КВАРТИРЫ in black capitals from frame one; six legs, front pair as arms; two thirds of frame height",
+  "cast": "exactly three worker bees in white aprons, purple, teal, orange; purple wears a headband reading ИПОТЕКА in big black capitals, teal one ДОЛГИ, orange one blank and carries a fat foam microphone; words flat and unbent; they work large at the lens, never talk",
+  "motion_rule": "the drone is the subject of every window, his face stays deadpan all clip, the bees add to his move; no window ends in a pose; shot size never repeats",
+  "props": "a fat foam microphone; spoons of honey; a jar he empties on himself; pillows bursting into feathers",
+  "environment": "honeycomb bedroom at noon, direct sun, hard shadows; bed buried in white pillows",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "flat deadpan male voice, bored, native Russian stress, unhurried",
+    "pronunciation": "доход is do-HOD, stress on the last syllable",
+    "pacing": "one phrase from 0.6 to 3.6, no breath at any join, nothing after 3.6",
+    "lip_sync": "jaw and lips shape every syllable, never a voice-over",
+    "sfx": "mic thump 0.7;slurp 1.0;glug 3.9;whoosh 5.2;thud 5.8;snarl 6.6;groan 7.5;slap 8.3;slap 8.7",
+    "music": "none"
+  },
+  "timeline": [
+    {"t": "0.0-0.6", "a": "he kicks a pillow into the lens, blanking it, honey flying off him", "c": "low wide, driven back"},
+    {"t": "0.6-1.3", "line": "Работать?", "a": "the orange bee swings the foam mic into the lens and shoves it under his jaw, he stares flat past it, sinking deeper into the pillows", "c": "waist, orbits the mic"},
+    {"t": "1.3-1.8", "line": "Зачем?", "a": "he throws both forelegs open across the frame, batting the mic sideways, honey ropes flying", "c": "wide, pulls back with him"},
+    {"t": "1.8-3.1", "line": "У меня пассивный", "a": "he heaves his body off the pillows and drops it, the bed bouncing him twice, the bee chasing the mic back to his mouth, two bees riding the pillows", "c": "low mid, rides the bed"},
+    {"t": "3.1-3.6", "line": "доход!", "a": "he rolls onto his back, belly wobbling the whole width of the frame, the mic following him over, his face still dead", "c": "top down, arcs over him"},
+    {"t": "3.6-4.3", "a": "he snatches the jar off a bee and upends it over his face, honey pouring down the mic into the lens", "c": "close, dives under honey"},
+    {"t": "4.3-5.0", "a": "he hammers both forelegs into the burst pillow, punching feathers into the lens", "c": "mid, whips through feathers"},
+    {"t": "5.0-5.8", "a": "the purple bee catches his foreleg, drops a shoulder under his belly and throws him over her back, pillows exploding", "c": "low, spins with the throw"},
+    {"t": "5.8-6.5", "a": "he crashes on his back, she lands astride his chest and pins him flat, the other two pinning a foreleg each", "c": "tight, drops in with them"},
+    {"t": "6.5-7.3", "a": "she locks both forelegs on his throat and bares her teeth in a snarl, her face filling the frame, her ИПОТЕКА band right at the lens", "c": "macro, pushes in"},
+    {"t": "7.3-8.1", "a": "his eyes bulge, he groans through the choke, his belly bucking the bed under her", "c": "close, slides onto him"},
+    {"t": "8.1-8.9", "a": "his palm crashes down on the bed twice, tapping out, the mic lying dead in the honey by his head", "c": "drops to bed level"},
+    {"t": "8.9-10.0", "a": "his palm slides at the lens and fills the frame, honey draining through the fingers", "c": "macro, drifts off the palm"}
+  ],
+  "must_appear": "3 КВАРТИРЫ on the drone band from frame one; ИПОТЕКА on the snarling bee band; the foam mic at his mouth all through the speech; his deadpan unsmiling face; the snarl close-up; last frame is his palm filling the screen",
+  "negative_prompt": "night, dark scene, static camera, cuts, a talking head, the drone motionless, garbled or misspelled words, Latin letters on the bands, no other words, smiling, grinning, mugging, no mic while he speaks, the bees out of frame, subtitles, watermark, English speech, voice-over, the phrase repeated, any word after 3.6, deformed anatomy"
+}

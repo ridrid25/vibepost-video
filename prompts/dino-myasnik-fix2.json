@@ -1,0 +1,90 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar quality, cute satire",
+  "anatomy": "T-Rex: two hind legs, two front arms SHORTER than his head; pterodactyl two legs two wings",
+  "motion_rule": "the T-Rex drives his whole bulk across frame in EVERY window, speech included; never from behind the counter, never from a stand; the granny pterodactyl in a headscarf stays in frame from 1.65 on; the meat moves in every window",
+  "camera_moves": "low angle, ONE take, no cuts, camera always moving, shot size changing every window: race the planks, arc his snout, push the sign, travel the row",
+  "character": "grumpy old T-Rex butcher, enormous head, tiny arms, stained apron, sleeves rolled up, one white daisy behind his ear",
+  "props": "a long wooden counter; a mound of meat shoved along it; one wooden sign, drawings only: two radishes crossed out, a chicken beside them, no letters no digits; one cleaver",
+  "environment": "clear noon, market row, wooden stalls, grass",
+  "lighting": "blazing noon sun, bright throughout, hard shadows, sun burning through the slab she lifts",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "gravelly old male voice, market barker, steady 4.5 syllables per second, never hurried",
+    "pronunciation": "natural native Russian stress, no accent",
+    "pacing": "one unbroken phrase per window, no pause inside a phrase spanning two windows, silence in wordless beats",
+    "lip_sync": "jaw works each syllable, mouth free of props, voice always from the T-Rex",
+    "sfx": "boards rumbling 0.0;counter bang 1.65;sign thump 2.5;cleaver through boards 5.05;slab scraping 5.7;wing beats 6.5;snatch 9.05",
+    "music": "none"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.55",
+      "a": "he charges the counter behind the mound, shouldering it along the boards, camera racing him low"
+    },
+    {
+      "t": "0.55-1.65",
+      "line": "Мамонтятина!",
+      "a": "he hurls the mound round to the lens, bulk turning after it, apron flying, camera arcing his snout"
+    },
+    {
+      "t": "1.65-2.5",
+      "line": "Свежайшая!",
+      "a": "he rams the counter with his hip, boards jumping, the granny swinging into frame at his elbow"
+    },
+    {
+      "t": "2.5-3.05",
+      "a": "he stamps the sign into the mound, hauling his weight over it, camera pushing onto the drawings"
+    },
+    {
+      "t": "3.05-3.5",
+      "line": "Вчера —",
+      "a": "he swings his bulk back down the row, snout leading, camera travelling with him"
+    },
+    {
+      "t": "3.5-4.4",
+      "line": "две редиски,",
+      "a": "he rams the crossed-out radishes with his snout, driving the sign along the boards, the granny scuttling under him"
+    },
+    {
+      "t": "4.4-5.05",
+      "line": "сегодня —",
+      "a": "he wheels his bulk round to the lens, tail sweeping the stalls, the mound sliding after him"
+    },
+    {
+      "t": "5.05-5.7",
+      "line": "курица.",
+      "a": "he slams the cleaver through the boards by the drawn chicken, the granny huge at the lens"
+    },
+    {
+      "t": "5.7-6.5",
+      "a": "he throws his bulk down the row after the slab as she rips it off the counter and drags it away"
+    },
+    {
+      "t": "6.5-7.3",
+      "a": "he barges up the row under the slab she heaves against the sun, arms falling short"
+    },
+    {
+      "t": "7.3-7.75",
+      "line": "Завтра",
+      "a": "he shoulders the mound down the counter after her, boards shaking"
+    },
+    {
+      "t": "7.75-8.4",
+      "line": "с коровой",
+      "a": "he drives his bulk into the lens, snout filling the frame over her headscarf"
+    },
+    {
+      "t": "8.4-9.05",
+      "line": "приходи.",
+      "a": "he swings away down the row, tail lashing the mound along the boards ahead of him"
+    },
+    {
+      "t": "9.05-10.0",
+      "a": "he lunges after her as the daisy drops onto the slab and she snatches slab and flower, huge at the lens"
+    }
+  ],
+  "must_appear": "arms shorter than his head; stained apron, rolled sleeves, daisy behind his ear; a mound of meat moving along the counter; sign: two crossed-out radishes, a chicken",
+  "negative_prompt": "cyrillic, letters, digits, subtitles, watermark, night, dark scene, hard cut, jump cut, human hands, second dinosaur, slow motion, slow speech, static camera, T-Rex standing still, reaching without moving his feet, T-Rex working from behind the counter, T-Rex absent from frame, floating props, pterodactyl small in the background, accented Russian"
+}
