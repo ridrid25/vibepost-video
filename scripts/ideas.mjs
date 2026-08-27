@@ -13,12 +13,13 @@
  * up later by `npm run reels`.
  */
 import { loadEnv } from "./lib/env.mjs";
+import { pathToFileURL } from "node:url";
 import { ask, askChoice } from "./lib/prompt.mjs";
 import { proposeIdeas } from "./lib/gemini.mjs";
 import { addIdeas, loadIdeas, updateIdea, approvedPending } from "./lib/ideas.mjs";
 import { logSafeError } from "./lib/secret.mjs";
 
-function parseArgs(argv) {
+export function parseArgs(argv) {
   const args = { count: 5, brief: undefined, review: false };
   for (let i = 0; i < argv.length; i++) {
     const token = argv[i];
@@ -84,7 +85,7 @@ async function review(ideas) {
   return keep;
 }
 
-async function main() {
+export async function main() {
   loadEnv();
   const args = parseArgs(process.argv.slice(2));
 
@@ -145,7 +146,9 @@ function summary() {
   }
 }
 
-main().catch((error) => {
-  logSafeError(error?.message ?? error, [process.env.GOOGLE_API_KEY]);
-  process.exitCode = 1;
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    logSafeError(error?.message ?? error, [process.env.GOOGLE_API_KEY]);
+    process.exitCode = 1;
+  });
+}

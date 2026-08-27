@@ -9,6 +9,7 @@
     "brigade": "node scripts/content-brigade.mjs",
     "setup": "node scripts/setup.mjs",
     "ideas": "node scripts/ideas.mjs",
+    "trend:test": "node scripts/trend-test.mjs",
     "reels": "node scripts/reels.mjs",
     "video": "node scripts/generate-video.mjs",
     "video:file": "node scripts/generate-video.mjs --file",
