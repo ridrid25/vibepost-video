@@ -70,3 +70,7 @@ series-output/     готовые ролики (в git не попадают)
 Постинг живёт отдельно: **VibePost**, папка «Отложенный постинг (рассылка) в ТГ»,
 репозиторий `ridrid25/vibepost`. Там же приёмник роликов `ingest-video`,
 карточки идей в боте и планировщик публикаций.
+
+Общая граница Factory Core и roadmap P1–P9 зафиксированы в
+[`docs/CONTENT_FACTORY_INTEGRATION.md`](docs/CONTENT_FACTORY_INTEGRATION.md);
+production prompts/settings этого репозитория остаются защищённым baseline.
