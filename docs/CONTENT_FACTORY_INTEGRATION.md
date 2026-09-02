@@ -4,6 +4,8 @@ Canonical direction lives in `content-factory-personal/CROSS_REPO_CONTENT_FACTOR
 
 Generator is the existing media-production boundary. It owns the accepted Idea input, owner-tuned prompts, manual Gemini/Flow, provider/model/generation parameters, camera/motion/reference behavior, duration/FPS/resolution/aspect ratio, voice/audio, Whisper, subtitles, FFmpeg, post-production, rendering/export and current VibePost delivery behavior.
 
+This production video-generation capability existed before the post-IMP Content Factory roadmap. Content Factory did not create or rebuild it. POST work added narrow handoff/identity/adaptation contracts around the existing system; it did not replace the tuned production route or claim authorship of the Generator's media functionality.
+
 Factory Core does not own or normalize those values. Cross-repository work enters through narrow versioned adapters and preserves the existing Generator input byte-semantically. No new renderer, encoder, subtitle engine, compositor, media processor, queue, recovery layer or video engine is built here without a separate owner decision.
 
 ## P1–P9 relationship
@@ -13,6 +15,6 @@ Factory Core does not own or normalize those values. Cross-repository work enter
 - **P4:** market evidence arrives only as approved abstract adapter input; source content is not copied.
 - **P5/P6:** parent/mutation lineage and owner preferences belong to the shared identity/memory boundary.
 - **P7/P8:** evaluators and lesson freshness belong to VibePost analytics.
-- **P9:** business attribution is future external linkage.
+- **P9:** POST-12 built attribution contracts outside Generator, but POST-13C failed terminally and POST-13D rolled back before Telegram delivery. No successful live funnel proof exists, and Generator remains outside that attribution runtime.
 
-POST-03 changes no Generator production file, prompt, config, path or runtime. Only this document and its README link are approved.
+POST-03 changed no Generator production file, prompt, config, path or runtime. Later POST stages likewise preserved the owner-tuned production baseline. Content Factory integration remains adapter/handoff/identity based; no POST stage created video generation from scratch.
