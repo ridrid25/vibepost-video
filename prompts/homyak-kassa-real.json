@@ -1,0 +1,83 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "photoreal smartphone video, real animal, real people, real store",
+  "subject": "ONE real golden-orange Syrian hamster the size of a cat, upright on the counter, serious, huge stuffed cheeks",
+  "second_characters": "ONE real woman cashier, 45, bright blue plain uniform, blank badge",
+  "props": "ONE card terminal, screen shows only a red cross; ONE bread loaf in a brown paper bag; coins",
+  "environment": "real grocery checkout: moving checkout lane, white scanner, clean bright mint wall",
+  "lighting": "bright warm key light on the hamster's face, cool cyan and soft pink edge light, vivid saturated colors, high contrast, hero stands out from the clean background",
+  "motion_rule": "camera always moving, 0.3-0.8 s moves, each ending on the beat's focus; close-up beats fill the whole frame",
+  "audio": {
+    "language": "Russian",
+    "delivery": "cashier flat tired female; hamster small serious male, deadpan",
+    "lip_sync": "jaw on every syllable",
+    "pronunciation": "che-TY-re, TY-sya-chi",
+    "sfx": "0.2 decline beep; 1.0 clink; 2.0 rustle; 2.8 slap; 3.9 clinks; 5.0 coin cascade; 5.9 thud; 6.6 clicks; 7.7 LOUDEST heap crash, silence; 8.6 rustle; 9.4 whoosh, squeak"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.60",
+      "a": "close-up: the cashier's right hand thrusts the terminal into the lens, red cross flashing in the upper foreground, filling the frame; below, the hamster's swollen cheeks",
+      "c": "drops from high to the cross"
+    },
+    {
+      "t": "0.60-1.62",
+      "line": "Четыре двести.",
+      "a": "the cashier says, her face and mouth visible in frame, pulls the terminal back; the hamster slaps his left cheek; the loaf in its bag lies on the lane by the cashier",
+      "c": "whips across his cheeks to her face"
+    },
+    {
+      "t": "1.62-2.65",
+      "line": "Карта не прошла.",
+      "a": "the cashier says, her face and mouth visible in frame; she lays the terminal by her till, lifts the loaf from the lane in her left hand",
+      "c": "arcing right to her profile"
+    },
+    {
+      "t": "2.65-3.32",
+      "line": "Наличкой.",
+      "a": "the hamster says, mouth free, muzzle in frame; he plants both front paws on the counter like a bank client",
+      "c": "low from the counter, rising"
+    },
+    {
+      "t": "3.32-4.96",
+      "line": "Подушка безопасности.",
+      "a": "the hamster says, mouth free, muzzle in frame; he pats both cheeks like a wallet; the loaf in the cashier's left hand, the terminal by her till",
+      "c": "arcs left round him"
+    },
+    {
+      "t": "4.96-5.60",
+      "a": "close-up: the hamster opens his mouth, coins pour from his cheeks onto the lane, bouncing past the lens in the foreground, filling the frame",
+      "c": "low, diving at the coins"
+    },
+    {
+      "t": "5.60-6.20",
+      "a": "the hamster's cheeks deflate, muzzle thin; the cashier presses stop",
+      "c": "top-down, sweeping over"
+    },
+    {
+      "t": "6.20-7.65",
+      "line": "Не хватает тысячи.",
+      "a": "the cashier says, her face in profile; her right fingers flick the coin heap into piles, counting; the terminal by her till",
+      "c": "diving over the palm to her face"
+    },
+    {
+      "t": "7.65-8.10",
+      "a": "close-up: the cashier's right palm, the loaf still in her left hand, shoves the coin heap to the hamster, into the lens, coins spilling in the foreground; warm light catches his hollow cheeks, his thin face with empty cheeks stares at the lens; background softly blurred",
+      "c": "the camera hurls itself to his face"
+    },
+    {
+      "t": "8.10-9.20",
+      "line": "Хлеб уберите.",
+      "a": "the hamster says, mouth free, his muzzle in the foreground; he points at the loaf; the cashier lifts the loaf in her left hand over the scanner",
+      "c": "whips across to the loaf"
+    },
+    {
+      "t": "9.20-10.00",
+      "hook": "loop",
+      "a": "close-up: the hamster snatches the cashier's loaf, two shoves, cheeks swell to the 0.0 silhouette, freezes, filling the frame; red cross in the upper foreground exactly as at 0.0, swollen cheeks below it in the same place as at 0.0",
+      "c": "jolts back up to the high angle of 0.0"
+    }
+  ],
+  "negative_prompt": "cartoon, 3D animation, CGI, text, subtitles, watermark, logos, brands, night, dark scene, zoom, camera equipment, static camera, slow speech, a line said twice, an inserted word, English speech, foreign accent, baguette, duplicate props, floating objects, extra characters, blood, injury, chewing at the end"
+}
