@@ -1,0 +1,26 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: big cobalt-blue vest, round glasses, red party cone, gold balloon 65 tied to his foot. Deadpan, never flies.",
+  "second_characters": "ONE mole boss, grey suit, red tie, 40th-floor window. ONE white rabbit with a glass, 39th-floor window. THREE hamster clerks, orange ties.",
+  "props": "Shovel with a big red bow: mole's, its red ribbon wound round his wrist. Desk box with mug, cactus, photo frame: goose's. Coin: last clerk's. Cake: on the mole's sill.",
+  "environment": "Pale pink glass tower, party flags on the open 40th-floor window; sunny-yellow tile courtyard, revolving glass door at the base.",
+  "lighting": "Bright noon sun; warm key on the goose's face, orange rim left, magenta rim right. Cobalt vest pops against the pink tower; red cone, gold balloon, red bow vivid in every shot.",
+  "light_events": [{"t": "4.90", "event": "balloon pop flash"}, {"t": "8.00", "event": "sun glints on the shovel"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice 0.6-7.4 s, beak free; no speech after 7.4 s", "lip_sync": "accurate", "sfx": ["0.0 wind howl", "2.6 glass clink", "3.4 hard thud", "4.9 balloon pop", "5.8 coin ping", "6.5 ribbon whistle", "8.0 LOUDEST ribbon snap", "8.9 cake crunch", "9.6 glass smash"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame: in the window the mole lowers his boot after a kick, bowed shovel under his arm, its red ribbon wound round his wrist; the goose falls head-first, wings hug the desk box.", "c": "swings past the mole's wrist, dives out the window after him"},
+    {"t": "0.60-2.05", "a": "The box bursts: mug, cactus, frame swirl round him; he tucks the frame under his left wing, beak free; wings flick open and press back.", "c": "orbits him through the frozen swirl", "line": "Говорят, на пенсии"},
+    {"t": "2.05-3.30", "a": "Goose falls past the 39th-floor window, face unmoved; the rabbit raises his glass.", "c": "whips to the window, glass in foreground", "line": "жизнь начинается."},
+    {"t": "3.30-4.40", "a": "His feet hit the tiles: tiles fan up, he sinks neck-deep; balloon 65 hangs above.", "c": "rockets back as tiles fan up", "line": "Моя началась,"},
+    {"t": "4.40-5.45", "a": "The cactus lands on his cone; balloon 65 sinks onto it and pops; he does not blink.", "c": "spins down with the cactus to his glasses, close-up", "line": "как будто в яме."},
+    {"t": "5.45-6.10", "a": "Clerks run into the revolving door, pitying faces turned to him; the last tosses a coin, it pings his glasses askew.", "c": "flies with the coin into his glasses, faces in foreground"},
+    {"t": "6.10-7.40", "a": "Goose looks up; the bowed shovel jerks down the red ribbon from the 40th floor; his neck stretches up, tiles crack.", "c": "rises out of the hole past his beak", "line": "Только без лопаты."},
+    {"t": "7.40-8.00", "a": "The shovel stops a finger above the hole; his right wingtip reaches the handle, a feather almost touching.", "c": "dives into the gap at the handle, close-up"},
+    {"t": "8.00-9.20", "a": "Up top the mole jerks his wrist: the shovel yo-yos up out of the wing's reach; the mole catches it and cuts the cake in half with one blow.", "c": "hurls itself up the ribbon after the shovel to the mole's wrist, close-up"},
+    {"t": "9.20-10.00", "a": "The mole lays the bowed shovel in the rabbit's paws below; the glass slips from the rabbit's paw. Last frame: rabbit's paws on the handle, the red ribbon still running up to the mole's wrist.", "c": "drops down the ribbon into the rabbit's paws, close-up", "hook": "loop"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, a flat medium shot, muted colors, dark scene, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

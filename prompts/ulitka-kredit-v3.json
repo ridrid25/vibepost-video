@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE garden snail, grey-olive body, clear face, eyes on long stalks, small mouth; brown shell with an open brass padlock and iron chain; same face and colour throughout","physicality":"stalks snap in and out; skates on wet stone like a skater, slime trail glinting; skids sideways; hauls in jerks","anti_action":"weary serious face, brisk dry talker"},
+"second_characters":"ONE fat banker, greasy suit, sleeve protectors, silent, sits on the desk behind the register",
+"props":"old cash register, blank keys, no digits; wooden work desk; coin: smooth gold, no engraving; padlock: smooth brass; chain: iron",
+"environment":"wet stone garden step after rain; dense background: wet leaves, moss, drops, clay pots",
+"lighting":"low sun behind-left through stalks, sky glow behind-right, glints on brass and gold, high contrast, bright",
+"motion_rule":"Camera orbits him every beat; leaves, pots, moss slide behind him. Shot size changes every beat. He skates, skids or hauls every beat. The banker works big in the foreground.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress VYgodny; banker silent","pacing":"brisk, each line once inside its beat, nothing said after 6.3","lip_sync":"accurate"},
+"timeline":[
+{"t":"0.00-0.80","line":"Мне сказали:","a":"mouth opens on every syllable; he skates over wet stone as a fat hand in a sleeve protector lays a gold coin near frame edge; camera arcs left to right"},
+{"t":"0.80-1.90","line":"«Выгодный кредит».","a":"mouth opens on every syllable; he stretches to the coin, stalks reaching, as the banker's finger flicks it rolling to him; camera arcs right to left"},
+{"t":"1.90-2.55","line":"Я взял.","a":"mouth opens on every syllable; he rolls onto the coin, brakes sideways, it sticks to his sole, as the padlock clicks shut; camera orbits with the skid"},
+{"t":"2.55-3.35","a":"he lunges and is yanked back as the chain snaps taut behind him, shell bouncing; camera orbits against the jerk"},
+{"t":"3.35-4.25","line":"Оказалось,","a":"mouth opens on every syllable; he looks back along the chain, as at its end a work desk with an old cash register jerks over the wet stone big in the foreground; camera arcs"},
+{"t":"4.25-5.40","line":"выгодный он,","a":"mouth opens on every syllable; he skids round on the taut chain, jabbing a stalk at the banker, fat, in a greasy suit and sleeve protectors, cranking the register handle as the desk jolts after him; low arc"},
+{"t":"5.40-6.30","line":"а не я.","a":"mouth opens on every syllable; he rears up, bending both stalks onto his own chest, as the banker cranks, belly wobbling, the desk jerking; camera orbits to his face"},
+{"t":"6.30-7.05","a":"he hauls the desk in a jerk, its legs scraping wet stone, as the register jumps and the banker sways; camera orbits"},
+{"t":"7.05-7.80","a":"he hauls again and skids sideways, as the desk follows; camera arcs against the skid"},
+{"t":"7.80-8.55","a":"he brakes hard, the coin tears off his sole into the open drawer, as the banker shoves it shut; low arc"},
+{"t":"8.55-9.30","a":"his stalks snap in and out, body heaving, as the banker licks his fingers big near frame edge; camera orbits both"},
+{"t":"9.30-10.00","a":"he drags the desk behind him on the chain, skidding, as the banker, riding, cranks the handle and licks a finger; camera arcs"}
+],
+"must_appear":"0.00 padlock and chain on shell; 1.90 coin sticks to his sole, padlock clicks; 3.35 desk with old register and fat banker on the chain; 7.80 coin flies into the drawer; final: snail drags the desk, banker licks his fingers",
+"negative_prompt":"small hero, static camera, a still background, a still last second, a slow push in, a focus pull, a cart, a rail, wheels, a belt, a still desk, a second animal, text, letters, digits, subtitles, watermark, engraving, duplicate props, a faceless body, darkness, floating objects, slow speech, a line said twice, speech after 6.4, foreign accent"
+}

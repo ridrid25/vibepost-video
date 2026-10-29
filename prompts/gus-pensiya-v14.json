@@ -1,0 +1,27 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: COBALT-BLUE vest, round glasses, orange swim goggles pushed up on his forehead, no snorkel, beak always uncovered, YELLOW swim ring 65 round his waist. Calm, serious. Never flies.",
+  "second_characters": "ONE mole boss, grey suit, white hanky. ONE beaver, ORANGE helmet. Background only: clerks with briefcases: rabbit, badger, fox.",
+  "props": "Beach lounger, cocktail glass, red-white striped beach umbrella, sunscreen tube: goose's. Door poster, top view of blue sea, round sand island, one striped umbrella, no text: mole's. Shovel: beaver's.",
+  "environment": "Mint-green office stairs, white hall, glass exit door with the poster. Behind it a sunny site: yellow fence, ochre sand, a deep round pit with a blue puddle.",
+  "lighting": "Midday sun fills the pit; warm key on the goose's face, magenta rim left, cyan rim right. Blue vest, yellow ring, striped umbrella vivid in every shot, close-ups too.",
+  "light_events": [{"t": "3.50", "event": "sun bursts through the torn poster"}, {"t": "8.10", "event": "puddle flashes like sea"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose only, dry deadpan adult voice 0.5-7.5 s, beak free while speaking", "lip_sync": "accurate", "sfx": ["0.0 step rattle", "2.0 ice clink", "3.5 loud paper rip", "3.8 mud splat", "4.3 umbrella pop", "6.9 shovel scrape", "7.9 LOUDEST sand whoosh, gull cry", "9.8 paper slap"]},
+  "timeline": [
+    {"t": "0.00-0.50", "a": "From the first frame: goose lies on the lounger head-first, sledding down the stairs past clerks walking up; on top the mole, foot still out, waves his hanky.", "c": "plunges down the stairs after him"},
+    {"t": "0.50-1.30", "a": "Lounger skids across the hall at the glass door; the sea poster grows ahead.", "c": "skims his shoulder, goose in foreground", "line": "Говорят,"},
+    {"t": "1.30-2.40", "a": "Goose drops the goggles over his eyes only, raises the glass in his left wing to the poster like a toast; beak free.", "c": "whips round into his face, close-up", "line": "на пенсии жизнь"},
+    {"t": "2.40-3.50", "a": "Lounger nose hits the poster; at the end it tears; behind it no sea: fence, sand, a pit.", "c": "flies through the torn hole", "line": "начинается."},
+    {"t": "3.50-4.00", "a": "Lounger flies over the edge, lands in the puddle; goose floats on his ring, wings flick open, fold.", "c": "drops top-down into the pit"},
+    {"t": "4.00-5.10", "a": "Goose stays: sets the lounger on a mud bump mid-puddle, opens his striped umbrella over it; beak free.", "c": "arcs round him, umbrella in foreground", "line": "Моя началось,"},
+    {"t": "5.10-6.20", "a": "Goose lies under the umbrella, smears sunscreen from the tube in his right wing on his belly; beak free.", "c": "rolls onto its back in mud", "line": "как будто в яме."},
+    {"t": "6.20-7.50", "a": "Beaver at the rim lowers his shovel to the goose's raised empty right wing, lifts it onto his shoulder, turns away; beak free.", "c": "swings up to the blade, close-up", "line": "Только без лопаты."},
+    {"t": "7.50-8.70", "a": "Beaver, not looking, flings a shovel of sand into the pit; it hits the umbrella, slides off and rings the lounger as an island: from above, the door poster exactly.", "c": "hurls itself straight up, top-down"},
+    {"t": "8.70-9.20", "a": "Goose under the umbrella raises the glass in his left wing at the lens.", "c": "dives into the glass, close-up"},
+    {"t": "9.20-10.00", "a": "At the door the mole's paws stick a new identical poster over the hole. Last frame: mole's paw on the poster corner.", "c": "rockets back through the door, close-up", "hook": "open"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, night, dark scene, floating objects, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

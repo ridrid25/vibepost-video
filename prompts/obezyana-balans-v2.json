@@ -1,0 +1,86 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "the rolling hook carries her across frame every beat and she never leaves it; sacks and crates sweep past the lens; the camera tracks alongside; new shot size each beat, never wider than her muzzle on a third of frame; ONE sideways move per beat, never up or down",
+  "character": "a wiry macaque hanging by her tail from a rolling overhead hook, both arms free and level like a beam, muzzle and jaw always clear",
+  "second_characters": "ONE rat and ONE goat porter, one under each side of the rail a step from the lens, crossing frame themselves, working wide in every spoken beat, never touching her",
+  "props": "TWO sacks and no others, same cloth, same size, nothing written on them, one in each paw; A SWARM of walnuts; ONE crate in the rat trotters",
+  "prop_continuity": "both sacks stay identical the whole way; the left only pours out, the right only pulls in",
+  "environment": "a packed store row, sacks and crates tight both sides, daylight from the roof, no far wall",
+  "light_events": "flat white noon off the boards, a side shaft on the pouring walnuts at 1.70",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "a level pleased female voice, biting off each word, 4.2 syllables/sec",
+    "pronunciation": "ba-LANS, so-SHOL-sya, PROS-to, o-BE-ikh, sto-RON, dol-GI",
+    "pacing": "0.00-1.20 and 1.20-3.40 each one breath, first word at 0.00; after 3.40 not a word, sfx keep going",
+    "lip_sync": "her jaw opens on every syllable",
+    "sfx": "hook on the rail, walnuts hailing on boards, sacking flapping, a long suck of air"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.50",
+      "line": "Баланс",
+      "a": "the hook drives her into frame, a sack swinging off each paw"
+    },
+    {
+      "t": "0.50-1.20",
+      "line": "сошёлся.",
+      "a": "she throws both arms out dead level, the two sacks riding side by side past the lens, the same"
+    },
+    {
+      "t": "1.20-1.70",
+      "line": "Просто",
+      "a": "she kicks off a stack going past"
+    },
+    {
+      "t": "1.70-2.40",
+      "line": "с обеих",
+      "a": "she up-ends the left sack at the lens and walnuts pour out across frame"
+    },
+    {
+      "t": "2.40-2.90",
+      "line": "сторон —",
+      "a": "she swings the right sack into the same spot and up-ends it the same way, same grip"
+    },
+    {
+      "t": "2.90-3.40",
+      "line": "долги.",
+      "a": "the right sack pulls that whole stream into itself instead, walnuts flying the wrong way past the lens, her muzzle clear"
+    },
+    {
+      "t": "3.40-4.20",
+      "a": "the rat runs in a step from the lens and tips his crate into the left sack, it pours straight back out the far side"
+    },
+    {
+      "t": "4.20-5.00",
+      "a": "she up-ends the right sack over him again and it drags the crate out of his trotters past the lens"
+    },
+    {
+      "t": "5.00-6.00",
+      "a": "she up-ends it a third time over the goat and the spilled walnuts whip off the boards into it, the goat grabbing at nothing"
+    },
+    {
+      "t": "6.00-6.60",
+      "a": "she holds both sacks out dead level at the lens, the left pouring out and the right pulling in, the streams crossing in front of her"
+    },
+    {
+      "t": "6.60-7.20",
+      "a": "she drives her muzzle at the lens between the streams, her face not changing"
+    },
+    {
+      "t": "7.20-8.00",
+      "a": "both streams cut out at once and the sacks go flat together, her arms still dead level"
+    },
+    {
+      "t": "8.00-9.00",
+      "a": "still rolling she turns both sacks inside out at the lens, bare and the same"
+    },
+    {
+      "t": "9.00-10.00",
+      "a": "the rat and goat run past the other way with nothing in their trotters, the hook rolling on"
+    }
+  ],
+  "must_appear": "TWO sacks the same in every way, side by side before either is up-ended; the left pours walnuts out; the right, up-ended the same way, pulls everything in instead; that test repeats twice more; at 6.60-7.20 her muzzle is at the lens between the streams, her face not changing; she rides the moving hook to the last frame; every word spoken, the last by 3.40",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, a static camera, a still background, standing in place, an inscription, digits, cyrillic letters, slow motion, a closed jaw while speaking, a hero moving up or down the frame, weighing scales, a balance with two pans, a third sack, multiple monkeys, a hero taken off the hook"
+}

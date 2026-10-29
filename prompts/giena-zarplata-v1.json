@@ -1,0 +1,78 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, dry satire",
+  "motion_rule": "camera orbits the hyena at shoulder distance every beat, crowd and crates streaming behind; hyena turns and covers ground with the camera, never planted; one action per beat; hyena head over a third of frame, new shot size each beat; motion across frame or at the lens, never up-down",
+  "character": "spotted hyena, scruffy fur, no clothing at all, upright on hind legs, both front paws pierced by clean round holes with daylight showing through, fills two thirds of frame height, same look throughout",
+  "second_characters": "ONE pelican and ONE goat, always a shoulder from the lens and crossing frame: the pelican dumping the pay at 0.00-0.75 and shoving the torn sack over at 4.75-5.60, the goat barging past the hyena at 1.50-2.25, 2.75-3.75 and 5.60-6.35",
+  "props": "A SWARM of blank coins, nothing printed on them; ONE torn canvas sack",
+  "prop_continuity": "one heap of coins, handed to the hyena at the start and gone by 4.75: heaped in the paws, streaming out through the holes, nothing left at the end",
+  "environment": "bright market square packed shoulder to shoulder, crates and awnings both sides, crowd streaming behind, tall sunlit walls",
+  "light_events": "midday sun blazes overhead; at 6.35 sunlight punches through the holes in the paws across the muzzle",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, weary and sour, bites off every word, 4 syllables per second",
+    "pronunciation": "po-lu-CHIL, zar-PLA-tu, o-ka-ZA-lis, dy-RYA-vy-ye; latin hints are never spoken",
+    "pacing": "0.00-2.25 and 2.25-4.75 each on one breath; first word starts at 0.00; after 4.75 no words, sfx continue",
+    "lip_sync": "jaw opens on every syllable",
+    "sfx": [
+      "coins clattering on stone",
+      "market crowd noise",
+      "coins bouncing off crates"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.75",
+      "line": "Получил",
+      "a": "hyena catches the heap of blank coins the pelican dumps into its cupped paws, striding on at the lens, jaw working"
+    },
+    {
+      "t": "0.75-1.50",
+      "line": "зарплату",
+      "a": "hyena swings the loaded paws across frame, coins spilling out through the holes, walking on, jaw working"
+    },
+    {
+      "t": "1.50-2.25",
+      "line": "на руки.",
+      "a": "hyena carries the leaking heap past the lens, a coin stream trailing behind, jaw working"
+    },
+    {
+      "t": "2.25-2.75",
+      "line": "Руки",
+      "a": "hyena thrusts one holed paw at the lens, coins pouring out of it, striding on, jaw working"
+    },
+    {
+      "t": "2.75-3.75",
+      "line": "оказались",
+      "a": "hyena shakes both paws out over the crowd, coins raining through the holes, walking through, jaw working"
+    },
+    {
+      "t": "3.75-4.75",
+      "line": "дырявые.",
+      "a": "hyena sweeps the empty holed paws through the sunlight, light shooting through them, striding past the lens, jaw working"
+    },
+    {
+      "t": "4.75-5.60",
+      "a": "the pelican shoves the torn sack into the hyena's paws and the hyena hurls it away across frame"
+    },
+    {
+      "t": "5.60-6.35",
+      "a": "the goat barges past the hyena into the lens, the last coins bouncing off the crates"
+    },
+    {
+      "t": "6.35-7.05",
+      "a": "hyena spreads both holed paws wide at the lens, sunlight blasting through the holes across its muzzle"
+    },
+    {
+      "t": "7.05-8.00",
+      "a": "hyena wheels past the lens shoulder first, empty paws swinging"
+    },
+    {
+      "t": "8.00-10.00",
+      "a": "hyena walks off through the crowd, the goat trotting alongside"
+    }
+  ],
+  "must_appear": "coins in every beat up to 4.75; clean round holes through both front paws from 0.00; coins pouring out through them at 2.75-3.75; every line spoken, last word by 4.75; the paws spread at the lens at 6.35 with sunlight through the holes",
+  "negative_prompt": "subtitles, watermark, letterbox, gloom, digits, an inscription, a label, printed words on the coins, garbled words, Latin letters, a static camera, a still background, an empty square, standing in place, slow motion, drawn-out delivery, foreign accent, two actions at once, a closed jaw while speaking, text overlay, English speech, extra limbs, multiple hyenas, clothing on the hyena, blood, gore, a counter, a cash desk"
+}

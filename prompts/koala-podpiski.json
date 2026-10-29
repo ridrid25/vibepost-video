@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE sleepy adult male koala; inky right paw; cheek bulging with eucalyptus leaves; cowbell on his neck; on his belly a clear four-cup milking machine, its hose slack on the ground back into depth, smooth gold discs gurgling away along it; same face throughout","anti_action":"weary serious face, brisk dry talker; the mouth talks, never chews; nobody touches him while he talks"},
+"second_characters":"ONE Australian magpie, at the bottom edge, never over his face; ONE possum; ONE echidna",
+"props":"bark strips, cups, bucket, discs: blank, no markings",
+"environment":"eucalyptus grove as a milking yard: wooden stalls, buckets on hooks, hoses up the trunks; dense background",
+"lighting":"low sunset sun behind-left rims his fur gold, warm magenta sky glow rims him from behind-right, high contrast, bright; at 8.95 the sun flares across the lens",
+"motion_rule":"He waddles straight at the lens in every beat, the camera backs away before him. New shot size every beat. Dense yard. Side characters act one at a time.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one","pacing":"brisk, each line once, inside its beat, no speech after 7.5; silent beats: no voice, no moo","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.60","line":"Думал,","a":"mouth opens on every syllable; first frame: waist-up, he waddles straight at the lens, belly with the machine swaying; cowbell clanks each step; discs gurgle away down the hose into depth"},
+{"t":"0.60-1.25","line":"это я","a":"mouth opens on every syllable, runs on without pause; chest-up; he raises his inky right paw"},
+{"t":"1.25-2.35","line":"подписываюсь.","a":"mouth opens on every syllable; medium close-up; not slowing, he stamps the paw onto a blank bark strip the magpie, walking backward at the bottom edge, holds up in its beak"},
+{"t":"2.35-3.05","a":"medium, branch above; the possum hangs upside down from it and pops a suction cup onto his shoulder; he walks on, chewing sideways"},
+{"t":"3.05-3.90","line":"Оказалось,","a":"mouth opens on every syllable; close-up, face and shoulder; he glances at the cup on his shoulder, walking; the hose gurgles faster"},
+{"t":"3.90-5.35","line":"это они на меня","a":"mouth opens on every syllable, runs on without pause; medium wide, deep yard; he jabs a claw over his shoulder, then taps a claw on his own belly; far behind, discs ring into a bucket"},
+{"t":"5.35-6.20","line":"оформили","a":"mouth opens on every syllable; medium; he hugs the hose to his chest with both paws like a tree trunk, walking on"},
+{"t":"6.20-7.48","line":"постоянную дань.","a":"mouth opens on every syllable; chest-up; he plucks a fresh leaf from a branch at his shoulder and holds it low in his left paw, away from his mouth"},
+{"t":"7.48-8.25","a":"medium wide; his left paw holds the leaf, his right paw tugs at the machine on his belly; the magpie holds a bark strip up under his right paw, and by habit he stamps a print on it"},
+{"t":"8.25-8.95","a":"medium; he lifts the leaf to his mouth; from a stall post the echidna sucks the leaf out of his paw with its long snout"},
+{"t":"8.95-9.45","a":"close-up, face fills the lens; meekly he flicks a claw on his own cowbell, it clinks"},
+{"t":"9.45-10.00","a":"extreme close-up of the face; still waddling, he chews on nothing, cheek fallen flat, slow blink, gaze in the lens"}
+],
+"must_appear":"0.00 milking machine on the walking koala's belly; 7.48 he signs the bark again by habit; final: koala chews on nothing, face to lens",
+"negative_prompt":"horizontal frame, letterbox, small hero, static camera, empty background, a still background, studio lights, text, letters, digits, subtitles, watermark, a logo, pouch, joey, duplicate koalas, duplicate props, the hero absent from frame, hose pulling him back, chewing while speaking, darkness, floating objects, a line said twice, speech after 7.5, foreign accent, mooing"
+}

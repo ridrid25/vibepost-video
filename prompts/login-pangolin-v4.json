@@ -1,0 +1,29 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan; vertical, full-bleed, pangolin fills two thirds of frame height every beat",
+"subject":"ONE stocky pangolin, navy suit, copper scales, long claws; scales on his forearm are his keycards",
+"second_characters":"ONE emerald praying mantis guard, a real insect: triangular head, compound eyes, thin forelegs, peaked cap; workers with coffee pass at the lens",
+"props":"two identical copper scales; glass turnstiles with swinging glass flaps, round scanners glowing only green or red",
+"environment":"crowded office lobby, row of glass turnstiles, elevator lights behind",
+"lighting":"bright day, hard sunlight from left rims his scales, warm elevator glow from right, scanner glow on his face, high contrast",
+"motion_rule":"Camera orbits the pangolin on a tight arc and never stops; he moves every beat: sidestepping, springing sideways, spinning on his heel, circling the turnstile posts; side characters act at the lens, never across his mouth. New shot size every beat.",
+"audio":{"language":"Russian","delivery":"flat low male voice, native","pacing":"brisk, each line once, inside its beat","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.50","line":"Первый","a":"mouth opens on every syllable; mid-shot, arc starts front-left; stepping to the turnstile he plucks one copper scale off his forearm, it glints in the foreground"},
+{"t":"0.50-1.85","line":"логин пропустил.","a":"mouth opens on every syllable; waist-up, he slaps the scale on the scanner mid-stride, green glow, the flaps swing open and he is through; flaps hit the frame edges"},
+{"t":"1.85-2.40","a":"knee-up, he swings his body to the next identical turnstile, drops scale one into his breast pocket, tail sweeping wide; a worker with coffee crosses the frame edge at the lens"},
+{"t":"2.40-2.90","a":"chest-up, he rises on hind legs, winces, plucks a second identical scale off his forearm"},
+{"t":"2.90-4.00","line":"Второй, кажется,","a":"mouth opens on every syllable; medium shot, he steps and slaps the second scale on the scanner with the same gesture"},
+{"t":"4.00-5.05","line":"вычеркнул меня","a":"mouth opens on every syllable; close-up, on hind legs he leans in and yanks his claw back as the scanner sucks the scale in with a crunch, red glow"},
+{"t":"5.05-5.90","line":"из всех списков.","a":"mouth opens on every syllable; hips-up, arc right; he shakes his stung claw and sidesteps two short steps left on hind legs, scales bristling"},
+{"t":"5.90-6.55","a":"chest-up, arc on; the scanner spits copper shards in a red flash onto his snout; he springs sideways right, away from the turnstile"},
+{"t":"6.55-7.20","a":"knee-up, arc on; he spins on his heel and strides round the turnstile post in a tight loop, tail swinging wide"},
+{"t":"7.20-7.90","a":"head and shoulders; the shards on his snout make him sneeze, the sneeze jolts him a full step back; a shard plinks into the coffee cup of a worker passing in the foreground"},
+{"t":"7.90-8.60","a":"waist-up, arc left; the mantis guard reaches in from the near frame edge at the lens, taps his shoulder with a thin foreleg; he whirls to face it, stepping back sideways"},
+{"t":"8.60-9.30","a":"chest-up, arc on; he shoulders the mantis aside and slaps a paw over the bare patch on his forearm"},
+{"t":"9.30-10.00","a":"face and paw, arc slows in front; paw held on the patch, he turns his head into the lens, blinks once, mouth shut, scales clattering flat down his body"}
+],
+"must_appear":"two identical scales; scale one opens the flaps; scale two, same gesture, eaten by the scanner, shards spat out; final: his calm gaze in the lens, paw on the bare patch",
+"negative_prompt":"horizontal frame, wide shot, small hero, static camera, human guard, duplicate pangolins, extra scales in his paws, curled up, crouching in place, text, letters, digits, subtitles, watermark, floating objects, English speech, foreign accent, slow speech, a line said twice, speech after 6.0, landscape, letterbox, empty background, duplicate props"
+}

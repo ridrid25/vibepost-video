@@ -1,0 +1,87 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D animation, feather realism, slapstick comedy",
+ "motion_rule": "camera always moving, shot size changes every beat, something fills the lens each beat, one action per beat, motion across frame or at the lens, the yard rushes past him, he is airborne all clip, his head over a third of frame",
+ "character": "one city pigeon, the same all 10 s, flying low and level the whole clip, wings beating every beat, beak empty and opening on every syllable",
+ "second_characters": "crows in flat caps, ONE crow close to the lens in every beat, A SWARM of them from both sides at 2.75, all across frame at the lens",
+ "props": "one slice of white bread tucked under his right wing, wooden pins, white sheets on three lines, brick chimneys",
+ "prop_continuity": "the bread rides under his right wing from 0.00, pushed deeper at 0.90, flung away by him at 4.05, torn to crumbs 4.70-5.60, gone after",
+ "environment": "a bright back yard at midday, three long washing lines heavy with white sheets, red brick roofs and chimneys packed behind, green trees, deep blue sky",
+ "light_events": [
+  {
+   "t": "0.0-10.0",
+   "event": "midday summer sun overhead, hard shadows, white sheets blazing, blue sky all clip, the only scare is his dive at the lens"
+  }
+ ],
+ "audio": {
+  "language": "Russian",
+  "delivery": "female, low, dry, angry, level, 3.3 syllables per second",
+  "pronunciation": "Ot-LO-zhish na CHYOR-ny DEN, pri-DYOT CHYOR-na-ya NOCH. DEN-gi ne spa-SUT, TOL-ko KRY-lya, Latin is never spoken",
+  "pacing": "first word on frame one, speech unbroken to 6.80, then not a word from him, only wingbeats and crow caws to 10.00",
+  "lip_sync": "accurate, the beak opens on every syllable",
+  "sfx": [
+   "wingbeats close to the microphone, sheets snapping in the wind",
+   "crow caws, bread crust tearing at 4.70, a hard wing roar 6.20-6.80 and at 9.10"
+  ]
+ },
+ "timeline": [
+  {
+   "t": "0.00-0.90",
+   "line": "Отложишь",
+   "action": "he bursts out from behind a blazing white sheet across frame, the sheet wiping the lens, a slice of bread under his right wing"
+  },
+  {
+   "t": "0.90-2.10",
+   "line": "на чёрный день,",
+   "action": "on the wing he shoves the bread deeper under his wing while ONE crow cuts past the lens the other way, a whole line of sheets whipping past behind him"
+  },
+  {
+   "t": "2.10-2.75",
+   "line": "придёт",
+   "action": "he banks hard around a brick chimney, tiles and pins rushing at the lens"
+  },
+  {
+   "t": "2.75-4.05",
+   "line": "чёрная ночь.",
+   "action": "A SWARM of crows pours in from both sides and tears past the lens, he rolls through the gap between them"
+  },
+  {
+   "t": "4.05-4.70",
+   "line": "Деньги",
+   "action": "still flying, he flings the bread away over his shoulder at the lens"
+  },
+  {
+   "t": "4.70-5.60",
+   "line": "не спасут,",
+   "action": "he beats straight through the crows while they tear the bread to crumbs across frame, crumbs bursting at the lens"
+  },
+  {
+   "t": "5.60-6.20",
+   "line": "только",
+   "action": "he snaps both wings wide and climbs over the sheets, the whole yard dropping away under him"
+  },
+  {
+   "t": "6.20-6.80",
+   "line": "крылья.",
+   "action": "punch: he dives straight into the lens, wings wide and filling the frame, orange eyes on us, beak wide open"
+  },
+  {
+   "t": "6.80-7.70",
+   "line": "",
+   "action": "he rips past the lens and away over the roofs, crows scattering"
+  },
+  {
+   "t": "7.70-8.60",
+   "line": "",
+   "action": "he cuts across frame low over the sheets, ONE crow tumbling after him at the lens"
+  },
+  {
+   "t": "8.60-10.00",
+   "line": "",
+   "action": "he swings back and comes at the lens, wings wide"
+  }
+ ],
+ "must_appear": "bread under his right wing at 0.00, ONE crow past the lens at 0.90, the chimney bank at 2.10, A SWARM of crows at 2.75, the bread flung by him at 4.05, crumbs bursting at 4.70, both wings wide at 5.60, his dive filling the lens with wings and open beak at 6.20, all words by 6.80, sun and blue sky in every beat",
+ "negative_prompt": "subtitles, watermark, letterbox, black bars, digits, an inscription, Latin letters, a static camera, standing in place, perching, sitting on the line, walking away from the lens, slow motion, a closed beak while speaking, English speech, blood, gore, night, dusk, a dark scene, storm clouds, grey sky, rain, a repeated word, a wide establishing shot"
+}

@@ -1,0 +1,37 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, deadpan satire, hard noon sun, clear shallow water",
+"motion_rule": "the camera runs sideways alongside him in EVERY beat and reverses at 1.90, 3.60, 5.55 and 7.45, so crates, ropes, buoys and nets tear past behind him; he drives forward along the market row in EVERY beat and never hangs in place; the eel hauls papers through the lens and pale fish sink past him in EVERY beat; his gold gills pump and he works fins and tail in EVERY beat; he fills half the frame height; new shot size every beat; one action per beat; no push in, no rack focus",
+"character": "a plump golden carp upright on his tail, thick lips, heavy jowls, two huge gilded gill covers pumping like bellows",
+"second_characters": "ONE lean eel broker in a silk tie, always within a fin of the lens, hauling papers across the frame every beat; A SWARM of pale fish with dull gills sinking past him; from 6.85 two preening fancy fish in pearls and long veil fins sweep through the frame",
+"props": "ONE paper sheet the sinking fish carry, never his; furry mic bottom right",
+"environment": "a noon bright shallow lagoon over a sunken market: a packed row of stalls, crates, ropes and nets on both sides",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "dry chesty male voice, flat and smug, even 4.7 syllables/sec",
+"pacing": "first word at 0.0, no silent lead-in; 0.0-3.60 one breath, short breath at 3.60, 3.60-6.85 one breath; after 6.85 no words, only his whistle and sfx",
+"pronunciation": "go-DA-mi, NO-si-te, DEN-ghi, AK-tsi-i, ZHDYO-te, CHU-da, vlo-ZHIL, ZHAB-ry, TO-ne-te",
+"lip_sync": "his mouth opens on every syllable, never a voice over; at 8.05 his lips purse into a wolf whistle",
+"sfx": "water surge, bubbles, paper rustling, crates knocking, a gill wheeze, a loud wolf whistle at 8.05",
+"music": "none"
+},
+"timeline": [
+{"t": "0.0-0.85", "line": "Вы годами", "a": "he shoulders through a hanging net and it swings off the lens"},
+{"t": "0.85-1.90", "line": "носите деньги", "a": "he drives on down the row and knocks a crate lid open with his tail"},
+{"t": "1.90-2.55", "line": "в акции", "a": "chest-up: he whips his tail and bubbles blast into the lens"},
+{"t": "2.55-3.60", "line": "и ждёте чудо,", "a": "he barges through a curtain of ropes and buoys and they scatter past the lens"},
+{"t": "3.60-4.45", "line": "а я вложил", "a": "he hammers his gold gill cover with a fin, the eel swinging papers through the frame"},
+{"t": "4.45-4.90", "line": "в жабры", "a": "chest-up: he pumps both gills and shoves off a crate, driving forward"},
+{"t": "4.90-5.55", "line": "и дышу,", "a": "bubbles roll across the lens as he powers on past the stalls"},
+{"t": "5.55-6.20", "line": "пока вы", "a": "he jabs a fin at the lens, hauling himself past a sinking fish"},
+{"t": "6.20-6.85", "line": "тонете.", "a": "he slams his tail into a stack of crates and they burst past the lens"},
+{"t": "6.85-7.45", "a": "the two fancy fish sweep through the lens and he whips his whole body round after them"},
+{"t": "7.45-8.05", "a": "he beats his tail hard the way they went and blasts a cloud of bubbles across the lens"},
+{"t": "8.05-8.65", "a": "chest-up: he whistles after them, lips out, both gold gills flaring, still driving forward"},
+{"t": "8.65-9.25", "a": "the two fancy fish swing back and slap their veil fins across his face"},
+{"t": "9.25-10.0", "a": "chest-up: he grins wide at the lens and slams his gill covers shut, papers blasting past the lens"}
+],
+"must_appear": "the first word is heard at 0.0; at 6.85 the two fancy fish sweep through the lens; at 8.05 he whistles after them; at 9.25 he grins at the lens",
+"negative_prompt": "a silent opening, a still last second, empty water, a bare seabed, a hero hanging in place, a gold ring, a hero riding anything, a hero swimming at the camera head first, a prop worked in place, a held pose, speech bubble, subtitles, watermark, cyrillic, latin letters, printed words on props, digits, darkness, murky water, letterbox, a horizontal frame, a parked camera, a distant hero, a hero seen from behind, slow motion, words after 6.85"
+}

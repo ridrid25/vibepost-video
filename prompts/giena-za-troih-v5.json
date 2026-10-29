@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "stylized 3D animated comedy, vivid saturated colors, original character design",
+  "subject": "a female spotted hyena office worker, hunched high withers, big bright tangerine-orange cardigan; she sits in a wide split across three rolling office chairs, front paws typing on two keyboards, tail on the third desk's mouse; three ID badges on lanyards on her neck, two with photos of the same two hyenas as on the desk plaques; dry, serious, never smiles",
+  "second_characters": "a small nimble rat boss in a lime-green vest, black briefcase under his arm, brisk businesslike moves",
+  "props": "the hyena's three badges; a thin envelope (the rat's, then pinned to the hyena's lanyard); two cold mugs and two hyena photo plaques on the empty side desks; a floor bin; a wall pay box with a gold coin pictogram; two thick envelopes with the hyena's photo (the rat's); the rat's briefcase; a fourth badge with the rat's photo; the rat's sunglasses",
+  "environment": "open-plan office, three desks in a row under a ceiling vent grille, plain teal walls, the two outer desks empty",
+  "lighting": "bright, warm key on her face, magenta rim from the left window, cyan rim from the right; the orange cardigan bright in every shot",
+  "light_events": [{"t": "7.00", "event": "a cold glint flashes off the briefcase lock"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one; the hyena fills half the frame, except the close-up beats; her paws never stop typing",
+  "audio": {"language": "Russian", "delivery": "dry flat adult female voice, sarcastic, tired", "lip_sync": "accurate", "sfx": ["key clatter, squeaking casters 0.0", "tail slaps the chair 1.4", "paper rustle 2.6", "mugs clank into the bin 3.8", "loudest: metal click of the briefcase lock 7.5, keys cut to silence", "four lanyard clips jingle 9.5"]},
+  "timeline": [
+    {"t": "0.00-0.70", "a": "from the first frame, already in a split on three chairs, the hyena types; her three badges swing", "c": "camera drops tumbling from the vent into the badges until they fill the frame"},
+    {"t": "0.70-1.90", "a": "the rat kicks her right chair away, her split widens, her tail drags the chair back", "line": "Тяну за троих.", "c": "camera swings overhead to top-down"},
+    {"t": "1.90-3.20", "a": "the rat pins the thin envelope to her lanyard; her mouth is free and talking, paws typing", "line": "Платят за одну.", "c": "camera dives onto her lanyard until the envelope fills the frame"},
+    {"t": "3.20-4.40", "a": "the rat elbows both mugs and both photo plaques off the empty left desk into the bin", "c": "camera plunges low into the bin, mug in the foreground"},
+    {"t": "4.40-5.80", "a": "she eyes the bin, shoulders twitch in a silent hyena laugh, the thin envelope on her lanyard", "line": "Двоих сократили.", "c": "camera whips round from the bin to her eye"},
+    {"t": "5.80-7.00", "a": "the rat pulls two thick envelopes with her photo from the wall pay box; her neck and nose stretch toward them, paws typing", "c": "camera arcs up the wall, her nose in the foreground"},
+    {"t": "7.00-7.90", "a": "the rat rams both thick envelopes into his briefcase, snaps the lock and puts on dark sunglasses", "c": "camera hurls itself into the briefcase lock until it fills the frame"},
+    {"t": "7.90-9.20", "a": "she slowly turns her head straight into the lens, thin envelope on her lanyard, paws typing, tail on the mouse", "line": "Числятся на мне.", "c": "camera rockets back and whips round into her eyes until they fill the frame"},
+    {"t": "9.20-10.00", "a": "the rat hangs the fourth badge with his photo on her neck and rolls off on her right chair; four badges swing", "c": "camera drops through the chair gap and looks up at the four swinging badges until the rat's photo badge fills the frame", "hook": "open"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, a flat medium shot, floating objects, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

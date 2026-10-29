@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "stylized 3D animated comedy, vivid saturated colors, high contrast, original character design",
+  "subject": "a wiry female spotted hyena office worker, big bright cobalt-blue shirt, wide tangerine-orange harness on her chest; leans 45 degrees forward, ears pinned back on every pull; dry, serious, never smiles",
+  "second_characters": "a small nimble rat boss in a lime-green vest, rubs his paws before each move",
+  "props": "rope from her harness to three office desks coupled in a train; the rat's black briefcase on the last desk, two hyena photo stickers on it; two empty chairs with jackets and the same two photos on desks 2 and 3; a thin envelope (the rat's, then under her harness strap); a wooden threshold strip; a pay window with a gold coin pictogram; two envelopes from its slot; a fourth empty desk and a steel carabiner (the rat's)",
+  "environment": "long office corridor, emerald-green carpet, plain lilac walls",
+  "lighting": "bright, warm key on her face, hot-pink rim left, cyan rim right; blue shirt and orange harness bright in every shot",
+    "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; the hyena fills half the frame, except the close-up beats; she pulls with her whole body",
+  "audio": {"language": "Russian", "delivery": "dry flat adult female voice, sarcastic, tired; the hyena speaks", "lip_sync": "accurate", "sfx": ["desk legs screech 0.0", "claws rip carpet 1.0", "paper whoosh 2.8", "wood thud 4.0", "chairs crash 5.0", "register bell 6.9", "loudest: briefcase lock snap 8.9", "carabiner click, rope twang 9.5"]},
+  "timeline": [
+    {"t": "0.00-0.80", "a": "from the first frame, already harnessed like a barge hauler, the hyena yanks the rope, the desk train jerks; the rat rides the last desk, feet on his briefcase", "c": "camera hurls itself, barrel-rolls into her buckle"},
+    {"t": "0.80-2.00", "a": "she lunges a step forward, ears back, mouth free and talking", "line": "Тяну за троих.", "c": "camera whips round low, her paws in foreground"},
+    {"t": "2.00-2.70", "a": "she hauls on, claws digging in, body nearly flat; the rat flicks the thin envelope forward; the photo stickers on his briefcase show", "c": "camera flies over the rope to the briefcase, close-up"},
+    {"t": "2.70-3.90", "a": "still pulling, she snatches the envelope with her left paw, tucks it under her strap, mouth free and talking", "line": "Платят за одну.", "c": "camera arcs after the envelope onto her face, close-up"},
+    {"t": "3.90-4.60", "a": "the front desk hits the threshold, the rope jerks her down onto all fours", "c": "camera plunges to floor level"},
+    {"t": "4.60-5.90", "a": "the hyena rams her shoulder into the rope, mouth free and talking, the train climbs the strip; behind her the rat kicks both empty chairs off, they tumble", "line": "Двоих сократили.", "c": "camera flies under the middle desk, caster in foreground"},
+    {"t": "5.90-7.00", "a": "the train shoves her; she belly-slides on the carpet and stops nose to the pay window; the rat now holds his briefcase under his arm","c": "camera swings overhead, top-down"},
+    {"t": "7.00-8.20", "a": "she stands on hind legs, paws on the sill, two envelopes slide out of the slot, mouth free and talking", "line": "Числятся на мне.", "c": "camera flies through the slot to her face"},
+    {"t": "8.20-9.20", "a": "the hyena lunges at the slot for the envelopes; the rat jumps on her head, pressing her nose to the sill; he grabs both envelopes and snaps them into the briefcase under his arm", "c": "camera hurls itself into the briefcase lock, close-up"},
+    {"t": "9.20-10.00", "a": "the rat silently rolls the fourth empty desk from behind the window and clips the carabiner to the rope end; the rope snaps taut and yanks her back", "c": "camera dives onto the carabiner, close-up", "hook": "open"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, a flat medium shot, floating objects, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

@@ -1,0 +1,40 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry deadpan satire",
+  "motion_rule": "the cart rolls down the market lane the whole clip and never stops; stalls, crates and shoppers tear past the lens every beat; the camera tracks alongside; new shot size each beat, never wider than her muzzle on a third of frame; ONE sideways move per beat, never up or down",
+  "character": "a wiry macaque in a grey waistcoat riding that rolling cart deck, exactly two arms, muzzle and jaw always clear",
+  "second_characters": "ONE rat porter on the same deck a shoulder from the lens, crossing frame every beat, digging the sacks open from 3.85, never touching her",
+  "props": "ONE brass balance on a post bolted to the cart deck, two identical pans; ONE red sack and ONE blue sack, same cloth and size; A SWARM of paper slips",
+  "prop_continuity": "the balance rides on the cart; the sacks differ only in colour; the pans never part from level after 2.85",
+  "environment": "a packed market lane under a glass roof, fruit stalls tight both sides, shoppers diving out of the cart path",
+  "light_events": "flat white noon off the boards, a side shaft on the flying slips",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "a level pleased female voice, biting off each word, even 4.0 syllables/sec, beats filled edge to edge",
+    "pronunciation": "ba-LANS, so-SHOL-sya, PROS-to, o-BE-ikh, sto-RON, dol-GI",
+    "pacing": "0.00-1.25 and 1.60-3.85 each one breath, first word at 0.00; the gap under a second; after 3.85 not a word, sfx keep going",
+    "lip_sync": "her jaw opens on every syllable, never a voice over",
+    "sfx": "cart wheels hammering the stones all clip, the market roaring, paper slips flapping"
+  },
+  "timeline": [
+    { "t": "0.00-0.50", "line": "Баланс", "a": "the cart drives her at the lens, a sack swinging from each hand" },
+    { "t": "0.50-1.25", "line": "сошёлся.", "a": "she swings the red one across frame into the near pan, the lane tearing past" },
+    { "t": "1.25-1.60", "a": "the cart splits the crowd and a crate sweeps past the lens" },
+    { "t": "1.60-2.10", "line": "Просто", "a": "she kicks a tray off a passing stall and fruit sprays across frame" },
+    { "t": "2.10-2.85", "line": "с обеих", "a": "she swings the blue one across frame into the far pan" },
+    { "t": "2.85-3.35", "line": "сторон —", "a": "both pans ride level past the lens side by side" },
+    { "t": "3.35-3.85", "line": "долги.", "a": "she throws both hands out empty, her muzzle at the lens" },
+    { "t": "3.85-4.55", "a": "the rat dives into the red one a shoulder from the lens and slips blow out past it" },
+    { "t": "4.55-5.25", "a": "he hauls a fistful of slips across frame and flings them at the lens" },
+    { "t": "5.25-5.95", "a": "he leaps to the blue one and rips it open on the way" },
+    { "t": "5.95-6.60", "a": "slips blow out of that one too and sweep the lane past the lens" },
+    { "t": "6.60-7.20", "a": "the pans ride dead level between the bare sacks, she drives her muzzle at the lens, her face not changing" },
+    { "t": "7.20-7.90", "a": "the rat runs the deck the other way past the lens, slips whipping after him" },
+    { "t": "7.90-8.60", "a": "still rolling she tips both pans at the lens and slips pour out of both at once" },
+    { "t": "8.60-9.30", "a": "the slips sweep the lane past the lens, the crowd batting them away" },
+    { "t": "9.30-10.00", "a": "the cart drives her into the lens, the beam level, her face not changing" }
+  ],
+  "must_appear": "the cart rolls in every beat and the lane sweeps past behind her; the balance rides on that cart; the red one in the near pan, the blue one in the far pan; the rat opens both and the same slips blow out of each; the pans stay level from 2.85 to the last frame; at 6.60 and 9.30 her muzzle is at the lens; every word spoken, the last by 3.85",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a parked cart, a hero hanging from a fixed rail, a hero standing to work on a prop, a balance on the ground, standing bystanders, a wide or distant hero, a hero moving up or down the frame, slow motion, letters, writing, digits, a closed jaw while speaking, extra limbs, a third arm, multiple monkeys"
+}

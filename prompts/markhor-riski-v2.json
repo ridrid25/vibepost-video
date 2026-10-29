@@ -1,0 +1,66 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+ "motion_rule": "he is at full stride in the first frame and never stops striding the ledge; the camera orbits him every beat and reverses the orbit at 0.40, 1.80, 4.30 and 7.20, the cliff face raking past a horn away; ONE sideways move per beat, never chained; new shot size each beat; his muzzle never under a third of frame, jaw visible; the suits plunge across frame, never straight down",
+ "character": "a shaggy markhor with huge corkscrew horns and a long beard, striding along a narrow ledge, muzzle and jaw clear",
+ "second_characters": "A SWARM of investors in grey suits crowding the ledge and tipping off it, ONE of them plunging a shoulder from the lens every beat, two inside the first second, at 0.15 and 0.65; all of them moving",
+ "props": "A SWARM of grey paper contracts torn out of the falling suits and whipping across the lens; ONE briefcase in the last investor's fist",
+ "prop_continuity": "contracts fly off with every suit from 0.00, the briefcase rides in that fist until 7.20",
+ "environment": "a bright ledge packed wall to wall with shuffling suits, a jagged cliff a horn away raking the lens, a lone pine on the far wall across the chasm, white fog and lit peaks below",
+ "light_events": "white noon over the peaks, glare off the fog sweeping him every beat, a hard rim on his horns",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "a level male chest voice around 130 Hz, unhurried, biting off each word, even 4.3 syllables per second, beats filled edge to edge",
+  "pronunciation": "ro-GA, za-KRU-che-ny, moz-GI, BYS-try, ROST, bol-shin-STVO, PROS-to, PA-da-yut, E-tu, PRO-past",
+  "pacing": "speech runs unbroken 0.00 to 7.20, first word on the first frame, no gap between beats; after 7.20 wind, scree and paper fill the track to 10.00",
+  "lip_sync": "his jaw opens on every syllable, no voice over",
+  "sfx": "wind over the ledge, scree sliding, paper whipping, boots scraping"
+ },
+ "timeline": [
+  {
+   "t": "0.00-0.90",
+   "line": "Мои рога",
+   "a": "he is already driving along the ledge in the first frame, the cliff raking past, ONE suit plunging across the glass a shoulder away"
+  },
+  {
+   "t": "0.90-1.80",
+   "line": "закручены,",
+   "a": "he sweeps his corkscrew horns across the lens, another suit dropping past behind them"
+  },
+  {
+   "t": "1.80-2.75",
+   "line": "а не мозги,",
+   "a": "he shoulders through the queue along the ledge, the orbit whipping to his flank"
+  },
+  {
+   "t": "2.75-4.30",
+   "line": "чтобы верить в быстрый рост.",
+   "a": "he strides on and a suit crosses the glass, contracts whipping off it across the lens"
+  },
+  {
+   "t": "4.30-5.10",
+   "line": "Большинство",
+   "a": "he swings his beard across frame as the orbit whips to his other side, the cliff raking the lens"
+  },
+  {
+   "t": "5.10-7.20",
+   "line": "просто падают в эту пропасть.",
+   "a": "he rides the orbit at the lens, the whole column tipping past the glass in a grey sheet"
+  },
+  {
+   "t": "7.20-8.20",
+   "a": "the last investor grabs his horn and he flings him across the lens into the fog, the briefcase after him"
+  },
+  {
+   "t": "8.20-9.20",
+   "a": "he launches sideways across the chasm, fog streaming under him, and slams into the bark of the pine on the far wall"
+  },
+  {
+   "t": "9.20-10.00",
+   "a": "he walks straight up the near-vertical rock, scree and contracts sheeting past the lens, his muzzle into the glass"
+  }
+ ],
+ "must_appear": "at 0.00 he is already striding, a suit already plunging across the glass; a suit crosses the lens in every beat; nothing touches him before 7.20; he leaps the chasm sideways at 8.20 and climbs the near-vertical rock by 9.20; every word spoken, the last by 7.20; jaw open on every syllable",
+ "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, night, dark scene, a static camera, a still background, a still first frame, a held pose, a parked hero, a hero standing motionless on the rock, a hero moving up or down the frame, a wide or distant hero, standing bystanders, slow motion, letters, digits, a word not in the lines, a closed jaw while speaking, anything touching him before 7.20, multiple markhors, foreign accent"
+}

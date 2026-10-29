@@ -1,0 +1,109 @@
+{
+ "transcription": [
+  {
+   "text": " Меня",
+   "offsets": {
+    "from": 0,
+    "to": 220
+   }
+  },
+  {
+   "text": " гложут",
+   "offsets": {
+    "from": 220,
+    "to": 800
+   }
+  },
+  {
+   "text": " щита,",
+   "offsets": {
+    "from": 800,
+    "to": 1380
+   }
+  },
+  {
+   "text": " долги,",
+   "offsets": {
+    "from": 1680,
+    "to": 2180
+   }
+  },
+  {
+   "text": " а",
+   "offsets": {
+    "from": 2760,
+    "to": 2780
+   }
+  },
+  {
+   "text": " также",
+   "offsets": {
+    "from": 2780,
+    "to": 3140
+   }
+  },
+  {
+   "text": " пара",
+   "offsets": {
+    "from": 3140,
+    "to": 3580
+   }
+  },
+  {
+   "text": " шуп",
+   "offsets": {
+    "from": 3580,
+    "to": 3920
+   }
+  },
+  {
+   "text": " из",
+   "offsets": {
+    "from": 3920,
+    "to": 4100
+   }
+  },
+  {
+   "text": " норки.",
+   "offsets": {
+    "from": 4100,
+    "to": 4640
+   }
+  },
+  {
+   "text": " Их",
+   "offsets": {
+    "from": 6040,
+    "to": 6760
+   }
+  },
+  {
+   "text": " я",
+   "offsets": {
+    "from": 6760,
+    "to": 6880
+   }
+  },
+  {
+   "text": " уже",
+   "offsets": {
+    "from": 6880,
+    "to": 7060
+   }
+  },
+  {
+   "text": " почти",
+   "offsets": {
+    "from": 7060,
+    "to": 7320
+   }
+  },
+  {
+   "text": " доела.",
+   "offsets": {
+    "from": 7320,
+    "to": 7880
+   }
+  }
+ ]
+}

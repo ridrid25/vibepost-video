@@ -1,0 +1,81 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "target_platform": "tiktok",
+  "style": "3D animated, Pixar quality, deadpan satire, hard sun, high exposure",
+  "motion_rule": "the ant moves his whole body sideways through the sand every beat; the camera tracks with him at his eye level, never stops; shot size shifts with his body, half the frame to filling it, never leaving frame; sand, grass and worker ants always behind him",
+  "character": "the ant: glossy black ant, tired eyes, twitchy antennae; the fat bronze dung beetle boss; worker ants; ONE mosquito",
+  "props": "ONE gold coin stack; ONE banknote ball; ONE bread loaf; ONE crumb; furry mic bottom right",
+  "environment": "sunlit sandy anthill yard, grass blades, pebbles; a line of worker ants hauling coins across the yard; the beetle boss with a banknote ball by a bread loaf",
+  "audio": {
+    "language": "Russian; latin hints unspoken",
+    "delivery": "high squeaky male voice, weary but brisk, 4.5 syllables/sec",
+    "pronunciation": "ya ta-SHU na se-BYE BOL'-she, chem VYE-shu SAM. a v i-TO-ge hva-TA-yet TOL'-ko na od-NU KROSH-ku",
+    "pacing": "0.6-6.2 one continuous flow, no pause inside; after 6.2 not a word, sfx go on",
+    "lip_sync": "every syllable",
+    "sfx": "coin clinks, sand scrapes, swooshes, buzz, crunch"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "two worker ants tip ONE gold coin stack off a pebble onto the ant's back; he buckles and skids sideways across the sand, stack swaying",
+      "c": "eye level, tracking"
+    },
+    {
+      "t": "0.6-1.9",
+      "line": "Я тащу на себе",
+      "a": "the ant carries the stack sideways left to right on six scrabbling legs, stack swaying, jaws open on every word",
+      "c": "eye level, tracking"
+    },
+    {
+      "t": "1.9-3.2",
+      "line": "больше, чем вешу сам.",
+      "a": "the ant hauls the stack back right to left in a zigzag scuttle, legs buckling, nose ploughing the sand, jaws open on every word; ONE worker ant drops one more coin on top",
+      "c": "slightly high angle, tracking"
+    },
+    {
+      "t": "3.2-4.7",
+      "line": "А в итоге хватает",
+      "a": "the beetle boss rolls his banknote ball in and scoops the whole stack off the ant's back; the ant is shoved sideways and slides across the sand facing the lens, jaws open on every word",
+      "c": "close, eye level, tracking"
+    },
+    {
+      "t": "4.7-6.2",
+      "line": "только на одну крошку.",
+      "a": "the ant scuttles sideways after the rolling ball, belly low, all six legs scrabbling, antennae whipping, jaws open on every word; the beetle boss rolls the banknote ball ahead across the sand",
+      "c": "close, eye level, tracking"
+    },
+    {
+      "t": "6.2-6.8",
+      "a": "the beetle boss snaps ONE crumb off the bread loaf and flicks it; the crumb smacks the ant in the face, knocking him backwards through the sand",
+      "c": "close, tracking"
+    },
+    {
+      "t": "6.8-7.4",
+      "a": "the ant slides on his belly hugging the crumb, gives the lens a flat look, antennae drooping; worker ants haul coins behind him",
+      "c": "close, tracking"
+    },
+    {
+      "t": "7.4-8.0",
+      "a": "ONE mosquito dives in from the lens edge, bites the crumb and drags it sideways; the ant clings on and is dragged across the sand on his belly",
+      "c": "close, tracking"
+    },
+    {
+      "t": "8.0-8.6",
+      "a": "the crumb snaps in half; the ant is flung back, rolling over with the half crumb, sand bursting at the lens",
+      "c": "close, tracking"
+    },
+    {
+      "t": "8.6-9.3",
+      "a": "the ant lands sliding on his belly and gulps the half crumb whole, cheeks bulging",
+      "c": "close, tracking"
+    },
+    {
+      "t": "9.3-10.0",
+      "a": "ONE gold coin flicked by the beetle boss clinks onto the ant's back; he buckles and skids sideways, sand flying across the lens",
+      "c": "close, tracking"
+    }
+  ],
+  "must_appear": "hook 0.0: stack onto his back; beetle scoops it 3.2; crumb in his face 6.2; mosquito drags crumb 7.4; coin onto his back 9.3",
+  "negative_prompt": "held mic, a second mosquito, slow motion, any word after 6.2, silent tail, accented Russian, letters, numbers, price tags, subtitles, logo, watermark, English speech, pause inside a line, extra word, mouth shut, duplicate props, floating objects, a hero running at the camera on his feet, a wide shot, a distant hero, a parked camera, static scenery, a motionless first or last second, top-down view, a cart, a rail, sky, sun in frame, low angle, standing on hind legs, on the spot"
+}

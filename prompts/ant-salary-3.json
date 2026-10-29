@@ -1,0 +1,80 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D animated, Pixar quality, deadpan satire, hard sun, high exposure",
+  "motion_rule": "every beat the ant scuttles sideways under his own power, never lying still, never pushed; hit, loaded or bitten, he skids and keeps scrabbling sideways; he glances at the lens only on the run; camera keeps pace at his eye level, nonstop; shot size shifts with the bodies, up to a face filling the frame; the ant never leaves frame",
+  "character": "the ant: glossy black ant, tired eyes, twitchy antennae; the fat bronze dung beetle boss; worker ants; ONE mosquito",
+  "props": "ONE gold coin stack; ONE banknote ball; ONE bread loaf; ONE crumb; furry mic bottom right",
+  "environment": "sunlit sandy anthill yard, grass blades, pebbles; a line of worker ants hauling coins; the beetle boss by a bread loaf",
+  "audio": {
+    "language": "Russian; latin hints unspoken",
+    "delivery": "high squeaky male voice, weary but brisk, 4.5 syllables/sec",
+    "pronunciation": "ya ta-SHU na se-BYE BOL'-she, chem VYE-shu SAM. a v i-TO-ge hva-TA-yet TOL'-ko na od-NU KROSH-ku",
+    "pacing": "0.6-6.2 one unbroken flow; after 6.2 not a word, sfx go on",
+    "lip_sync": "every syllable",
+    "sfx": "coin clinks, sand scrapes, swooshes, buzz, crunch"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "the ant already scuttles sideways under ONE gold coin stack as two worker ants running beside him toss on a coin; he dips, skids and scuttles on",
+      "c": "tracking"
+    },
+    {
+      "t": "0.6-1.9",
+      "line": "Я тащу на себе",
+      "a": "he carries the stack sideways left to right, six legs scrabbling, jaws flapping",
+      "c": "tracking"
+    },
+    {
+      "t": "1.9-3.2",
+      "line": "больше, чем вешу сам.",
+      "a": "he hauls the stack back right to left in a zigzag scuttle, legs buckling, nose ploughing the sand, jaws flapping, as ONE worker ant adds a coin",
+      "c": "tracking"
+    },
+    {
+      "t": "3.2-4.7",
+      "line": "А в итоге хватает",
+      "a": "he scuttles sideways with the stack, jaws flapping, as the beetle boss rolls his ball alongside and scoops it off; suddenly light, he shoots off sideways, legs whirring",
+      "c": "tracking"
+    },
+    {
+      "t": "4.7-6.2",
+      "line": "только на одну крошку.",
+      "a": "he scuttles sideways after the ball and his stack, belly low, legs scrabbling, jaws flapping",
+      "c": "tracking"
+    },
+    {
+      "t": "6.2-6.8",
+      "a": "he scuttles sideways toward the loaf as the boss's huge snout sweeps past the lens beside him, snapping ONE crumb off it and flicking it into his face; he skids, heaving it onto his back",
+      "c": "tracking"
+    },
+    {
+      "t": "6.8-7.4",
+      "a": "he scrambles sideways with the crumb on his back, legs buckling under it, glancing flat at the lens on the run, antennae drooping",
+      "c": "tracking"
+    },
+    {
+      "t": "7.4-8.0",
+      "a": "he scuttles sideways with the crumb as ONE angry mosquito darts sideways across the lens, proboscis bared, wings bristling, huge beside him, and bites the crumb; he digs in, hauling it back in a tug-of-war",
+      "c": "tracking"
+    },
+    {
+      "t": "8.0-8.6",
+      "a": "he tumbles sideways as the crumb snaps in half, rolling over twice, sand bursting at the lens; the mosquito zips off with its half",
+      "c": "tracking"
+    },
+    {
+      "t": "8.6-9.3",
+      "a": "he flips onto his legs mid-slide and scuttles sideways, gulping his half whole on the run, his bulging cheeks sweeping past the lens filling the frame",
+      "c": "tracking"
+    },
+    {
+      "t": "9.3-10.0",
+      "a": "he keeps scuttling sideways right to left as ONE gold coin flicked by the boss clinks onto his back; he buckles, skids and scrabbles on",
+      "c": "tracking"
+    }
+  ],
+  "must_appear": "stack on his back while running 0.0; beetle scoops it 3.2; crumb in his face 6.2; mosquito bites crumb 7.4; coin on his back 9.3; huge faces: beetle 6.2, mosquito 7.4, ant 8.6",
+  "negative_prompt": "held mic, a second mosquito, slow motion, any word after 6.2, silent tail, accented Russian, letters, numbers, price tags, subtitles, logo, watermark, English speech, pause inside a line, extra word, mouth shut, duplicate props, floating objects, a hero running at the camera, a wide shot, a distant hero, a parked camera, static scenery, a motionless first or last second, top-down view, a cart, a rail, sky, sun in frame, low angle, standing on hind legs, on the spot, a hero lying still, a hero being dragged"
+}

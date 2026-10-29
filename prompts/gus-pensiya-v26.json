@@ -1,0 +1,27 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D black office comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+"subject": "ONE white goose clerk: big tomato-red vest, orange sleeve covers, long neck.",
+"second_characters": "ONE squinting mole boss: purple vest, round glasses. THREE beaver colleagues: lime-green shirts, sad eyebrows. ONE new goose at the end, same look, happy.",
+"props": "Giant pink piggy bank, goose-tall: the goose's hamster ball, his neck out of the slot; later a rind. Long clear straw: the mole's. Rack of yellow shovels with scarlet bows: the mole's; one goes to the goose. Round steel lids in the floor, each with a faded red bow. A second pink bank: the new goose's.",
+"environment": "Sunny turquoise skyscraper office, yellow floor tiles. Huge window; above it a navy sign, big white Cyrillic letters \"БАНК РОССИИ\", sharp and readable. Door at the far wall.",
+"lighting": "Bright noon sun; warm key on the goose's face, amber rim left, hot-pink rim right; red vest, pink bank, scarlet bows vivid in every shot.",
+"light_events": [{"t": "7.60", "event": "sun beam follows him down the hole"}],
+"motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; cuts only at 2.20, 4.40, 6.80, 9.20; goose fills half the frame, except the close-up beats",
+"audio": {"language": "Russian", "delivery": "Goose dry deadpan adult voice; mole smug low voice", "lip_sync": "accurate",
+"sfx": ["0.0 whoosh", "0.5 coins jingle", "2.5 gnawing crunch", "4.5 tile cracks", "5.0 straw slurp", "7.70 loudest crash", "9.3 steel lid clang", "9.8 coins jingle"]},
+"timeline": [
+{"t": "0.00-0.70", "a": "From the first frame the bank is mid-bounce off a lid, the goose running inside, wings out; a lid bow skims the lens.", "c": "already flies a sharp orbit round the bank"},
+{"t": "0.70-2.20", "a": "The goose sprints inside, the bank rolling over bowed lids toward the shovel rack and the БАНК РОССИИ window; he says", "c": "vaults over the bank, drops to the rack, bows in foreground", "line": "Копил на пенсию."},
+{"t": "2.20-2.90", "a": "Three beavers lift the bank and sadly gnaw it round like corn on the cob; it spins, the goose tumbles inside, bill shavings fly.", "c": "corkscrews round the spinning bank"},
+{"t": "2.90-4.40", "a": "The goose hangs upside down in the slot, legs pedaling; a chewing beaver pats his head; beak free, the goose says", "c": "dives into his upside-down face, close-up", "line": "Коллеги сочувствуют."},
+{"t": "4.40-5.30", "a": "A tile bursts, the mole rises waist-deep, sucks the bank's coins up his straw; it shrinks into a rind around the goose.", "c": "shoots up through the tile with the mole"},
+{"t": "5.30-6.80", "a": "The mole pushes a bowed shovel into the goose's wings; the goose staggers out hugging it; the mole, straw out of his lips, says", "c": "rises into the mole's face, close-up, straw in foreground", "line": "Дальше — сам накопаешь."},
+{"t": "6.80-7.20", "a": "The goose hisses and digs with his whole body, wings flapping like takeoff, soil fountains.", "c": "swings overhead, top-down"},
+{"t": "7.20-8.40", "a": "At 7.60 the tile breaks; the goose falls, wings spread as if taking off, into his own hole.", "c": "hurls itself down the hole after him"},
+{"t": "8.40-9.20", "a": "His soil-covered head pops over the rim; he shakes off soil, one wing still shoveling; beak free, flatly says", "c": "whips round in the hole, up into his face, close-up", "line": "Помогли."},
+{"t": "9.20-10.00", "a": "A beaver slaps down a lid already bearing the goose's scarlet bow, pats it like a grave. Below, a new pink bank rolls in the door, a happy new goose inside.", "c": "close-up on the bow on the lid, soars straight up to the ceiling over rows of bowed lids", "hook": "reveal"}
+],
+"negative_prompt": "subtitles, captions, watermark, added title cards, garbled sign letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, humans, floating objects, duplicate characters, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

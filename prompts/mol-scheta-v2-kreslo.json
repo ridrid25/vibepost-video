@@ -1,0 +1,38 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, deadpan satire, hard noon sun",
+"motion_rule": "she sits in a rolling office chair all clip and never stands; the belt of mink coats shoves the chair left on its casters in EVERY beat, so coats and tags tear past at double speed; her arms and mouth work in EVERY beat as it rolls; a near coat wipes the lens every beat; she fills half the frame height; camera rides beside the chair low, moving every beat, new shot size each beat; one action per beat; no push in, no rack focus",
+"character": "a plump grey clothes moth in a brown mink coat, powdery wings, feathered antennae, round belly, seated in a black office chair on five casters",
+"second_characters": "ONE lean moth in a green clerk visor darting ahead at lens all clip; A SWARM of moths crossing the lens every beat",
+"props": "ONE folder of bills in her lap; ONE long strip of bills unrolling from it; ONE red aerosol can in the clerk moth legs; ONE rubber gas mask with a filter snout; furry mic bottom right",
+"prop_continuity": "the strip whips behind the chair from 1.3 on; the can and mask are the clerk's",
+"environment": "a sunlit aisle packed with mink coats on two belt rails, brass hangers, fluttering price tags",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "dry chesty female voice, deadpan, even 4.4 syllables/sec",
+"pronunciation": "me-NYA, GLO-zhut, sche-TA, dol-GHI, TAK-zhe, do-YE-la",
+"pacing": "0.4-4.3 one breath, a short breath at 4.3, 4.3-6.4 one breath; after 6.4 not a word, only the sneeze and sfx",
+"lip_sync": "her mouth opens on every syllable, never a voice over",
+"sfx": "belt rumble and caster rattle all clip, dry wing flutter, fur ripping, a hissing jet at 6.4, one huge wet sneeze at 6.9",
+"music": "none"
+},
+"timeline": [
+{"t": "0.0-0.4", "a": "the chair shoots into frame with her in it, coats tearing past"},
+{"t": "0.4-1.3", "line": "Меня гложут", "a": "she chews her own sleeve as the chair rolls left and a coat sweeps the lens and clears"},
+{"t": "1.3-2.2", "line": "счета, долги,", "a": "she yanks the folder off her lap, a strip of bills bursts across the frame, chair rolling"},
+{"t": "2.2-2.9", "line": "а также", "a": "she shoves a hanging coat away, fur splitting wide across the lens, the chair speeding up"},
+{"t": "2.9-3.6", "line": "пара шуб", "a": "she swats brass hangers as she rolls by, they clatter past the lens, coats swinging wide"},
+{"t": "3.6-4.3", "line": "из норки.", "a": "the chair whips round a bend, the strip trailing behind it, tags tearing loose"},
+{"t": "4.3-5.2", "line": "Их я уже", "a": "she hauls herself to the far rail by a coat sleeve, coats sweeping between her and the lens"},
+{"t": "5.2-5.7", "line": "почти", "a": "she leans out of the rolling chair at the lens, hangers and tags tearing past"},
+{"t": "5.7-6.4", "line": "доела.", "a": "the chair races past the last stripped hanger, the swarm tearing across the lens"},
+{"t": "6.4-6.9", "a": "the clerk moth swings out at the lens and fires the can, a white jet raking her as the chair rolls through"},
+{"t": "6.9-7.2", "a": "chest-up: she sneezes hard at the lens, fur wads and tags blasting past camera, chair still rolling"},
+{"t": "7.2-7.7", "a": "the clerk moth flings the mask past the lens, she catches it and hauls it over her head, rolling"},
+{"t": "7.7-8.3", "a": "chest-up, mask on: she rips fur off her sleeve and stuffs it into the filter snout at the lens, rolling"},
+{"t": "8.3-10.0", "a": "the chair carries her at the lens, she chews through the filter, coats and swarm tearing past both ways"}
+],
+"must_appear": "she stays in the rolling chair all clip; at 6.4 the jet hits her while the chair rolls on; at 6.9 chest-up she sneezes at the lens; at 7.2 she pulls the mask on; at 7.7 she stuffs fur into the filter snout",
+"negative_prompt": "speech bubble, subtitles, watermark, cyrillic, latin letters, printed words on props, letterbox, night, dark scene, a parked camera, a still background, a stopped belt, a chair at rest, the hero standing or walking, a distant hero, a hero seen from behind, a held pose, slow motion, human hands, speech after 6.4"
+}

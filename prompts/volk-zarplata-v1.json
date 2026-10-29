@@ -1,0 +1,92 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "stylised 3D cartoon render, vibrant saturated colours, soft plastic textures, dry satire",
+  "motion_rule": "camera orbits the wolf nonstop, drums and sheets tear past every frame; one clear action per beat; wolf head over a third of frame, new shot size each beat; motion across frame, never up-down",
+  "character": "grey wolf, lean, creased white shirt with rolled sleeves, tie knocked sideways, fills two thirds of frame height in every beat, stands in place, same look throughout",
+  "second_characters": "ONE sheep laundress in an apron, acts at 4.15-4.95; ONE badger cashier at the counter, acts at 5.70-6.50; in other beats they are merely present",
+  "props": "ONE white paper envelope, a white band across it reads ОКЛАД in black capitals, no quotes; ONE wet white sheet; A SWARM of wooden clothespins",
+  "prop_continuity": "one envelope only: swung in from off frame, ripped open and shaken out empty, pressed to the wet sheet, pinned on the line, torn off, hurled into the lens; it comes out of the wash thinner and see-through",
+  "environment": "narrow laundry aisle, washers both sides, sheets overhead, day window",
+  "light_events": "wide window at the aisle end blazes daylight into frame; a wet sheet swings off the line at 6.50 and rakes a bright band of it across the wolf",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, weary and venomous, bites off every word, 4.5 syllables per second",
+    "pronunciation": "zar-PLA-ta, BE-la-ya, nas-TOL-ko, shto, pros-VE-chi-va-yet; latin hints are never spoken",
+    "pacing": "0.00-1.40, 1.40-2.75 and 2.75-4.15 each on one breath; after 4.15 no words, sfx continue",
+    "lip_sync": "jaw opens on every syllable",
+    "sfx": [
+      "drum hum",
+      "water splash",
+      "wet cloth slap",
+      "clothespin clatter",
+      "paper slapping the lens"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.70",
+      "line": "Зарплата",
+      "a": "wolf swings the envelope in from off frame left on a straight paw, jaw working"
+    },
+    {
+      "t": "0.70-1.40",
+      "line": "белая.",
+      "a": "wolf turns his torso after the envelope, holding it into the window light, jaw working"
+    },
+    {
+      "t": "1.40-2.05",
+      "line": "Настолько",
+      "a": "wolf spreads both paws wide, stretching the envelope across frame, jaw working"
+    },
+    {
+      "t": "2.05-2.75",
+      "line": "белая,",
+      "a": "wolf rips the envelope open and shakes it upside down across frame, nothing falls out, jaw working"
+    },
+    {
+      "t": "2.75-3.10",
+      "line": "что",
+      "a": "wolf flings the envelope out sideways on a straight paw, jaw working"
+    },
+    {
+      "t": "3.10-4.15",
+      "line": "просвечивает.",
+      "a": "wolf sweeps the envelope overhead across frame, light blasting through the paper, jaw working"
+    },
+    {
+      "t": "4.15-4.95",
+      "a": "the sheep carries the wet sheet across frame past the lens, cloth whipping by"
+    },
+    {
+      "t": "4.95-5.70",
+      "a": "wolf presses the envelope to the sheet and rips it down in a wide sideways swing"
+    },
+    {
+      "t": "5.70-6.50",
+      "a": "the badger hurls a fistful of clothespins across frame straight into the lens"
+    },
+    {
+      "t": "6.50-7.30",
+      "a": "wolf catches a clothespin and pins the envelope onto the line in a sideways swing"
+    },
+    {
+      "t": "7.30-7.90",
+      "a": "wolf hauls the line paw over paw, the envelope and the laundry riding across frame past him"
+    },
+    {
+      "t": "7.90-8.30",
+      "a": "wolf tears the envelope off the line in one pull across frame"
+    },
+    {
+      "t": "8.30-9.20",
+      "a": "wolf hurls the envelope across frame into the lens with a shoulder swing, his face showing through the wet paper"
+    },
+    {
+      "t": "9.20-10.00",
+      "a": "wolf drives sideways past the lens shoulder first, the empty envelope trailing from his paw across frame"
+    }
+  ],
+  "must_appear": "the ОКЛАД band envelope in every beat; at 2.05-2.75 it is ripped open and nothing falls out; light blasts through it at 3.10-4.15; every line spoken, last word by 4.15; after 8.30 the wolf throws it and drives past the lens himself",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, digits, a price card, garbled or misspelled words, Latin letters, slow motion, drawn-out delivery, foreign accent, two actions at once, a closed jaw while speaking, a full envelope, an empty corridor, text overlay, English speech, floating objects, extra limbs, multiple wolves"
+}

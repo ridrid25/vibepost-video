@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE stag; a cabin (smoking chimney, door, shuttered window) on his antlers, flung onto the stump at 3.95; muzzle grays at 0.80 and stays gray; same face throughout","anti_action":"weary serious face, brisk dry talker"},
+"second_characters":"ONE badger, vest, visor; in the cab until 6.60, then enters by the door",
+"props":"red ribbon; yellow bulldozer, ПОД СНОС on its blade; kettle on a hook; inside, seen only from 7.30: mounted trophy head with the stag's own face, glass eyes, gray muzzle",
+"environment":"sunny dense forest edge; a stump; birdhouses on trees; dense background",
+"lighting":"warm sun behind-left, sky glow behind-right, high contrast; sunbeams through the window",
+"motion_rule":"Camera arcs or orbits every beat, shot size changes, trees slide behind, never still; except 7.30: camera flies in through the window. Stag moves his whole body every beat.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress: FI-ni-sha, fi-ni-shi-RO-val, go-lo-VA, fsyeg-DA, DO-mye","pacing":"brisk, each line once, inside its beat, no speech after 5.9; silent beats: no voice","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.80","line":"Нёс свой дом","a":"talks; low angle on his face and the cabin on antlers from frame one; front hooves slip and dig in, legs tremble; camera arcs round"},
+{"t":"0.80-1.85","line":"сквозь годы,","a":"talks; heavy step, body swings round; snow on roof, frost on fur, muzzle turns gray; orbit closer"},
+{"t":"1.85-2.85","line":"ждал финиша.","a":"talks; trots forward under the cabin, neck stretched to the ribbon; the ribbon stretches from the birch to the ПОД СНОС blade, badger in cab yawns; arc out to medium"},
+{"t":"2.85-3.95","line":"Финишировал.","a":"talks; lunges chest-first, ribbon snaps, torn end on tine; snorts steam; low arc"},
+{"t":"3.95-4.85","line":"Но голова","a":"talks; neck jerk flings the cabin onto the stump, it lands upright; sharp arc round the stump"},
+{"t":"4.85-5.90","line":"всегда в доме.","a":"talks, face to camera; thrashes antlers against the cabin wall, whole body swaying side to side, cabin rocks on the stump, shingles burst off; far behind him the bulldozer lurches in raising dust; three-quarter arc"},
+{"t":"5.90-6.60","a":"blade scoops the stag from behind, legs kick air; bulldozer hauls him off in dust; cabin untouched; whipping arc"},
+{"t":"6.60-7.30","a":"dust rolls over, shutters fly open; badger leaps off the departing bulldozer, lands by the cabin; camera rushes at the open window, leaves whirl"},
+{"t":"7.30-8.10","a":"camera flies in through the window; dust, kettle swings; on the wall his own mounted head, glass eyes, gray muzzle, red ribbon on a tine"},
+{"t":"8.10-8.90","a":"door bangs open, badger walks in, hangs visor on the trophy's antler; it tips crooked; arc"},
+{"t":"8.90-9.50","a":"badger flops in an armchair under it, feet up; kettle clangs, trophy swings; arc closer"},
+{"t":"9.50-10.00","a":"badger slurps tea, claps the crooked trophy twice; ribbon flutters; short arc, badger and trophy fill frame"}
+],
+"must_appear":"0.00 his face, cabin on antlers, hooves dig; 1.85 bulldozer, ribbon on blade, badger in cab; 3.95 cabin upright on stump; 5.90 blade scoops stag, cabin intact; 7.30 inside: trophy with his gray face, ribbon on tine; 8.10 badger enters by door",
+"negative_prompt":"small hero, static camera, still background, text except ПОД СНОС, digits, logos, subtitles, watermark, writing on any prop, mounted head moving its jaw or eyes, mounted head blinking, trophy head outside the cabin, cabin on its side, cabin breaking, running toward camera, camera sliding sideways, conveyor ride, deer running off, a second live deer, two badgers, badger talking, voice after 5.9, objects falling on the stag, blood, gore, duplicate props, floating objects, extra legs, bent antlers, darkness, night, dim light, empty field, a line said twice, foreign accent"
+}

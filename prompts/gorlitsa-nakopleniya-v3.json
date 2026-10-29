@@ -1,0 +1,39 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, dry satire",
+"motion_rule": "the washing line itself runs through its pulley all clip and carries her down the yard while sheets, banknotes and the two crows tear across the lens every beat; the camera tracks alongside, her head half the frame; new shot size each beat, never wider than her head filling a third of frame, one action per beat, no bars",
+"character": "a slim grey turtle dove, pink breast, black neck ring, head stabbing the air",
+"second_characters": "two rangy crows in flat caps with knives, a wing from the lens, cutting across the line and dropping on the sack at 7.60",
+"props": "ONE fat sack of notes on a cord round her toe, dragging her along the line from the first beat; A SWARM of banknotes tearing out of it",
+"prop_continuity": "the sack rides on her toe to 6.45, swinging heavier every beat, and hits the grass at 7.05",
+"environment": "a yard at noon, washing lines strung wall to wall a wing away both sides, sheets packed along them, grass below, no empty distance",
+"light_events": "blazing white sun on the yard and the sheets to 1.75; at 1.75 the storm wall rams over and the yard drops to slate grey, her face and the sack still bright",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "a soft cooing female voice gone hard, preaching, biting each word, 4 syllables/sec",
+"pronunciation": "ot-LO-zhish, na CHOR-ny den, pri-DYOT, CHOR-na-ya noch, DEN-gi, ne spa-SUT, TOL-ko, KRY-lya",
+"pacing": "0.00-1.75, 2.15-3.75 and 4.15-6.45 each one breath; after 6.45 not a word, sfx keep going",
+"lip_sync": "her beak opens wide and shapes every syllable, throat swelling",
+"sfx": "wind, sheets cracking, the line running through its pulley, thunder, knives scraping"
+},
+"timeline": [
+{"t": "0.00-0.75", "line": "Отложишь", "a": "the line jerks into motion through its pulley and carries her down the yard, sheets slapping past"},
+{"t": "0.75-1.75", "line": "на чёрный день.", "a": "the sack swings out wide and drags her along the running line, the hedge tearing past behind"},
+{"t": "1.75-2.15", "a": "the storm wall rams over the yard and the sun goes out of the grass in one sweep"},
+{"t": "2.15-2.75", "line": "Придёт", "a": "she snaps her head round and the line bucks under her feet"},
+{"t": "2.75-3.75", "line": "чёрная ночь.", "a": "she rides the other way as sheets rip off the line and blow across the frame"},
+{"t": "3.75-4.15", "a": "both crows drop onto the running line either side of her, knives up"},
+{"t": "4.15-4.75", "line": "Деньги", "a": "she squares her shoulders and shoves the sack out along the line"},
+{"t": "4.75-5.40", "line": "не спасут,", "a": "a knife rakes the line beside her toe and banknotes tear out of the sack at the lens"},
+{"t": "5.40-5.90", "line": "только", "a": "she rises on her toes, wings half lifting, the cord going tight"},
+{"t": "5.90-6.45", "line": "крылья.", "a": "she throws both wings wide and the line whips out from under her"},
+{"t": "6.45-7.05", "a": "she lets the cord go and climbs, the sack falling away below her"},
+{"t": "7.05-7.60", "a": "the sack slams into the grass and bursts, banknotes blowing up around it"},
+{"t": "7.60-8.25", "a": "both crows drop on the sack in the grass, knives out, tearing at it, while she climbs at the lens above them"},
+{"t": "8.25-9.10", "a": "she banks across the lens, wings filling the frame, the crows below rolling over the sack"},
+{"t": "9.10-10.00", "a": "the crows claw the empty sack apart, notes blowing past, she a shrinking shape over the storm"}
+],
+"must_appear": "the sack on her toe to 6.45; full sun on the yard to 1.75 and the storm wall over it from 2.15; at 7.05 the sack hits the grass; at 7.60 both crows drop on it with knives while her face and open wings fill the frame above",
+"negative_prompt": "subtitles, watermark, letterbox, cyrillic letters, words, a parked camera, a still washing line, a closed beak while speaking, slow motion, a camera pulling back, a bird hanging motionless, an unreadable dark frame, a foreign accent, a word not in the lines"
+}

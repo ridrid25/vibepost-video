@@ -1,0 +1,39 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "he swings hand over hand along a market rail racing at the lens, the camera racing backwards ahead so the stalls tear past every beat and his face stays to the lens; head half the frame, from 6.65 a low angle, head low, risen pan high; new shot size each beat, one action per beat; both macaques act in every beat; camera move every beat",
+  "character": "a lean brown macaque in a grey waistcoat, deadpan",
+  "second_characters": "ONE small macaque porter in a green visor on the rail behind him; from 5.05 he hauls down on the risen pan and rises with it",
+  "props": "ONE brass balance beam with two identical pans, hooked on his tail; two identical brown coconuts, same size and husk, in his waistcoat",
+  "prop_continuity": "the left pan hangs dead down from 1.0; the right pan rides up from 4.3 on a taut chain and never comes down, its coconut riding above him to the end",
+  "environment": "a packed bazaar lane, stalls of fruit and brass to the ceiling both sides, the rail racing over",
+  "light_events": "hard noon sun bars strobe his face every beat, cold rim both sides",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.4 syllables/sec, beats filled edge to edge",
+    "pronunciation": "o-DIN, po-KA-zy-va-et, na-kop-LE-ni-ya, dru-GOY, kar-MI-che-ski-e, DOL-gi",
+    "pacing": "0.45-3.55 one breath; the gap under one second; 4.5-7.15 one breath with no voice sound outside the lines; after 7.15 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "the rail singing, the bazaar roaring, a woody knock at 0.45, a chain slam at 1.0, a rising ring at 4.3, the chain creaking at 5.05"
+  },
+  "timeline": [
+    { "t": "0.0-0.45", "a": "the beam swings into the lens off his tail, pans dead level, he is already swinging" },
+    { "t": "0.45-0.95", "line": "Один", "a": "he swings on one arm and drops a coconut into the left pan" },
+    { "t": "0.95-2.0", "line": "показывает", "a": "the left pan slams down its chain and slings him along" },
+    { "t": "2.0-2.5", "line": "мои", "a": "he swings past the loaded pan hanging dead down" },
+    { "t": "2.5-3.55", "line": "накопления.", "a": "he hauls along the rail, the loaded pan swinging under him" },
+    { "t": "3.55-4.3", "a": "he drops the other coconut into the right pan the same way" },
+    { "t": "4.3-4.5", "a": "the right pan flies up past his ear, its coconut lifting off onto the taut chain" },
+    { "t": "4.5-5.05", "line": "Другой —", "a": "he swings on, the risen coconut riding above his head, going with him" },
+    { "t": "5.05-5.6", "line": "мои", "a": "the porter swings down the chain and throws his whole body onto the risen pan" },
+    { "t": "5.6-6.65", "line": "кармические", "a": "the pan carries the porter up instead, both rising, he swings on" },
+    { "t": "6.65-7.15", "line": "долги.", "a": "the risen pan tows him off the rail, the porter still hauling on it" },
+    { "t": "7.15-7.9", "a": "he swats the riding coconut and it does not come down, the porter dragging its chain down" },
+    { "t": "7.9-8.7", "a": "the porter hauls the chain with both arms and the pan takes him higher still" },
+    { "t": "8.7-9.4", "a": "he swings the sunk pan past the lens, the risen one overhead with the porter on it" },
+    { "t": "9.4-10.0", "a": "he throws himself into the lens, deadpan, the sunk pan at his ear and the risen pan overhead" }
+  ],
+  "must_appear": "two identical coconuts; the first into the left pan at 0.45 slams it down; the same drop into the right pan at 3.55 sends it up at 4.3, its coconut riding above him; from 5.05 the porter hauls down on the risen pan and it lifts him instead; at 9.4 his deadpan face is in the lens, the sunk pan at his ear and the risen pan overhead",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, night, dark scene, three coconuts in frame, more than two pans, a parked camera, a still background, a hero standing to work on a prop, a wide or distant hero, a hero seen from behind, a held pose, slow motion, the risen pan coming down, a word not in the lines, a drawn-out word, cyrillic letters, extra limbs"
+}

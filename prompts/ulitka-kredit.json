@@ -1,0 +1,27 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE garden snail, grey-olive body, clear face, eyes on long stalks, small mouth; brown shell with a heavy brass padlock, chain taut from it into depth; same face and colour throughout","anti_action":"the world dives at him; weary serious face, brisk dry talker"},
+"second_characters":"ONE magpie; ONE small shell-less hermit crab, smaller than the snail's shell",
+"props":"padlock: smooth brass, no engraving; disc: smooth gold, no engraving",
+"environment":"wet stone garden step after rain, early morning; dense background: wet leaves, moss, drops, clay pots",
+"lighting":"low sun behind-left edges stalks and wet shell, bright sky glow edges him from behind-right, warm glints on brass and gold, high contrast, bright",
+"motion_rule":"The world flies at him: magpie, crab, disc and chain move along the depth axis into the lens, every beat. He twists, stretches and crawls every beat. New shot size and a short push or tilt every beat, never on a schedule.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress VYgodny on first syllable","pacing":"brisk, each line once, inside its beat, no speech after 6.4","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.80","line":"Мне сказали:","a":"mouth opens on every syllable; first frame: extreme close-up, stalks at the lens, padlocked shell, chain taut into depth; he creeps up the step edge; the magpie dives from depth at the lens"},
+{"t":"0.80-2.30","line":"«Выгодный кредит».","a":"mouth opens on every syllable; low angle, chest-up; he stretches his neck, then lowers both eyes; the magpie hovers at the lens, drops a gold disc, it bounces twice on the stone, rim flashes"},
+{"t":"2.30-2.95","line":"Я взял.","a":"mouth opens on every syllable; full figure, three-quarter; he creeps onto the disc, it slides under the shell rim, one gold edge shows"},
+{"t":"2.95-3.65","a":"low angle from behind, padlock in front; shell sinks, body flattens, stalks droop; chain jerks taut from depth, padlock clanks"},
+{"t":"3.65-4.60","line":"Оказалось,","a":"mouth opens on every syllable; close-up, chain into blurred depth; he turns his stalks back along it; the chain whips taut toward the lens; down it a hermit crab seizes it"},
+{"t":"4.60-5.50","line":"выгодный он,","a":"mouth opens on every syllable; chain-level, over his shoulder; the snail jabs a stalk at the crab; the crab runs up the chain at the lens"},
+{"t":"5.50-6.30","line":"а не я.","a":"mouth opens on every syllable; extreme close-up; he bends both stalks onto his own chest; at the lens edge the crab rubs both claws, eyeing the shell, not touching him"},
+{"t":"6.30-7.20","a":"medium shot from below; the snail springs up bare, unharmed, stalks shooting up, as the crab lifts the shell off by the padlock in one jerk, like a lid; sun flares on his wet body"},
+{"t":"7.20-8.10","a":"close-up, shell soft behind; he twists round, stalks lagging; at his shoulder the crab backs into the shell, padlock clicks"},
+{"t":"8.10-9.05","a":"macro at stone level; he sweeps both stalks down; the magpie dives at the lens, snatches the gold disc rolling from the shell mouth; crab hidden inside"},
+{"t":"9.05-10.00","a":"extreme close-up, bare snail, same face and colour as the start; he stretches his bare body at the lens, one stalk droops, gaze in the lens; behind, a claw waves from the locked shell"}
+],
+"must_appear":"0.00 padlock and chain on shell; 6.30 crab lifts shell off; 7.20 crab in shell; final: bare snail faces lens",
+"negative_prompt":"horizontal frame, letterbox, small hero, static camera, empty background, a still background, studio lights, text, letters, digits, subtitles, watermark, a logo, duplicate snails, two crabs, crab larger than the shell, duplicate props, the hero absent from frame, shell lifted before 6.3, blood, gore, slug without face, darkness, floating objects, slow speech, a line said twice, speech after 6.4, foreign accent"
+}

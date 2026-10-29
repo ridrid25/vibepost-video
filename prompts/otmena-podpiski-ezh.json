@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "he rides a runaway parcel trolley racing at the lens down a sorting hall, the camera racing backwards ahead so the racks tear past every beat and his face stays to the lens; the trolley carries him through every beat and he never works a prop standing; head half the frame, closer from 8.3; new shot size each beat; camera move every beat",
+  "character": "a bristling brown hedgehog in clerk's sleeve garters, deadpan",
+  "second_characters": "ONE mole stamp clerk in a green visor swinging along the racks beside him, slapping a fresh stamp on the tin every single time it is shut",
+  "props": "ONE stiff cancellation card on a chain round his neck, punched with one round hole; ONE steel tin riding the trolley",
+  "prop_continuity": "it is the same card on the same chain all clip and it is whole every time he checks it, until it goes at 8.3; the mole's stamps pile up on the tin lid and never come off",
+  "environment": "a packed parcel sorting hall, racks of parcels to the ceiling both sides, the trolley racing under him",
+  "light_events": "hard noon sun through the roof lights bars his face every beat, cold rim both sides",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.0 syllables/sec, beats filled edge to edge",
+    "pronunciation": "TRI RA-za, pe-re-pro-VE-ril, ot-me-NIL, o-NO sa-MO, pro-dle-VA-et",
+    "pacing": "0.5-3.4 one breath; the gap under one second; 4.35-7.5 one breath with no voice sound outside the lines; he says each line once and never says a line twice; after 7.5 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "the trolley rattling, the hall roaring, a lid slam and a stamp thud at 3.4, the same at 6.15, a dry crumble at 8.3, a chain clink at 9.1"
+  },
+  "timeline": [
+    { "t": "0.0-0.5", "a": "the card swings into the lens on its chain, whole, as he rides the trolley, racks tearing past" },
+    { "t": "0.5-1.2", "line": "Три раза", "a": "he holds the card up to the lens without slowing, the hall streaking behind" },
+    { "t": "1.2-2.4", "line": "перепроверил,", "a": "he flips the card over on the move and it is whole on both sides" },
+    { "t": "2.4-3.4", "line": "что отменил.", "a": "he drops the card in the tin and slams the lid as the trolley hauls him on" },
+    { "t": "3.4-4.35", "a": "the mole swings in off the racks and slaps a fresh stamp on the shut lid" },
+    { "t": "4.35-5.35", "line": "А оно", "a": "he cracks the tin at full speed and the card is whole, and he shows it to the lens" },
+    { "t": "5.35-6.15", "line": "само", "a": "he slams the lid again and the mole stamps it again, the racks tearing past" },
+    { "t": "6.15-7.5", "line": "продлевает.", "a": "he drives the trolley at the lens with the tin under his arm, stamps piling on the lid" },
+    { "t": "7.5-8.3", "a": "he rips the tin open one last time and holds the whole card into the lens" },
+    { "t": "8.3-9.1", "a": "the card crumbles to dust in his paws at the lens and the dust blows off down the hall" },
+    { "t": "9.1-9.5", "a": "an identical card drops onto the empty chain, already stamped, and swings at his chest" },
+    { "t": "9.5-10.0", "a": "he throws himself into the lens, deadpan, the new card swinging whole at his chest" }
+  ],
+  "must_appear": "one and the same card on the chain; it is whole at 1.2, whole at 4.35 and whole at 7.5; at 8.3 that same card crumbles to dust in his paws in full view; at 9.1 an identical stamped card drops onto the empty chain; at 9.5 his deadpan face is in the lens",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, night, dark scene, a second card before 9.1, the card torn or damaged before 8.3, a line said twice, a word not in the lines, a drawn-out word, a parked camera, a still background, a hero standing to work on a prop, a wide or distant hero, a hero seen from behind, a held pose, slow motion, cyrillic letters, readable text, extra limbs"
+}

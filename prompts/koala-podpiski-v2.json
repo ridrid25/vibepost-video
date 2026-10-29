@@ -1,0 +1,29 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE sleepy adult male koala; inky right paw; cowbell on his neck; on his belly a clear four-cup milking machine, hose dragging, gold discs gurgling along it; same face throughout","anti_action":"weary serious face, brisk dry talker; the mouth talks, never chews"},
+"second_characters":"ONE magpie, at the bottom edge; ONE animator with a Halloween pumpkin head on a bicycle; ONE Koschei animator on a scooter: gaunt old man, long grey beard, spiked crown, black cloak",
+"props":"bark strips, cups, bucket, discs: blank",
+"environment":"eucalyptus grove as a milking yard: wooden stalls, buckets on hooks, hoses up the trunks; dense background",
+"lighting":"low sunset sun behind-left, gold glints; warm magenta sky glow behind-right, high contrast, bright; at 9.40 the sun flares",
+"motion_rule":"The camera orbits him in an arc every beat and changes shot size; stalls, buckets, hoses slide behind him, never still. He moves his whole body every beat.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one","pacing":"brisk, each line once, inside its beat, no speech after 7.3; silent beats: no voice, no moo","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.55","line":"Думал,","a":"mouth opens on every syllable; he waddles round a stall post, as the magpie hops backward in the foreground with bark in its beak; camera arcs left"},
+{"t":"0.55-1.20","line":"это я","a":"mouth opens on every syllable; he swings his body to the magpie, raising his inky paw, as it holds the bark higher; arc"},
+{"t":"1.20-2.25","line":"подписываюсь.","a":"mouth opens on every syllable; he lunges and slaps his paw on the bark, as the magpie flies back; camera arcs right"},
+{"t":"2.25-2.95","a":"he flops down legs splayed, hose lashing, as discs gurgle along it and ring into a bucket; low arc"},
+{"t":"2.95-3.78","line":"Оказалось,","a":"mouth opens on every syllable; he grabs the hose, heaves up and turns after it, hose big in the foreground; camera arcs"},
+{"t":"3.78-4.61","line":"это они","a":"mouth opens on every syllable; he hugs the hose like a trunk and spins with it; camera orbits back"},
+{"t":"4.61-5.24","line":"на меня","a":"mouth opens on every syllable; he turns, slapping both paws on the machine, belly bouncing; camera arcs"},
+{"t":"5.24-6.07","line":"оформили","a":"mouth opens on every syllable; he climbs halfway up a trunk, as the magpie flies to a branch with fresh bark; arc round the trunk"},
+{"t":"6.07-7.30","line":"постоянную дань.","a":"mouth opens on every syllable; he slides down the trunk on his belly, as discs stream along the hose past the camera; camera arcs down"},
+{"t":"7.30-7.90","a":"by habit he slaps his inky paw on the bark again, as the magpie shoves it under his paw; short arc"},
+{"t":"7.90-8.60","a":"medium; he lurches sideways, as the pumpkin-head animator rides in from the left on a bicycle, big in the foreground, plugging two hosed cups into him on the move; arc round the bicycle"},
+{"t":"8.60-9.30","a":"medium; he sways the other way, cowbell clanging, as the Koschei animator rides in from the right on a scooter, big in the foreground, plugging two more hosed cups into him on the move; arc back"},
+{"t":"9.30-10.00","a":"medium; he staggers forward step by step, knees buckling, hoses dragging, rocking, as both animators ride at his sides, keeping pace; camera orbits"}
+],
+"must_appear":"7.30 he signs the bark again by habit; 7.90 pumpkin-head animator plugs two cups into him; 8.60 Koschei animator plugs two more; final: koala barely trudging, hoses dragging, animators at his sides",
+"negative_prompt":"small hero, static camera, a still background, text, letters, digits, subtitles, watermark, pouch, joey, duplicate koalas, duplicate props, chewing while speaking, koala riding the bicycle or scooter, more than two animators, a hero walking at the camera, gaze in the lens, darkness, floating objects, a line said twice, foreign accent, mooing"
+}

@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+  "motion_rule": "the camera orbits him every beat and reverses the orbit at 1.65, 3.95 and 5.45, the cliff face raking past a horn away; he never stops striding along the ledge; ONE sideways move per beat, never chained; new shot size each beat; his muzzle never under a third of frame, jaw visible; the suits plunge across frame and past the lens, never straight down the frame",
+  "character": "a shaggy markhor with huge corkscrew horns and a long beard, striding along a narrow ledge, muzzle and jaw clear",
+  "second_characters": "A SWARM of investors in grey suits crowding the ledge and tipping off it, ONE of them plunging a shoulder from the lens every beat, crossing frame and hitting the glass; all of them moving",
+  "props": "A SWARM of grey paper contracts torn out of the falling suits and whipping across the lens; ONE briefcase in the last investor's fist",
+  "prop_continuity": "contracts fly off with every suit from 0.00, the briefcase rides in that fist until 7.30",
+  "environment": "a bright ledge packed wall to wall with shuffling suits, a jagged cliff face a horn away raking the lens, white fog and lit peaks below and behind",
+  "light_events": "white noon over the peaks, glare off the fog sweeping him every beat, a hard rim on his horns",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "a level male chest voice around 130 Hz, unhurried, biting off each word, even 4.85 syllables per second, beats filled edge to edge",
+    "pronunciation": "ro-GA, za-KRU-che-ny, moz-GI, BYS-try, ROST, bol-shin-STVO, in-VES-to-rov, PROS-to, PA-da-yut, E-tu, PRO-past",
+    "pacing": "speech runs unbroken 0.00 to 7.30, first word at 0.00, no gap between beats; after 7.30 wind, scree and paper fill the track to 10.00",
+    "lip_sync": "his jaw opens on every syllable, no voice over",
+    "sfx": "wind over the ledge, scree sliding, paper whipping, boots scraping, bodies swallowed by the fog"
+  },
+  "timeline": [
+    {"t": "0.00-1.65", "line": "Мои рога закручены,", "a": "he drives along the ledge, his horn already filling the glass, ONE suit plunging across it a shoulder away"},
+    {"t": "1.65-2.50", "line": "а не мозги,", "a": "he sweeps his corkscrew horns across the lens, another suit dropping past behind them"},
+    {"t": "2.50-3.95", "line": "чтобы верить в быстрый рост.", "a": "he shoulders through the queue along the ledge, the camera orbiting to his flank, a suit crossing the glass"},
+    {"t": "3.95-4.60", "line": "Большинство", "a": "he swings his beard across frame as the orbit whips to his other side, the cliff raking the lens"},
+    {"t": "4.60-5.45", "line": "инвесторов", "a": "he strides on and the crowd pours off the ledge across the lens, contracts whipping with them"},
+    {"t": "5.45-7.30", "line": "просто падают в эту пропасть.", "a": "he rides the orbit at the lens, the whole column tipping past the glass in a grey sheet"},
+    {"t": "7.30-8.30", "a": "the last investor grabs his horn and he flings him across the lens into the fog, the briefcase after him"},
+    {"t": "8.30-9.20", "a": "he strides over the crumbling ledge, scree sheeting across the lens, contracts boiling past"},
+    {"t": "9.20-10.00", "a": "he drives his muzzle into the glass, horns filling the frame, one last suit crossing behind him"}
+  ],
+  "must_appear": "at 0.00 his horn already fills the glass and a suit is already plunging across it; a suit crosses the lens in every beat; nothing touches him before 7.30; he flings the last investor across the lens at 7.30; every word spoken, the last by 7.30; jaw open on every syllable",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, night, dark scene, a static camera, a still background, a parked hero, a hero moving up or down the frame, a wide or distant hero, standing bystanders, slow motion, letters, digits, a word not in the lines, a closed jaw while speaking, anything touching him before 7.30, a third horn on him, multiple markhors, a foreign accent"
+}

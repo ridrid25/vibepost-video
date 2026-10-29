@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE garden snail, grey-olive body, clear face, eyes on long stalks, small mouth; brown shell with a heavy brass padlock, chain along the step off past the camera; same face and colour throughout","physicality":"snaps stalks in, skates on wet stone leaving a glinting slime trail","anti_action":"weary serious face, brisk dry talker"},
+"second_characters":"ONE magpie; ONE small shell-less hermit crab, smaller than the shell",
+"props":"padlock: smooth brass, no engraving; disc: smooth gold, no engraving",
+"environment":"wet stone garden step after rain; dense background: wet leaves, moss, drops, clay pots",
+"lighting":"low sun behind-left through stalks, sky glow behind-right, glints on brass and gold, high contrast, bright",
+"motion_rule":"Camera orbits him every beat; leaves, pots, moss slide behind him. Shot size changes every beat as he nears or leaves the camera. He skates, skids or turns every beat. Magpie and crab work big in the foreground.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress VYgodny","pacing":"each line once inside its beat, nothing said after 6.3","lip_sync":"accurate"},
+"timeline":[
+{"t":"0.00-0.80","line":"Мне сказали:","a":"mouth opens on every syllable; his stalks snap in and shoot back out, body arched, as a magpie wing lashes across the foreground; camera orbits left to right"},
+{"t":"0.80-1.95","line":"«Выгодный кредит».","a":"mouth opens on every syllable; camera arcs right to left; he stretches tall to the magpie, which lands big on the step edge at the lens and drops a gold disc"},
+{"t":"1.95-2.65","line":"Я взял.","a":"mouth opens on every syllable; he skates onto the disc, skids sideways; it sticks to his sole; camera orbits after the skid"},
+{"t":"2.65-3.45","a":"he slides to the lower step, disc on his sole, shell bouncing, as the chain jerks taut along the step past the camera; camera orbits after him"},
+{"t":"3.45-4.40","line":"Оказалось,","a":"mouth opens on every syllable; he whips round to the crab, stalks snap in, as a hermit crab, big in the foreground, seizes the chain and pulls; camera orbits round to his face"},
+{"t":"4.40-5.40","line":"выгодный он,","a":"mouth opens on every syllable; he rears back, braces, skids in a half circle, as the crab hauls the chain claw over claw; camera arcs around the pair"},
+{"t":"5.40-6.30","line":"а не я.","a":"mouth opens on every syllable; he rears up, bends both stalks onto his own chest, as the crab climbs his shell and clasps the padlock; low orbit"},
+{"t":"6.30-7.05","a":"he slips out bare, unharmed, sliding forward, sun flashing on his wet body, as the crab lifts the shell off by the padlock; camera orbits after him"},
+{"t":"7.05-7.80","a":"he turns, body in a wave, as the crab backs into the shell big at his side, padlock clicks; camera arcs behind him"},
+{"t":"7.80-8.55","a":"he lunges after the shell, skids half a turn, as the crab scuttles the shell off sideways, chain whipping past the camera; camera orbits against the skid"},
+{"t":"8.55-9.30","a":"he spins round as the magpie sweeps across the foreground and plucks the disc off his sole; camera arcs low under the magpie"},
+{"t":"9.30-10.00","a":"he skates across the wet step, skids broadside past the camera, stalks whipping, face big in frame; behind, a claw waves from the locked shell; camera orbits"}
+],
+"must_appear":"0.00 padlock and chain on shell; 0.80 magpie drops gold disc; 6.30 crab lifts shell off by padlock; 7.05 crab in shell; final: bare snail skids broadside, face big; crab claw waves from locked shell",
+"negative_prompt":"small hero, static camera, a parked camera, a still background, a still last second, a slow push in, a focus pull, a cart, a rail, a distant second animal, duplicate animals, text, letters, digits, subtitles, watermark, engraving, duplicate props, shell lifted before 6.3, a faceless body, darkness, floating objects, slow speech, a line said twice, speech after 6.4, foreign accent"
+}

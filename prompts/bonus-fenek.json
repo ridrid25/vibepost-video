@@ -1,0 +1,38 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "he rides a depot loading belt racing at the lens, the camera racing backwards ahead so the parcel stacks tear past every beat and his face stays to the lens; the belt carries him through every beat and he never works a prop standing; head half the frame, from 6.3 a low angle, head low; new shot size each beat, one action per beat, camera move every beat; the picture fills the vertical frame top to bottom with no bars",
+  "character": "a small sand-coloured fennec with huge ears, deadpan",
+  "second_characters": "ONE scrawny jerboa runner sprinting the belt beside him, catching every falling nugget out of the air before it can reach his paws",
+  "props": "ONE plain cardboard box with a fat golden mountain stamped on its side, riding the belt at his knee",
+  "prop_continuity": "the box stays plain and empty to the end however much gold pours past; the tape he rips off at 2.9 never goes back on",
+  "environment": "an open desert parcel depot at noon, parcel stacks to the roof both sides, dunes beyond the wire fence, the belt racing under",
+  "light_events": "hard noon sun through the stack gaps bars his ears every beat, cold rim both sides",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.4 syllables/sec, beats filled edge to edge",
+    "pronunciation": "ko-ROB-ka, o-be-SHCHA-la, zo-lo-TY-ye, GO-ry, KA-zhet-sya, GDE-to, za ug-LOM",
+    "pacing": "0.4-3.5 one breath; the gap under one second; 4.4-7.0 one breath with no voice sound outside the lines; after 7.0 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "the belt humming, the depot roaring, tape ripping at 2.9, a far-off rumble from 4.4, gold hammering the parcel stacks from 7.0"
+  },
+  "timeline": [
+    { "t": "0.0-0.4", "a": "he rides the belt at the lens, the stamped box rocking at his knee, stacks tearing past" },
+    { "t": "0.4-1.1", "line": "Коробка", "a": "he hooks a claw under the tape without slowing" },
+    { "t": "1.1-2.0", "line": "обещала", "a": "he tips the stamped side of the box up to the lens as the belt hauls him along" },
+    { "t": "2.0-2.9", "line": "золотые", "a": "the jerboa swings in at the box and is carried on past it" },
+    { "t": "2.9-3.5", "line": "горы.", "a": "he rips the tape and throws the flaps wide, the box plain and empty inside" },
+    { "t": "3.5-4.4", "a": "he shakes the open box at the lens and nothing at all comes out of it" },
+    { "t": "4.4-5.0", "line": "Горы,", "a": "gold bursts out of the dunes far beyond the fence, never out of the box" },
+    { "t": "5.0-5.7", "line": "кажется,", "a": "he rears up on the belt, ears swivelling after the rumble" },
+    { "t": "5.7-6.3", "line": "где-то", "a": "the gold fall runs off down the dunes away from him, the jerboa tearing after it" },
+    { "t": "6.3-7.0", "line": "за углом.", "a": "he digs at the sand blowing over the belt and comes up with a pawful of grit" },
+    { "t": "7.0-7.8", "a": "the fall jumps the fence and hammers the parcel stacks the whole lane long, none of it near him" },
+    { "t": "7.8-8.6", "a": "he holds the open box up into the falling gold and every nugget skips off the flaps" },
+    { "t": "8.6-9.3", "a": "the jerboa hauls a fistful past his nose and he grabs at it and misses" },
+    { "t": "9.3-10.0", "a": "he throws himself into the lens, deadpan, the empty box on his head, gold pouring past behind" }
+  ],
+  "must_appear": "one plain box with a stamped golden mountain; at 2.9 the open box is empty; from 4.4 the gold bursts out of the dunes beyond the fence, never out of the box; at 7.8 nothing lands in the box he holds up; at 9.3 his deadpan face is in the lens, the empty box on his head",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, horizontal bars, a 16:9 frame, night, dark scene, standing bystanders, a still background, a parked camera, a hero standing to work on a prop, a wide or distant hero, a hero seen from behind, a held pose, slow motion, gold coming out of the box, gold landing in the box, a word not in the lines, a drawn-out word, cyrillic letters, readable text, extra limbs"
+}

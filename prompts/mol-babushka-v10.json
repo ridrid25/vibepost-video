@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire, warm daylight",
+  "motion_rule": "the camera orbits her without stopping and reverses at 2.25, 4.15 and 7.4, so the rails of coats and shelves of folders tear past behind her; she walks down the aisle in EVERY beat, never breaking stride, throwing her whole body into one big gesture in EVERY beat; the courier moth crosses through the lens hauling folders in EVERY beat; new shot size every beat; she fills half the frame height; one action per beat; no push in, no rack focus",
+  "character": "a plump grey clothes moth in a brown mink coat with a huge collar chewed ragged, powdery wings, feathered antennae",
+  "second_characters": "ONE lean moth in a headset, always within a wing of the lens, hauling folders through the frame in every beat",
+  "props": "ONE dark coat she pulls off the rail, wears, then carries; ONE paper the courier hands her at 7.4",
+  "environment": "a bank storage room, a long aisle between rails of coats and shelves of folders, tall windows",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty female voice, flat and bored, even 4.4 syllables/sec",
+    "pacing": "first word at 0.0, no silent lead-in; 0.0-4.15 one breath, short breath at 4.15, 4.15-7.4 one breath; after 7.4 only sfx",
+    "pronunciation": "BA-bush-ki-nu, SHU-bu, do-YE-la, BA-bush-ku, do-YE-li, dol-GHI, za-TO, PLA-tit, i-po-TE-ke",
+    "lip_sync": "her mouth opens on every syllable in every spoken beat, head up, face clear, never a voice over",
+    "sfx": "hangers screeching, fur ripping, paper tearing, a rail rolling at 5.85",
+    "music": "none"
+  },
+  "timeline": [
+    {"t": "0.0-0.85", "line": "Бабушкину", "a": "she drags a dark coat off the rail and throws it round her shoulders from behind, face clear"},
+    {"t": "0.85-1.55", "line": "шубу я", "a": "she sweeps a row of bare hangers back past her shoulder, clattering off the lens"},
+    {"t": "1.55-2.25", "line": "доела,", "a": "she boots an empty box ahead of her, tumbling down the aisle past the lens"},
+    {"t": "2.25-2.95", "line": "бабушку", "a": "she rips an armful of folders off a shelf in one wide swing"},
+    {"t": "2.95-3.65", "line": "доели", "a": "she hurls them back over her shoulder, paper bursting across the frame"},
+    {"t": "3.65-4.15", "line": "долги.", "a": "she stamps through the spilled folders, wings beating them away"},
+    {"t": "4.15-5.05", "line": "Зато она", "a": "chest-up: she pulls that coat off herself and carries it out on both arms, like a body"},
+    {"t": "5.05-5.85", "line": "больше не", "a": "she drops it in the aisle and steps clean over it without looking down"},
+    {"t": "5.85-6.55", "line": "платит по", "a": "wide: she shoves a loaded rail away, the coats streaming past her"},
+    {"t": "6.55-7.4", "line": "ипотеке.", "a": "she hauls her chewed collar off one shoulder and swings it sideways past the lens, still on her wing"},
+    {"t": "7.4-8.1", "a": "the courier shoves a paper at her on the run and she bites the corner clean off it, walking on"},
+    {"t": "8.1-8.8", "a": "she throws the chewed collar back around her shoulders like a fur stole and flings both wings wide"},
+    {"t": "8.8-9.4", "a": "she swings round into the lens and blows a cloud of grey fur off her wing straight at the camera"},
+    {"t": "9.4-10.0", "a": "chest-up: she walks on at the lens through the settling fur, working the stole, grinning wide"}
+  ],
+  "must_appear": "the first word is heard at 0.0; the camera keeps orbiting her in every beat; the courier is in frame every beat; at 7.4 she bites the corner off the paper; at 8.8 the fur cloud hits the lens; at 9.4 she grins straight at the camera",
+  "negative_prompt": "a silent opening, a still last second, duplicate props, floating objects, a hero standing in place, a hero riding anything, chewing before 7.4, a prop worked in place, a bowed head or covered face in a spoken beat, a held pose, an empty aisle behind her, darkness, night, dark scene, letterbox, a horizontal frame, speech bubble, subtitles, watermark, cyrillic, latin letters, printed words on props, digits, a parked camera, a still background, a distant hero, a hero seen from behind, speech after 7.4"
+}

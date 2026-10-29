@@ -1,0 +1,100 @@
+[
+ {
+  "id": "a472d03d-86f3-47f3-9ac5-cec65861e9a2",
+  "user_id": "3d31161c-5d43-491e-b24e-b930d5d14dbd",
+  "slug": "karta-deneg-gigiena",
+  "animal": "Гиена",
+  "hook": "КАРТА ДЕНЕГ - ЭТО МИФ?",
+  "line": "Карта обещала путь к богатству. Я уже устал бежать за горизонт.",
+  "prompt": "{\"duration_seconds\":10,\"aspect_ratio\":\"9:16\",\"style\":\"3D cartoon, Pixar, deadpan satire\",\"subject\":\"ONE hyena in a dusty explorer vest, spotted coat, long grin, wiry legs, covering ground in EVERY beat, never parked\",\"second_characters\":\"ONE vulture surveyor in a tie with a folding staff, hopping past the lens; from 6.10 he rolls the golden line up and presses the bare map back into the paws of the hyena\",\"props\":{\"big\":\"ONE treasure map as broad as the hyena, hauled open in EVERY beat; from 2.30 ONE golden line burning across the dirt outside the map and sliding further off in EVERY beat\",\"small\":\"A SWARM of dust, torn map corners, pebbles and dry leaves tearing past the lens\"},\"environment\":\"a cracked money-flat of dry gullies and claim posts, packed top and bottom with diggers, staffs and crates\",\"lighting\":\"bright daylight, clear blue sky, cyan edge left, amber fill right\",\"motion_rule\":\"the frame is TALL and the hyena fills at least half its height in EVERY beat, his grin never under a quarter of it. The camera orbits him on a hard arc, never parking, the packed flat swinging behind, a new shot size each beat, medium to very close. He covers ground in EVERY beat, bounding gully to gully after the golden line, never held in one pose. The world flies at him: dust, pebbles and torn corners tear past the lens the full frame width in EVERY beat. ONE hero action per beat.\",\"audio\":{\"language\":\"Russian\",\"delivery\":\"dry chesty male voice, level\",\"rate\":\"4.4 syllables per second\",\"pacing\":\"first word at 0.0, every line said once, last word done by 5.60, then the line and the dust carry it\",\"lip_sync\":\"mouth to the lens, opening on every syllable\",\"pronunciation\":\"KAR-ta, o-be-SHCHA-la, PUT, k bo-GAT-stvu, ya u-ZHE us-TAL, be-ZHAT, za go-ri-ZONT\",\"sfx\":[\"paper snapping open\",\"a low golden hum\",\"gravel scattering\"]},\"timeline\":[{\"t\":\"0.00-2.30\",\"line\":\"Карта обещала путь к богатству.\",\"a\":\"mid-stride he snaps the huge map open across his chest, its seams glowing, dust tearing past the lens\"},{\"t\":\"2.30-3.10\",\"a\":\"ONE golden line ignites in the dirt beside the map and runs off to the horizon, pebbles blasting past the lens\"},{\"t\":\"3.10-5.60\",\"line\":\"Я уже устал бежать за горизонт.\",\"a\":\"he whips his head along the golden line and bounds after its far end, the surveyor hopping past the lens with his staff\"},{\"t\":\"5.60-6.10\",\"a\":\"the golden line peels off the dirt and climbs into the sky, and he leaps after its end\"},{\"t\":\"6.10-6.70\",\"a\":\"the surveyor rolls the golden line up like a rug and tucks it under his wing, dust raking past the lens\"},{\"t\":\"6.70-7.30\",\"a\":\"the surveyor presses the map back into his paws and he hauls it open across his chest, and it is bare, his grin cracking\"},{\"t\":\"7.30-8.10\",\"a\":\"he shakes the bare map and the last golden crumbs pour out and tear past the lens\"},{\"t\":\"8.10-9.00\",\"a\":\"the surveyor plants a claim post where the line burned and hops off over the gully\"},{\"t\":\"9.00-10.00\",\"a\":\"he bounds over the gullies after the surveyor, the flat sweeping past the lens\"}],\"must_appear\":\"at 0.00 the huge map snapped open across his chest; at 2.30 ONE golden line igniting in the dirt beside the map; at 3.10 him bounding after its far end; at 5.60 the line climbing off the dirt into the sky; at 6.70 the bare map hauled open in his paws\",\"negative_prompt\":\"printed text, cyrillic words, digits, a price card, subtitles, watermark, speech bubble, a hero running at the camera on his feet, a sideways travelling camera or dolly, a conveyor belt, a cart, rails, a parked camera, a still or empty background, push in, wide shot, a small distant hero, letterbox, a horizontal 16:9 picture, night, dark scene, a hero back to the camera, a hero held in one pose, a prop worked in place, a motionless first or last second, a line said twice, speech after 5.60, offscreen narration, English speech, a second hyena in frame\"}",
+  "status": "approved",
+  "tg_message_id": 8597,
+  "video_url": null,
+  "error": null,
+  "created_at": "2026-09-24T06:00:43.19663+00:00",
+  "decided_at": "2026-09-24T13:19:00.656+00:00",
+  "route": "self",
+  "target_platform": "youtube_shorts",
+  "trend_signal": "reference-driven",
+  "reference_source_id": "thBbEHIR_4c",
+  "reference_source_url": "https://www.youtube.com/shorts/thBbEHIR_4c",
+  "reference_title": "I Tried A Bag of Air from 2018.. #relatablestories #comedy #funnymemes",
+  "reference_published_at": "2026-08-21T14:04:06+00:00",
+  "reference_views": 7639948,
+  "reference_vph": 9456.08,
+  "reference_snapshot_at": "2026-09-24T06:00:15.625+00:00",
+  "reference_channel_baseline_views": null,
+  "reference_outlier_ratio": null,
+  "causal_pattern": {
+   "payoff": "the character searches for and physically responds to the external effect",
+   "violation": "an impossible external effect begins outside the object",
+   "setup_rule": "one ordinary object promises an impossible property",
+   "payoff_class": "SEARCH_AND_RESPONSE_TO_EXTERNAL_EFFECT",
+   "pattern_class": "CHARACTER_SEARCHES_AND_RESPONDS_TO_EXTERNAL_EFFECT",
+   "violation_class": "IMPOSSIBLE_EXTERNAL_EFFECT_FROM_ORDINARY_OBJECT",
+   "viewer_prediction": "the ordinary object will behave ordinarily or fail",
+   "escalation_mechanism": "the external effect moves or expands beyond its source",
+   "repeat_or_confirmation": "the character activates or opens that same object"
+  },
+  "payoff_class": "SEARCH_AND_RESPONSE_TO_EXTERNAL_EFFECT",
+  "fidelity_constraints": [
+   "introduce one ordinary object with an impossible promise",
+   "activate or open that same object before the effect",
+   "start one clearly external impossible effect",
+   "make the character search for and respond to that effect"
+  ],
+  "generated_prompt_at": "2026-09-24T13:26:14.606729+00:00",
+  "hypothesis_id": null,
+  "feedback_hypothesis_key": null,
+  "feedback_context_hash": null,
+  "selected_lesson_ids": [],
+  "avoided_lesson_ids": [],
+  "api_metric_snapshot_ids": null,
+  "studio_metric_ids": null,
+  "changed_variable": null,
+  "experiment_constants": null,
+  "prompt_framework_id": null,
+  "prompt_framework_version": null,
+  "why_this_idea": "чужой эталон thBbEHIR_4c",
+  "idea_pattern": "thBbEHIR_4c|karta-deneg-gigiena",
+  "feedback_batch_key": null,
+  "feedback_candidate_index": null,
+  "youtube_feedback_batch_key": "1fa8169f6405e7c07ab2f8e214967f276f34dff243418a8b8010b3d80d6495ed",
+  "youtube_feedback_context_hash": "0173f1f5e09a7cddb5a46a1257a5312c59d17681484a3521fc9073a384ff9e27",
+  "youtube_candidate_index": 1,
+  "market_reference_ids": [
+   "REFERENCE:thBbEHIR_4c"
+  ],
+  "own_experiment_ids": [],
+  "evidence_roots": {
+   "OWN_PERFORMANCE": [],
+   "MARKET_REFERENCE": [
+    "REFERENCE:thBbEHIR_4c"
+   ],
+   "OWNER_PREFERENCE": {
+    "approved": [
+     "72a88867-ef15-4284-a541-53102b6dabb7",
+     "3ebba41c-e597-4b2e-bd89-aa313b6151fe",
+     "e44c2578-5fcd-42e7-8c53-588f5ffc175d",
+     "53477b3a-8234-45f8-adea-5f1e13ba1a69",
+     "da8eedef-f561-4d93-b7ee-a5bb9bf0a0d8",
+     "28d09c4e-ec73-42d9-8931-866da880de5b",
+     "fd26a9d9-5eb7-4bea-b0e0-78f130158b3d",
+     "16bf4352-e5b2-4775-9f98-3736fb7ff549",
+     "2106cbfa-68d3-4586-b272-ef109b03a5a8",
+     "3ccb9970-d7b5-4b48-b6a2-fbcab62bb81b"
+    ],
+    "rejected": [
+     "b3fa0a01-12ca-40b7-a5bf-b00a46dd25dd",
+     "90d1fc1b-a240-42fb-ac48-fef1c24fd459",
+     "dd936a09-7f41-4496-bf3d-78f9cc34ca30"
+    ]
+   }
+  },
+  "evidence_conflicts": [],
+  "idea_confidence": "MEDIUM",
+  "evidence_mode": "MARKET_REFERENCE_ONLY",
+  "youtube_batch_contract_hash": "cae78719c1f142cd77a8206c7493a1f2f64196c21e28672a7ae20fe3183501e3",
+  "otrabotana_at": null
+ }
+]

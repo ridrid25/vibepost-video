@@ -1,0 +1,64 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16, taller than wide",
+  "motion_rule": "the belt races all clip and never stops; the camera rides it with him and takes a new shot size every beat; every beat holds two named moves at their own times, in opposite directions; he never stops against a prop, he rides it; his head fills two thirds of frame height every window, jaw visible; motion across frame only, never up or down",
+  "character": "a lean chameleon in a grey clerk's collar on the racing belt, four feet, head and jaw clear, two thirds of frame height",
+  "second_characters": "ONE rat packer on the rail a shoulder from the lens, working on the move, crossing frame every beat",
+  "props": "ONE blank white price tag on a stalk bolted to the belt, no marks, growing taller every beat; A SWARM of dark jars streaming past; ONE crate of crickets; ONE trolley racing the aisle",
+  "environment": "a narrow supermarket aisle, dark jar shelves to the ceiling tearing past every beat, the belt racing down the middle, white noon, hard rim light on his head and the tag",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "a level flat male voice, each word bitten off, even 4.3 syllables/sec, beats filled edge to edge",
+    "pronunciation": "TSEN-nik VY-ros, pod TSVET, me-NYA ne VID-no, SLIL-sya s TSEN-ni-kom, ni-KTO, poz-VO-lit",
+    "pacing": "speech unbroken 0.00 to 7.20, first word at 0.00, no gaps; after 7.20 belt, jars and market roar fill the track to 10.00",
+    "lip_sync": "his jaw opens on every syllable, no voice over",
+    "sfx": "belt rumble all clip, jars rattling, chatter"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.90",
+      "line": "Ценник вырос.",
+      "a": "0.00-0.45 he hurls the crate of crickets across off the belt; 0.45-0.90 the stalk shoots up past him and he swings back the other way, jars tearing past"
+    },
+    {
+      "t": "0.90-1.60",
+      "line": "Я под цвет.",
+      "a": "0.90-1.25 he throws himself across from the belt onto the stalk; 1.25-1.60 the rat rolls his crate the other way at the lens"
+    },
+    {
+      "t": "1.60-2.75",
+      "line": "Меня не видно.",
+      "a": "1.60-2.20 he runs the belt against its own rush, jars streaming past the other way; 2.20-2.75 his hide rips grey to tag white on the run and he cuts back across, white on dark jars"
+    },
+    {
+      "t": "2.75-3.85",
+      "line": "Слился с ценником.",
+      "a": "2.75-3.30 he slams into the stalk and the stalk rides off across with him; 3.30-3.85 the rat swings his crate under it the other way, a wall of jars rolling past"
+    },
+    {
+      "t": "3.85-5.30",
+      "line": "Теперь меня никто",
+      "a": "3.85-4.55 he leaps across off the belt onto the racing trolley; 4.55-5.30 the trolley tears past the lens the other way, the stalk shooting up beside it"
+    },
+    {
+      "t": "5.30-7.20",
+      "line": "не может себе позволить.",
+      "a": "5.30-6.30 the rat rips a case open at the lens and dark jars fan out over the belt; 6.30-7.20 he vaults the fan head first at the lens, jaw open, white hide flaring against them"
+    },
+    {
+      "t": "7.20-8.00",
+      "a": "7.20-7.60 he dives head first at the lens off the belt, jaw open; 7.60-8.00 the rat sweeps his crate across behind him, the stalk shooting up again"
+    },
+    {
+      "t": "8.00-8.80",
+      "a": "8.00-8.40 the trolley rips across at the lens with him on its rail; 8.40-8.80 he swings off the other way onto the belt, jars streaming"
+    },
+    {
+      "t": "8.80-10.00",
+      "a": "8.80-9.40 he throws himself at the lens along the belt, jaw open, the towering tag at the frame edge; 9.40-10.00 the rat rolls the last case across past him"
+    }
+  ],
+  "must_appear": "racing belt, streaming dark jars and a crossing rat every beat; two opposite moves inside every beat; his hide tag white from 2.20 on, always against dark jars; at 6.30 his head on the lens, jaw open",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a stopped belt, a hero flattened against a prop or held in one pose, a pale hero on a pale field, a wide or distant hero, a hero moving up or down the frame, slow motion, night, dark scene, writing, digits, a word not in the lines, a closed jaw while speaking, hands grabbing or carrying the hero, extra limbs, multiple chameleons, foreign accent"
+}

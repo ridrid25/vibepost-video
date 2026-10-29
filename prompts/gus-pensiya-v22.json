@@ -1,0 +1,26 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D black office comedy about pensions, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+"subject": "ONE white goose clerk: big tomato-red vest, bright orange sleeve covers, long neck, proud chest, obedient.",
+"second_characters": "ONE squinting mole banker: purple vest, round glasses, red-white striped straw. TWO beaver colleagues, lime-green shirts, flat tails.",
+"props": "Long straw: the mole's, in his mouth except 4.60-6.10; it dips in his glass of orange juice, its far end runs under the desk. Old glass piggy bank: goose's, on his desk. Envelope: beavers', then in the mole's vest. Shovel, yellow handle, scarlet bow: mole's, then the goose's. New glass piggy bank: goose's, on the floor. Two short bendy straws: the beavers', in their paws from 9.20.",
+"environment": "Sunny turquoise skyscraper office: goose's desk at a wide window; outside over it on the facade a wide navy sign, big white Cyrillic letters \"БАНК РОССИИ\", sharp and readable. Mole's desk right, low partition left, ficus tub on a yellow floor.",
+"lighting": "Bright noon sun; warm key on the goose's face, amber rim left, hot-pink rim right; red vest vivid in every shot.",
+"light_events": [{"t": "7.60", "event": "coin flashes inside the straw"}],
+"motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+"audio": {"language": "Russian", "delivery": "Goose dry deadpan adult voice; mole smug low voice", "lip_sync": "accurate",
+"sfx": ["0.1 muffled honk","1.6 button clack", "2.4 tail slap", "4.2 straw tap", "5.0 shovel thuds", "6.4 coin ding", "7.70 LOUDEST slurp, coin click on teeth", "9.5 triple slurp"]},
+"timeline": [
+{"t": "0.00-0.70", "a": "From the first frame, already: the goose head-down to the neck in the old piggy bank on his desk, orange feet kicking; БАНК РОССИИ sign over the window; at the edge the mole sips juice, his straw's far end under the desk.", "c": "top-down, plunges onto the feet"},
+{"t": "0.70-2.10", "a": "The goose pops out, shakes the old piggy bank upside down; one button falls off the desk; the goose says", "c": "whips round, dives after the button, close-up", "line": "Копил на пенсию."},
+{"t": "2.10-3.60", "a": "Beavers rise over the partition, tail-slap the goose's back, drop coins in their envelope; the goose says", "c": "swings overhead, tails in foreground", "line": "Коллеги сочувствуют."},
+{"t": "3.60-4.60", "a": "The mole snatches the envelope into his vest; the goose opens his beak to hiss; the mole taps it shut with the straw.", "c": "flies after the envelope into the vest"},
+{"t": "4.60-6.10", "a": "The mole shoves the bowed shovel at the goose, takes the straw from his lips and says; the goose digs the ficus tub furiously, soil spraying.", "c": "low, barrel-rolls into the tub, soil in foreground, close-up", "line": "Дальше — сам накопаешь."},
+{"t": "6.10-7.20", "a": "The shovel hits a coin; the goose, chest out, drops it into the new piggy bank.", "c": "arcs after the coin into the slot"},
+{"t": "7.20-8.40", "a": "The mole's straw runs under the desk into the goose's new piggy bank; the coin shoots up it into the mole's mouth, he squints happily.", "c": "plunges down the straw, hurls itself up into the mole's face, close-up"},
+{"t": "8.40-9.20", "a": "The goose, leaning on the shovel, stares at the straw in his piggy bank, opens his beak to hiss, then flatly says", "c": "whips into the goose's face, close-up", "line": "Помогли."},
+{"t": "9.20-10.00", "a": "The beavers silently stick their own straws into the new piggy bank beside the mole's. Last frame: three straws in one neck, coins draining.", "c": "top-down, dives onto the neck, close-up", "hook": "open"}
+],
+"negative_prompt": "subtitles, captions, watermark, added title cards, blurred or garbled sign letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, night, humans, floating objects, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

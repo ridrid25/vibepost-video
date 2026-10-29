@@ -1,0 +1,34 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+  "motion_rule": "the world flies at him every beat: mice, walnuts and coins launch across frame and hit the glass, ONE of them a wing from the lens in every beat; he never freezes, his wings, head and talons drive across frame each beat; the camera swings past him to a new shot size each beat; ONE sideways move per beat, never chained; his face never under a third of frame, beak visible; everything crosses the frame or comes at the lens, never up or down the frame",
+  "character": "a huge tawny eagle-owl with ear tufts and orange eyes, perched on a beam and working his wings, face and beak clear",
+  "second_characters": "A SWARM of mice in grey coats pouring out of the bins with his coins, ONE of them a wing from the lens every beat, crossing frame and hitting the glass; all of them moving",
+  "props": "A SWARM of walnuts and coins stuffed into every crack of the loft; ONE clay money jar, out of sight until 6.90",
+  "prop_continuity": "walnuts and coins leave the cracks from 0.00, the jar exists only from 6.90",
+  "environment": "a sunlit grain loft packed wall to wall with bins and stuffed cracks a wing away, boards and beams raking the lens, mice streaming everywhere, a lit yard through the open gable",
+  "light_events": "white noon through the boards, shafts sweeping his face every beat, a hard rim on his tufts",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "a level male chest voice around 130 Hz, unhurried, laying each word down, even 4 syllables per second, beats filled edge to edge",
+    "pronunciation": "na-ko-PLE-ni-ya, kog-DA, za-BYL, ot-lo-ZHIL, I-na-che, E-to, ot-LO-zhen-ny, ras-HOD",
+    "pacing": "speech fills 0.00-1.25, 1.55-3.85 and 4.15-6.90, first word at 0.00; after 6.90 not a word, wings, coins and squeaks fill the track to 10.00",
+    "lip_sync": "his beak opens on every syllable, no voice over",
+    "sfx": "wings beating, coins spilling, mice squeaking, boards creaking, walnuts knocking"
+  },
+  "timeline": [
+    {"t": "0.00-1.25", "line": "Накопления —", "a": "his face already fills the glass, head screwed fully backwards at us, ONE mouse crossing the lens with his coin"},
+    {"t": "1.25-1.55", "a": "he snaps his beak and a walnut flies off the beam across the lens"},
+    {"t": "1.55-2.80", "line": "когда ты забыл,", "a": "he flares one wing across frame, the camera swinging wide past him, mice pouring out of the bins"},
+    {"t": "2.80-3.85", "line": "что отложил.", "a": "he drives his face at the lens, a walnut hurled past his ear by a mouse"},
+    {"t": "3.85-4.15", "a": "he screws his head round the other way, the loft swinging past behind him"},
+    {"t": "4.15-5.40", "line": "Иначе это", "a": "he rips a walnut out of a crack and hurls it past the lens, coins spilling after it"},
+    {"t": "5.40-6.90", "line": "отложенный расход.", "a": "he beats both wings and the whole swarm of mice launches at the glass with his coins"},
+    {"t": "6.90-7.90", "a": "a mouse in a grey coat slaps the empty jar into his talons and he hurls it at the lens, his face filling the glass"},
+    {"t": "7.90-8.80", "a": "he drives his beak into the glass, feathers and coins whipping past"},
+    {"t": "8.80-10.00", "a": "he throws both wings wide across frame as the bins empty past the lens, the last mouse crossing with a coin"}
+  ],
+  "must_appear": "at 0.00 his face already fills the glass with his head screwed fully backwards and a mouse already crossing the lens; a mouse or a coin crosses the lens in every beat; nothing touches him before 6.90; the jar is put into his talons at 6.90 and he throws it at the lens; every word spoken, the last by 6.90; his beak opens on every syllable",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, night, dark scene, a static camera, a still background, a parked hero, a hero moving up or down the frame, a wide or distant hero, standing bystanders, slow motion, letters, digits, a word not in the lines, a closed beak while speaking, anything touching him before 6.90, a third wing on him, multiple owls, a foreign accent"
+}

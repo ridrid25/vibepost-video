@@ -1,0 +1,83 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D animation, furry realism, slapstick comedy",
+ "motion_rule": "camera always moving, shot size changes every beat, something fills the lens each beat, one action per beat, motion across frame or at the lens, the world rushes past her, head over a third of frame",
+ "character": "one spotted hyena, the same all 10 s, upright on hind legs, running the whole clip, jaw opens on every syllable; a necktie and a jacket until 2.40, bare fur after",
+ "second_characters": "office workers at desks, ONE clerk who owns the envelope; on the path a hare, a goat, a badger, A SWARM of parrots, close to the lens across frame",
+ "props": "a fat paper envelope owned by the clerk, banknotes blank on both sides, a necktie and a jacket, a clean round hole through the middle of her right paw",
+ "prop_continuity": "the envelope is in her paw from 0.80, upside down and empty from 5.15, thrown at 7.05; the necktie and jacket leave her at 2.40 for good; the banknotes go one by one 2.95-5.15, none left after; the hole in her right paw is there all clip, shown to the lens at 6.25",
+ "environment": "a bright open plan office at midday, desks and a tall glass window; from 2.95 a green jungle path, thick leaves both sides, animals packed along it",
+ "light_events": [
+  {
+   "t": "0.0-10.0",
+   "event": "midday sun, hard shadows, bright green, the scare is her lunge at the lens"
+  }
+ ],
+ "audio": {
+  "language": "Russian",
+  "delivery": "male, low, dry, angry, level, 3.7 syllables per second",
+  "pronunciation": "Po-lu-CHIL zar-PLA-tu na RU-ki. RU-ki o-ka-ZA-lis dy-RYA-vy-e. DY-ry SVER-lyat pri NAY-me. Latin hints are never spoken",
+  "pacing": "first word on frame one, speech unbroken to 7.05, then not a word, only her low growl and the jungle",
+  "lip_sync": "accurate, jaw opens on every syllable",
+  "sfx": [
+   "paper tearing, office chatter",
+   "glass and leaves bursting, paws and hooves on the path",
+   "a low angry growl from 7.05 to 10.00"
+  ]
+ },
+ "timeline": [
+  {
+   "t": "0.00-0.80",
+   "line": "Получил",
+   "action": "running down the office aisle at the lens, she takes a fat envelope slammed into her paw by ONE clerk on the move; chairs whip past"
+  },
+  {
+   "t": "0.80-2.40",
+   "line": "зарплату на руки.",
+   "action": "on the run she rips the necktie and jacket off in one pull and hurls them at the lens; a worker ducks across frame"
+  },
+  {
+   "t": "2.40-2.95",
+   "line": "Руки",
+   "action": "she drives shoulder first through the tall window and lands running on the jungle path, leaves bursting at the lens"
+  },
+  {
+   "t": "2.95-4.05",
+   "line": "оказались",
+   "action": "animals pour at her across frame and on the run she slaps a banknote into every pair of paws"
+  },
+  {
+   "t": "4.05-5.15",
+   "line": "дырявые.",
+   "action": "still running, she turns the envelope upside down over her head and shakes it, nothing falls out; A SWARM of parrots tears past the lens"
+  },
+  {
+   "t": "5.15-6.25",
+   "line": "Дыры сверлят",
+   "action": "she snaps her jaws shut on the hare tail on the run and it whips out of her teeth; the goat races across frame with a banknote in its own teeth"
+  },
+  {
+   "t": "6.25-7.05",
+   "line": "при найме.",
+   "action": "punch: she drives her right paw into the lens, a clean round hole through it lit from behind, her yellow eye staring at us through the hole, jaws wide"
+  },
+  {
+   "t": "7.05-8.00",
+   "line": "",
+   "action": "she hurls the empty envelope at the lens and runs on past it, growling"
+  },
+  {
+   "t": "8.00-9.00",
+   "line": "",
+   "action": "she cuts across frame through the leaves"
+  },
+  {
+   "t": "9.00-10.00",
+   "line": "",
+   "action": "she comes at the lens again, jaws wide"
+  }
+ ],
+ "must_appear": "envelope at 0.80, necktie and jacket off at 2.40, through the window at 2.95, a banknote to every animal by 5.15, envelope empty at 5.15, jaws on the hare tail at 5.15, paw at the lens with her eye in the hole at 6.25, all words by 7.05",
+ "negative_prompt": "subtitles, watermark, letterbox, digits, an inscription, Latin letters, a static camera, standing in place, walking away from the lens, slow motion, a closed jaw while speaking, English speech, blood, gore, a jacket after 2.40, others carrying the hyena, a repeated word, night, dark scene"
+}

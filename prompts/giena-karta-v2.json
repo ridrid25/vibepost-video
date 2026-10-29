@@ -1,0 +1,27 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "bright sunny 3D comedy, vivid saturated colors, high contrast, original character design",
+  "subject": "lean spotted hyena with a sloped back in a big bright-orange vest covering his torso, pockets full of gold coins; serious face, dry male voice",
+  "second_characters": "hunched vulture in a green cashier's visor on an upturned crate behind the treadmill, claw on a crank, tin bucket beside him",
+  "props": "paper map with a gold dotted line to a red X at its bottom edge, in the hyena's paws; gold coins in the hyena's vest; the vulture's turquoise treadmill belt in the grass; the vulture's painted canvas ahead on two poles (horizon, palm, gold coin-sun) scrolling on rollers; crank and bucket are the vulture's",
+  "environment": "sunny savanna: golden grass, turquoise sky, red termite mounds",
+  "lighting": "warm key on his face all 10 s, hard noon sun, orange vest glowing against turquoise sky, golden-orange rim from the sun and turquoise rim off the belt",
+  "light_events": [{"t": "8.00", "event": "gold glint off a coin"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; hyena gallops with his whole body every beat, grass stays still; hyena fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "dry, tired adult male, deadpan", "lip_sync": "accurate", "sfx": ["paws drumming the belt", "paper rustle, sniff", "coin clinking on the belt", "clink in bucket, bite crunch", "loudest: thud, tumble, belt whoosh at 8.0", "coin rolling, final clink"]},
+  "timeline": [
+    {"t": "0.00-0.70", "a": "from the first frame, already: hyena at full gallop on the belt going nowhere, grass still, a coin pops from his vest", "c": "camera flies a hard 360 orbit round him"},
+    {"t": "0.70-1.20", "a": "running, hyena sniffs the map in his paws along the gold line to the X, shoulders giggling", "c": "camera dives into the map, filling the frame"},
+    {"t": "1.20-2.50", "a": "hyena jabs a claw at the X, body stretching forward, vest flapping", "c": "camera rises over his shoulder, map foreground", "line": "Карта обещала"},
+    {"t": "2.50-3.60", "a": "hyena thrusts the map at the vulture's canvas; the painted coin-sun scrolls up and away; he runs harder", "c": "low angle, camera soars up the canvas", "line": "путь к богатству."},
+    {"t": "3.60-4.30", "a": "a coin from his vest rides back on the belt; hyena glances back, still galloping", "c": "camera drops to belt level, skims behind the coin, coin foreground"},
+    {"t": "4.30-5.00", "a": "the coin lands in the vulture's bucket; the vulture bites it and cranks faster", "c": "camera darts into his beak, filling the frame"},
+    {"t": "5.00-6.30", "a": "the vulture's belt jerks faster, hyena thrown back, legs scrabbling, tongue out, coins spill from his vest", "c": "top-down, camera swings overhead", "line": "Я уже устал"},
+    {"t": "6.30-7.60", "a": "hyena stretches his neck to the lens, mouth open, still galloping, ears flat", "c": "camera hurls into his muzzle, filling the frame", "line": "бежать за горизонт."},
+    {"t": "7.60-8.40", "a": "a coin pops out, hyena trips on it, tumbles head over heels down the belt to the crate; the map flies from his paws", "c": "camera tumbles with him, eye level"},
+    {"t": "8.40-9.20", "a": "hyena on his back at the vulture's feet, shoulders giggling; the vulture snatches the map in his claw and rolls it into a cone over his bucket, gold line inside, the X at the tip", "c": "camera rams in on the claw, filling the frame"},
+    {"t": "9.20-10.00", "hook": "reveal", "a": "a coin drops from the hyena's ear into the cone, rolls down the gold line and drops out of the X into the bucket", "c": "top-down, camera plunges through the cone after the coin and out of the X tip"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, a flat medium shot, floating objects, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, dusty grey tones, people"
+}

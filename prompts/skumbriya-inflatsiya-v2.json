@@ -1,0 +1,38 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, dry satire",
+"motion_rule": "the ice tray slides her down the market aisle all clip while counters, crates and the seller sweep across and burst at the lens every beat; the camera tracks alongside, her head to the lens and half the frame; new shot size each beat, one big action per beat; the tall frame filled, no bars",
+"character": "a plump mackerel with a mirror-striped flank, upright on her tail, jaw working, eye always clear",
+"second_characters": "ONE heavy seller in a white cap and stained apron, big in frame a shoulder from the lens, hauling crates alongside then grabbing her",
+"props": "ONE price card reading 3999 propped in the ice beside her, on screen from the first beat; A SWARM of grey salmon heads with a paper card of a soup pot stuck flat on them",
+"prop_continuity": "the 3999 card rides the tray beside her from 0.00; the salmon heads come off her tail at 2.10 and lie under the soup pot card from 2.95 on",
+"environment": "a fish hall at noon, daylight flooding through the roof windows, tiled counters and crates a fin away both sides of the aisle, crushed ice heaped along them, no far wall",
+"light_events": "flat white noon off the tiles and the ice, a hard mirror flash down her flank at 5.70",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "a smug oily female voice, biting each word, 4 syllables/sec",
+"pronunciation": "prosh-LI, vre-me-NA, lo-SO-sya, te-PER, ma-YA, O-che-red, blis-TAT, ty, BU-desh, rad, KAZH-doy, KOS-toch-ke",
+"pacing": "0.55-2.95, 3.55-6.35 and 6.35-8.75 each one breath; after 8.75 not a word, sfx keep going",
+"lip_sync": "her jaw opens wide and shapes every syllable",
+"sfx": "ice crunching, trays scraping tile, crates banging, a scale clanging"
+},
+"timeline": [
+{"t": "0.00-0.55", "c": "wide", "a": "the tray shoves off down the aisle, ice spraying across the frame"},
+{"t": "0.55-1.25", "c": "close", "line": "Прошли", "a": "she rears up off the ice and swings her head to the lens"},
+{"t": "1.25-2.10", "c": "mid", "line": "времена", "a": "she rides the sliding tray past a crate that rakes across behind her"},
+{"t": "2.10-2.95", "c": "close", "line": "лосося.", "a": "her tail whips and hurls the grey salmon heads sideways off the tray at the lens"},
+{"t": "2.95-3.55", "c": "wide", "a": "the heads slap down on the tile and the seller drops the soup pot card flat on them"},
+{"t": "3.55-4.20", "c": "close", "line": "Теперь", "a": "she squares her shoulders and shoves the 3999 card upright with her nose"},
+{"t": "4.20-4.85", "c": "mid", "line": "моя", "a": "she throws her whole body over and the tray skids under her"},
+{"t": "4.85-5.70", "c": "close", "line": "очередь", "a": "she rises on her tail, fins spread wide"},
+{"t": "5.70-6.35", "c": "wide", "line": "блистать.", "a": "she arcs her striped flank at the lens and the light rips down it"},
+{"t": "6.35-7.15", "c": "close", "line": "Ты будешь", "a": "she leans in at the lens, jaw wide, ice bursting up around her"},
+{"t": "7.15-8.00", "c": "mid", "line": "рад каждой", "a": "the seller sweeps in across the whole frame, crates banging past, and scoops the tray out from under her"},
+{"t": "8.00-8.75", "c": "close", "line": "косточке.", "a": "she is swung through the air still talking, the aisle wheeling behind her"},
+{"t": "8.75-9.40", "c": "wide", "a": "the seller slams her flat on the scales, the needle whipping round, and rams her into a bag"},
+{"t": "9.40-10.00", "c": "close", "a": "the bag goes into the buyer's hands while the seller picks her teeth with a fish bone and grins at the lens"}
+],
+"must_appear": "the 3999 card beside her from first beat to last; at 2.10 her tail hurls the grey salmon heads off the tray and the soup pot card lands on them; at 8.75 the seller in the white cap slams her on the scales and bags her; at 9.40 the seller picks her teeth with a bone and grins into the lens",
+"negative_prompt": "subtitles, watermark, letterbox, night, dark scene, cyrillic letters, words, a parked camera, a closed jaw while speaking, slow motion, a camera pulling back, an empty aisle, a far wall, a foreign accent, a word not in the lines"
+}

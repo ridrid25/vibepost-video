@@ -1,0 +1,26 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan cartoon slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE white domestic goose: bright orange beak and feet, big RED swim cap, gold medal 65 on a red-white ribbon. Serious, proud, polite. Never flies.",
+  "second_characters": "ONE brown beaver pool manager: bright ORANGE vest, yellow hard hat. Three white geese in red swim caps queue on the tower ladder.",
+  "props": "Medal, cap: goose's. Blue tarp rope, shovel, chrome ladder, tiny inflatable ring the size of a bagel: beaver's.",
+  "environment": "Outdoor pool, TURQUOISE 10 m diving tower, sky blue. Taut BLUE tarp sits as flat 'water' over a dry pit of CANARY-YELLOW tiles with a slope down to the deep end.",
+  "lighting": "Bright noon sun; warm key on the goose's face, orange rim left, magenta rim right. Red cap, gold medal, orange beak vivid on yellow tiles in every shot, close-ups too.",
+  "light_events": [{"t": "3.40", "event": "sun flashes on cracking tiles"}, {"t": "7.60", "event": "chrome ladder glints"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice 0.7-7.1 s, beak free while speaking; no speech after 7.1 s", "lip_sync": "accurate", "sfx": ["0.0 wind whistle", "1.0 medal slap", "2.6 tarp snap", "3.4 hard thud, tiles crack", "4.0 rubber bonk", "5.0 lower bonk", "6.0 short hiss", "7.6 LOUDEST metal clang, body slap", "8.8 squeaky toy squeak", "9.4 tarp snap", "9.9 board twang"]},
+  "timeline": [
+    {"t": "0.00-0.70", "a": "From the first frame: goose dives swan-style off the tower, wings spread still, medal flapping; far below flat blue 'water'; beaver on the edge holds the tarp rope.", "c": "free-falls beside him off the tower, medal in foreground"},
+    {"t": "0.70-2.15", "a": "Goose tucks his feet and flips, the medal slaps his chest, beak free.", "c": "somersaults round him, sky and pool spinning", "line": "Говорят, на пенсии"},
+    {"t": "2.15-3.40", "a": "Goose flips twice more, beak free; beaver yanks the rope: the tarp corner lifts like a sheet over dry yellow tiles.", "c": "swoops down ahead of him to the lifting tarp corner, goose above in frame", "line": "жизнь начинается."},
+    {"t": "3.40-3.75", "a": "Goose punches through the tarp beak first, belly slams the dry tiles, tiles crack in a star; wings flick open and press back; he bounces up like a ball.", "c": "punches through the tarp with him onto his beak and belly, close-up"},
+    {"t": "3.75-4.80", "a": "Goose bounces off the left wall side first, the red cap slides over his eyes, beak free.", "c": "rolls with him into the left wall, upside down", "line": "Моя началась,"},
+    {"t": "4.80-5.85", "a": "Goose rebounds blind into the right wall, hits it, drops onto the slope; medal ribbon twists, beak free.", "c": "whips across the pit after him, tilting down the slope", "line": "как будто в яме."},
+    {"t": "5.85-7.10", "a": "Goose slides belly-down the slope to the beaver's feet by the ladder; his neck lunges with a hiss, stops; he politely reaches a wing to the shovel, beak free; beaver lifts the shovel overhead and climbs the ladder.", "c": "skims down the slope behind his tail, shovel in foreground", "line": "Только без лопаты."},
+    {"t": "7.10-8.40", "a": "Goose's wing grabs the bottom rung; beaver on the edge yanks the whole ladder out; goose hangs, wings flap once, fold back; his wing slips off the rung, he drops onto the tiles; the ladder slides away over the edge in the beaver's paws.", "c": "rockets up the ladder, then hurls itself down at his slipping wing, close-up"},
+    {"t": "8.40-9.20", "a": "Beaver drops the tiny ring from the edge; it falls and slips onto the goose's beak; goose sits serious, cap over his eyes.", "c": "drops with the falling ring onto his beak, close-up"},
+    {"t": "9.20-10.00", "a": "Beaver's paws snap a new blue tarp flat over the pit, the goose with the ring on his beak goes under the flat 'water'. Last frame: the next goose in a red cap on the board edge bows, feet push off.", "c": "corkscrews up the diving tower to the next goose's feet on the board edge, close-up", "hook": "loop"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, night, dark scene, real water, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

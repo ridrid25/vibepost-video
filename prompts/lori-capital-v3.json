@@ -1,0 +1,39 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, dry satire",
+"motion_rule": "the belt hauls him down the hall all clip while coin towers, cages and the auditor sweep across and burst at the lens every beat; the camera swings round him without stopping, his face to the lens, his head half the frame; new shot size each beat, one big action per beat; the tall frame filled, no bars",
+"character": "a small slow loris with enormous round eyes and heavy rings under them, muzzle always clear of his paws",
+"second_characters": "ONE shrew auditor in a grey sleeve guard, big in frame a shoulder from the lens, hurling coin bags across the belt",
+"props": "ONE paper tally roll trailing from his paw, longer every beat, only carried, swung or hurled, never worked in place",
+"prop_continuity": "the tally roll shows from 0.00 and grows every beat; at 7.75 the auditor rips it away; from 8.45 one coin is all he holds",
+"environment": "a coin counting hall at noon, daylight through the glass roof, sorting cages and coin towers a paw away both sides of the belt, trolleys packed along it, no far wall",
+"light_events": "blazing noon, white bounce off the towers onto his muzzle, a hard glint on the coin at 8.45",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "a small hoarse voice worn flat by a sleepless shift, biting each word, 4 syllables/sec",
+"pronunciation": "ma-I gla-ZA, KRUG-ly-e, ne OT, u-div-LE-ni-ya, a OT, ne-do-SY-pa, STOL-ko, schi-TAT, NA-do",
+"pacing": "0.55-3.85, 3.85-5.35 and 5.95-7.75 each one breath; after 7.75 not a word, sfx keep going",
+"lip_sync": "his mouth opens wide and shapes every syllable",
+"sfx": "the belt grinding, coins pouring, cage doors clanging"
+},
+"timeline": [
+{"t": "0.00-0.55", "c": "wide", "a": "the belt hauls him past a tower and a cage swings across over his head"},
+{"t": "0.55-1.40", "c": "close", "line": "Мои глаза", "a": "he drags both paws down his face and lets the lids snap back open at the lens"},
+{"t": "1.40-2.15", "c": "mid", "line": "круглые", "a": "he hauls the tally roll up out of the coin pile and it unspools across the frame"},
+{"t": "2.15-2.70", "c": "close", "line": "не от", "a": "he swings his head round as a coin bag flies past his ear"},
+{"t": "2.70-3.85", "c": "wide", "line": "удивления,", "a": "the auditor hurls a bag onto the belt beside him and it bursts, coins raking across"},
+{"t": "3.85-4.40", "c": "mid", "line": "а от", "a": "he throws a paw out and rides the jolt as the belt kicks under him"},
+{"t": "4.40-5.35", "c": "close", "line": "недосыпа.", "a": "he shoves the roll under his chin and props his own eyelid up with one claw"},
+{"t": "5.35-5.95", "c": "wide", "a": "a whole cage of coins tips beside the belt and pours past him crosswise"},
+{"t": "5.95-6.50", "c": "mid", "line": "Столько", "a": "he heaves the growing roll over his shoulder like a rope"},
+{"t": "6.50-7.15", "c": "close", "line": "считать", "a": "he flings a paw at the towers going past and the roll whips after it"},
+{"t": "7.15-7.75", "c": "wide", "line": "надо.", "a": "he swings the whole roll across the frame and it slaps the coin tower"},
+{"t": "7.75-8.45", "c": "mid", "a": "the auditor bangs a stamp on the roll, rips it out of his paws and hauls it off the belt"},
+{"t": "8.45-9.20", "c": "close", "a": "the auditor flips one coin at him without looking and keeps walking; it hits his chest and he grabs it"},
+{"t": "9.20-9.70", "c": "close", "a": "he holds the one coin up at the lens, his round eyes stretching wider than the coin"},
+{"t": "9.70-10.00", "c": "wide", "a": "behind him the towers he counted all shift roll away down the hall and out through the gates"}
+],
+"must_appear": "the tally roll growing every beat until it is ripped away at 7.75; his enormous round eyes with heavy rings; at 8.45 the auditor flips him one coin and that coin is all he keeps; at 9.70 the towers he counted roll away behind him",
+"negative_prompt": "subtitles, watermark, letterbox, night, dark scene, cyrillic letters, words, a parked camera, a closed mouth while speaking, slow motion, a camera pulling back, an empty hall, a far wall, a foreign accent, a word not in the lines"
+}

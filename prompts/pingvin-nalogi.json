@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan; penguin fills two thirds of frame height every beat",
+"subject":{"character":"ONE neat emperor penguin accountant, tiny black tailcoat, bow tie, orange beak; same face throughout","anti_action":"face fully serious, brisk dry talker"},
+"second_characters":"ONE big tusked walrus collector by a wooden crate of jars; acts at the frame edge, never before the penguin's beak",
+"props":"jars: plain glass, no labels, screw lids; crate: plain wood, no labels",
+"environment":"small ice floe ringed by dense pressure ridges with icicles, deep blue water beyond the edge",
+"lighting":"low polar sun behind-left rims him in gold, cold blue rim from behind-right, flares on every move, high contrast, bright",
+"motion_rule":"Camera circles him on a tight arc every beat, never stops; new shot size every beat; he moves every beat; one secondary acts per beat; dense background along the whole orbit: ridges, icicles, water.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native Russian, no accent; first word on its beat","pacing":"brisk, each line once, inside its beat, no speech after 6.4; no voice at 4.75-5.50 and 9.40-10.00","lip_sync":"beak opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.70","a":"no voice; first frame: extreme close-up, beak and jar; he exhales into a clear jar, thick white fog swirls inside, he slaps the lid on; the walrus flipper reaches from behind his shoulder, motionless"},
+{"t":"0.70-1.80","line":"Я выживаю","a":"beak opens on every syllable; voice runs on into the next beat, no pause; medium close-up, orbit right; jar away from his beak, with both flippers he lays it into the walrus flipper; the walrus closes on it"},
+{"t":"1.80-2.70","line":"на этом льду.","a":"beak opens on every syllable; full shot, low by his feet; he stamps a foot, rocking on his toes; the walrus motionless"},
+{"t":"2.70-3.40","line":"Как и все,","a":"beak opens on every syllable; medium, orbit behind him to the crate; he brushes his lapels with both flippers; the walrus sets the jar among rows of fogged jars"},
+{"t":"3.40-4.75","line":"плачу за каждый вздох.","a":"beak opens on every syllable; close-up, orbit to his face; on tiptoe, flippers spread palms up, wobbling; the walrus, chest-high and at a distance, holds out an open empty jar"},
+{"t":"4.75-5.50","a":"no voice, only the hiss of his exhale; extreme close-up, jar, penguin in profile; he leans into the walrus's jar and exhales; the walrus snaps the lid on"},
+{"t":"5.50-6.40","line":"До апреля.","a":"beak opens on every syllable; medium from below, icicle in frame; on tiptoe he jabs a flipper up at it; a drop swells on its tip"},
+{"t":"6.40-7.20","a":"close-up on his crown, high angle; the drop hits it, he flinches all over, shakes his head"},
+{"t":"7.20-8.00","a":"low wide, orbit round his feet; he shifts foot to foot, looking down; a crack runs in a ring round his feet; the walrus motionless"},
+{"t":"8.00-8.80","a":"wide, water in frame; the ice tilts under him; the walrus breaks off most of the floe with his tusks, crate on it, and drifts off"},
+{"t":"8.80-9.40","a":"medium wide; he teeters on a round chunk barely wider than his feet, flapping; the chunk tilts and sinks lower"},
+{"t":"9.40-10.00","a":"no voice, only water; close-up, camera swings face-on and pushes in; he pinches his beak shut with a flipper, cheeks swelling, eyes bulging in the lens; far behind, the walrus on his floe holds up an open jar"}
+],
+"must_appear":"0.00 breath fog in a glass jar; 8.00 walrus breaks off the floe with the crate; final: penguin holds his beak shut, cheeks puffed, face to lens",
+"negative_prompt":"horizontal frame, letterbox, small hero, static camera, empty background, a still background, text, letters, digits, labels, subtitles, watermark, a logo, duplicate penguins, two walruses, duplicate props, the hero absent from frame, jar at his beak while he speaks, darkness, floating objects, slow speech, a line said twice, speech after 6.4, foreign accent, a repeated word"
+}

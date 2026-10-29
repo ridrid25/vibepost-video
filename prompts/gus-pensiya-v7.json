@@ -1,0 +1,26 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE grey goose, retiree: big COBALT-BLUE vest, round glasses, red-yellow party cone, orange feet. Serious face; never flies.",
+  "second_characters": "ONE mole clerk in MUSTARD-YELLOW suit, always at pit rim; mole's mouth stays shut all 10 s. ONE duckling in green tie, only in last beat.",
+  "props": "ONE big wooden stamp, mole's; its bottom hidden until 8.7. ONE dark-red booklet. ONE plain white cake with a cherry on a plate, goose's. ONE striped deckchair on the hill.",
+  "environment": "Sunny wasteland, TURQUOISE sky: narrow bright ORANGE clay pit, brick at rim, clay hill behind mole, green lawn square; deep orange shaft under pit floor.",
+  "lighting": "Warm key on goose's face all 10s, cyan rim left, magenta rim right; sun floods down pit and shaft. Blue vest vivid in every shot.",
+  "light_events": [{"t": "4.80", "event": "deckchair stripes flash"}, {"t": "7.10", "event": "sunbeam flares down shaft"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice 0.4-7.0 s, beak free while speaking; no speech after 7.0 s", "lip_sync": "accurate", "sfx": ["0.1 stamp thud, clay crumbles", "2.4 stamp thud, ground drops", "3.6 clay patters on cone", "4.8 deckchair click", "6.3 claws scrape clay", "7.1 LOUDEST stamp crash, fall whistle", "8.9 shovel scrape", "9.6 soft crack"]},
+  "timeline": [
+    {"t": "0.00-0.40", "a": "Goose ALREADY chest-deep, cake level. Mole slams stamp onto booklet on brick; goose drops half a meter.", "c": "camera hurls itself down past the stamp onto the goose, stamp in foreground, goose sinking behind it, close-up"},
+    {"t": "0.40-1.90", "a": "LEFT wing holds cake; RIGHT wing lifts booklet up to mole like at a cashier.", "c": "camera dives into the pit, low angle, booklet in foreground", "line": "Говорят, на пенсии"},
+    {"t": "1.90-3.40", "a": "Goose's neck lunges, beak closed, then a polite nod. Mole stamps the booklet, slaps it back onto the brick; goose drops a meter, cake level.", "c": "camera rockets back up out of the pit, top-down", "line": "жизнь начинается."},
+    {"t": "3.40-4.50", "a": "Mole flicks clay off the stamp; it rains onto goose's cone and glasses. Beak free.", "c": "camera plunges to goose's clay-covered glasses, close-up", "line": "Моя началась,"},
+    {"t": "4.50-5.70", "a": "Goose in foreground wipes glasses with RIGHT wingtip, LEFT holds cake; behind him on the hill deckchair snaps open.", "c": "camera whips round behind goose up to the hill, goose in foreground", "line": "как будто в яме."},
+    {"t": "5.70-7.00", "a": "Booklet still on brick where mole left it. Goose climbs wall, RIGHT wing scraping, LEFT holds cake; slips; beak free.", "c": "camera dives into his beak and glasses, close-up", "line": "Только без лопаты."},
+    {"t": "7.00-7.50", "a": "Mole slams stamp down with both paws from behind his head; pit floor breaks away.", "c": "camera flies up and slams down with the stamp"},
+    {"t": "7.50-8.70", "a": "Goose falls feet-down into shaft; wings jerk open, he presses them back. Cake flips cream-down onto plate held level.", "c": "camera plunges down the shaft, circling his face, close-up"},
+    {"t": "8.70-9.20", "a": "Mole flips stamp: bottom is a clay-full shovel blade; tosses clay on hill, takes booklet from brick.", "c": "camera rockets back up to the shovel, close-up"},
+    {"t": "9.20-10.00", "a": "Mole lays the same booklet at duckling's feet on lawn, raises stamp; square crack opens round his feet.", "c": "camera flies up through the soil, looking up at duckling's feet, close-up", "hook": "open"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, numbers on cake, English speech, foreign accent, slow speech, static camera, locked-off shots, a flat medium shot, dark pit, muted colors, floating objects, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

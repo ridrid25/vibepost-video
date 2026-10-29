@@ -1,0 +1,78 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+ "motion_rule": "he is in flight in frame one and never perches or hovers, the loft streaming past him every beat; the camera tracks alongside him to a new shot size each beat, reversing at 1.25, 3.85 and 6.90; his face never under a third of frame, beak visible",
+ "character": "a huge grey northern owl, grey facial discs, yellow eyes, no ear tufts, beak clear",
+ "second_characters": "A SWARM of mice in rust-red coats pouring out of the bins with his coins, ONE a wing from the lens every beat, two in the first second; all moving",
+ "props": "ONE felt hat with a peacock feather on his head from the first frame; A SWARM of walnuts and coins in the cracks; tall cupboards along the loft; ONE old grey blanket and a cube of pale blank banknote packs under it, out of sight until 6.90",
+ "prop_continuity": "the hat never leaves his head, the feather streaming back clear of his beak; the blanket and the cube exist only from 6.90",
+ "environment": "a sunlit grain loft packed with bins, cracks and tall cupboards a wing away, boards raking the lens",
+ "light_events": "white noon through the boards, a hard rim on his hat",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "a level male chest voice around 130 Hz, 4 syllables per second, beats filled edge to edge",
+  "pronunciation": "na-ko-PLE-ni-ya, kog-DA, za-BYL, ot-lo-ZHIL, I-na-che, ot-LO-zhen-ny, ras-HOD",
+  "pacing": "speech fills 0.00-1.25, 1.55-3.85 and 4.15-6.90, first word on frame one; after 6.90 no spoken word, only his deep hoot and his gek-gek laugh, wings and paper to 10.00",
+  "lip_sync": "his beak opens on every syllable, no voice over",
+  "sfx": "his deep hoot at 6.90, his gek-gek laugh from 7.50, wings, coins"
+ },
+ "timeline": [
+  {
+   "t": "0.00-1.25",
+   "line": "Накопления,",
+   "a": "he tears along the loft and rips a cupboard open in passing, the bins streaming past, TWO mice crossing the lens"
+  },
+  {
+   "t": "1.25-1.55",
+   "a": "he slings the door shut behind him and swings the other way, the loft tearing past"
+  },
+  {
+   "t": "1.55-2.80",
+   "line": "когда ты забыл,",
+   "a": "he tears across frame low, throwing a second cupboard open on the wing, mice pouring across the lens"
+  },
+  {
+   "t": "2.80-3.85",
+   "line": "что отложил.",
+   "a": "he drives straight across the lens a wing away, beak wide, a third cupboard banging open behind him"
+  },
+  {
+   "t": "3.85-4.15",
+   "a": "he nudges the hat brim with one talon in mid-flight, the loft tearing past the other way"
+  },
+  {
+   "t": "4.15-5.40",
+   "line": "Иначе это",
+   "a": "a mouse slings a walnut across his path, he hooks it in passing and tears on, coins out of the cracks"
+  },
+  {
+   "t": "5.40-6.30",
+   "line": "отложенный",
+   "a": "he hurls the walnut at the lens and tears across frame after it, the cupboards streaming past"
+  },
+  {
+   "t": "6.30-6.90",
+   "line": "расход.",
+   "a": "A SWARM of mice launches off the bins across the lens with his coins as he rakes past them"
+  },
+  {
+   "t": "6.90-7.50",
+   "a": "he snatches an old grey blanket away in a pass with a deep hoot, the blanket whipping across the lens"
+  },
+  {
+   "t": "7.50-8.30",
+   "a": "a cube of pale banknote packs stands where the blanket was, he crashes into it laughing, packs bursting across frame"
+  },
+  {
+   "t": "8.30-9.20",
+   "a": "he rolls across the cube on his back, packs bursting past the lens"
+  },
+  {
+   "t": "9.20-10.00",
+   "a": "he tumbles at the lens through the flying packs, laughing, the hat over one eye"
+  }
+ ],
+ "must_appear": "the hat with the peacock feather on his head in every beat; a cupboard thrown open in passing at 0.00, 1.55 and 2.80; the blanket snatched away at 6.90, the cube of packs standing by 7.50; he rolls on the packs to 10.00; every word spoken, the last by 6.90",
+ "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a still first frame, a held pose, a perched hero, a hovering hero, a hero stopped at a cupboard, digits or numbers on the packs, a hat blowing off, a feather across his beak, slow motion, a word not in the lines, a closed beak while speaking, anything touching him before 6.90, ear tufts, brown or tawny plumage, foreign accent"
+}

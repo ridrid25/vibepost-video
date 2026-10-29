@@ -1,0 +1,69 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D animated, Pixar quality, deadpan satire, hard light, high exposure",
+  "motion_rule": "every beat the ant scuttles sideways beneath his swaying tower, never lying still, never pushed; hit, loaded or bitten, he skids and scrabbles on; camera keeps pace at his eye level, nonstop; shot size: he and his tower fill the frame top to bottom, faces up to full frame; the ant never leaves frame",
+  "character": "the ant: glossy black ant, tired eyes, twitchy antennae; the fat bronze dung beetle boss; worker ants; ONE mosquito",
+  "props": "ONE tower on the ant's back: gold coin stack, armchair on it, iron on the chair, potted ficus wobbling on top; ONE banknote ball; ONE bread loaf; ONE crumb; furry mic bottom right",
+  "environment": "sunlit sandy yard; a steep grassy anthill slope fills the background to the frame top; worker ants dash both ways behind and before him with a suitcase, a blank telly, a wallpaper roll, a dumbbell, a cardboard box",
+  "audio": {
+    "language": "Russian; latin hints unspoken",
+    "delivery": "high squeaky male voice, weary but brisk, 4.5 syllables/sec",
+    "pronunciation": "ya ta-SHU na se-BYE BOL'-she, chem VYE-shu SAM. a v i-TO-ge hva-TA-yet TOL'-ko na od-NU KROSH-ku",
+    "pacing": "0.6-6.2 one unbroken flow; after 6.2 not a word, sfx go on",
+    "lip_sync": "every syllable",
+    "sfx": "coin clinks, sand scrapes, swooshes, buzz, crunch"
+  },
+  "timeline": [
+    {
+      "t": "0.0-0.6",
+      "a": "he already scuttles sideways under his tower, ficus teetering, as worker ants with a suitcase and a box dash both ways; he dips, skids and scuttles on"
+    },
+    {
+      "t": "0.6-1.9",
+      "line": "Я тащу на себе",
+      "a": "he carries the tower left to right, legs scrabbling, ficus swaying, jaws flapping, as a telly ant cuts in front"
+    },
+    {
+      "t": "1.9-3.2",
+      "line": "больше, чем вешу сам.",
+      "a": "he zigzags back right to left, legs buckling, nose ploughing the sand, jaws flapping, ducking a wallpaper roll swung over his tower"
+    },
+    {
+      "t": "3.2-4.7",
+      "line": "А в итоге хватает",
+      "a": "he scuttles with the tower, jaws flapping, as the beetle boss rolls alongside and yanks the coins out from under; armchair, iron and ficus thump back onto him; he buckles"
+    },
+    {
+      "t": "4.7-6.2",
+      "line": "только на одну крошку.",
+      "a": "he scuttles after the ball and his coins, still under the tower, jaws flapping, as a dumbbell ant cuts across"
+    },
+    {
+      "t": "6.2-6.8",
+      "a": "he scuttles toward the loaf as the boss's huge snout sweeps past the lens beside him, snapping ONE crumb off it and flicking it into his face; he skids, heaving it onto his armchair"
+    },
+    {
+      "t": "6.8-7.4",
+      "a": "he scrambles sideways under the tower and crumb, legs buckling, iron sliding, as a suitcase ant and a box ant whip by at the lens"
+    },
+    {
+      "t": "7.4-8.0",
+      "a": "he scuttles with the crumb as ONE angry mosquito darts across the lens, proboscis bared, wings bristling, huge beside him, and bites the crumb; he scrabbles sideways, yanking it back, ficus whipping, as a telly ant swerves round them"
+    },
+    {
+      "t": "8.0-8.6",
+      "a": "he skids sideways as the crumb snaps in half, tower lurching, sand bursting at the lens; the mosquito zips off with its half"
+    },
+    {
+      "t": "8.6-9.3",
+      "a": "he scuttles on mid-slide, gulping his half whole on the run, his bulging cheeks sweeping past the lens filling the frame"
+    },
+    {
+      "t": "9.3-10.0",
+      "a": "he scuttles right to left as ONE gold coin flicked by the boss clinks onto the ficus; the tower teeters, he buckles, skids and scrabbles on"
+    }
+  ],
+  "must_appear": "tower on his back 0.0; beetle yanks coins out 3.2; crumb in his face 6.2; mosquito bites crumb 7.4; coin onto ficus 9.3; huge faces: beetle 6.2, mosquito 7.4, ant 8.6",
+  "negative_prompt": "held mic, a second mosquito, slow motion, any word after 6.2, silent tail, accented Russian, letters, numbers, subtitles, logo, watermark, English speech, pause inside a line, extra word, mouth shut, duplicate props, floating objects, a hero running at the camera, a wide shot, a distant hero, a parked camera, static scenery, a motionless first or last second, top-down view, a cart, sky, sun in frame, low angle, standing on hind legs, on the spot, a hero lying still, a hero being dragged"
+}

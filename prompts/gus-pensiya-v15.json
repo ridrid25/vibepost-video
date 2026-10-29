@@ -1,0 +1,26 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: big COBALT-BLUE vest, long RED scarf, round glasses, white eggshell cap on his head. Calm, serious.",
+  "second_characters": "ONE mole clerk on the pit rim: brown fur, mustard-yellow tie, white sleeve guards.",
+  "props": "Giant cracked egg stamped 65: goose's, on the pit floor. Envelope with one gold coin: mole's, then goose's. Shiny steel shovel: mole's. Chalk rectangle 66 with a red flag on the lawn: mole's. Giant egg stamped 66: mole's, on the floor of a second pit.",
+  "environment": "Deep fresh pit of ORANGE-RED earth with roots, in an emerald-green lawn; behind it a white columned office, bright turquoise sky.",
+  "lighting": "Midday sun pours into the pit; warm key on the goose's face, magenta rim left, lime rim right. Blue vest and red scarf vivid in every shot, close-ups too.",
+  "light_events": [{"t": "3.80", "event": "coin flashes gold"}, {"t": "6.90", "event": "sun flares behind the flying goose"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose only, dry deadpan adult voice 0.6-6.7 s, beak free while speaking; no speech after 6.7 s", "lip_sync": "accurate", "sfx": ["0.0 eggshell crunch, shard clicks lens", "2.2 shovel clink", "3.6 envelope slap, coin ring", "5.0 earth slide", "6.8 wing blast, wind", "8.1 LOUDEST shovel chop, earth collapse, then silence", "9.7 egg crack"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame: on the pit floor the goose's head bursts out of the egg 65, shards fly at the lens; eggshell cap on his head.", "c": "shoots out of the egg, close-up"},
+    {"t": "0.60-2.05", "a": "Goose shakes his whole body, cap stays on; tilts his head, looks up with one eye.", "c": "spins up into his beak, close-up", "line": "Говорят, на пенсии"},
+    {"t": "2.05-3.30", "a": "On the rim the mole taps the shovel on his paw; behind him the chalk 66 and red flag; goose below stretches his neck.", "c": "soars up the wall, shovel in foreground", "line": "жизнь начинается."},
+    {"t": "3.30-4.40", "a": "Mole drops the envelope; goose catches it in both wings, tears it with his right wing: one gold coin rolls into a crack in the wall.", "c": "falls spinning with the envelope", "line": "Моя началось,"},
+    {"t": "4.40-5.45", "a": "Goose throws himself at the wall, scrabbles with feet and wings, earth pours, he slides down on his back onto the shell; cap still on.", "c": "tumbles down the wall with him", "line": "как будто в яме."},
+    {"t": "5.45-6.70", "a": "Goose politely points his left wing at the shovel, beak calm; the mole strokes the shovel like a cat, hides it behind his back.", "c": "circles the rim, shovel in foreground", "line": "Только без лопаты."},
+    {"t": "6.70-7.40", "a": "Goose crouches, beats his wings wide: earth explodes; he shoots up out of the pit, red scarf streaming.", "c": "rockets up on his back, barrel-rolls into the sky"},
+    {"t": "7.40-7.95", "a": "Goose slams down onto the chalk 66, bounces, flaps the dirt off; behind him the mole swings the shovel up.", "c": "whips down with him into the turf, mole and shovel in frame"},
+    {"t": "7.95-9.20", "a": "Mole chops the turf at the goose's feet with one blow: the chalk 66 lid caves in, the goose drops into a ready pit; his glasses fly up, the mole's paw catches them.", "c": "hurls itself at the blade, drops with turf"},
+    {"t": "9.20-10.00", "a": "Second pit, deeper: under the goose's fallen eggshell cap, the giant egg 66, a crack runs across it. Last frame: the crack opens.", "c": "plunges down into the egg crack, close-up", "hook": "loop"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, static camera, locked-off shots, a flat medium shot, muted colors, dark scene, floating objects, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

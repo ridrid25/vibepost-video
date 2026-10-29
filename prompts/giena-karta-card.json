@@ -1,0 +1,69 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar, deadpan satire",
+ "subject": "ONE hyena in a dusty explorer vest, spotted coat, long grin, wiry legs, covering ground in EVERY beat, never parked",
+ "second_characters": "ONE vulture surveyor in a tie with a folding staff, hopping past the lens; from 6.10 he rolls the golden line up and presses the bare map back into the paws of the hyena",
+ "props": {
+  "big": "ONE treasure map as broad as the hyena, hauled open in EVERY beat; from 2.30 ONE golden line burning across the dirt outside the map and sliding further off in EVERY beat",
+  "small": "A SWARM of dust, torn map corners, pebbles and dry leaves tearing past the lens"
+ },
+ "environment": "a cracked money-flat of dry gullies and claim posts, packed top and bottom with diggers, staffs and crates",
+ "lighting": "bright daylight, clear blue sky, cyan edge left, amber fill right",
+ "motion_rule": "the frame is TALL and the hyena fills at least half its height in EVERY beat, his grin never under a quarter of it. The camera orbits him on a hard arc, never parking, the packed flat swinging behind, a new shot size each beat, medium to very close. He covers ground in EVERY beat, bounding gully to gully after the golden line, never held in one pose. The world flies at him: dust, pebbles and torn corners tear past the lens the full frame width in EVERY beat. ONE hero action per beat.",
+ "audio": {
+  "language": "Russian",
+  "delivery": "dry chesty male voice, level",
+  "rate": "4.4 syllables per second",
+  "pacing": "first word at 0.0, every line said once, last word done by 5.60, then the line and the dust carry it",
+  "lip_sync": "mouth to the lens, opening on every syllable",
+  "pronunciation": "KAR-ta, o-be-SHCHA-la, PUT, k bo-GAT-stvu, ya u-ZHE us-TAL, be-ZHAT, za go-ri-ZONT",
+  "sfx": [
+   "paper snapping open",
+   "a low golden hum",
+   "gravel scattering"
+  ]
+ },
+ "timeline": [
+  {
+   "t": "0.00-2.30",
+   "line": "Карта обещала путь к богатству.",
+   "a": "mid-stride he snaps the huge map open across his chest, its seams glowing, dust tearing past the lens"
+  },
+  {
+   "t": "2.30-3.10",
+   "a": "ONE golden line ignites in the dirt beside the map and runs off to the horizon, pebbles blasting past the lens"
+  },
+  {
+   "t": "3.10-5.60",
+   "line": "Я уже устал бежать за горизонт.",
+   "a": "he whips his head along the golden line and bounds after its far end, the surveyor hopping past the lens with his staff"
+  },
+  {
+   "t": "5.60-6.10",
+   "a": "the golden line peels off the dirt and climbs into the sky, and he leaps after its end"
+  },
+  {
+   "t": "6.10-6.70",
+   "a": "the surveyor rolls the golden line up like a rug and tucks it under his wing, dust raking past the lens"
+  },
+  {
+   "t": "6.70-7.30",
+   "a": "the surveyor presses the map back into his paws and he hauls it open across his chest, and it is bare, his grin cracking"
+  },
+  {
+   "t": "7.30-8.10",
+   "a": "he shakes the bare map and the last golden crumbs pour out and tear past the lens"
+  },
+  {
+   "t": "8.10-9.00",
+   "a": "the surveyor plants a claim post where the line burned and hops off over the gully"
+  },
+  {
+   "t": "9.00-10.00",
+   "a": "he bounds over the gullies after the surveyor, the flat sweeping past the lens"
+  }
+ ],
+ "must_appear": "at 0.00 the huge map snapped open across his chest; at 2.30 ONE golden line igniting in the dirt beside the map; at 3.10 him bounding after its far end; at 5.60 the line climbing off the dirt into the sky; at 6.70 the bare map hauled open in his paws",
+ "negative_prompt": "printed text, cyrillic words, digits, a price card, subtitles, watermark, speech bubble, a hero running at the camera on his feet, a sideways travelling camera or dolly, a conveyor belt, a cart, rails, a parked camera, a still or empty background, push in, wide shot, a small distant hero, letterbox, a horizontal 16:9 picture, night, dark scene, a hero back to the camera, a hero held in one pose, a prop worked in place, a motionless first or last second, a line said twice, speech after 5.60, offscreen narration, English speech, a second hyena in frame"
+}

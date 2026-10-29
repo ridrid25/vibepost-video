@@ -1,0 +1,26 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: big COBALT-BLUE vest, round glasses, red party cone, cane on his wing. Calm. Wings hold ONE white cake with lit wax numbers 6 and 5; ONE plain blue booklet lies open on his head.",
+  "second_characters": "ONE mole clerk, MUSTARD-YELLOW suit, clean white sleeves, ONE big round stamp. Queue by the wall, blue booklet on each head: old sheep knee-deep in the floor, old turtle waist-deep, old duck chest-deep.",
+  "props": "Stamp: mole's, print is an ink ring with a star. Cake 6-5: goose's until 8.2 s, mole's from 8.8 s. Round tile patches in the floor, each with the same print.",
+  "environment": "Pension office: CORAL-and-white checker floor, MINT-GREEN walls, barred cash window, clock with hands only.",
+  "lighting": "Warm key on goose's face, cyan rim left, magenta rim right. Blue vest and red cone vivid in every shot, close-ups too.",
+  "light_events": [{"t": "0.20", "event": "white tile dust flash"}, {"t": "7.50", "event": "sunbeam slams into the hole"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice 0.6-7.0 s, beak free while speaking; no speech after 7.0 s", "lip_sync": "accurate", "sfx": ["0.2 stamp BANG, tile crack", "2.6 second BANG", "3.8 stamp knocks counter", "6.2 wicks crackle", "7.5 LOUDEST BOOM, tiles ring", "8.4 plate clinks", "9.0 puff", "9.6 stamp slap, sound cuts"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame, already: mole's paw slams the stamp on the booklet on goose's head; goose sinks knee-deep into cracking tile, the wax 6 and 5 flicker.", "c": "hurls itself down with the stamp, close-up"},
+    {"t": "0.60-2.10", "a": "Goose lifts his head, beak free, squares the booklet with a wingtip, cake level; mole lifts the stamp. Floor before the window: tile patches with the stamp print.", "c": "whips round behind the window, bars in foreground", "line": "Говорят, на пенсии"},
+    {"t": "2.10-3.40", "a": "Second BANG; goose sinks waist-deep, beak free; wings jerk open, fold back.", "c": "tumbles down to the floor, low angle", "line": "жизнь начинается."},
+    {"t": "3.40-4.50", "a": "Goose looks up, beak free; the old queue waits at three depths, patches visible beside the queue; turtle pulls its head in.", "c": "rockets up, swinging overhead, top-down", "line": "Моя началась,"},
+    {"t": "4.50-5.60", "a": "Goose neck-deep, beak free, wings raised over his head hold the cake up; mole climbs onto the sill.", "c": "dives between the wax 6 and 5, close-up", "line": "как будто в яме."},
+    {"t": "5.60-7.00", "a": "Goose's head at tile level by the wax 6 and 5, beak free. On the sill above, mole's claws make one digging stroke in the air; he dusts his clean sleeves, lifts the stamp.", "c": "rolls flat onto the tiles, close-up", "line": "Только без лопаты."},
+    {"t": "7.00-8.20", "a": "Mole jumps off the sill and slams the stamp down with all his weight; goose goes into the floor whole, his red cone spins on the tile.", "c": "plunges with the stamp into the hole, close-up"},
+    {"t": "8.20-8.80", "a": "Goose's wing rises from the hole, sets the cake level on the tile, sinks.", "c": "rockets back out, cake in foreground"},
+    {"t": "8.80-9.20", "a": "Mole blows out the wax 6 and 5 in one puff and tucks the cake under his arm.", "c": "swings in to the smoke, close-up"},
+    {"t": "9.20-10.00", "a": "Mole slides a tile patch over the hole with his foot and stamps it. A long row of the same patches before the window. Last frame: mole raises the stamp over the old sheep's booklet, still moving.", "c": "flies up to the ceiling, top-down", "hook": "reveal"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

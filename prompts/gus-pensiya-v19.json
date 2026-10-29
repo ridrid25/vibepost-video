@@ -1,0 +1,27 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: white head feathers, round glasses on a chain, big bright cobalt-blue vest; hugs a bright orange desk box (mug, cactus, photo frame), cane on it. Deadpan, wings pressed, never flies.",
+  "second_characters": "ONE grinning mole boss, purple suit, 40th-floor window. THREE clerks, orange ties: rabbit with a briefcase, ferret, beaver.",
+  "props": "Shovel: yellow handle, shiny blade, huge scarlet bow; the mole's, then stuck by the goose. Rack of identical bowed shovels under the mole's sill, only scarlet bows show. Box, cane: goose's. Briefcase: rabbit's.",
+  "environment": "Bright TURQUOISE glass tower, open 40th-floor window; sunny-yellow tile plaza, revolving glass door at the base.",
+  "lighting": "Bright noon sun; warm key on the goose's face, amber rim left, magenta rim right. Cobalt vest, orange box, scarlet bows, yellow handle vivid against turquoise glass and yellow tiles, wide and close.",
+  "light_events": [{"t": "7.60", "event": "sun flashes on the falling blade"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice, beak free while speaking", "lip_sync": "accurate", "sfx": ["0.2 handshake slaps", "1.5 falling whoosh", "3.3 thud, tiles crack", "4.4 briefcase bonk, hiss", "6.9 falling whistle", "8.00 LOUDEST thwack, handle twang", "9.6 metal clink"]},
+  "timeline": [
+    {"t": "0.00-0.45", "a": "From the first frame: the goose dangles outside the 40th-floor window; the mole leans out pumping his wing in a farewell handshake; scarlet bows peek over the sill.", "c": "soars up the glass into the handshake, close-up"},
+    {"t": "0.45-1.50", "a": "The mole opens his paw and waves bye; the goose drops straight down, box hugged.", "c": "tumbles over the sill, waving paw in foreground", "line": "Сорок лет стажа."},
+    {"t": "1.50-2.95", "a": "Falling upright down the turquoise facade, he straightens his glasses with a wingtip.", "c": "dives head-first ahead of him", "line": "Проводили красиво."},
+    {"t": "2.95-3.30", "a": "The cactus hops out; he snaps it in his beak, drops it back.", "c": "whips to his beak, close-up"},
+    {"t": "3.30-3.75", "a": "He hits the yellow tiles and sinks neck-deep, cracks ringing his neck; the box lands upright beside him.", "c": "drops to tile level, close-up"},
+    {"t": "3.75-5.20", "a": "Rabbit, ferret, beaver hurry into the revolving door, heads turned to him with pity; the rabbit's briefcase knocks his glasses askew; he hisses, then fixes them.", "c": "arcs low round his head, legs in foreground", "line": "Коллеги сочувствуют."},
+    {"t": "5.20-6.45", "a": "He sets the mug and photo frame on the hole's edge like a desk.", "c": "skims the tiles to the mug", "line": "Пенсию, сказали,"},
+    {"t": "6.45-7.50", "a": "Up top the mole aims and throws the bowed shovel down like a spear; the goose jerks his head up.", "c": "soars up the facade to the throw", "line": "сам накопаешь."},
+    {"t": "7.50-8.35", "a": "At 8.00 the falling shovel stabs blade-first into the tiles a finger from his neck, handle quivering; he does not blink.", "c": "hurls itself behind the blade, crashes in at his neck, close-up"},
+    {"t": "8.35-9.20", "a": "He straightens the stuck shovel's bow with a wingtip, nods once, beak free.", "c": "wheels round to the bow", "line": "Не забыли."},
+    {"t": "9.20-10.00", "a": "At the window the mole lifts the next bowed shovel off the rack, looking down at the clerks. Last frame: new scarlet bow in the mole's paw, a row of bows behind, clerks below.", "c": "shoots up the facade into the new bow, close-up", "hook": "reveal"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, a flat medium shot, muted colors, dark scene, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

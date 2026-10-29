@@ -1,0 +1,28 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: white head feathers, round glasses on a chain, big cobalt-blue vest. Hugs a HUGE hot-pink piggy bank, half his size, round hole in its belly. Deadpan, never flies.",
+  "second_characters": "ONE mole boss, grey suit, white hanky. ONE white rabbit clerk, orange suit. TWO clerks: ferret, beaver.",
+  "props": "Piggy bank: goose's. Hanky: mole's. Gold coins: from the goose's piggy bank, then in the rabbit's pocket. ONE coin: rabbit's, then goose's. Moth: in the piggy bank.",
+  "environment": "Emerald glass tower, open 40th-floor window; sunny-yellow tile plaza, revolving glass door at the base.",
+  "lighting": "Bright morning sun; warm key on the goose's face, amber rim left, violet rim right. Hot-pink piggy bank and cobalt vest vivid against emerald glass and yellow tiles, always.",
+  "light_events": [{"t": "0.70", "event": "coins flash"}, {"t": "7.25", "event": "coin glints in the slot"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats; from 8.15 s only goose and piggy bank in frame",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice, beak free while speaking", "lip_sync": "accurate", "sfx": ["0.3 handshake slap", "0.7 coins jingle", "3.3 coins rain", "3.75 hard thud", "5.65 beak click", "7.4 LOUDEST hollow ding, coin plop", "8.8 soft ding-plop", "9.6 moth flutter"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame: in the window the mole shakes the goose's wing goodbye and with the same jerk yanks him over the sill, waving the hanky; behind the mole the rabbit, orange pocket bulging with gold.", "c": "hurls itself through the window"},
+    {"t": "0.60-1.10", "a": "Goose falls; gold coins pour from the hole in the piggy bank's belly.", "c": "dives under the belly hole, close-up"},
+    {"t": "1.10-2.20", "a": "Goose flips back-down, piggy bank on his chest, wings pressed.", "c": "spins down round him through the coins", "line": "Сорок лет копил."},
+    {"t": "2.20-3.30", "a": "Falling, he straightens his glasses with a wingtip, face calm.", "c": "plunges ahead into his glasses, close-up", "line": "Вышел красиво."},
+    {"t": "3.30-3.70", "a": "Coins rain on the tiles; the rabbit sweeps them into his pocket.", "c": "top-down, drops with the coins, coins in foreground"},
+    {"t": "3.70-4.15", "a": "Goose lands back-first: tiles cave in, he lies in a hole, piggy bank whole on his chest.", "c": "rockets back as tiles burst"},
+    {"t": "4.15-5.45", "a": "Ferret and beaver hurry into the revolving door, glancing back at the hole with pity; the rabbit stops, takes ONE coin from his pocket, tosses it in.", "c": "swings up to the door, goose's head in foreground", "line": "Коллеги скинулись."},
+    {"t": "5.45-5.85", "a": "Goose snaps the falling coin in his beak.", "c": "falls with the coin, close-up"},
+    {"t": "5.85-7.15", "a": "Goose sits up in the hole, piggy bank upright on his lap; coin in his right wingtip, beak free; he looks up at the rabbit's pocket and back.", "c": "whips to the pocket and back", "line": "Моей же монетой."},
+    {"t": "7.15-8.15", "a": "He drops the coin in the slot: it rattles through and falls out of the belly hole onto his foot.", "c": "hurls itself at the slot, drops with the coin onto his foot, close-up"},
+    {"t": "8.15-9.20", "a": "Goose drops the coin in again; it plops onto his foot again; he does not look down.", "c": "arcs low round the piggy bank", "line": "Зато стабильно."},
+    {"t": "9.20-10.00", "a": "He peers into the slot; a moth flies out onto his glasses. Last frame: moth on his glasses, empty pink piggy bank behind.", "c": "dives into the slot and out, close-up", "hook": "reveal"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

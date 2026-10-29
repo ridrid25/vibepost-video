@@ -1,0 +1,27 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D black office comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+"subject": "ONE white goose clerk: big tomato-red vest, orange sleeve covers, navy tie, long neck.",
+"second_characters": "THREE raccoon colleagues: lime-green shirts, sad faces, each holds ONE red carnation with a black ribbon. ONE mole boss: purple vest, tiny glasses.",
+"props": "Thin gold coin column from the ground to the 80th floor: the goose's; coins go into the raccoons' sleeves, the last into the mole's vest. Carnations: the raccoons' to the end. Yellow shovel: the mole's, then the goose's.",
+"environment": "Outside a turquoise glass skyscraper, cyan sky. 80th-floor window; over it a navy sign, big white Cyrillic letters \"БАНК РОССИИ\", readable. At the foot: a soil flowerbed in yellow pavement.",
+"lighting": "Bright noon sun; warm key on the goose's face, orange rim left, magenta rim right; red vest, coins, carnations vivid in every shot, wide and close.",
+"light_events": [{"t": "7.60", "event": "sun flash off the shovel"}],
+"motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; cuts only at 4.55 and 7.60; goose fills half the frame, except the close-up beats",
+"audio": {"language": "Russian", "delivery": "Goose dry deadpan adult voice; mole smug low voice", "lip_sync": "accurate",
+"sfx": ["0.0 wind, coin clink", "2.2 window bang, hiss", "3.4 coins clink", "5.6 thud in soil", "7.6 loudest shovel strikes, soil splat", "9.4 distant bell"]},
+"timeline": [
+{"t": "0.00-0.80", "a": "From the first frame he already stands atop the thin gold coin column at the 80th floor; he drops a coin from his beak at his feet, the column sways, he spreads his wings.", "c": "camera flies, whipping round the column in a sharp orbit"},
+{"t": "0.80-2.10", "a": "Behind the glass three raccoons hold carnations to their chests; he stamps the coin flat, puffs his chest, beak free, says", "c": "camera arcs to the window glass, carnations in foreground", "line": "Копил на пенсию."},
+{"t": "2.10-3.10", "a": "The window bursts open; the raccoons lean out, he hisses, they hug him, he melts; their free paws pull coins from under him.", "c": "camera whips up to the window"},
+{"t": "3.10-4.55", "a": "A raccoon paw tucking a coin into its sleeve fills the frame, close-up, his beak free above it; the column sinks, he rides it down flapping, says", "c": "camera plunges onto a paw, close-up", "line": "Коллеги сочувствуют."},
+{"t": "4.55-5.40", "a": "He drops the last floors, wings up; below, the flowerbed bulges and the mole pops out.", "c": "camera tumbles down to the flowerbed"},
+{"t": "5.40-6.10", "a": "The mole's snout and claws fill the frame, close-up: he yanks the last coin from the base; the goose lands on both feet and hisses.", "c": "camera skims soil into mole's snout"},
+{"t": "6.10-7.60", "a": "The mole shoves the yellow shovel into the goose's wings, pockets the coin, mouth free, says, and dives underground; the goose stabs the shovel in.", "c": "camera rises up the shovel handle", "line": "Дальше — сам накопаешь."},
+{"t": "7.60-8.40", "a": "He digs with his whole body, neck pumping, wings flapping, soil fountaining at the lens; his face and the shovel fill the frame, close-up.", "c": "camera rams into the pit, close-up"},
+{"t": "8.40-9.20", "a": "Chest-deep and still digging, he flings soil over his shoulder, eyes down, beak free, flatly says", "c": "camera dives to his beak, close-up", "line": "Помогли."},
+{"t": "9.20-10.00", "a": "Two black-ribboned carnations fall from the raccoons' paws into the pit, one onto his shovel blade as he keeps digging; from the windows above the three raccoons lean out and bow their heads.", "c": "camera drops with a carnation onto the blade, close-up, then shoots up overhead: a rectangular grave-shaped pit", "hook": "reveal"}
+],
+"negative_prompt": "subtitles, captions, watermark, garbled sign letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, goose lying down, humans, extra limbs, extra characters beyond those listed, blood"
+}

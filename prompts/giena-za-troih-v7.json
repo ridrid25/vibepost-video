@@ -1,0 +1,27 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "stylized 3D animated comedy, vivid saturated colors, high contrast, original character design",
+ "subject": "a wiry female spotted hyena office worker, big bright cobalt-blue shirt, wide tangerine-orange climbing harness; sloped back, mane bristles on every jerk; dry, never smiles",
+ "second_characters": "a small rat boss in a purple vest",
+ "props": "red rope from her harness over a big pulley to a magenta open lift cage; two empty loops on the rope by her shoulder; in the cage three desks, two empty chairs; two photo-badge jackets over the rat's shoulder; the rat's briefcase with big orange scissors clipped on; three envelopes (the rat's)",
+ "environment": "tall freight lift shaft, plain mint-green brick walls, big white floor numbers 1 2 3, bright open floor doors, yellow-striped floor",
+ "lighting": "bright, warm key on her face, hot-pink rim left, cyan rim right; blue shirt and orange harness bright in every shot",
+ "light_events": [{"t": "6.60", "event": "white light blasts from the floor 3 doors"}],
+ "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; the hyena fills half the frame, except the close-up beats; she moves her whole body",
+ "audio": {"language": "Russian", "delivery": "dry flat adult female voice, sarcastic, tired; the hyena speaks", "lip_sync": "accurate", "sfx": ["rope creak 0.0", "cage thud 1.8", "envelope whistle 3.5", "double snip 4.9", "chairs crash 6.2", "carabiner clacks 7.5", "loudest: rope jerk, paws slam wall 8.2", "scissors click open 9.6"]},
+ "timeline": [
+  {"t": "0.00-0.80", "a": "from the first frame, already hanging flat on the rope, paws braced on the wall, the hyena strains, two empty loops swing at her shoulder; the rat sits high in the cage", "c": "camera hurls itself up the rope to the cage"},
+  {"t": "0.80-2.30", "a": "mouth free and talking, she leaps up the wall, grabs the rope higher, drops with all her weight; the cage jerks up a floor, the rat bounces", "line": "Тяну за троих.", "c": "camera free-falls with her, then flies up"},
+  {"t": "2.30-2.90", "a": "the rat flicks one envelope down the shaft, stuffs two in his vest; below, she swings out from the wall, jaws up", "c": "camera swings overhead, top-down, envelopes in foreground"},
+  {"t": "2.90-4.00", "a": "mouth free and talking, she twists her whole body on the rope, reaching with open jaws for the falling envelope", "line": "Платят за одну.", "c": "camera tumbles down after the envelope"},
+  {"t": "4.00-4.60", "a": "at 4.00 she snaps the envelope in her teeth; her shoulders shake in a nervous laugh; she tucks it under her harness strap", "c": "camera dives into her face, close-up"},
+  {"t": "4.60-5.30", "a": "the rat snips the straps of the two empty chairs with the orange scissors and kicks them out", "c": "camera plunges into the blades, close-up"},
+  {"t": "5.30-6.60", "a": "mouth free and talking, she kicks off the wall and swings across the shaft; two chairs whistle down past her and smash on the floor", "line": "Двоих сократили.", "c": "camera flies up from the floor, chair leg in foreground"},
+  {"t": "6.60-7.20", "a": "the cage slams the top; the rope flings her up to the floor 3 doors, nose to nose with the rat", "c": "camera arcs round her from below"},
+  {"t": "7.20-7.90", "a": "the rat takes the two badge jackets off his shoulder, hangs them on the two empty loops; she kicks and spins under the loops", "c": "camera whips round to his paws"},
+  {"t": "7.90-9.20", "a": "the jackets' weight yanks her down a floor; she slams into the wall on all fours, mane up, hanging between the two jackets, mouth free and talking", "line": "Числятся на мне.", "c": "camera hurls itself at the badges, close-up"},
+  {"t": "9.20-10.00", "a": "silent; at the pulley the rat sets the open orange scissors on her red rope; below she freezes", "c": "camera flies up the rope onto the blades, close-up", "hook": "open"}
+ ],
+ "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

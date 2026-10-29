@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D cartoon, dry satire, deadpan",
+"subject":{"character":"ONE spotted hyena, shaggy fur, no clothing, a crumpled napkin on her elbow, upright on hind legs, two thirds of frame height, same look all ten seconds","physicality":"claws rake the tin, the tail keeps digging in the bin, the jaw clacks on the bottle neck","anti_action":"she plays a sommelier over a garbage bin: sniffs an empty bottle neck with lidded eyes, rolls air in her mouth, verdict with a stone face, napkin on the elbow, even restaurant stride"},
+"side_characters":{"hat_jackal":"ONE jackal in a crumpled party hat from yesterday, pushes the bin cart, he drained the last bottle","crate_jackal":"ONE jackal with a crate of empty glass","rule":"both stay a step from the lens, moving across frame"},
+"props":{"bottles":"empty costly liquor bottles, thick heavy base, long neck, foil collar, wax seal","bin":"tin bin on a low rolling cart"},
+"prop_continuity":"every bottle empty, not one drop; the bin full at the start, empty at the end",
+"environment":"banquet hall back yard, overflowing bins, a curb, heaps of glass, passage packed with movement",
+"lighting":"hard noon sun, high contrast",
+"motion_rule":"every beat moves across frame OR at the lens; hyena head over a third of frame, new shot size each beat; camera pans with her, the yard tearing past; horizontal only, no vertical moves",
+"audio":{"language":"Russian","delivery":"weary, flat, native Russian, no accent, 4.0 syllables per second","pacing":"first word at 0.00, no words after 6.1, the tail 6.1-10.0 carries sfx only, her mouth busy with the bottle","lip_sync":"jaw opens on every syllable","pronunciation":"ot-KLA-dy-val, LUCH-she-ye, KA-zhet-sya, za-KON-chi-los, vche-RA; latin hints are never spoken","sfx":["glass clinking","claws on tin","cart wheels","wet slurp at 6.6"]},
+"timeline":[
+{"t":"0.0-0.5","line":"Всю жизнь","a":"she rips her muzzle out of the bin and slings a bottle with a base the size of her head at the lens"},
+{"t":"0.5-1.5","line":"откладывал","a":"she strides across frame beside the rolling bin, the napkin on her elbow flapping"},
+{"t":"1.5-2.5","line":"на лучшее.","a":"she pulls the next neck from the rolling bin past her nostrils and dives at the camera, open jaw filling the frame"},
+{"t":"2.5-3.3","line":"Лучшее,","a":"she hurls the dry bottle behind her back, her tail flinging a wad of foil out of the bin at the lens"},
+{"t":"3.3-4.1","line":"кажется,","a":"she strides at the lens, jaw working, muzzle over half the frame, the crate jackal spilling a bottle at the camera behind her shoulder"},
+{"t":"4.1-5.1","line":"закончилось","a":"she strides on as the hat jackal turns the last bottle neck down at the lens, wax seal across the frame, not a drop, then drops it into her bin"},
+{"t":"5.1-6.1","line":"ещё вчера.","a":"she scoops that bottle out of the rolling bin without breaking stride, claws screeching down the tin"},
+{"t":"6.1-7.3","line":"","a":"punchline: she dives at the camera, muzzle filling the frame, tongue deep in the bottle neck licking it out from inside, eyes shut in bliss"},
+{"t":"7.3-8.3","line":"","a":"the hat jackal claps a second empty into her paw as he passes, her eyes still shut"},
+{"t":"8.3-9.2","line":"","a":"the cart slams the curb and a wave of empty bottles rolls at the lens, flashing the noon sun"},
+{"t":"9.2-10.0","line":"","a":"she strides on across frame, the second empty swinging in her paw"}
+],
+"must_appear":["bottles in every beat","napkin on her elbow in every beat","hat jackal tips a bottle neck down at the lens at 4.1","tongue in the neck close-up 6.1-7.3","every line spoken, last word by 6.1"],
+"negative_prompt":"subtitles, watermark, letterbox, text overlay, digits, a label, printed words, garbled words, Latin letters, English speech, foreign accent, drawn-out delivery, slow motion, a static camera, a still background, an empty yard, standing in place, gloom, duplicate props, floating objects, a closed jaw while speaking, extra limbs, multiple hyenas, clothing on the hyena, a word not in the lines"
+}

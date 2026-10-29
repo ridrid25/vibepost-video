@@ -1,0 +1,39 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "subject": "ONE plump emperor penguin in a red knitted scarf, two identical green banknotes tucked in his belly fold, never held in one pose",
+  "second_characters": "TWO greedy seagulls and hurrying shoppers crossing the lens in EVERY beat",
+  "props": {
+    "big": "ONE chunky chrome currency exchange machine with a banknote slot, a coin chute and a plain blue screen; gold coins",
+    "small": "A SWARM of snowflakes"
+  },
+  "environment": "a busy snowy city street at noon, shop windows, garlands, shoppers both ways, no empty ground",
+  "lighting": "bright sunny winter noon, hard daylight; at 2.18 the machine screen flashes from blue to red",
+  "motion_rule": "the frame is TALL and the penguin fills two thirds of its height in EVERY beat, his face never under a quarter of it. He never stands still: hopping round the machine, flippers flapping, belly bouncing, feet stamping. Seagulls, shoppers, snow and coins tear across the lens the full frame width in EVERY beat, speech beats too. The camera sways close, never parks, new shot size every beat. ONE big hero action per beat.",
+  "audio": {
+    "language": "Russian",
+    "delivery": "flat low male voice, matter-of-fact, biting off each word",
+    "rate": "4.8 syllables per second",
+    "pacing": "first word at 0.0, every line said once, last word by 5.38, then the machine and seagulls carry it",
+    "lip_sync": "the penguin himself speaks, beak opening on every syllable, brows and jaw alive",
+    "pronunciation": "PER-va-ya ob-me-NYA-las. fta-RA-ya, VI-di-mo, na-SHLA svoy KURS v MI-nus",
+    "sfx": ["coins clattering", "seagulls"]
+  },
+  "timeline": [
+    {"t": "0.00-1.48", "line": "Первая обменялась.", "a": "chest-up, beak working, he slaps the first green banknote into the slot, coins gush from the chute into his belly fold, a seagull whipping low across the lens"},
+    {"t": "1.48-2.18", "a": "he hops round and slaps the identical second green banknote into the slot, a shopper across the lens"},
+    {"t": "2.18-2.88", "a": "the screen flashes red, every coin rips out of his belly fold back up the chute and he is yanked against the machine, coins whipping across the lens"},
+    {"t": "2.88-4.13", "line": "Вторая, видимо,", "a": "waist-up, facing the lens, beak working, he yanks his empty belly fold inside out with both flippers, the seagulls flapping low across the lens"},
+    {"t": "4.13-5.38", "line": "нашла свой курс в минус.", "a": "waist-up, facing the lens, beak working, he hammers the machine with both flippers, belly bouncing, a shopper hurrying across the lens"},
+    {"t": "5.38-6.05", "a": "the slot snags his scarf end and he spins round as it unwinds off his neck, a seagull tearing across the lens"},
+    {"t": "6.05-6.75", "a": "he heaves the scarf back, leaning his whole body away, snow whipping across the lens"},
+    {"t": "6.75-7.45", "a": "the scarf zips into the slot, his neck bare, he shakes out every feather, snow across the lens"},
+    {"t": "7.45-8.15", "a": "the machine spits ONE tiny coin that bounces off his head, both seagulls swooping across the lens"},
+    {"t": "8.15-8.90", "a": "he snatches the tiny coin from under a seagull's beak and swings it up to his eye"},
+    {"t": "8.90-9.50", "a": "he stuffs it into his empty belly fold and pats it twice, shoppers sweeping across the lens"},
+    {"t": "9.50-10.00", "a": "he turns his face to the lens with a flat stare and blinks once, his neck bare, a seagull bursting across the lens"}
+  ],
+  "must_appear": "0.00 the penguin in his red scarf, coins gushing; 1.48 the identical second green banknote; 2.18 red screen, coins flying back up the chute; 6.75 bare neck; 9.50 his flat stare at the lens",
+  "negative_prompt": "printed text, cyrillic words, digits, subtitles, a horizontal 16:9 picture, letterbox, a hero running at the camera on his feet, a conveyor belt, a cart, a parked camera, a still or empty background, standing in place, wide shot, a small distant hero, night, dark scene, a hero back to the camera, a closed beak while speaking, offscreen narration, a motionless first or last second, a line said twice, speech after 5.38, English speech, foreign accent, a human cashier, a third banknote"
+}

@@ -1,0 +1,94 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D animated satire, deadpan slapstick; penguin fills two thirds of frame height",
+ "subject": {
+  "character": "ONE neat emperor penguin accountant, black tailcoat, bow tie, orange beak; same face throughout, fully serious"
+ },
+ "second_characters": "ONE big tusked walrus collector",
+ "props": {
+  "kit": "round glass cupping jars; hand gas burner, blue flame; cotton wicks taped on his back",
+  "leaflets": "white leaflets printed ДЕКЛАРАЦИЯ in black Cyrillic capitals"
+ },
+ "environment": "small ice floe, dense pressure ridges with icicles, deep blue water",
+ "lighting": "low polar sun behind-left, gold glints; cold blue sky glow behind-right; flares on every move",
+ "light_events": [
+  {
+   "t": "4.75-7.40",
+   "event": "rotor shadows strobe across the floe"
+  }
+ ],
+ "motion_rule": "camera orbits them, new shot size every beat, never parked; he moves his whole body and the walrus acts every beat",
+ "audio": {
+  "language": "Russian",
+  "delivery": "flat low brisk male voice, native, no accent",
+  "pacing": "brisk, each line once inside its beat, no pause after Я; after 4.75 rotor roar, gasps, glass clinks, pops, no words",
+  "lip_sync": "beak opens on every syllable"
+ },
+ "timeline": [
+  {
+   "t": "0.00-0.30",
+   "line": "Я",
+   "a": "medium low, orbit left; he belly-slides in along the ridge; the walrus, jar bag on a tusk, clicks on a gas burner"
+  },
+  {
+   "t": "0.30-1.15",
+   "line": "выживаю",
+   "a": "waist shot, orbit right; he brakes with his flippers, springs up; the walrus lumbers after him, flame roaring"
+  },
+  {
+   "t": "1.15-2.00",
+   "line": "на этом льду.",
+   "a": "medium, orbit left; he trips on flat ice, flails, waddles on; the walrus follows, burner high"
+  },
+  {
+   "t": "2.00-2.65",
+   "line": "Как и все,",
+   "a": "medium, counter-arc; he waddles round the walrus, flippers flapping; the walrus swings after him, flame lights a wick on his back"
+  },
+  {
+   "t": "2.65-3.90",
+   "line": "плачу за каждый вздох.",
+   "a": "waist shot, orbit to his side; he bolts across the floe, gasps a breath puff; the walrus belly-bounds after him, claps a jar over the lit wick on his back, pop, it sucks tight, he hops"
+  },
+  {
+   "t": "3.90-4.75",
+   "line": "До апреля.",
+   "a": "medium, arc; he spins on his heel, waddles along the edge; the walrus lights a second wick on his back, claps a jar on, pop, he hops"
+  },
+  {
+   "t": "4.75-5.45",
+   "a": "low medium, swift orbit; helicopter skids drop to top frame edge, spray bursts; he is knocked flat, spins on his belly, two jars on his back; the walrus digs tusks into the ice"
+  },
+  {
+   "t": "5.45-6.10",
+   "a": "waist shot, arc, leaflets pour from the helicopter; a leaflet slaps his face, he spins, peels it off; one sticks to the walrus's tusks"
+  },
+  {
+   "t": "6.10-6.70",
+   "a": "waist shot, orbit; he reads it, gasps, beak wide, staggers back; the walrus snatches two jars"
+  },
+  {
+   "t": "6.70-7.40",
+   "a": "medium, arc, his face to camera; the walrus belly-flops in from frame edge, lights two wicks on his back, slaps two jars on, pop, pop; he hops ahead at each pop, ends half-turned to camera, four jars on his back"
+  },
+  {
+   "t": "7.40-8.05",
+   "a": "medium, arc left; he scrambles across the floe, flippers windmilling, jars clinking; the walrus bounds after him, burner blazing"
+  },
+  {
+   "t": "8.05-8.70",
+   "a": "waist shot, arc right; he whips round, a back jar clanks the walrus's tusk; the walrus reels, his jar bag bursts, jars roll"
+  },
+  {
+   "t": "8.70-9.35",
+   "a": "low medium, arc; he skids, waddles on, kicks a rolling jar; the walrus heaves up, grabs a leaflet, lunges"
+  },
+  {
+   "t": "9.35-10.00",
+   "a": "waist shot, short arc in; he skids to a halt half-turned to camera, four jars on his back, calmly fixes his bow tie; the walrus slaps the leaflet on his chest"
+  }
+ ],
+ "must_appear": "2.65 walrus claps a jar over a lit wick on his back, pop; 4.75 rotor shadows, skids at top edge, spray; 5.45 leaflets ДЕКЛАРАЦИЯ; 6.70 jars pop onto his back, face to camera",
+ "negative_prompt": "static camera, aerial shot, locked-off shots, subtitles, watermark, jar labels, digits, duplicate penguins, two walruses, floating jars, hero seen only from behind, a jar held up to the lens, a repeated word, speech after 4.9, English speech, foreign accent, extra limbs, a jar on his beak, burnt feathers"
+}

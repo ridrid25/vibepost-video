@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE adult stag; on his branching antlers stands a cozy wooden cabin: smoking chimney, open front doorway, side openings; mobile ears; same face throughout","anti_action":"weary serious face, brisk dry talker"},
+"second_characters":"ONE badger clerk: sleeve guards, vest, visor, no logos; ONE hare runner in a plain white tank top",
+"props":"roll of smooth red ribbon; a tiny twin cabin on the stump from frame one",
+"environment":"sunny edge of a dense forest; a stump next to him; birdhouses on trees and bushes; dense background",
+"lighting":"bright warm sun behind-left; bright sky glow behind-right, high contrast, bright daylight; at 9.40 the sun flares off the roof",
+"motion_rule":"The camera orbits him in an arc every beat and changes shot size; trees, birdhouses, leaves slide behind him, never still. He moves his whole body every beat.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress: FI-ni-sha, fi-ni-shi-RO-val, go-lo-VA, fsyeg-DA, DO-mye","pacing":"brisk, each line once, inside its beat, no speech after 7.3; silent beats: no voice","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.50","line":"Нёс","a":"mouth opens on every syllable; stamping a front hoof, cabin swaying; red leaves sweep past the lens; medium, camera arcs left"},
+{"t":"0.50-1.55","line":"свой дом сквозь годы,","a":"mouth opens on every syllable; he plods a heavy step and turns, cabin swaying; snow sweeps past the lens, snow piles on the roof; orbit back closer"},
+{"t":"1.55-2.55","line":"ждал финиша.","a":"mouth opens on every syllable; he stretches his neck forward, nostrils flared; the badger trots in behind unrolling red ribbon; arc out to medium"},
+{"t":"2.55-3.40","a":"he bows under the weight, antlers dipping to the stump; the badger hops onto the stump, hooks the ribbon over an antler tine and grips the other end; low arc"},
+{"t":"3.40-4.50","line":"Финишировал.","a":"mouth opens on every syllable; he straightens and steps back, the ribbon goes taut between his antler and the badger's paws; the badger leans back, holding; orbit from the ribbon side"},
+{"t":"4.50-5.35","line":"Но голова","a":"mouth opens on every syllable; he sidesteps to the stump, cabin rocking; the badger shifts his grip; arc"},
+{"t":"5.35-6.20","line":"всегда в доме.","a":"mouth opens on every syllable; he turns his head to the hare, ears up; behind him the hare drops into a sprint start; arc"},
+{"t":"6.20-7.15","a":"he shifts his weight hoof to hoof, eyes shut, ears pinned; the hare bursts off and races in large near frame edge; whipping arc, close on his face"},
+{"t":"7.15-7.85","a":"the hare breaks the ribbon with its chest and dashes past the lens; his head snaps back, the torn ribbon end slaps his nose, the cabin bounces; sharp short arc"},
+{"t":"7.85-8.50","a":"he stamps; the badger lifts the tiny twin cabin; orbit to the stump"},
+{"t":"8.50-9.25","a":"the badger sets the tiny cabin on the big roof and stamps it down; the big cabin drops over his head and stops on his shoulders: his face peeks out of the front doorway, antlers stick out of the side openings; tight orbit to his face"},
+{"t":"9.25-10.00","a":"he snorts out of the doorway, the ribbon slides off his nose; he sways under both cabins, the badger pats his antler; last petals near frame edge; short arc"}
+],
+"must_appear":"7.15 the hare breaks the ribbon; final: stag's face peeks out of the cabin doorway, antlers through the side openings, both cabins on top",
+"negative_prompt":"small hero, static camera, still background, text, letters, digits, logos, subtitles, watermark, writing on ribbon or shirt, walking or running toward camera, side tracking shot, deer leaving frame, house falling to the ground, extra deer, duplicate props, floating objects, tiny cabin floating above the roof, stag fully hidden, face covered, extra legs, bent antlers, darkness, night, dim light, empty field, a line said twice, foreign accent"
+}

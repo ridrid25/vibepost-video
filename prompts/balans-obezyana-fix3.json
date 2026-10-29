@@ -1,0 +1,39 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "a full sprint on all fours down a bazaar lane at the lens, the camera racing backwards ahead so the stalls tear past every beat and his face stays to the lens; his feet never leave the stones, he moves only across the frame at the lens; ONE move per window, never a chain; head half the frame; new shot size each beat; camera move every beat",
+  "character": "a lean brown macaque in a grey waistcoat, deadpan, running flat out",
+  "second_characters": "ONE small macaque porter in a green visor; from 4.5 he swings on the taut chain at the lens",
+  "props": "ONE brass balance beam with two identical pans, hooked on his tail; two identical brown coconuts, same size and husk, in his waistcoat",
+  "prop_continuity": "the left pan drags at his knee from 1.0; the right pan shoots up at 4.05 out of frame and never comes down, its chain taut over his shoulder",
+  "environment": "a packed bazaar lane, stalls of fruit and brass both sides, shoppers scattering out of his way",
+  "light_events": "hard noon sun bars strobe his face every beat, cold rim both sides",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.4 syllables/sec, beats filled edge to edge",
+    "pronunciation": "o-DIN, po-KA-zy-va-et, na-kop-LE-ni-ya, dru-GOY, kar-MI-che-ski-e, DOL-gi",
+    "pacing": "0.45-3.55 one breath; the gap under one second; 4.5-7.15 one breath with no voice sound outside the lines; after 7.15 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "his feet hammering the stones all clip, the bazaar roaring, a woody knock at 0.45, a chain slam at 1.0, a chain whipping taut at 4.05"
+  },
+  "timeline": [
+    { "t": "0.0-0.45", "a": "the beam swings into the lens off his tail, pans level, he is already at a full sprint" },
+    { "t": "0.45-0.95", "line": "Один", "a": "he flings a coconut into the left pan without breaking stride" },
+    { "t": "0.95-2.0", "line": "показывает", "a": "the left pan slams down and the weight slings him into a harder run" },
+    { "t": "2.0-2.5", "line": "мои", "a": "he tears past the loaded pan dragging dead down at his knee" },
+    { "t": "2.5-3.55", "line": "накопления.", "a": "he runs flat out at the lens, the loaded pan swinging under him" },
+    { "t": "3.55-4.05", "a": "he flings the other coconut into the right pan on the run, never looking at it" },
+    { "t": "4.05-4.5", "a": "the right pan shoots out of the frame and he tears on down the lane, the chain snapping taut" },
+    { "t": "4.5-5.05", "line": "Другой —", "a": "the porter drops into the lens on that chain and swings across the frame beside his ear" },
+    { "t": "5.05-5.6", "line": "мои", "a": "the porter hauls himself hand over hand along the chain past the lens" },
+    { "t": "5.6-6.65", "line": "кармические", "a": "the porter throws his whole weight on the chain and it stays taut, the hero sprinting under it" },
+    { "t": "6.65-7.15", "line": "долги.", "a": "he whips the sunk pan past the lens on the run" },
+    { "t": "7.15-7.9", "a": "he cuts hard across the lane through a stall and the fruit sprays past the lens" },
+    { "t": "7.9-8.7", "a": "he flings a fruit crate onto the risen pan on the run and it takes that up too" },
+    { "t": "8.7-9.4", "a": "he swings the sunk pan across the lens on the run" },
+    { "t": "9.4-10.0", "a": "he throws himself into the lens, deadpan, the sunk pan at his ear" }
+  ],
+  "must_appear": "two identical coconuts: the first drags the left pan down, the second sends the right pan up out of frame and it never comes back; the hero stays on his feet the whole clip; at 9.4 his deadpan face is in the lens",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, horizontal bars, night, dark scene, a walking hero, a hero lifted off his feet, a hero moving up or down the frame, standing bystanders, a still background, a parked camera, a hero standing to work on a prop, a wide or distant hero, a hero seen from behind, a held pose, slow motion, the risen pan coming down, a word not in the lines, a drawn-out word, cyrillic letters, extra limbs"
+}

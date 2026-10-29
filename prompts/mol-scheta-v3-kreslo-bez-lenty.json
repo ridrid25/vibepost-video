@@ -1,0 +1,38 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, deadpan satire, hard noon sun",
+"motion_rule": "she sits in a swivel office chair all clip, never stands and never travels: the chair spins on its post in EVERY beat and reverses the spin at 1.3, 3.6 and 6.4; the world comes at her instead — a mink coat drops off the rail into the lens every beat, hangers swing, moths tear across the glass; her arms and mouth work in EVERY beat; the camera whips to a new angle and a new shot size every beat; she fills half the frame height; one action per beat; no push in, no rack focus",
+"character": "a plump grey clothes moth in a brown mink coat, powdery wings, feathered antennae, round belly, seated in a black swivel office chair",
+"second_characters": "ONE lean moth in a green clerk visor darting at the lens all clip; A SWARM of moths crossing the lens every beat",
+"props": "ONE folder of bills in her lap; ONE long strip of bills unrolling from it; ONE red aerosol can in the clerk moth legs; ONE rubber gas mask with a filter snout; furry mic bottom right",
+"prop_continuity": "the strip whips around her from 1.3 on; the can and mask are the clerk's",
+"environment": "a sunlit fur hall walled with mink coats on brass rails, swinging hangers, fluttering price tags",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "dry chesty female voice, deadpan, even 4.4 syllables/sec",
+"pronunciation": "me-NYA, GLO-zhut, sche-TA, dol-GHI, TAK-zhe, do-YE-la",
+"pacing": "0.4-4.3 one breath, a short breath at 4.3, 4.3-6.4 one breath; after 6.4 not a word, only the sneeze and sfx",
+"lip_sync": "her mouth opens on every syllable, never a voice over",
+"sfx": "chair post creaking all clip, dry wing flutter, fur ripping, a hissing jet at 6.4, one huge wet sneeze at 6.9",
+"music": "none"
+},
+"timeline": [
+{"t": "0.0-0.4", "a": "the chair whips round with her in it, a coat dropping past the lens"},
+{"t": "0.4-1.3", "line": "Меня гложут", "a": "she chews her own sleeve as the chair spins and a coat swings into the lens and clears"},
+{"t": "1.3-2.2", "line": "счета, долги,", "a": "she yanks the folder off her lap, a strip of bills bursts across the frame, the spin reversing"},
+{"t": "2.2-2.9", "line": "а также", "a": "she kicks a falling coat away, fur splitting wide across the lens"},
+{"t": "2.9-3.6", "line": "пара шуб", "a": "she swats the brass hangers over her, they clatter past the lens, coats swinging wide"},
+{"t": "3.6-4.3", "line": "из норки.", "a": "the chair whips the other way, the strip lashing around her, tags tearing loose"},
+{"t": "4.3-5.2", "line": "Их я уже", "a": "she hauls a mink sleeve off the rail into her lap, coats sweeping between her and the lens"},
+{"t": "5.2-5.7", "line": "почти", "a": "she leans out of the spinning chair at the lens, hangers and tags tearing past"},
+{"t": "5.7-6.4", "line": "доела.", "a": "she spits a wad of fur at the lens, the swarm tearing across"},
+{"t": "6.4-6.9", "a": "the clerk moth swings out at the lens and fires the can, a white jet raking her as the chair spins through it"},
+{"t": "6.9-7.2", "a": "chest-up: she sneezes hard at the lens, fur wads and tags blasting past camera"},
+{"t": "7.2-7.7", "a": "the clerk moth flings the mask past the lens, she catches it and hauls it over her head, still spinning"},
+{"t": "7.7-8.3", "a": "chest-up, mask on: she rips fur off her sleeve and stuffs it into the filter snout at the lens"},
+{"t": "8.3-10.0", "a": "the chair spins on, she chews through the filter, coats dropping into the lens both sides"}
+],
+"must_appear": "she stays in the swivel chair all clip and it never travels; at 6.4 the jet hits her while the chair spins; at 6.9 chest-up she sneezes at the lens; at 7.2 she pulls the mask on; at 7.7 she stuffs fur into the filter snout",
+"negative_prompt": "conveyor belt, moving walkway, cart, rail under the chair, a hero riding anything, speech bubble, subtitles, watermark, cyrillic, latin letters, printed words on props, digits, letterbox, night, dark scene, a parked camera, a still background, a distant hero, a hero seen from behind, a held pose, slow motion, human hands, speech after 6.4"
+}

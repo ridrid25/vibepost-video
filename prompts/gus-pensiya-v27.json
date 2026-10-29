@@ -1,0 +1,26 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D black office comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+"subject": "ONE white goose clerk: big tomato-red vest and tie, orange sleeve covers, long neck.",
+"second_characters": "THREE beaver colleagues: lime-green shirts, sad eyebrows; the chief beaver gnaws. ONE mole boss: purple vest, round glasses.",
+"props": "Clear glass piggy bank, knee-high, packed with shiny gold coins: the goose's. Thick clear straw, coin-wide: the mole's. Rack of yellow shovels with scarlet bows: the mole's. Round steel lids in the floor, each with a faded red bow and a white goose feather poking from under its rim.",
+"environment": "Sunny turquoise open-plan office, yellow floor tiles. Huge window; above it a navy sign, big white Cyrillic letters \"БАНК РОССИИ\", sharp and readable.",
+"lighting": "Bright noon sun; warm key on the goose's face, amber rim left, hot-pink rim right; a sunbeam on the glass bank, the gold glitters; red vest and scarlet bows vivid in every shot.",
+"light_events": [{"t": "4.80", "event": "sun shines through the empty glass"}],
+"motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; cuts only at 2.20, 6.30, 9.20; goose fills half the frame, except the close-up beats",
+"audio": {"language": "Russian", "delivery": "Goose dry deadpan adult voice; mole smug low voice", "lip_sync": "accurate",
+"sfx": ["0.3 coin clinks on coins", "2.8 glass crunch", "3.8 tile cracks", "4.1 straw slurp", "4.8 hollow glass ring", "7.70 loudest thud and glass ring", "9.3 steel lid clang", "9.8 last coin clink"]},
+"timeline": [
+{"t": "0.00-0.80", "a": "From the first frame the goose sits fluffed on the glass bank like on an egg; plop, a new gold coin drops from under him through the slot onto the gold.", "c": "already dives with the coin, close-up"},
+{"t": "0.80-2.20", "a": "The goose hops off, polishes the glass with his wing, chest out; beak free, he says", "c": "tumbles out through the glass and skims low over the floor lids, a white feather poking from under each rim in foreground", "line": "Копил на пенсию."},
+{"t": "2.20-3.70", "a": "Three beavers sadly hug the goose; he wipes an eye, beak free. Behind him the chief beaver gnaws a hole in the glass, coins pour into his cheeks, cheeks balloon. The goose says", "c": "arcs behind the hug, cheeks close-up", "line": "Коллеги сочувствуют."},
+{"t": "3.70-4.80", "a": "A tile bursts; the mole climbs out, sticks his straw into the hole and sucks: gold coins run up the clear straw into his mouth.", "c": "rises inside the straw, mole close-up"},
+{"t": "4.80-6.30", "a": "The bank is empty. The mole spits the straw out onto the empty bank, pushes a bowed shovel into the goose's wings; mouth free, the mole says", "c": "rockets back, cranes up, shovels in foreground", "line": "Дальше — сам накопаешь."},
+{"t": "6.30-7.20", "a": "The goose hisses with joy and digs with his whole body, soil and tiles fountain, the hole grows.", "c": "spins low round the hole"},
+{"t": "7.20-8.50", "a": "The goose kicks the empty glass bank into the hole, it rings on the bottom; he dives in after it headfirst.", "c": "hurls itself down into the hole"},
+{"t": "8.50-9.20", "a": "His head pops over the rim beside the empty gnawed bank; beak free, flatly says", "c": "rises with his head, face close-up", "line": "Помогли."},
+{"t": "9.20-10.00", "a": "The chief beaver slaps a lid on the hole, the row of feathered lids around it, lays the shovel's bow on it; from under the rim a goose wing pushes out one last gold coin, still flying into the beaver's paw in the last frame.", "c": "skims to the lid, swings with the coin, close-up", "hook": "reveal"}
+],
+"negative_prompt": "subtitles, captions, watermark, added title cards, garbled sign letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, humans, floating objects, duplicate characters, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

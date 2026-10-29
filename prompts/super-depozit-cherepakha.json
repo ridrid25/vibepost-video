@@ -1,0 +1,39 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "he rides a seaside luggage belt racing at the lens, the camera racing backwards ahead so the awnings tear past every beat and his face stays to the lens; the belt carries him through every beat and he never works a prop standing; head half the frame, from 6.15 a low angle, head low; new shot size each beat, one action per beat; camera move every beat",
+  "character": "a stocky green turtle in a tan visor, deadpan",
+  "second_characters": "ONE scruffy gull skimming the belt beside him, snatching every falling coin out of the air before it can reach his jar",
+  "props": "ONE brass jar with a fat arrow stamped rising up its side, riding on his shell; ONE gold coin in his claw",
+  "prop_continuity": "the jar stays plain and empty to the end however much money pours past; the coin he drops in at 2.5 never comes back out",
+  "environment": "a packed seaside boardwalk, striped awnings and stalls to the roof both sides, the belt racing under",
+  "light_events": "hard noon sun through the awning stripes bars his face every beat, cold rim both sides",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.4 syllables/sec, beats filled edge to edge",
+    "pronunciation": "vlo-ZHIL, o-be-SHCHAN-nyj, pro-TSENT, DEN-gi, po-KHO-zhe, ras-TUT, GDE-to, ye-SHCHO",
+    "pacing": "0.4-2.5 one breath; the gap under one second; 3.45-6.15 one breath with no voice sound outside the lines; after 6.15 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "the belt humming, the boardwalk roaring, a lid clap at 2.5, a far-off till ringing from 3.45, coins hammering the awnings from 7.0"
+  },
+  "timeline": [
+    { "t": "0.0-0.4", "a": "he rides the belt at the lens, the jar rocking on his shell, awnings tearing past" },
+    { "t": "0.4-0.9", "line": "Вложил", "a": "he thumbs the lid off the jar without slowing" },
+    { "t": "0.9-1.9", "line": "в обещанный", "a": "he holds the coin up to the lens as the belt hauls him along" },
+    { "t": "1.9-2.5", "line": "процент.", "a": "the gull swings in at his claw and misses the coin" },
+    { "t": "2.5-3.45", "a": "he drops the coin in and claps the lid, the jar sits plain, nothing happens" },
+    { "t": "3.45-3.95", "line": "Деньги,", "a": "coins burst out of the awnings far behind him, never out of the jar" },
+    { "t": "3.95-4.65", "line": "похоже,", "a": "he twists round on the belt hunting where they come from" },
+    { "t": "4.65-5.15", "line": "растут", "a": "the coin fall sweeps down the boardwalk after him, the gull tearing into it" },
+    { "t": "5.15-5.65", "line": "где-то", "a": "he snatches at the falling coins and comes up empty, the belt hauling him on" },
+    { "t": "5.65-6.15", "line": "еще.", "a": "banknotes join the fall and stream past his ear" },
+    { "t": "6.15-7.0", "a": "he holds the open jar up into the money and the gull robs every coin over it" },
+    { "t": "7.0-7.9", "a": "the fall hammers the awnings the whole lane long, none of it landing in the jar" },
+    { "t": "7.9-8.8", "a": "he shakes the jar at the lens, still empty, the gull hauling a fistful past him" },
+    { "t": "8.8-9.4", "a": "he tips the jar over and his own single coin drops out onto the belt and is gone" },
+    { "t": "9.4-10.0", "a": "he throws himself into the lens, deadpan, the empty jar at his ear, money pouring past behind" }
+  ],
+  "must_appear": "one brass jar with a rising arrow; at 2.5 he drops his coin in and claps the lid and the jar stays plain; from 3.45 the money bursts out of the awnings behind him, never out of the jar; at 6.15 he holds the jar up into the fall and it stays empty; at 9.4 his deadpan face is in the lens, the empty jar at his ear",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, night, dark scene, money coming out of the jar, money landing in the jar, a parked camera, a still background, a hero standing to work on a prop, a wide or distant hero, a hero seen from behind, a held pose, slow motion, a word not in the lines, a drawn-out word, cyrillic letters, readable text, extra limbs"
+}

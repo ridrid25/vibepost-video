@@ -1,0 +1,36 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+ "motion_rule": "the cart rolls all clip and never stops; the stall row blows across frame every beat; ONE sideways move per beat, never chained; new shot size each beat; her muzzle never under a third of frame, jaw visible; motion across frame only, never up or down",
+ "character": "a wiry macaque in a grey waistcoat on the rolling cart deck, exactly two arms, muzzle and jaw clear",
+ "second_characters": "ONE rat porter on the deck a shoulder from the lens, working on the move, crossing frame every beat",
+ "props": "ONE brass balance on a post bolted to the deck, two identical pans; ONE red sack and ONE blue sack, same cloth and size; A SWARM of paper slips in ONE crate; ONE batten",
+ "prop_continuity": "the balance rides at her muzzle, the sacks stay seated in their pans, only slips spill",
+ "environment": "a packed market lane, stalls both sides, a porters' cart rolling down the middle, shoppers diving clear",
+ "light_events": "white noon, a hard rim on her muzzle and the flying slips",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "a level pleased female voice, biting off each word, even 4.35 syllables/sec, beats filled edge to edge",
+  "pronunciation": "KRAS-nyy, me-SHOK, SI-niy, TO-zhe, STREL-ka, RO-vno, vli-TA-ya, ba-LANS, so-SHOL-sya, o-BE-ikh, sto-RON, dol-GI",
+  "pacing": "speech runs unbroken 0.00 to 7.75, first word at 0.00, no gap between beats; her voice is finished at 7.75, from there wheels, crowd and paper fill the track wall to wall to 10.00",
+  "lip_sync": "her jaw opens on every syllable, no voice over",
+  "sfx": "wheels on stones all clip, market roar, paper flapping"
+ },
+ "timeline": [
+  { "t": "0.00-1.15", "line": "Красный мешок — мой.", "a": "she hurls the red sack across frame into the near pan, the rat rolling his crate across frame at the lens, not touching her" },
+  { "t": "1.15-2.05", "line": "Синий мешок —", "a": "she swings the blue sack across frame into the far pan, the pans levelling" },
+  { "t": "2.05-2.75", "line": "тоже мой.", "a": "the rat hauls his batten across frame at the lens and she rocks aside" },
+  { "t": "2.75-3.65", "line": "Стрелка стоит", "a": "she slaps the beam across frame, both pans riding level past the lens" },
+  { "t": "3.65-4.10", "line": "ровно,", "a": "the rat swings across frame under the beam and shoulders into her side" },
+  { "t": "4.10-5.00", "line": "как влитая.", "a": "she goes hand over hand along the post across frame, post and pans rolling with her" },
+  { "t": "5.00-6.15", "line": "Баланс сошёлся:", "a": "she snatches an armful of slips out of the crate across frame, paper streaming behind" },
+  { "t": "6.15-7.30", "line": "с обеих сторон", "a": "the rat dumps his crate across frame into the near pan and she flings her armful into the far pan, both level" },
+  { "t": "7.30-7.75", "line": "долги.", "a": "she throws herself sideways across the deck under the heaped pans, the cart picking up speed" },
+  { "t": "7.75-8.55", "a": "the rat shoves the emptied crate onto her tail and she walks the deck across frame dragging both after her" },
+  { "t": "8.55-9.30", "a": "she walks the deck across frame and shoulders both pans over, a storm of slips, the rat at the lens" },
+  { "t": "9.30-10.00", "a": "she dives muzzle first at the lens through falling paper, jaw open, both heaped pans level at both frame edges" }
+ ],
+ "must_appear": "rolling deck and fleeing stall row every beat; the red sack in the near pan from 1.15, the blue in the far pan from 2.05; the pans level from 2.75 and level again at 9.30; at 9.30 her muzzle on the lens, jaw open, both pans heaped with identical slips at both frame edges; every word spoken, the last by 7.75",
+ "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a parked cart, a hero standing to work on a prop, a wide or distant hero, a hero moving up or down the frame, standing bystanders, slow motion, letters, writing, digits, a word not in the lines, a closed jaw while speaking, extra limbs, a third arm, multiple monkeys, duplicate props, a balance off its post, foreign accent"
+}

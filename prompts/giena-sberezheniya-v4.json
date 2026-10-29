@@ -1,0 +1,86 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, dry satire",
+  "motion_rule": "the hyena crosses frame sideways in every beat and never moves toward the lens or away from it; the world is thrown at the lens instead, something filling the camera in every beat; camera pans with him, shelves tearing past; one action per beat; hyena head over a third of frame, new shot size each beat",
+  "character": "spotted hyena, scruffy fur, no clothing at all, upright on hind legs with front paws free, fills two thirds of frame height, same look throughout",
+  "second_characters": "ONE pelican and ONE goat, always blowing through the foreground into the lens: the pelican at 1.30-2.20, 5.05-5.55 and 8.60-10.00, the goat ramming a second cart at 2.95-3.70, 5.55-6.30 and 7.45-7.80",
+  "props": "ONE giant party balloon, blank all over, nothing printed on it; ONE wheeled flatbed cart; A SWARM of paper streamers",
+  "prop_continuity": "one balloon only, carried the whole way: taut and bigger than the hyena at the start, sagging by the middle, a limp rubber rag at the end, hurled into the lens",
+  "environment": "long bright party-supply warehouse aisle, shelves packed both sides with bundled balloons and streamers, flatbed carts rolling along it, tall windows blazing daylight",
+  "light_events": "a streamer curtain swings loose at 5.55 and rakes a bright band across the hyena",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, weary and sour, bites off every word, 4.3 syllables per second",
+    "pronunciation": "ot-KLA-dy-val, za-KON-chi-los, vche-RA; latin hints are never spoken",
+    "pacing": "0.00-2.20, 2.20-4.60 and 4.60-5.55 each on one breath; first word starts at 0.00; after 5.55 no words, sfx continue",
+    "lip_sync": "jaw opens on every syllable",
+    "sfx": [
+      "cart wheels rattling",
+      "slack rubber slapping the lens"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-1.30",
+      "line": "Всю жизнь откладывал",
+      "a": "he drives the taut giant balloon across frame with his chest, a streamer curtain blowing into the lens, jaw working"
+    },
+    {
+      "t": "1.30-2.20",
+      "line": "на лучшее.",
+      "a": "he hauls the balloon along the shelves across frame, the pelican sweeping through the foreground into the lens, jaw working"
+    },
+    {
+      "t": "2.20-2.95",
+      "line": "Лучшее,",
+      "a": "he carries the sagging balloon across the window blaze, balloons tumbling off a shelf at the lens, jaw working"
+    },
+    {
+      "t": "2.95-3.70",
+      "line": "кажется,",
+      "a": "he swings the wrinkling balloon down across frame, the goat ramming its cart into the lens, jaw working"
+    },
+    {
+      "t": "3.70-4.60",
+      "line": "закончилось",
+      "a": "he drags the half-collapsed balloon along the shelves across frame, streamers raking the lens, jaw working"
+    },
+    {
+      "t": "4.60-5.05",
+      "line": "ещё",
+      "a": "he whips the limp rubber rag across frame, a loose cart wheel rolling at the lens, jaw working"
+    },
+    {
+      "t": "5.05-5.55",
+      "line": "вчера.",
+      "a": "he sweeps the limp balloon across the window blaze, the pelican cutting into the lens, jaw working"
+    },
+    {
+      "t": "5.55-6.30",
+      "a": "he vaults onto a rolling flatbed cart and rides across frame, the goat slamming its cart into the lens"
+    },
+    {
+      "t": "6.30-7.05",
+      "a": "he hurls the limp balloon off the cart into the lens, it slaps flat across it, his face behind"
+    },
+    {
+      "t": "7.05-7.45",
+      "a": "he rides the cart across frame, streamers blasting into the lens"
+    },
+    {
+      "t": "7.45-7.80",
+      "a": "he rides across frame, the goat ramming its cart into the lens"
+    },
+    {
+      "t": "7.80-8.60",
+      "a": "he rides the cart across the window blaze, balloons raining at the lens"
+    },
+    {
+      "t": "8.60-10.00",
+      "a": "he rides across frame, the pelican sweeping into the lens, the balloon dragging"
+    }
+  ],
+  "must_appear": "the balloon in every beat; every line spoken, last word by 5.55; the hyena on the rolling cart from 5.55 to the end; he crosses frame sideways in every beat; something hurled into the lens in every beat",
+  "negative_prompt": "subtitles, watermark, letterbox, gloom, digits, garbled words, Latin letters, the hyena running at the lens, the camera backing away, a static camera, a still background, an empty aisle, slow motion, drawn-out delivery, foreign accent, a closed jaw while speaking, text overlay, English speech, extra limbs, multiple hyenas"
+}

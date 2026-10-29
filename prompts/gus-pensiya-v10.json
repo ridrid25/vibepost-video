@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: big COBALT-BLUE vest, round glasses, red party cone. Calm, serious. His wings hold ONE white cake with lit wax numbers 6 and 5.",
+  "second_characters": "ONE mole boss, grey suit, ORANGE party cone, clean long claws. ONE beaver colleague, white moustache, GREEN party cone. Both throw the goose.",
+  "props": "Cake 6-5: goose's. Cake 6-4 on the buffet table by the wall, nobody's until 9.2 s. Napkin: mole's, 5.6-7.0 s. Wax 5: mole's paw at 9.2 s.",
+  "environment": "Office farewell party: honey parquet floor, TURQUOISE walls, pink-and-gold flag garland under the ceiling, one gold balloon 6, buffet table by the wall.",
+  "lighting": "Warm key on the goose's face, orange rim left, violet rim right. Blue vest and red cone vivid in every shot, close-ups too.",
+  "light_events": [{"t": "0.45", "event": "wood dust flash"}, {"t": "7.60", "event": "garland bulbs blink"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice 0.6-7.0 s, beak free while speaking; no speech after 7.0 s", "lip_sync": "accurate", "sfx": ["0.0 garland rips", "0.45 crash, boards crack", "3.1 crash", "4.3 balloon rings", "5.1 hard crash", "5.8 napkin squeak", "7.6 LOUDEST BOOM, boards ring", "8.7 soft cake splat", "9.4 wax click, sound cuts"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame: goose hangs upside down in the garland, cake level; flags tear, he drops feet first knee-deep into the parquet, boards fly up in a fan.", "c": "hurls itself down with the falling goose"},
+    {"t": "0.60-2.05", "a": "Goose fixes his glasses, beak free, raises his wings; mole and beaver grab him under the wings and yank him out; cake 6-4 on the buffet table behind.", "c": "dives low under the paws, paws in foreground", "line": "Говорят, на пенсии"},
+    {"t": "2.05-3.35", "a": "Goose flies up and somersaults by the garland, beak free, neck keeps the cake level, wings flick open and fold back; he drops waist-deep into the parquet.", "c": "flies up with him in a somersault", "line": "жизнь начинается."},
+    {"t": "3.35-4.40", "a": "Colleagues yank him out, swing him twice and hurl him higher; goose hits the gold balloon 6, beak free.", "c": "arcs round the colleagues, top-down", "line": "Моя началась,"},
+    {"t": "4.40-5.60", "a": "Goose spins down like a drill, cake on the axis, beak free, and screws neck-deep into the parquet; sawdust fountains up onto the cake, wax 6 and 5 still lit.", "c": "dives in a spiral into the cake, close-up", "line": "как будто в яме."},
+    {"t": "5.60-7.00", "a": "Goose's head at floor level, beak free, wings raise the cake over his head; mole squats and wipes his clean claws with the napkin; beaver stamps the boards down round the goose.", "c": "hurls itself at the beak, close-up, then skims over the boards to the mole's claws", "line": "Только без лопаты."},
+    {"t": "7.00-8.20", "a": "Mole and beaver run in and jump together, both feet onto the goose's red cone; goose goes into the floor whole, only the cake sticks up in his wings.", "c": "hurls itself onto the red cone, close-up"},
+    {"t": "8.20-9.20", "a": "Wings sink, cake shoots up, flips once and lands on the hole wax side up; mole hammers the boards flat with his heel.", "c": "rockets back up, cake in foreground"},
+    {"t": "9.20-10.00", "a": "First, clearly: at the buffet table mole pulls wax 4 out of cake 6-4 and pushes in wax 5, now 6-5. Then he tosses the frozen beaver up. Last frame: beaver upside down in the garland.", "c": "whips round to cake 6-4, close-up, flies up", "hook": "loop"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

@@ -1,0 +1,34 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "a full sprint from the first frame, the camera racing backwards ahead of him so the walls tear past every beat and his face stays to the lens; his head fills half the frame, head-on and closer from 6.8; new shot size each beat; camera move every beat",
+  "character": "a rangy grey wolf in a cheap frayed office jacket, yellow eyes, teeth bared",
+  "second_characters": "A SWARM of pale office ghosts bursting out of every drawer along both walls from 5.9, jabbing a finger at him and cackling as he runs",
+  "props": "ONE translucent glowing pay envelope flying at his nose height, nothing printed on it",
+  "prop_continuity": "the envelope stays translucent and glowing all clip, is never held, and nothing ever touches it solidly",
+  "environment": "a long office corridor, grey pay windows and filing drawers both sides to the ceiling, hard noon sun through the skylights",
+  "light_events": "skylight bars strobe his face every beat, cold rim both sides, the envelope flares at 9.5",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.0 syllables/sec, beats filled edge to edge",
+    "pronunciation": "zar-PLA-ta, PRIZ-rak, ni-KTO, VI-del",
+    "pacing": "0.0-2.4, 3.4-5.9, 6.8-9.0 three breaths, every gap under one second; he says each line once and never says a line twice; after 9.0 not a word",
+    "lip_sync": "his jaws open on every syllable, never a voice over",
+    "sfx": "claws hammering the floor all clip, drawers banging open along both walls from 5.9, a hollow shimmer whenever his teeth pass through the envelope, a ghost crowd cackling from 5.9 to the end, never words"
+  },
+  "timeline": [
+    { "t": "0.0-1.2", "line": "Моя зарплата —", "a": "the frame opens tight on his jaws snapping shut on the glowing envelope and closing straight through it, already at a full sprint" },
+    { "t": "1.2-2.4", "line": "это как призрак.", "a": "he swipes a paw at the envelope and it slips through his claws, and he digs harder, the walls streaking" },
+    { "t": "2.4-3.4", "a": "he throws himself into the lens, jaws wide, and drops back into the corridor still driving hard" },
+    { "t": "3.4-4.4", "line": "Все говорят,", "a": "he drives head on at the lens, pay windows tearing past both sides" },
+    { "t": "4.4-5.9", "line": "что она где-то есть,", "a": "his jaws snap at the envelope twice at full drive and close through it both times" },
+    { "t": "5.9-6.8", "a": "every drawer along both walls bangs open at once and the ghosts pour out over him, paper blowing apart" },
+    { "t": "6.8-7.8", "line": "но никто", "a": "the ghosts stream alongside him jabbing a finger at him, and he shoulders through them still driving" },
+    { "t": "7.8-9.0", "line": "не видел.", "a": "the envelope cuts sideways, he slams after it through the ghost crowd, shoulder raking the drawers" },
+    { "t": "9.0-9.5", "a": "the whole crowd swings round on him at once, arms out, every finger on him, cackling" },
+    { "t": "9.5-10.0", "a": "he throws himself into the lens, jaws wide, the envelope hanging whole and glowing inside them, the ghosts pointing past both walls" }
+  ],
+  "must_appear": "at 5.9 every drawer along both walls bangs open and the ghosts pour out; from 6.8 they run alongside him jabbing a finger at him and cackling; at 9.0 the whole crowd swings round and points at him at once; at 9.5 he throws himself into the lens with his jaws wide and the envelope hangs whole and glowing inside them",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, night, dark scene, a line said twice, a word not in the lines, a drawn-out word, ghosts speaking words, a solid opaque envelope, teeth denting the envelope, a parked camera, a still background, a stopped hero, a wide or distant hero, a hero seen from behind, a hero moving away from the lens, a held pose, slow motion, cyrillic letters, readable text, human hands, extra limbs"
+}

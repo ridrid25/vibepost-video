@@ -1,0 +1,29 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan; vertical 9:16 portrait frame, full-bleed, the pangolin fills two thirds of the frame height in every beat",
+"subject":"ONE stocky pangolin, navy suit, copper scales, long claws, long tongue, two breast pockets",
+"second_characters":"ONE emerald praying mantis guard, a real insect: triangular head, bulging compound eyes, thin folded forelegs, no human features; peaked cap, clipboard, thick black marker in his foreleg, white card on his chest; beetle clerks, real insects, in the next glass cell",
+"props":"plain white keycards; a round reader on the glass glowing green or red",
+"environment":"ONE cramped glass cell of a revolving door, curved glass close around him",
+"lighting":"bright daylight through the glass, sunlit copper scales, vivid green and red reader flashes",
+"motion_rule":"the pangolin is huge in frame every beat. The world flies at him: papers, coffee splashes, badge ribbons, paper slips fly into the lens in EVERY beat; in speech beats they whirl round his head, never over his mouth. He shoves the door himself between lines. The camera rides inside the same cell, inches from him, new shot size every beat.",
+"audio":{"language":"Russian","delivery":"flat low male voice, native","pacing":"each line once, inside its beat","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.70","a":"close-up, he yanks white card one from his pocket; a beetle clerk in the next cell smacks his cheek on the glass; a paper sheet flies at the lens beside his snout"},
+{"t":"0.70-1.60","line":"Первый логин","a":"mouth opens on every syllable; chest-up, he slaps card one on the reader; a clerk sips coffee, splashes whirl round his head"},
+{"t":"1.60-2.30","line":"пропустил.","a":"he shoves the glass with one claw, mouth opening on every syllable; reader flashes green; slips whirl round his head"},
+{"t":"2.30-3.00","a":"he curls into a ball of joy, rolls, pops up on hind legs; a clerk drops his cup, it flies into the lens"},
+{"t":"3.00-3.70","a":"he licks card one with his long tongue, tucks it in his pocket; the mantis behind the glass turns his head to him; a badge ribbon whips the lens"},
+{"t":"3.70-4.80","line":"Второй, кажется,","a":"mouth opens on every syllable; waist-up, he holds a second white card from the other pocket to the reader; the mantis taps the glass; papers whirl round his head"},
+{"t":"4.80-5.50","a":"his scales bristle, the door jerks to a halt, his snout squashes on the glass; the reader floods the cell red, the mantis leans to the glass"},
+{"t":"5.50-6.60","line":"вычеркнул меня","a":"mouth opens on every syllable; face close-up, eyes cross after the marker; the mantis draws one fat black stroke on the glass at his face"},
+{"t":"6.60-7.50","line":"из всех списков.","a":"he sinks his head, claws sliding down the glass, snout to the lens, mouth opening on every syllable; the mantis rips a long sheet off the clipboard, it flies over his head"},
+{"t":"7.50-8.10","a":"he stares into the lens; the reader spits card two out, it flicks his nose and drops"},
+{"t":"8.10-8.80","a":"close-up: through the door gap he snatches the white card off the mantis's chest, slaps it on the reader; the mantis jerks after it"},
+{"t":"8.80-9.40","a":"the door throws him outside, he curls into a ball and pops up; the door swings the mantis into the cell and locks; the glass pane with the black stroke stops right over the mantis's face; papers whirl into the lens"},
+{"t":"9.40-10.00","a":"facing the lens he licks the mantis card, tucks it in his pocket with his own; the mantis pounds the glass"}
+],
+"must_appear":"1.60 green; 4.80 red; 8.80 stroke on the mantis's face",
+"negative_prompt":"horizontal frame, landscape, widescreen, letterbox, wide lobby, crowd in background, human guard, small hero, text, letters, digits, captions, logos, speech bubbles, subtitles, watermark, darkness, static camera, floating objects, duplicate pangolins, slow speech, drawn-out delivery, English speech, foreign accent, conveyor belt"
+}

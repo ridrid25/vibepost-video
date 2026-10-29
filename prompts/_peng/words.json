@@ -1,0 +1,39 @@
+{
+ "transcription": [
+  {
+   "text": " Да,",
+   "offsets": {
+    "from": 0,
+    "to": 200
+   }
+  },
+  {
+   "text": " приветствую",
+   "offsets": {
+    "from": 2500,
+    "to": 3760
+   }
+  },
+  {
+   "text": " вас,",
+   "offsets": {
+    "from": 3760,
+    "to": 3880
+   }
+  },
+  {
+   "text": " Дицы",
+   "offsets": {
+    "from": 3920,
+    "to": 4180
+   }
+  },
+  {
+   "text": " Беста!",
+   "offsets": {
+    "from": 4180,
+    "to": 4720
+   }
+  }
+ ]
+}

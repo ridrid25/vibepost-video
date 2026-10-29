@@ -1,0 +1,29 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan; pangolin fills two thirds of frame height every beat",
+"subject":{"character":"ONE stocky pangolin, navy suit, copper scales, long claws; scales on his forearm are his keycards","anti_action":"he, a heavy armored digger, moves like a prima ballerina, face fully serious"},
+"second_characters":"ONE emerald praying mantis guard, a real insect: triangular head, compound eyes, thin forelegs, peaked cap; only at the near frame edge; absent from the final beat",
+"props":"two identical copper scales; glass turnstiles with glass flaps, round scanners glowing green or red",
+"environment":"crowded office lobby, marble floor, glass turnstiles, elevator lights behind",
+"lighting":"hard sunlight from left rims his scales, warm elevator glow from right, scanner glow on his face",
+"motion_rule":"Camera orbits him on a tight arc and never stops; he moves every beat: rolling as a ball along a sideways arc, unrolling, sidestepping, springing sideways, pirouetting on claw tips, leaping; the mantis acts at the lens, never across his mouth. New shot size every beat.",
+"audio":{"language":"Russian","delivery":"flat low male voice, native","pacing":"brisk, each line once, inside its beat","lip_sync":"mouth opens on every syllable","opening":"in the opening beat only rolling scales clattering on marble, no voice"},
+"timeline":[
+{"t":"0.00-0.55","a":"close-up, rolled into a tight armored ball, he rolls in a curving arc across the marble floor from frame left to the turnstile, scales clattering; mouth hidden in the ball"},
+{"t":"0.55-1.05","line":"Первый","a":"mouth opens on every syllable; mid-shot, at the turnstile he snaps open from the ball to full height, spinning to face the scanner"},
+{"t":"1.05-2.15","line":"логин пропустил.","a":"mouth opens on every syllable; waist-up, he plucks a copper scale off his forearm, slaps it on the scanner with a heavy claw, green glow, flaps swing open"},
+{"t":"2.15-2.85","a":"knee-up, he strides through the open flaps, pocketing scale one; at the near lens edge the mantis guard salutes with a thin foreleg"},
+{"t":"2.85-3.95","line":"Второй, кажется,","a":"mouth opens on every syllable; medium shot, at the next turnstile he plucks a second identical scale and slaps it on the scanner, same heavy gesture"},
+{"t":"3.95-5.05","line":"вычеркнул меня","a":"mouth opens on every syllable; chest-up, he yanks his claw back as the scanner sucks the scale in with a crunch, red glow"},
+{"t":"5.05-5.90","line":"из всех списков.","a":"mouth opens on every syllable; hips-up, arc right; he sidesteps two short steps left"},
+{"t":"5.90-6.55","a":"chest-up; the scanner spits copper shards in a red flash onto his snout; he springs sideways right, away from it"},
+{"t":"6.55-7.20","a":"knee-up; face serious, on claw tips he pirouettes like a ballerina round the turnstile post, armor clanking, claws scratching rings into the marble"},
+{"t":"7.20-7.90","a":"low angle, full figure; he sails over the shut glass flap in a ballet leap, claws pointed, and lands heavy on all fours, a floor tile cracks"},
+{"t":"7.90-8.60","a":"waist-up, arc left; the mantis reaches in at the near lens edge, taps his shoulder with a thin foreleg; he whirls to face it"},
+{"t":"8.60-9.30","a":"chest-up; he shoulders the mantis aside and slaps a paw over the bare patch on his forearm"},
+{"t":"9.30-10.00","a":"face and paw, arc slows in front; paw held on the patch, he turns his head into the lens, blinks once, mouth shut"}
+],
+"must_appear":"two identical scales, the second eaten; ballet leap over the flap; final: paw on the bare patch, calm gaze in the lens",
+"negative_prompt":"horizontal frame, small hero, static camera, human guard, duplicate pangolins, duplicate props, curled up after the opening, crouching in place, ball rolling toward the lens, text, digits, subtitles, watermark, floating objects, English speech, foreign accent, slow speech, a line said twice, speech after 6.0, letterbox, empty background"
+}

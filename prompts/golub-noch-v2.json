@@ -1,0 +1,92 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D animation, feather realism, slapstick comedy",
+ "motion_rule": "camera always moving, shot size changes every beat, something fills the lens each beat, one action per beat, motion across frame or at the lens, the yard rushes past her, her head over a third of frame",
+ "character": "one city pigeon, the same all 10 s, flying low and level the whole clip, wings beating every beat, beak empty and opening on every syllable",
+ "second_characters": "crows in flat caps, ONE crow close to the lens in every beat, A SWARM from both sides at 2.75, two with flick-knives on her from 6.80, all across frame at the lens",
+ "props": "a fat leather wallet under her left wing, a slice of white bread under her right, wooden pins, white sheets on three lines, brick chimneys",
+ "prop_continuity": "the bread rides under her right wing to 4.05, then flung and torn to crumbs by 5.60; the wallet under her left wing until the crows rip it away at 6.90",
+ "environment": "a bright back yard at midday, three washing lines of white sheets, red brick roofs and chimneys behind, deep blue sky",
+ "light_events": [
+  {
+   "t": "0.0-10.0",
+   "event": "midday sun overhead, hard shadows, sheets blazing, blue sky all clip"
+  }
+ ],
+ "audio": {
+  "language": "Russian",
+  "delivery": "female, low, dry, angry, level, 3.3 syllables per second",
+  "pronunciation": "Ot-LO-zhish na CHYOR-ny DEN, pri-DYOT CHYOR-na-ya NOCH. DEN-gi ne spa-SUT, TOL-ko KRY-lya",
+  "pacing": "first word on frame one, speech unbroken to 6.80, then not a word, only wingbeats, knives and caws to 10.00",
+  "lip_sync": "accurate on every syllable",
+  "sfx": [
+   "wingbeats close to the mic, sheets snapping in the wind",
+   "crow caws, crust tearing at 4.70, a wing roar at 6.20, knives ringing at 7.60"
+  ]
+ },
+ "timeline": [
+  {
+   "t": "0.00-0.90",
+   "line": "Отложишь",
+   "action": "she bursts from behind a blazing sheet across frame, the sheet wiping the lens, the wallet under her left wing"
+  },
+  {
+   "t": "0.90-2.10",
+   "line": "на чёрный день,",
+   "action": "she rips under a sagging line and out the far side at the lens, ONE crow cutting past the other way, sheets and pins whipping past across frame"
+  },
+  {
+   "t": "2.10-2.75",
+   "line": "придёт",
+   "action": "she banks hard around a brick chimney, tiles and pins rushing at the lens"
+  },
+  {
+   "t": "2.75-4.05",
+   "line": "чёрная ночь.",
+   "action": "A SWARM of crows pours in from both sides past the lens, she rolls through the gap between them"
+  },
+  {
+   "t": "4.05-4.70",
+   "line": "Деньги",
+   "action": "still flying, she flings the bread over her shoulder at the lens"
+  },
+  {
+   "t": "4.70-5.60",
+   "line": "не спасут,",
+   "action": "she beats through the crows while they tear the bread to crumbs across frame, crumbs bursting at the lens"
+  },
+  {
+   "t": "5.60-6.20",
+   "line": "только",
+   "action": "she snaps both wings wide and drives across frame over the sheets, the yard sweeping under her"
+  },
+  {
+   "t": "6.20-6.80",
+   "line": "крылья.",
+   "action": "punch: she dives into the lens, wings filling the frame, orange eyes on us, beak wide open"
+  },
+  {
+   "t": "6.80-7.40",
+   "line": "",
+   "action": "two crows close on her from both sides at the lens and rip the wallet from under her left wing, she flies on"
+  },
+  {
+   "t": "7.40-8.10",
+   "line": "",
+   "action": "the two crows snap flick-knives at her across frame, blades raking her feathers, sparks bursting at the lens"
+  },
+  {
+   "t": "8.10-8.90",
+   "line": "",
+   "action": "she rolls out of the sparks and tears over the roofs, the two crows left with the wallet"
+  },
+  {
+   "t": "8.90-10.00",
+   "line": "",
+   "action": "she swings back and comes at the lens, wings wide, the yard rushing under her"
+  }
+ ],
+ "must_appear": "the wallet under her left wing at 0.00, A SWARM of crows at 2.75, the bread flung by her at 4.05, her dive filling the lens at 6.20, all words by 6.80, two crows ripping the wallet away at 6.90, knives and sparks on her at 7.60, she tears away over the roofs by 8.60, sun and blue sky in every beat",
+ "negative_prompt": "subtitles, watermark, letterbox, digits, an inscription, Latin letters, a static camera, standing in place, perching, sitting on the line, slow motion, a closed beak while speaking, English speech, blood, gore, night, dusk, a dark scene, grey sky, rain, a repeated word, a wide shot"
+}

@@ -1,0 +1,79 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, dry satire",
+  "motion_rule": "camera travels down the aisle alongside the wolf every beat, washers and sheets streaming past frame; wolf covers ground in every beat, never planted; one action per beat; wolf head over a third of frame, new shot size each beat; motion across frame, never up-down",
+  "character": "grey wolf, lean, wet fur, no clothing at all, upright on hind legs with front paws free, fills two thirds of frame height, same look throughout",
+  "second_characters": "ONE crow and ONE goat, always a shoulder from the lens and crossing frame: the crow at 0.00-0.70, 1.40-2.10 and 4.85-5.65, the goat shoving a second cart past the wolf at 0.70-1.40, 2.10-2.75 and 5.65-6.45",
+  "props": "ONE white paper envelope, blank on both sides, nothing written on it; ONE wheeled laundry cart heaped with wet washing; ONE wet white sheet; A SWARM of wooden clothespins",
+  "prop_continuity": "one envelope only, carried the whole way: ripped open, shaken out empty, swept through the light, hurled into the lens; out of the wash it is thinner and see-through",
+  "environment": "narrow laundry aisle, washers packed both sides, wet sheets hanging low and brushing the lens, wheeled carts along it, wide window blazing daylight at the end",
+  "light_events": "daylight blazes from the window; a wet sheet swings off the line at 6.45 and rakes a bright band across the wolf",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "male voice, weary and venomous, bites off every word, 4.5 syllables per second",
+    "pronunciation": "zar-PLA-ta, BE-la-ya, nas-TOL-ko, shto, pros-VE-chi-va-yet; latin hints are never spoken",
+    "pacing": "0.00-1.40, 1.40-2.75 and 2.75-4.05 each on one breath; first word starts at 0.00; after 4.05 no words, sfx continue",
+    "lip_sync": "jaw opens on every syllable",
+    "sfx": [
+      "cart wheels rattling",
+      "wet cloth slap",
+      "clothespin clatter",
+      "paper slapping the lens"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.70",
+      "line": "Зарплата",
+      "a": "wolf shoves the loaded cart into frame from the left and drives it past the lens, striding after it, jaw working"
+    },
+    {
+      "t": "0.70-1.40",
+      "line": "белая.",
+      "a": "wolf snatches the envelope off the heap and swings it across frame, walking the cart on, jaw working"
+    },
+    {
+      "t": "1.40-2.10",
+      "line": "Настолько",
+      "a": "wolf strides on holding the envelope into the window blaze, sheets raking past the lens, jaw working"
+    },
+    {
+      "t": "2.10-2.75",
+      "line": "белая,",
+      "a": "wolf rips the envelope open in a wide sideways tear and shakes it out empty, walking through, jaw working"
+    },
+    {
+      "t": "2.75-3.00",
+      "line": "что",
+      "a": "wolf flings the torn envelope out sideways on a straight paw, walking on, jaw working"
+    },
+    {
+      "t": "3.00-4.05",
+      "line": "просвечивает.",
+      "a": "wolf sweeps the envelope across the window blaze, light blasting through the paper onto his face, striding past the lens, jaw working"
+    },
+    {
+      "t": "4.05-4.85",
+      "a": "wolf vaults onto the rolling cart and rides it down the aisle, the envelope in his teeth, washers streaming past"
+    },
+    {
+      "t": "4.85-5.65",
+      "a": "the wet sheet whips across frame past the lens and the riding wolf ducks through it"
+    },
+    {
+      "t": "5.65-6.45",
+      "a": "the clothespins fly across frame into the lens, the wolf riding on through the clatter"
+    },
+    {
+      "t": "6.45-7.25",
+      "a": "wolf hurls the envelope into the lens with a shoulder swing, his face showing through the wet see-through paper"
+    },
+    {
+      "t": "7.25-8.00",
+      "a": "wolf rides the cart past the lens shoulder first, the empty envelope trailing"
+    }
+  ],
+  "must_appear": "the envelope in every beat; ripped open with nothing falling out at 2.10-2.75; light through it at 3.00-4.05; every line spoken, last word by 4.05; the wolf on the rolling cart from 4.05 to the end; the throw into the lens at 6.45",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, digits, an inscription, a label, a stamp, garbled or misspelled words, Latin letters, a static camera, a still background, an empty aisle, standing in place, slow motion, drawn-out delivery, foreign accent, two actions at once, a closed jaw while speaking, text overlay, English speech, extra limbs, multiple wolves, clothing on the wolf"
+}

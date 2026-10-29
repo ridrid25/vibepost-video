@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE old grey goose: big COBALT-BLUE vest, round glasses, red party cone, yellow backpack with red bow 65. Calm, serious. Never flies.",
+  "second_characters": "ONE mole boss, grey suit, white hanky, in the open top window. Clerks in bright suits: rabbit, badger, raccoon, fox. ONE beaver digger, ORANGE vest.",
+  "props": "Backpack, pink paper cocktail umbrella: goose's. White wall clocks: mole's, a stack on his sill. Briefcases: clerks'. Shovel: beaver's.",
+  "environment": "TURQUOISE glass office tower, open 40th-floor window. Below: glass revolving door, LIME-GREEN tile plaza, a path of round white gold-rim discs to the door, a tiny pink stick by each.",
+  "lighting": "Bright morning sun; warm key on the goose's face, orange rim left, magenta rim right. Blue vest, red cone, yellow backpack vivid in every shot, close-ups too.",
+  "light_events": [{"t": "2.10", "event": "door glass flashes"}, {"t": "8.20", "event": "clock glass flashes"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose only, dry deadpan adult voice 0.6-7.0 s, beak free while speaking; no speech after 7.1 s", "lip_sync": "accurate", "sfx": ["0.0 wind howl", "0.9 paper pop", "2.1 glass bang, door whirr", "3.4 hard thud", "5.0 three hops", "6.3 shovel clank", "8.2 LOUDEST BOOM, clock bongs", "9.9 one tick"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame: goose falls head-first down the tower at the revolving door, clerks run to it along the white discs; above, the mole waves his hanky.", "c": "hurls itself up the tower at him"},
+    {"t": "0.60-2.05", "a": "Goose yanks the backpack ring, beak free; a tiny pink cocktail umbrella pops out; his left wing holds it overhead, he tumbles down.", "c": "tumbles round him, dives into the umbrella, close-up", "line": "Говорят, на пенсии"},
+    {"t": "2.05-3.35", "a": "Goose smashes onto the revolving door; it spins like a centrifuge, clerks pressed to the glass; it flings the goose out in an arc, beak free.", "c": "whips round inside the spinning door, clerks in foreground", "line": "жизнь начинается."},
+    {"t": "3.35-4.45", "a": "Goose hits the tiles: tiles fan up, earth fountains, he sinks neck-deep in a hole by the door, umbrella in his left wing, beak free.", "c": "top-down, plunges into the earth fountain", "line": "Моя началась,"},
+    {"t": "4.45-5.55", "a": "Badger, raccoon, fox leap over the hole one by one, each glancing down with pity; goose tips the umbrella to each like a hat; earth from their feet hits his glasses.", "c": "flips onto its back in the hole, spinning up past his face", "line": "как будто в яме."},
+    {"t": "5.55-7.05", "a": "Beaver skids to the hole edge, looks in, lowers his shovel by the goose's head; goose plants the umbrella by his head, beak free.", "c": "springs out, hurls itself at his face, shovel in foreground, close-up", "line": "Только без лопаты."},
+    {"t": "7.05-8.45", "a": "Mole opens his paws: a wall clock falls spinning and slams face up onto the hole, driving the goose under.", "c": "falls with the clock, slams into its face, close-up"},
+    {"t": "8.45-9.20", "a": "Rabbit clerk taps the clock face like a watch, dives into the revolving door; beaver slaps the clock rim with his shovel; goose's umbrella sticks up by it like a grave flower.", "c": "whips round low after the rabbit"},
+    {"t": "9.20-10.00", "a": "From above: the path to the door is rows of clocks face up, each with a pink umbrella, clerks running on them. Last frame: the mole lifts the next clock over his sill.", "c": "soars up to the window, close-up on the clock", "hook": "loop"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, night, dark scene, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

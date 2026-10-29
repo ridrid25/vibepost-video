@@ -1,0 +1,64 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "subject": "ONE chubby golden hamster in a knitted vest and a tiny jeweller's loupe on one eye, cheeks that balloon and empty, never held in one pose",
+  "second_characters": "ONE grim utility mole in an orange hard hat who arrives at 3.45 slapping bills; TWO sparrows",
+  "props": {
+    "big": "ONE glass jewellery display case full of buckwheat grains instead of diamonds; ONE old iron radiator with a tin funnel on top; long paper utility bills",
+    "small": "A SWARM of buckwheat grains"
+  },
+  "environment": "a cramped bright pantry packed with jars, sacks, shelves of buckwheat and strings of onions, frost on a big window, no empty wall",
+  "lighting": "bright white winter daylight flooding from the big window, frosty blue on the glass",
+  "motion_rule": "the frame is TALL and the hamster fills two thirds of its height in EVERY beat, his face never under a quarter of it. He never stands still: scooping, stuffing, hopping, cheeks wobbling. Bills, sparrows and buckwheat grains tear across the lens the full frame width in EVERY beat, speech beats too. The camera sways close, never parks, new shot size every beat. ONE big hero action per beat.",
+  "audio": {
+    "language": "Russian",
+    "delivery": "plump earnest male voice, matter-of-fact, biting off each word",
+    "rate": "4.8 syllables per second",
+    "pacing": "first word at 0.0, every line said once, last word by 6.60, then the mole and the radiator carry it",
+    "lip_sync": "the hamster himself speaks, mouth opening on every syllable, brows and jaw alive",
+    "pronunciation": "se-VOD-nya GRECH-ka da-STOY-na-ye vlo-ZHE-ni-ye. LISH by kha-TI-la PO-sle o-PLA-ty SCHO-tov za TEP-lo",
+    "sfx": [
+      "grains pattering",
+      "radiator clanking"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-2.75",
+      "line": "Сегодня гречка — достойное вложение.",
+      "a": "chest-up, mouth working, he turns ONE buckwheat grain under his loupe like a diamond, then sweeps both paws through the display case and hugs an armful of grains to his vest, grains and a sparrow whipping across the lens"
+    },
+    {
+      "t": "2.75-3.45",
+      "a": "the hamster crams both pawfuls into his cheeks and they balloon round, grains spraying across the lens"
+    },
+    {
+      "t": "3.45-6.60",
+      "line": "Лишь бы хватило после оплаты счетов за тепло.",
+      "a": "waist-up, facing the lens, mouth wide and clear on every syllable despite round cheeks, the mole slaps a long bill onto the case, the hamster snatches it and it unrolls sideways across the frame, he sways side to side reading it, bills raining across the lens"
+    },
+    {
+      "t": "6.60-7.30",
+      "a": "the mole holds out his paw and the hamster spits his whole cheekful of grains into it"
+    },
+    {
+      "t": "7.30-8.00",
+      "a": "the mole pours the grains into a funnel on top of the radiator and it clanks and hisses, sparrows bursting across the lens"
+    },
+    {
+      "t": "8.00-8.70",
+      "a": "the hamster slides along the warm radiator and wraps all four paws round it, cheeks flat and empty, steam whipping across the lens"
+    },
+    {
+      "t": "8.70-9.35",
+      "a": "the mole slaps one more bill onto the radiator and the hamster recoils off it, grains spraying across the lens"
+    },
+    {
+      "t": "9.35-10.00",
+      "a": "the hamster swings his face to the lens with a flat stare, cheeks empty, ONE last grain rolling off his loupe"
+    }
+  ],
+  "must_appear": "0.00 the hamster examining ONE buckwheat grain through his loupe, the display case full of buckwheat; 6.60 he spits his cheekful into the mole hand; 9.35 empty cheeks hugging the radiator, flat stare",
+  "negative_prompt": "printed text, cyrillic words, digits, subtitles, watermark, speech bubble, a horizontal 16:9 picture, letterbox, a hero running at the camera on his feet, a conveyor belt, a cart, a parked camera, a still or empty background, standing in place, wide shot, a small distant hero, night, dark scene, a hero back to the camera, a closed mouth while speaking, a paw over his mouth, offscreen narration, a motionless first or last second, a line said twice, speech after 6.60, English speech, real diamonds, a second hamster, rice, duplicate props, a second mole, foreign accent"
+}

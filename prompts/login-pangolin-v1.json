@@ -1,0 +1,38 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "subject": "ONE stocky pangolin in a grey office suit and a blue tie, bronze scales, long curved claws, a lanyard round his neck, never held in one pose",
+  "second_characters": "hurrying office workers with coffee cups and ONE stern security beetle in a cap, crossing the lens in EVERY beat",
+  "props": {
+    "big": "ONE glass turnstile gate with two sliding glass doors and a round card reader that glows green or red",
+    "small": "TWO identical white keycards; A SWARM of paper scraps"
+  },
+  "environment": "a busy bright office lobby at noon, glass walls, potted palms, crowds, no empty wall",
+  "lighting": "bright sunny noon daylight; at 2.20 the reader flashes from green to red",
+  "motion_rule": "the frame is TALL and the pangolin fills two thirds of its height in EVERY beat, his face never under a quarter of it. The camera orbits him on a hard arc in EVERY beat, close, never parks, new shot size every beat. Office workers, cups and paper scraps sweep across the lens the full frame width in EVERY beat, speech beats too. ONE big hero action per beat.",
+  "audio": {
+    "language": "Russian",
+    "delivery": "flat low male voice, matter-of-fact, biting off each word",
+    "rate": "4.8 syllables per second",
+    "pacing": "first word at 0.0, every line said once, last word by 5.85, then the turnstile and the beetle carry it",
+    "lip_sync": "the pangolin himself speaks, mouth opening on every syllable, brows and jaw alive",
+    "pronunciation": "PER-vy LO-gin pra-pus-TIL. fta-ROY, KA-zhet-sya, VY-cherk-nul me-NYA iz fsekh SPIS-kov",
+    "sfx": ["reader beeps", "glass doors whooshing"]
+  },
+  "timeline": [
+    {"t": "0.00-1.50", "line": "Первый логин пропустил.", "a": "chest-up, mouth working, he slaps the first white keycard on the reader with one long claw, it glows green and the glass doors whoosh open, his tie flapping, a worker sweeping across the lens"},
+    {"t": "1.50-2.20", "a": "he swings round and slaps the second white keycard on the same reader the same way, a coffee cup flying across the lens"},
+    {"t": "2.20-2.90", "a": "the reader flashes red, the glass doors snap shut on his tail and he skids back hard, paper scraps whipping across the lens"},
+    {"t": "2.90-3.95", "line": "Второй, кажется,", "a": "waist-up, facing the lens, mouth working, he tugs his pinched tail free with both claws, a worker hurrying across the lens"},
+    {"t": "3.95-5.85", "line": "вычеркнул меня из всех списков.", "a": "waist-up, facing the lens, mouth working, he jams his lanyard badge into the reader, it chews it to strips at his chest, scraps sweeping across the lens"},
+    {"t": "5.85-6.55", "a": "the security beetle grabs his collar and spins him round, he curls into a tight scaly ball, workers whipping across the lens"},
+    {"t": "6.55-7.25", "a": "the beetle bowls the scaly ball back out through the lobby, it bounces off a potted palm, leaves flying across the lens"},
+    {"t": "7.25-8.00", "a": "the ball thumps to a stop and he unrolls on the floor, shredded strips raining across the lens"},
+    {"t": "8.00-8.80", "a": "he sits up and pulls the two identical keycards from his breast pocket, a coffee cup flying across the lens"},
+    {"t": "8.80-9.40", "a": "he tucks both cards back into his suit pocket and straightens his tie, workers sweeping across the lens"},
+    {"t": "9.40-10.00", "a": "he turns his face to the lens with a flat stare and blinks once, ONE shredded strip sliding off his snout"}
+  ],
+  "must_appear": "0.00 first keycard, green reader, doors open; 1.50 the identical second keycard on the same reader; 2.20 red reader, doors shut on his tail; 9.40 his flat stare at the lens",
+  "negative_prompt": "printed text, cyrillic words, digits, logos, subtitles, watermark, a horizontal 16:9 picture, letterbox, a hero running at the camera on his feet, a conveyor belt, a parked camera, a still or empty background, standing in place, wide shot, a small distant hero, night, dark scene, a hero back to the camera, a closed mouth while speaking, offscreen narration, a motionless first or last second, a line said twice, speech after 5.85, English speech, foreign accent, a human guard"
+}

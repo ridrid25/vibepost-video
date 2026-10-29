@@ -1,0 +1,29 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE garden snail, big in frame, grey-olive body, clear face, eyes on long stalks, small mouth; brown shell with a brass padlock and iron chain; same face throughout","physicality":"stalks snap in and out; skates on wet stone, slime glinting; lunges; skids sideways; hauls in jerks","anti_action":"weary serious face"},
+"second_characters":"ONE fat banker, greasy suit, sleeve protectors, silent, rides the dragged desk",
+"props":"old cash register, blank keys, no digits; wooden work desk; long chain: the desk trails behind him; coin: smooth gold, no engraving; padlock: smooth brass",
+"environment":"wet stone garden step; dense background: wet leaves, moss, drops, clay pots",
+"lighting":"warm sun edge behind-left, cool cyan sky edge behind-right on both figures, glints on brass and gold, bright",
+"motion_rule":"The snail big. Camera orbits every beat and changes shot size, medium to close; background shifts with the orbit. He skates, skids or hauls every beat. The banker moves his whole body every beat.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress VYgodny","pacing":"brisk, each line once inside its beat, nothing said after 5.7","lip_sync":"accurate","sfx":"after 5.7 only chain clank, desk scrape, coin clink"},
+"timeline":[
+{"t":"0.00-0.80","line":"Мне сказали:","a":"mouth opens on every syllable; he skates across wet stone left to right as the fat banker lunges, slapping a gold coin onto the stone near frame edge; camera arcs left to right"},
+{"t":"0.80-1.90","line":"«Выгодный кредит».","a":"mouth opens on every syllable; he skates toward the coin, stalks snapping out, as the banker sprawls, flicking it rolling to him; camera arcs right to left"},
+{"t":"1.90-2.55","line":"Я взял.","a":"mouth opens on every syllable; he rolls onto the coin and skids sideways, it sticks to his sole, as the banker yanks the chain; camera orbits with the skid"},
+{"t":"2.55-3.35","a":"he skates off hard, jerking the desk round in an arc, shell bouncing, as the banker hauls the chain hand over hand; orbit against the jerk"},
+{"t":"3.35-4.20","line":"Оказалось,","a":"mouth opens on every syllable; he lunges away, chain snapping taut, desk jolting, as the banker topples belly-first onto it; camera arcs"},
+{"t":"4.20-5.05","line":"выгодный он,","a":"mouth opens on every syllable; he skids off sideways, drawer shooting open, as the banker scrambles astride the register; low arc"},
+{"t":"5.05-5.70","line":"а не я.","a":"mouth opens on every syllable; he whips round, skating off with the desk, as the banker leans back hauling the chain; arc against the pull"},
+{"t":"5.70-6.40","a":"mouth shut; he skids into a clay pot, the coin flying off his sole into the drawer, as the banker belly-slams it shut; arc with the skid"},
+{"t":"6.40-7.10","a":"he hauls in a jerk up the step, desk lurching, as the banker is thrown backward, legs flying; camera orbits both"},
+{"t":"7.10-7.80","a":"he skids round a pot, desk scraping a wide arc, as the banker swings out over the edge like a counterweight; orbit against the drag"},
+{"t":"7.80-8.50","a":"he hauls over wet moss, as the banker jumps on the desk to brake; low arc"},
+{"t":"8.50-9.20","a":"he skids round, as the banker pops the drawer, leans out, slaps the coin onto the stone ahead; orbit the other way"},
+{"t":"9.20-10.00","a":"he skates after the coin, dragging the desk, as the banker lunges, flicking it further; arc"}
+],
+"must_appear":"0.00 padlock and chain on shell; 1.90 coin sticks to his sole; 4.20 drawer opens; 5.70 coin into the drawer; 8.50 coin slapped ahead; final: snail chases the coin dragging the desk",
+"negative_prompt":"small hero, wide shot, static camera, a parked hero, a hero parked at the desk, a focus pull, a cart, a rail, wheels, a repeated phrase, a second animal, text, letters, digits, subtitles, watermark, duplicate props, darkness, spotlights, floating objects, slow speech, foreign accent, horizontal frame"
+}

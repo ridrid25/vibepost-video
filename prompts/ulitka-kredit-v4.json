@@ -1,0 +1,29 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE garden snail, big in frame, grey-olive body, clear face, eyes on long stalks, small mouth; brown shell with a brass padlock and iron chain; same face throughout","physicality":"stalks snap in and out; skates on wet stone, slime glinting; skids sideways; hauls in jerks","anti_action":"weary serious face"},
+"second_characters":"ONE fat banker, greasy suit, sleeve protectors, silent, rides on the desk behind the register",
+"props":"old cash register, blank keys, no digits; wooden work desk; coin: smooth gold, no engraving; padlock: smooth brass",
+"environment":"wet stone garden step; dense background: wet leaves, moss, drops, clay pots",
+"lighting":"warm sun edge behind-left, cool cyan sky edge behind-right on both figures, glints on brass and gold, bright",
+"motion_rule":"The snail big. Camera orbits every beat and changes shot size, medium to close; background slides behind. He skates, skids or hauls every beat. The banker works big in the foreground.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress VYgodny","pacing":"brisk, each line once inside its beat, nothing said after 6.3","lip_sync":"accurate"},
+"timeline":[
+{"t":"0.00-0.80","line":"Мне сказали:","a":"mouth opens on every syllable; he skates across wet stone left to right as a fat hand in a sleeve protector slaps a gold coin onto the stone near frame edge; camera arcs left to right"},
+{"t":"0.80-1.90","line":"«Выгодный кредит».","a":"mouth opens on every syllable; he skates toward the coin, stalks snapping out, as the banker's finger flicks it rolling to him; camera arcs right to left"},
+{"t":"1.90-2.55","line":"Я взял.","a":"mouth opens on every syllable; he rolls onto the coin and skids sideways, it sticks to his sole, as the banker yanks the chain; camera orbits with the skid"},
+{"t":"2.55-3.35","a":"he skates off and is jerked round in an arc, shell bouncing, as the banker hauls the chain hand over hand; orbit against the jerk"},
+{"t":"3.35-4.25","line":"Оказалось,","a":"mouth opens on every syllable; he slides backward on the taut chain, stalks swinging to the desk, as the banker, on the desk, reels him in, belly wobbling; camera arcs"},
+{"t":"4.25-5.40","line":"выгодный он,","a":"mouth opens on every syllable; he skids round on the chain, jabbing a stalk at the banker, who cranks the register handle, the drawer shooting open; low arc"},
+{"t":"5.40-6.30","line":"а не я.","a":"mouth opens on every syllable; he swings in a wide arc round the desk, both stalks pointing at his own chest, as the banker spins the register after him, drawer open; camera orbits with the swing"},
+{"t":"6.30-6.95","a":"he skids into a desk leg, the coin flies off his sole into the drawer, as the banker slams it shut with his belly; arc against the skid"},
+{"t":"6.95-7.55","a":"he hauls in a jerk, the desk lurching after him, as the banker licks his fingers big in the foreground; camera orbits both"},
+{"t":"7.55-8.15","a":"he drags the desk round a clay pot, desk legs scraping, as the banker cranks the handle; orbit against the drag"},
+{"t":"8.15-8.80","a":"he hauls over wet moss, slime spraying, as the banker sways hugging the register; low arc, moss sliding"},
+{"t":"8.80-9.40","a":"he skids the other way, the desk swinging behind, as the banker bounces slapping the register; orbit the other way"},
+{"t":"9.40-10.00","a":"he drags the desk on, shell bouncing, as the banker licks a finger and cranks; arc"}
+],
+"must_appear":"0.00 padlock and chain on shell; 1.90 coin sticks to his sole; 4.25-6.30 drawer open; 6.30 coin into the drawer; final: snail drags the desk, banker licks a finger",
+"negative_prompt":"small hero, wide shot, static camera, a parked hero, a hero standing still, a focus pull, a cart, a rail, wheels, a repeated word, a second animal, text, letters, digits, subtitles, watermark, engraving, duplicate props, darkness, spotlights, floating objects, slow speech, speech after 6.4, foreign accent"
+}

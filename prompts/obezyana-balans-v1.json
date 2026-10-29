@@ -1,0 +1,92 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "Envelopes and side characters rip past the lens nonstop; hero holds his spot to 8.20; one clear action per beat; head over a third of frame, new shot size each beat; motion across frame, never up-down",
+  "character": "Fat rhesus macaque, tight vest over bare belly, black sleeve guards; centred, two thirds of frame height, one hand on the beam, pans held low at chest level, muzzle and jaw always clear.",
+  "second_characters": "ONE rat loader in an apron (moves 3.25-4.10, 5.70-6.45); ONE monitor lizard courier on a roller cart (moves 4.10-4.95). Before 3.25 both stand still in the aisle.",
+  "props": "ONE apothecary balance with two pans, held by the hero. A SWARM of identical envelope bundles, each tied crosswise with a white ribbon reading ДОЛГ in black capitals. Overhead belt sheds envelopes across frame into the lens.",
+  "prop_continuity": "Bundles grow from a handful at 3.25 to heaps spilling over both rims by 7.25, equal left and right; the beam stays level; both pans stay on the balance until 8.20.",
+  "environment": "Narrow postal sorting aisle, walls of stuffed sacks and envelope racks",
+  "light_events": "Bright daylight from high windows, glints on the pans; a hard sun bar sweeps across them at 5.70 and again at 8.20",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "male voice, businesslike and pleased with himself, biting off each word, 4.5 syllables per second",
+    "pronunciation": "ba-LANS, so-SHOL-sya, PROS-to, o-BE-ikh, sto-RON, dol-GI",
+    "pacing": "0.00-1.15 and 1.15-3.25 each on one breath; no words after 3.25, sfx continue",
+    "lip_sync": "jaw opens on every syllable",
+    "sfx": [
+      "paper rustle",
+      "beam chime",
+      "cart rumble",
+      "bundle slaps",
+      "envelopes whistling past the lens"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.45",
+      "line": "Баланс",
+      "a": "jaw working, hero thrusts the balance sideways at the very lens."
+    },
+    {
+      "t": "0.45-1.15",
+      "line": "сошёлся.",
+      "a": "jaw working, hero swings the beam wide side to side at the lens."
+    },
+    {
+      "t": "1.15-1.60",
+      "line": "Просто",
+      "a": "jaw working, hero turns the balance broadside across frame."
+    },
+    {
+      "t": "1.60-2.30",
+      "line": "с обеих",
+      "a": "jaw working, hero shakes the left pan into the lens."
+    },
+    {
+      "t": "2.30-2.75",
+      "line": "сторон —",
+      "a": "jaw working, hero shakes the right pan into the lens."
+    },
+    {
+      "t": "2.75-3.25",
+      "line": "долги.",
+      "a": "jaw wide open, hero sweeps both pans apart to the sides of frame, muzzle clear in the middle."
+    },
+    {
+      "t": "3.25-4.10",
+      "a": "Rat loader sweeps left to right past the very lens, dumping a bundle into the left pan."
+    },
+    {
+      "t": "4.10-4.95",
+      "a": "Lizard on the cart sweeps right to left past the very lens, tipping an identical bundle into the right pan."
+    },
+    {
+      "t": "4.95-5.70",
+      "a": "Hero slams the loaded left pan flat against the lens, the ДОЛГ ribbon filling frame, then whips it back across frame."
+    },
+    {
+      "t": "5.70-6.45",
+      "a": "Rat sweeps back tight against the lens, an identical ДОЛГ ribbon lashing the glass."
+    },
+    {
+      "t": "6.45-7.25",
+      "a": "Hero rocks the balance like a pendulum across frame, both pans sweeping past the lens."
+    },
+    {
+      "t": "7.25-8.20",
+      "a": "Hero rams the level beam broadside across frame at the lens, heaped pans equal on both sides."
+    },
+    {
+      "t": "8.20-9.10",
+      "a": "Hero rips both loaded pans off the beam and hurls them left to right into the lens, the bare beam left in his fist."
+    },
+    {
+      "t": "9.10-10.00",
+      "a": "Hero swipes backhanded with the bare beam right across frame into the lens."
+    }
+  ],
+  "must_appear": "Both pans in his hands to 8.20; the ДОЛГ ribbons identical on both sides; the beam level to 8.20; every line spoken, last word by 3.25; after 8.20 he hurls the pans at the lens, bare beam in his hands.",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, digits, a price card, garbled or misspelled words, Latin letters, slow motion, drawn-out delivery, foreign accent, two actions at once, a closed jaw while speaking, a tilted beam, an empty corridor, a still hero at the end, a second balance, frozen objects in mid-air, English speech"
+}

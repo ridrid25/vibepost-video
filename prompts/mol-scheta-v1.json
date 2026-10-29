@@ -1,0 +1,93 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "camera slides sideways along the rail nonstop, fur and bare hangers tear past every frame; the moth acts in every beat, side moths work at the lens; her head over a third of frame, new shot size each beat; motion crosses frame",
+  "character": "ONE grey-beige moth, rumpled, plump belly, two thirds of frame height; rides a wooden hanger rolling along the rail to the last frame, never dismounts; napkin at her collar",
+  "second_characters": "ONE courier moth on a hanger rushing the other way at the lens with envelopes, 1.40-1.95 and 4.00-4.60; ONE fat neighbour moth surfacing from the fur at the lens, 2.60-3.25 and 7.60-8.10",
+  "props": "ONE white paper bill tape with ДОЛГ in black capitals across it; ONE gnawed mink sleeve in her paw until 5.25, then the coat she snatches off its hanger",
+  "prop_continuity": "tape grows from a scrap at 0.85, whips round her chest at 1.95, drags as a tail sweeping the fur from 5.25; the right rail behind her is bare hangers only from 1.40",
+  "environment": "narrow cloakroom aisle, white walls, pale mink coats fur to fur on the left rail, bare hangers on the right",
+  "light_events": "tall windows both sides, dust flaring in the beams; a flare sweeps her back at 4.60 and 8.10",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "female voice, whining and well-fed, biting off every word, 4.5 syllables per second",
+    "pronunciation": "me-NYA, GLO-zhut, sche-TA, dol-GI, TAK-zhe, PA-ra, SHUB, NOR-ki, u-ZHE, poch-TI, do-YE-la",
+    "pacing": "0.00-1.95, 1.95-4.00 and 4.60-7.00 each on one breath; after 7.00 no words, sfx continue",
+    "lip_sync": "jaw opens on every syllable, even while chewing",
+    "sfx": "rustling fur, squeaking hangers, crunching fabric, hissing paper, envelopes at the lens"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.85",
+      "line": "Меня гложут",
+      "a": "moth rolls sideways into frame on the hanger, biting the sleeve, jaw works"
+    },
+    {
+      "t": "0.85-1.40",
+      "line": "счета,",
+      "a": "she rips the tape off a coat as she rolls past, the coat spinning away behind her, jaw works"
+    },
+    {
+      "t": "1.40-1.95",
+      "line": "долги,",
+      "a": "courier rushes past at the lens; she swings the tape at him sideways, jaw works"
+    },
+    {
+      "t": "1.95-2.60",
+      "line": "а также",
+      "a": "she throws a loop of tape sideways and it whips round her chest, jaw works"
+    },
+    {
+      "t": "2.60-3.25",
+      "line": "пара шуб",
+      "a": "neighbour surfaces from the fur at the lens; she shoves a bare hanger past her, jaw works"
+    },
+    {
+      "t": "3.25-4.00",
+      "line": "из норки.",
+      "a": "she bites the sleeve and shakes her head sideways, jaw works"
+    },
+    {
+      "t": "4.00-4.60",
+      "a": "courier rolls right past the lens, dropping envelopes across frame"
+    },
+    {
+      "t": "4.60-5.25",
+      "line": "Их я",
+      "a": "she flings the gnawed sleeve sideways out of frame, jaw works"
+    },
+    {
+      "t": "5.25-6.15",
+      "line": "уже почти",
+      "a": "she snatches a coat off its hanger on the fly and swings it across frame, jaw works"
+    },
+    {
+      "t": "6.15-7.00",
+      "line": "доела.",
+      "a": "she throws the coat over her shoulder and tears a strip of fur off it sideways, jaw works"
+    },
+    {
+      "t": "7.00-7.60",
+      "a": "she kicks a row of bare hangers as she rolls, they tear past jangling"
+    },
+    {
+      "t": "7.60-8.10",
+      "a": "neighbour slaps a bare hanger into her paws as both roll past the lens"
+    },
+    {
+      "t": "8.10-8.70",
+      "a": "moth bites into the coat at the lens and rips a strip of fur sideways with her teeth"
+    },
+    {
+      "t": "8.70-9.30",
+      "a": "moth shakes her head across frame, the tuft of mink and the tape sweeping the lens"
+    },
+    {
+      "t": "9.30-10.00",
+      "a": "moth hurls the bare hanger sideways into the lens, the aisle tearing past"
+    }
+  ],
+  "must_appear": "pale coats on the left rail, bare hangers on the right wherever she has passed; ДОЛГ tape from 0.85 and growing; every line spoken, last word before 7.00; from 8.10 she rips fur at the lens",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, digits, a price card, garbled or misspelled words, Latin letters, slow motion, foreign accent, a closed jaw while speaking, an empty corridor, a still hero at the end, a hero holding onto a hanging coat, vertical flight, English speech"
+}

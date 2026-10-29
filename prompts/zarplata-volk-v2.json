@@ -1,0 +1,34 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "the camera tracks sideways along him while he trots the packed corridor, so the shelving tears across the frame every beat and his face stays to the lens; he carries the envelope and never works it standing; his head half the frame and never under a third; new shot size each beat; the picture fills the vertical frame with no bars",
+  "character": "a wolf in a cheap office jacket, deadpan, trotting low, ears flat, stride unbroken every beat",
+  "second_characters": "ONE HR-sheep always between the lens and him, big in frame and on the move; A SWARM of office workers packed the other way, shouldering him",
+  "props": "ONE pay envelope, envelope and notes see-through, the office read through them",
+  "prop_continuity": "envelope and notes stay see-through, no second copy; from 6.8 only the one note is in his paws",
+  "environment": "a narrow office corridor at midday, archive shelving floor to roof hard against both walls a paw's reach away, glass partitions with blinds, chair towers, a cart every metre, no gap to any far wall",
+  "light_events": "bright daylight through the blinds stripes his muzzle every beat, cold rim one side, warm kick the other",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 3.3 syllables/sec, beats filled edge to edge",
+    "pronunciation": "zar-PLA-ta, BE-la-ya, na-STOL-ko, pro-SVE-chi-va-yet",
+    "pacing": "0.3-2.1, 2.4-4.2 and 4.5-6.8 each one breath filling its beat edge to edge; after 6.8 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "corridor hum, cart wheels, folders thumping at 2.1, paper crackling at 8.2, the wad slapping the lens at 9.1"
+  },
+  "timeline": [
+    { "t": "0.0-0.3", "a": "the sheep gallops in at the lens and drives the envelope into his chest while he trots on" },
+    { "t": "0.3-2.1", "line": "Зарплата белая.", "a": "he shoves the see-through envelope out at full arm's length past the lens on the move, the shelving pouring through it, and halfway through the beat the sheep barges between them" },
+    { "t": "2.1-2.4", "a": "the sheep hauls an armful of folders right across the lens ahead of him" },
+    { "t": "2.4-4.2", "line": "Настолько белая,", "a": "he pokes his nose into the paper without breaking stride, it dents and his nose shows through it, and halfway through the beat the sheep hauls a chair tower across the lens" },
+    { "t": "4.2-4.5", "a": "the sheep shoves a cart across the frame between him and the lens" },
+    { "t": "4.5-6.8", "line": "что просвечивает.", "a": "he flings the notes open in a wide fan at full arm's length across the corridor while walking, the corridor reading clean through them, and halfway through the beat the sheep drags a cart between him and the lens" },
+    { "t": "6.8-7.5", "a": "he rips one note out and jams the envelope into his jacket as workers shoulder past him" },
+    { "t": "7.5-8.2", "a": "he swings that note flat to the lens like glass, the whole office visible through it" },
+    { "t": "8.2-9.1", "a": "he crushes it in his fist on the move into a ball of clear glass, his knuckles showing right through it, a worker clipping his shoulder" },
+    { "t": "9.1-10.0", "a": "he hurls the glass-clear wad into the lens, deadpan, and keeps trotting on behind it, the corridor still read through it" }
+  ],
+  "must_appear": "one see-through envelope; shelving and sheep read through the paper; his nose through it; the corridor through the fanned notes; at 9.1 he hurls the glass-clear wad into the lens and trots on behind it",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal bars, night, dark scene, speech bubble, a parked camera, a still background, a stopped hero, a wide or distant hero, a hero seen from behind, a held pose, slow motion, a hero running at the lens, a camera pulling back, vertical movement, an opaque envelope, printed text on the envelope, only one of them moving, standing bystanders, a polite handover standing still, a word not in the lines, a drawn-out word, cyrillic letters, readable text, extra limbs"
+}

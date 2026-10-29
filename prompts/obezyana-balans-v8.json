@@ -1,0 +1,64 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16, taller than wide",
+  "motion_rule": "the cart rolls all clip and never stops; every beat holds two named moves at their own times, in opposite directions; the camera rides the cart and takes a new shot size every beat; her muzzle fills two thirds of frame height every window, jaw visible; motion across frame only, never up or down",
+  "character": "a wiry macaque in a grey waistcoat on the rolling cart deck, two arms, muzzle and jaw clear, two thirds of frame height",
+  "second_characters": "ONE rat porter on the deck a shoulder from the lens, working on the move, crossing frame every beat; a mob of creditors with pitchforks running behind",
+  "props": "ONE brass balance on a post bolted to the deck, two identical pans; ONE brass weight in each pan; ONE red sack and ONE blue sack, same cloth and size, slips inside; ONE tin of clips",
+  "environment": "a packed market lane, stalls both sides blowing past every beat, the cart rolling down the middle, white noon, hard rim on her muzzle",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "a level pleased female voice, each word bitten off, even 4.45 syllables/sec, beats filled edge to edge",
+    "pronunciation": "GIR-ki do-LOY, SLE-va dol-GI, SPRA-va i-po-TE-ka, tol-KAY-tes, ba-LANS so-SHOL-sya",
+    "pacing": "speech unbroken 0.00 to 7.20, first word at 0.00, no gaps; after 7.20 wheels, mob and paper fill the track to 10.00",
+    "lip_sync": "her jaw opens on every syllable, no voice over",
+    "sfx": "wheels on stones all clip, market roar"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.90",
+      "line": "Гирьки — долой.",
+      "a": "0.00-0.45 she hurls both brass weights across off the deck; 0.45-0.90 the rat rolls his crate the other way at the lens, the mob closing behind"
+    },
+    {
+      "t": "0.90-1.80",
+      "line": "Слева долги.",
+      "a": "0.90-1.35 she swings the red sack across into the near pan; 1.35-1.80 she throws herself the other way along the deck, stalls blowing past"
+    },
+    {
+      "t": "1.80-3.15",
+      "line": "Справа ипотека.",
+      "a": "1.80-2.50 she hauls the blue sack across into the far pan; 2.50-3.15 the rat swings his crate under the post the other way, both pans levelling"
+    },
+    {
+      "t": "3.15-4.05",
+      "line": "Не толкайтесь.",
+      "a": "3.15-3.60 she shoulders the post across as two pitchforks go down under the wheels; 3.60-4.05 the rat hurls his crate the other way at the lens"
+    },
+    {
+      "t": "4.05-5.20",
+      "line": "Баланс сошёлся.",
+      "a": "4.05-4.65 she goes hand over hand along the post across, pans rolling with her; 4.65-5.20 she drops the other way onto the deck, the mob tearing past"
+    },
+    {
+      "t": "5.20-7.20",
+      "line": "Просто с обеих сторон — долги.",
+      "a": "5.20-6.20 the rat rips both sacks open at the lens and a storm of slips streams back over the running mob; 6.20-7.20 she walks the deck the other way through the paper and scoops the tin"
+    },
+    {
+      "t": "7.20-8.00",
+      "a": "7.20-7.60 she flings the clips muzzle first at the lens, jaw open, both heaped pans level at both frame edges; 7.60-8.00 the rat swats a pitchfork aside the other way"
+    },
+    {
+      "t": "8.00-8.80",
+      "a": "8.00-8.40 she walks the deck across past him and shoulders both pans over; 8.40-8.80 a storm of slips blows the other way over the mob"
+    },
+    {
+      "t": "8.80-10.00",
+      "a": "8.80-9.40 she dives muzzle first at the lens through falling paper, jaw open; 9.40-10.00 the rat rolls his crate across past her, the mob sliding on slips"
+    }
+  ],
+  "must_appear": "rolling deck, running mob and a crossing rat every beat; two opposite moves inside every beat; the red sack in the near pan from 1.35, the blue in the far pan from 2.50; the pans level from 4.05; at 7.20 her muzzle on the lens, jaw open, clips flying",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a parked cart, a hero standing to work on a prop or held in one pose, a wide or distant hero, a hero moving up or down the frame, standing bystanders, slow motion, night, dark scene, writing, digits, a word not in the lines, a closed jaw while speaking, hands grabbing or carrying the hero, extra limbs, a third arm, multiple monkeys, a balance off its post"
+}

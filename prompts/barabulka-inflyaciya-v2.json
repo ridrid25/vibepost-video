@@ -1,0 +1,35 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, satirical, hard noon sun over a seaside market",
+"motion_rule": "she works from a crate of crushed ice on a stone counter and never travels anywhere; the camera orbits her in EVERY beat and reverses the orbit at 0.82, 2.46, 4.71 and 6.76, so crates, lemons and hooks sweep past behind her; a gull, an ice chunk or a cook arm wipes the lens every beat; she works fins, tail and mouth in EVERY beat; she fills half the frame height; new shot size each beat; one action per beat; no push in, no rack focus",
+"character": "a plump red mullet, rose and gold scales, two long barbels under her chin, upright on her tail",
+"second_characters": "ONE cook in a white apron lunging at the lens across the crate all clip; A SWARM of gulls diving through the lens in every beat",
+"props": "ONE paper tag she rips off her own flank at 0.0 and hurls at 1.64; ONE tin bucket of ice in the cook hands; ONE brass scale pan swinging on a hook; ONE glass cloche in the cook hands from 8.6; furry mic bottom right",
+"prop_continuity": "the torn tag is hers until she hurls it, then the gulls carry it; the bucket, the pan and the cloche are never hers",
+"environment": "a noon bright seaside fish market packed with crates, crushed ice, hanging lemons, brass hooks, awnings, the sea behind",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "bright chesty female voice, wounded pride, even 4.9 syllables/sec",
+"pronunciation": "ye-SCHO, vche-RA, STO-i-la, smesh-NYKH, DE-neg, me-NYU, ROS-koshj, ko-TO-ru-yu, poz-VO-lit",
+"pacing": "0.0-2.46 one breath, a short breath at 2.46, 2.46-7.38 one breath; after 7.38 not a word, only sfx",
+"lip_sync": "her mouth opens on every syllable, never a voice over",
+"sfx": "market din all clip, gull cries, ice crunching, paper tearing at 0.0, a wet tail slap at 6.76, glass ringing at 8.6",
+"music": "none"
+},
+"timeline": [
+{"t": "0.0-0.82", "line": "Ещё вчера", "a": "she rips the paper tag off her own flank, big in frame, gulls tearing across behind her"},
+{"t": "0.82-1.64", "line": "я стоила", "a": "she waves the torn tag wide across the lens, the cook lunging past her shoulder"},
+{"t": "1.64-2.46", "line": "смешных денег.", "a": "she hurls the tag into the lens, gulls tearing after it as the camera whips the other way"},
+{"t": "2.46-3.28", "line": "Теперь моя", "a": "she rears up as the cook slams the bucket down beside her, ice bursting across the lens"},
+{"t": "3.28-4.71", "line": "жизнь в меню — это роскошь,", "a": "she throws her fins wide and a curtain of hanging lemons swings into the lens"},
+{"t": "4.71-5.53", "line": "которую", "a": "she hammers her tail into the ice, chips spraying past the lens"},
+{"t": "5.53-5.94", "line": "не все", "a": "she bats the brass pan and it sweeps across the lens"},
+{"t": "5.94-6.76", "line": "могут себе", "a": "she snaps at a gull diving through the frame"},
+{"t": "6.76-7.38", "line": "позволить.", "a": "she slaps her tail at the lens, ice bursting into the glass"},
+{"t": "7.38-8.60", "a": "she flicks her barbels at the lens, gulls tearing both ways, the cook grabbing at her from the side"},
+{"t": "8.60-10.00", "a": "the cook lowers a glass cloche over her and she hammers the glass from inside at the lens, gulls smacking into it, the camera still circling"}
+],
+"must_appear": "she stays in her crate of ice the whole clip; at 2.46 the bucket bursts ice across the lens beside her; at 6.76 she slaps her tail at the lens; at 8.60 the cloche comes down and she hammers the glass from inside",
+"negative_prompt": "conveyor belt, moving walkway, cart, rail, a hero riding anything, speech bubble, subtitles, watermark, cyrillic, latin letters, printed words on props, digits, letterbox, night, dark scene, a parked camera, a still background, a distant hero, a hero seen from behind, a held pose, slow motion, a hero lying flat on the ice, speech after 7.38"
+}

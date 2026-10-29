@@ -1,0 +1,72 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "subject": "ONE sleek red fox in a tiny green accountant's visor, fluffy tail",
+  "second_characters": "ONE stout badger tax collector in a grey cap, flinging honey-soaked envelopes from a dripping satchel in EVERY beat",
+  "props": {
+    "big": "ONE old tree stump oozing a wide golden puddle of honey; plain brown envelopes dripping honey",
+    "small": "autumn leaves and honey drops"
+  },
+  "environment": "a dense sunny autumn forest clearing packed with ferns, birches and beehives, no empty ground",
+  "lighting": "bright warm afternoon sun through leaves, honey glowing amber",
+  "motion_rule": "the frame is TALL and the fox fills two thirds of its height in EVERY beat. She never stands still: ducking, twisting, sidestepping, tail whipping. The camera orbits her on a hard arc, never parking, the whole clearing wheeling round her, a new shot size every beat. Envelopes, honey drops and leaves tear across the lens in EVERY beat; in speech beats they pass beside her face, never over her mouth. ONE big hero action per beat.",
+  "audio": {
+    "language": "Russian",
+    "delivery": "smooth sly female voice, matter-of-fact, biting off each word",
+    "rate": "4.7 syllables per second",
+    "pacing": "first word at 0.0, every line said once, last word by 5.60, then the honey and the badger carry it",
+    "lip_sync": "the fox herself speaks, mouth opening on every syllable, brows and jaw alive",
+    "pronunciation": "na-LO-gi kak MYOD. chem u-vo-RA-chi-va-esh-sya, tem SIL-ne-ye pri-LIP-nesh pa-TOM",
+    "sfx": [
+      "wet honey splats"
+    ]
+  },
+  "timeline": [
+    {
+      "t": "0.00-1.10",
+      "line": "Налоги — как мёд.",
+      "a": "chest-up, mouth working, she twists aside as a dripping envelope flies past her ear, honey drops whipping across the lens"
+    },
+    {
+      "t": "1.10-1.80",
+      "a": "the badger hurls two envelopes at once and she sidesteps one and twists hard from the other, tail whipping across the lens"
+    },
+    {
+      "t": "1.80-3.70",
+      "line": "Чем уворачиваешься,",
+      "a": "very close, mouth working, she sways sideways from a flying envelope and whips back, the honey stump glinting behind her, an envelope flying past her shoulder"
+    },
+    {
+      "t": "3.70-5.60",
+      "line": "тем сильнее прилипнешь потом.",
+      "a": "chest-up, mouth working, she spins clear of a splat straight into the honey puddle by the stump, one hind paw sinking, leaves raking across the lens"
+    },
+    {
+      "t": "5.60-6.30",
+      "a": "she yanks the paw and the honey stretches like rubber, pulling her back, an envelope slapping onto her tail"
+    },
+    {
+      "t": "6.30-7.00",
+      "a": "she heaves the other way and both front paws plunge into the honey, the badger flinging envelopes across the lens"
+    },
+    {
+      "t": "7.00-7.70",
+      "a": "she wrenches round and her whole side flops against the stump, stuck solid, leaves bursting across the lens"
+    },
+    {
+      "t": "7.70-8.40",
+      "a": "she thrashes against the stump as the badger slaps envelope after envelope onto her fur, each slap jolting her"
+    },
+    {
+      "t": "8.40-9.20",
+      "a": "she tugs her tail free with a wet snap and it springs back covered in envelopes, honey drops across the lens"
+    },
+    {
+      "t": "9.20-10.00",
+      "a": "still glued, she jerks her head round to the lens with a flat stare and blinks once, tail lashing, the badger tipping his cap across the lens"
+    }
+  ],
+  "must_appear": "0.00 the fox in her visor dodging a flying envelope; 3.70 her paw sinking in the honey by the stump; 7.00 her whole side stuck to the stump; 9.20 her flat stare, fur plastered with envelopes",
+  "negative_prompt": "printed text, cyrillic words, digits, subtitles, watermark, speech bubble, a horizontal 16:9 picture, letterbox, a hero running at the camera on her feet, a conveyor belt, a cart, a parked camera, a still or empty background, standing in place, wide shot, a small distant hero, night, dark scene, a hero back to the camera, a closed mouth while speaking, a paw over her mouth, an envelope over her mouth, offscreen narration, a motionless first or last second, a line said twice, speech after 5.60, English speech, foreign accent, bees, a second fox"
+}

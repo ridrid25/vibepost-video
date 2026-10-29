@@ -1,0 +1,86 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "the rolling hook carries her and the beam across frame every beat and neither ever stops; sacks and crates sweep past the lens; the camera tracks alongside; new shot size each beat, never wider than her muzzle on a third of frame; ONE sideways move per beat, never up or down",
+  "character": "a wiry macaque hanging by her tail from a rolling overhead hook, exactly two arms and no more, muzzle and jaw always clear",
+  "second_characters": "ONE rat porter, a step from the lens, crossing frame himself, working wide in every spoken beat, riding the rolling beam from 3.40, never touching her",
+  "props": "ONE brass balance beam on that same rolling hook, two identical pans; TWO sacks, same cloth, same size, ДОЛГИ on the left, ИПОТЕКА on the right; A SWARM of loose papers",
+  "prop_continuity": "both sacks stay the same size and cloth, only the writing differs; the pans never part from level after 2.40",
+  "environment": "a packed store row, sacks and crates tight both sides, daylight from the roof, no far wall",
+  "light_events": "flat white noon off the boards, a side shaft on the flying papers at 4.20",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "a level pleased female voice, biting off each word, 4.2 syllables/sec",
+    "pronunciation": "ba-LANS, so-SHOL-sya, PROS-to, o-BE-ikh, sto-RON, dol-GI",
+    "pacing": "0.00-1.20 and 1.20-3.40 each one breath, first word at 0.00; after 3.40 not a word, sfx keep going",
+    "lip_sync": "her jaw opens on every syllable",
+    "sfx": "hook on the rail, paper wads flapping, sacking, a long suck of air"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.50",
+      "line": "Баланс",
+      "a": "the hook drives her into frame, the beam rolling beside her, a sack swinging from each hand"
+    },
+    {
+      "t": "0.50-1.20",
+      "line": "сошёлся.",
+      "a": "she drops the left sack into the near pan without stopping, the row tearing past"
+    },
+    {
+      "t": "1.20-1.70",
+      "line": "Просто",
+      "a": "she kicks off a stack going past"
+    },
+    {
+      "t": "1.70-2.40",
+      "line": "с обеих",
+      "a": "she swings the right sack across frame into the far pan"
+    },
+    {
+      "t": "2.40-2.90",
+      "line": "сторон —",
+      "a": "both pans settle dead level and ride past the lens side by side"
+    },
+    {
+      "t": "2.90-3.40",
+      "line": "долги.",
+      "a": "she throws both hands out empty, the beam level, her muzzle clear"
+    },
+    {
+      "t": "3.40-4.20",
+      "a": "the rat swings up onto the rolling beam a step from the lens and hauls the near sack open"
+    },
+    {
+      "t": "4.20-5.00",
+      "a": "he shoves his snout in and a wad of papers blows out past the lens, the rig rolling on"
+    },
+    {
+      "t": "5.00-5.80",
+      "a": "he swings along the beam to the far sack and rips it open the same way"
+    },
+    {
+      "t": "5.80-6.60",
+      "a": "the same wad of papers blows out of that one too, straight into the lens"
+    },
+    {
+      "t": "6.60-7.20",
+      "a": "the beam hangs dead level between the two of them, she drives her muzzle at the lens, her face not changing"
+    },
+    {
+      "t": "7.20-8.00",
+      "a": "the rat drops off and runs back the other way, papers whipping after him past the lens"
+    },
+    {
+      "t": "8.00-9.00",
+      "a": "still rolling she tips both pans at the lens and papers pour out of both at once"
+    },
+    {
+      "t": "9.00-10.00",
+      "a": "both sacks hang bare and the same, the beam still level, the hook rolling on"
+    }
+  ],
+  "must_appear": "she has two arms and no more in every beat, her tail is her only hold on the hook; the beam hangs from that moving hook and never touches the ground; the rat opens both sacks and the same papers blow out of each; the pans stay dead level from 2.40 to the last frame; at 6.60-7.20 her muzzle is at the lens, her face not changing; every word spoken, the last by 3.40",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, a static camera, a still background, standing in place, digits, slow motion, a closed jaw while speaking, a hero moving up or down the frame, extra limbs, a third arm, a balance standing on the ground, a counter, a third sack, multiple monkeys, a hero taken off the hook"
+}

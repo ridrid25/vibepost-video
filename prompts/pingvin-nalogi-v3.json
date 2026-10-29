@@ -1,0 +1,31 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan slapstick; penguin fills two thirds of frame height",
+"subject":{"character":"ONE neat emperor penguin accountant, black tailcoat, bow tie, orange beak; same face throughout, fully serious"},
+"second_characters":"ONE big tusked walrus collector",
+"props":{"jars_crate":"plain glass jars, screw lids; plain wooden crate; no labels","leaflets":"white leaflets printed ДЕКЛАРАЦИЯ in black Cyrillic capitals"},
+"environment":"small ice floe, dense pressure ridges with icicles, deep blue water",
+"lighting":"low polar sun behind-left, gold glints; cold blue sky glow behind-right; flares on every move",
+"light_events":[{"t":"4.75-7.40","event":"rotor shadows strobe across the floe"}],
+"motion_rule":"the camera orbits them every beat, new shot size every beat, never parked; he moves his whole body every beat; the walrus acts every beat",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent","pacing":"brisk, each line once inside its beat, no pause after Я; after 4.75 rotor roar, gasps, glass clinks, no words","lip_sync":"beak opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.30","line":"Я","a":"medium low, orbit left; he belly-slides in along the ridge; the walrus yanks a jar from the crate"},
+{"t":"0.30-1.15","line":"выживаю","a":"waist shot, orbit right; still sliding, he brakes with his flippers, springs up, breath puffs; the walrus unscrews the jar with a tusk"},
+{"t":"1.15-2.00","line":"на этом льду.","a":"medium, orbit left; he trips on flat ice, flails, waddles on; the walrus slaps the ice, spray flies, jar under flipper"},
+{"t":"2.00-2.65","line":"Как и все,","a":"medium, counter-arc; he waddles round the walrus, fixing his bow tie; the walrus swivels after him, jar under flipper"},
+{"t":"2.65-3.90","line":"плачу за каждый вздох.","a":"waist shot, orbit; he hops sideways along the crate, slaps his chest, breath puffs; behind him the walrus scoops the puff into the jar, lid shut"},
+{"t":"3.90-4.75","line":"До апреля.","a":"medium, arc; he spins on his heel, waddles along the edge in profile, flipper up; the walrus flings the jar into the crate, slams the lid"},
+{"t":"4.75-5.45","a":"low medium, swift orbit; helicopter skids drop to top frame edge, spray bursts; he is knocked flat, belly-slides in a circle; the walrus digs tusks into the ice"},
+{"t":"5.45-6.10","a":"waist shot, arc, leaflets pour from the helicopter; he springs up, a leaflet slaps his face, he spins, peels it off; one sticks to the walrus's tusks"},
+{"t":"6.10-6.70","a":"waist shot, orbit; he reads it backing away, gasps silently, beak wide, topples sideways; the walrus knocks the lid off, snatches a clean jar"},
+{"t":"6.70-7.40","a":"medium, orbit; the walrus leaps and claps the jar over the gasping beak, the jar fogs; he kicks, spins on one foot, hops"},
+{"t":"7.40-8.00","a":"waist shot, orbit; jar on beak, he waddles a half circle, turns to camera; the walrus clinks the jar with a tusk, slaps a leaflet on the crate"},
+{"t":"8.00-8.65","a":"medium, orbit left; jar on beak, he waddles a wide arc; the walrus lumbers after him; leaflets settle"},
+{"t":"8.65-9.30","a":"low medium, orbit right; he flops on his belly, slides in a curve; the walrus slaps a leaflet on his back"},
+{"t":"9.30-10.00","a":"waist shot, orbit; he springs up, hops, jar on beak; the walrus clinks it; leaflets drift down"}
+],
+"must_appear":"0.00 penguin belly-slides in; 4.75 rotor shadows, skids at top edge, spray; 5.45 leaflets ДЕКЛАРАЦИЯ; 6.70 walrus claps a jar over the gasping beak",
+"negative_prompt":"static camera, locked-off shots, subtitles, watermark, jar labels, digits, duplicate penguins, two walruses, duplicate props, floating jars, hero walking away from camera, his back to camera, top-down wide shot, a jar held up to the lens, a repeated word, speech after 4.9, a spoken word on the leaflets, English speech, foreign accent, extra limbs"
+}

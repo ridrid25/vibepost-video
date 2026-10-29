@@ -1,0 +1,106 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "the tray drives her down the aisle right to left every beat and she is never taken off it; crates and ice sweep across the lens a fin away; the camera tracks alongside at her height; new shot size each beat, never wider than her head filling a third of frame; ONE sideways move per window, never up or down, never a chain",
+  "character": "a plump mackerel with a mirror-striped flank, lying along the tray, jaw working, eye always clear",
+  "second_characters": "ONE heavy seller in a stained apron, gold teeth, running level with the tray a shoulder away from 6.45 and crossing the lens himself; ONE buyer, arms only, at 7.60",
+  "props": "A SWARM of grey salmon heads dumped in a battered soup crate; ONE fat roll of banknotes; ONE fish bone behind his ear",
+  "prop_continuity": "the heads stay in the crate from 1.90; the bone leaves his ear at 7.05",
+  "environment": "a fish hall, daylight from the roof, tiled counters and packed crates a fin away both sides, no far wall",
+  "light_events": "flat white noon off the tiles, a mirror flash down her flank at 3.75",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "a smug oily female voice, biting each word, 4.5 syllables/sec",
+    "pronunciation": "prosh-LI, vre-me-NA, lo-SO-sya, te-PER, O-che-red, blis-TAT, KAZH-doy, KOS-toch-ke",
+    "pacing": "0.00-1.90, 2.15-4.25 and 4.50-6.45 each one breath; after 6.45 not a word, sfx keep going",
+    "lip_sync": "her jaw opens wide and shapes every syllable",
+    "sfx": "ice crunching, trays scraping, crates banging, running boots, a wet guffaw"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.60",
+      "line": "Прошли",
+      "a": "the tray shoves off and drives her past a crate raking the lens"
+    },
+    {
+      "t": "0.60-1.25",
+      "line": "времена",
+      "a": "she rides on, ice sheeting off the tray past the lens"
+    },
+    {
+      "t": "1.25-1.90",
+      "line": "лосося.",
+      "a": "her tail whips and hurls the grey salmon heads off the tray into the crate"
+    },
+    {
+      "t": "1.90-2.15",
+      "a": "the heads crash in the crate and he boots it across the lens"
+    },
+    {
+      "t": "2.15-2.65",
+      "line": "Теперь",
+      "a": "she shoulders the last ice off the tray past the lens"
+    },
+    {
+      "t": "2.65-3.10",
+      "line": "моя",
+      "a": "she throws her body over, the tray skidding on under her"
+    },
+    {
+      "t": "3.10-3.75",
+      "line": "очередь",
+      "a": "she drives her flank at the lens, crates banging past both sides"
+    },
+    {
+      "t": "3.75-4.25",
+      "line": "блистать.",
+      "a": "the tray swerves and her striped flank rips across the lens"
+    },
+    {
+      "t": "4.25-4.50",
+      "a": "the tray hits a rut, ice jumping sideways off it"
+    },
+    {
+      "t": "4.50-5.15",
+      "line": "Ты будешь",
+      "a": "she leans in at the lens, jaw wide, the aisle tearing past"
+    },
+    {
+      "t": "5.15-5.80",
+      "line": "рад каждой",
+      "a": "the tray slams through a rut, ice and water sheeting across the lens"
+    },
+    {
+      "t": "5.80-6.45",
+      "line": "косточке.",
+      "a": "she throws her flank at the lens, crates ripping past both sides"
+    },
+    {
+      "t": "6.45-7.05",
+      "a": "he tears in level with the tray and swipes melt off her ice past the lens"
+    },
+    {
+      "t": "7.05-7.60",
+      "a": "still running he pulls the bone from behind his ear and flicks it across the lens"
+    },
+    {
+      "t": "7.60-8.10",
+      "a": "the buyer arms catch the bone and shove the roll past the lens, he snatches it on the run"
+    },
+    {
+      "t": "8.10-8.60",
+      "a": "he rams the roll inside his apron and guffaws into the lens, the tray driving her past him"
+    },
+    {
+      "t": "8.60-9.20",
+      "a": "she whips her tail and slaps ice past the lens at him"
+    },
+    {
+      "t": "9.20-10.00",
+      "a": "she drives past the last crates, jaw working"
+    }
+  ],
+  "must_appear": "she stays on the moving tray to the last frame, never lifted, never carried; he never touches her, runs level with her and never stops; every line is spoken, the last word by 6.45; from 6.45 the order runs melt, bone, roll, apron, guffaw, one to a beat",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, cyrillic letters, words, digits, a price card, a parked camera, a standing seller, a fish lifted off the tray, a fish in a bag, weighing scales, a hero moving up or down the frame, a closed jaw while speaking, slow motion, an empty aisle, a word not in the lines"
+}

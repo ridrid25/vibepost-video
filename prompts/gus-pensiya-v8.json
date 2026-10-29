@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+  "subject": "ONE grey goose, upside down all clip: big COBALT-BLUE vest, round glasses, red-yellow party cone, orange feet. Calm face; wings hug ONE dark-red booklet to his chest.",
+  "second_characters": "ONE mole clerk in MUSTARD-YELLOW suit; holds the goose by the orange feet like a spade handle, mouth shut all 10 s. ONE young duck clerk in green tie with brown briefcase, from 8.4 s.",
+  "props": "ONE dark-red booklet, goose's, no text. ONE green tool board on the brick wall, mole's: white outlines of a rake, a broom, a big upside-down goose and a small empty duckling.",
+  "environment": "Sunny pension office yard, TURQUOISE sky: bright ORANGE soft clay, a pit deepening each beat, red brick wall with the green tool board.",
+  "lighting": "Warm key on goose's face all 10 s, cyan rim left, magenta rim right. Blue vest vivid in every shot, close-ups too.",
+  "light_events": [{"t": "4.90", "event": "sun glints on the board"}, {"t": "7.60", "event": "sunbeam flares into the pit"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice 0.6-7.0 s, beak free while speaking; no speech after 7.0 s", "lip_sync": "accurate", "sfx": ["0.2 wet clay scoop", "1.4 swing whoosh", "2.2 spade scrape", "5.0 clod splats on board", "6.2 mole spits on paws", "7.6 LOUDEST rising whirl, big scoop, clay pours", "8.8 feet clack on nail", "9.6 whoosh, briefcase slap, sound cuts"]},
+  "timeline": [
+    {"t": "0.00-0.60", "a": "From the first frame goose is ALREADY upside down, beak in soft clay to his glasses; mole lifts him out like a spade, a clod flies off the beak.", "c": "camera bursts up and rises out of the clay with the beak, close-up"},
+    {"t": "0.60-2.10", "a": "Mole swings goose up over his head; goose at the top of the arc speaks calmly.", "c": "camera swings overhead, mole's paw in foreground, tool board behind him", "line": "Говорят, на пенсии"},
+    {"t": "2.10-3.40", "a": "Mole scrapes a scoop with goose and lifts him; beak free in the air, wings snap open, he presses them back to the booklet.", "c": "camera tumbles down with him", "line": "жизнь начинается."},
+    {"t": "3.40-4.50", "a": "Pit waist-deep on mole; mole holds goose up, beak free; goose brushes clay off the booklet with a wingtip.", "c": "camera drops into the pit, clay wall in foreground", "line": "Моя началась,"},
+    {"t": "4.50-5.60", "a": "Mole lifts goose out of the pit, beak free; his last clod arcs out and splats on the board by the goose outline.", "c": "camera soars up with the clod to the board", "line": "как будто в яме."},
+    {"t": "5.60-7.00", "a": "Goose's upside-down face: glasses slid up on forehead, clay on beak, beak free; mole spits on paws and regrips.", "c": "camera arcs into his face, close-up", "line": "Только без лопаты."},
+    {"t": "7.00-8.40", "a": "Mole whirls goose overhead in a full circle and digs with him like a spade, beak scooping clay deep in the pit, feet up; goose's wings flap open like a propeller and press back.", "c": "camera spins with him, hurls itself onto his orange feet, close-up"},
+    {"t": "8.40-9.20", "a": "Mole hangs goose by the feet on the board nail; goose lands in his white outline, booklet in wing, beside the small empty duckling outline. Young duck clerk walks under the board.", "c": "camera whips to the wall, top-down"},
+    {"t": "9.20-10.00", "a": "Mole lifts the young duck clerk by the feet and turns him beak-down like a fresh spade; his briefcase drops. Last frame: beak hovering just above the clay, still moving.", "c": "camera dives with the duck, briefcase in foreground, close-up", "hook": "open"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, numbers, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, duplicate props, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood, humans"
+}

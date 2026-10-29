@@ -1,0 +1,34 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+  "motion_rule": "the camera tracks sideways along the bough every beat; the bough whips across frame and reverses at 0.90, 1.80, 3.15, 5.25 and 7.20, she rides it and slides along it, never still; the creditors leap in low arcs across frame and finish at the lens, never straight up; ONE sideways move per beat, never chained; new shot size each beat; her muzzle never under a third of frame, jaw visible; she stays on the bough, never runs at the camera on her feet",
+  "character": "a wiry macaque in a grey waistcoat astride a whipping bough, exactly two arms, muzzle and jaw clear",
+  "second_characters": "A SWARM of creditors in grey suits leaping up at her from below, ONE of them a shoulder from the lens every beat, crossing frame and hitting the glass; all of them moving",
+  "props": "ONE carrying pole across her shoulders; ONE sack of pale jute roped to each end, same cloth and size; A SWARM of paper slips inside the sacks; ONE handful of iron weights in her fist",
+  "prop_continuity": "the pole rides on her shoulders all clip, both sacks stay roped to its ends, the weights gone by 0.90",
+  "environment": "a grove packed wall to wall with leaping creditors, swaying boughs and torn leaves close to the lens, a lit market street behind the trunks",
+  "light_events": "white noon, shafts through the leaves sweeping her every beat, a hard rim on her muzzle",
+  "audio": {
+    "language": "Russian, lines verbatim",
+    "delivery": "a level pleased female voice, biting off each word, even 4.45 syllables per second, beats filled edge to edge",
+    "pronunciation": "GIR-ki, do-LOY, SLE-va, dol-GI, SPRA-va, i-po-TE-ka, tol-KAY-tes, ba-LANS, so-SHOL-sya, PRO-sto, o-BE-ikh, sto-RON",
+    "pacing": "speech runs unbroken 0.00 to 7.20, first word at 0.00, no gap between beats; after 7.20 leaves, boots and paper fill the track to 10.00",
+    "lip_sync": "her jaw opens on every syllable, no voice over",
+    "sfx": "the whip of the bough, the roar of the grove, boots, paper"
+  },
+  "timeline": [
+    {"t": "0.00-0.90", "line": "Гирьки — долой.", "a": "she hurls the weights past her muzzle at the lens, the near creditor crossing a shoulder away"},
+    {"t": "0.90-1.80", "line": "Слева долги.", "a": "her left shoulder drives the left sack across frame to the lens, a creditor leaping through the gap"},
+    {"t": "1.80-3.15", "line": "Справа ипотека.", "a": "her right shoulder drives the right sack to the lens the same way, another creditor clipping it mid-leap"},
+    {"t": "3.15-4.05", "line": "Не толкайтесь.", "a": "she shoves a leaping creditor's shoulder aside, the bough whipping her across frame"},
+    {"t": "4.05-5.25", "line": "Баланс сошёлся.", "a": "she rides the bough down at the lens, both sacks carried forward level with each other"},
+    {"t": "5.25-6.75", "line": "Просто с обеих сторон —", "a": "she yanks the left rope mid-swing, a jet of slips into the near creditor's face"},
+    {"t": "6.75-7.20", "line": "долги.", "a": "she yanks the right rope mid-swing, the same jet of slips into the same creditor's face"},
+    {"t": "7.20-8.00", "a": "she slides along the bough, the pole and both sacks sweeping the frame, a creditor ducking under"},
+    {"t": "8.00-8.80", "a": "two creditors haul the bough across frame, her muzzle filling the glass"},
+    {"t": "8.80-10.00", "a": "the bough whips her muzzle into the lens through the paper, jaw open, both sacks thrown at the glass"}
+  ],
+  "must_appear": "the left sack opened at 5.25 and the right at 6.75 by the same yank, the same slips out of both; both sacks level at the lens at 4.05; nothing touches her before 7.20; every word spoken, the last by 7.20; jaw open on every syllable",
+  "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a rigid bough, a hero running at the camera on her feet, a wide or distant hero, standing bystanders, slow motion, letters, digits, a word not in the lines, a closed jaw while speaking, hands grabbing or carrying the hero before 7.20, extra limbs, multiple monkeys, scales, foreign accent"
+}

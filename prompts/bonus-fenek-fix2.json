@@ -1,0 +1,38 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, deadpan satire",
+  "motion_rule": "the camera swings round him without stopping while he strides the aisle, so the shelves sweep across the frame every beat and his face stays to the lens; he carries the box and never works it standing; his head half the frame, never under a third, a low angle from 6.3; new shot size each beat, one action per beat; the picture fills the vertical frame with no bars",
+  "character": "a small sand-coloured fennec with huge ears, deadpan",
+  "second_characters": "ONE scrawny jerboa working the aisle at the lens, vaulting the shelves and hauling nuggets past his nose",
+  "props": "ONE plain cardboard box with a golden mountain stamped on its side, carried under his arm",
+  "prop_continuity": "the box stays plain and empty however much gold pours past; the tape ripped off at 2.9 never goes back on",
+  "environment": "a parcel sorting hall at noon, shelves packed to the roof hard against both sides of a narrow aisle, no distance anywhere",
+  "light_events": "hard noon daylight through the roof slots bars his ears every beat, cold rim both sides",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, deadpan, even 4.4 syllables/sec, beats filled edge to edge",
+    "pronunciation": "ko-ROB-ka, o-be-SHCHA-la, zo-lo-TY-ye, GO-ry, KA-zhet-sya, GDE-to, za ug-LOM",
+    "pacing": "0.4-3.5 one breath; the gap under one second; 4.4-7.0 one breath with no voice sound outside the lines; after 7.0 not a word, sfx keep going",
+    "lip_sync": "jaws open on every syllable, never a voice over",
+    "sfx": "hall roar, rollers rattling, tape ripping at 2.9, a rumble along the shelves from 4.4, gold hammering the shelf walls from 7.0"
+  },
+  "timeline": [
+    { "t": "0.0-0.4", "a": "the camera swings round him as he strides the packed aisle, the box under his arm, shelves sweeping behind" },
+    { "t": "0.4-1.1", "line": "Коробка", "a": "he swings the stamped side of the box up to the lens without breaking stride" },
+    { "t": "1.1-2.0", "line": "обещала", "a": "he hooks a claw under the tape on the move, the camera swinging to his other shoulder" },
+    { "t": "2.0-2.9", "line": "золотые", "a": "the jerboa vaults off a shelf across the aisle in front of the lens" },
+    { "t": "2.9-3.5", "line": "горы.", "a": "he rips the tape and throws the flaps wide on the move, the box plain and empty inside" },
+    { "t": "3.5-4.4", "a": "he shakes the open box at the lens on the move and nothing comes out of it" },
+    { "t": "4.4-5.0", "line": "Горы,", "a": "gold bursts out of the shelf sweeping past at his shoulder, never out of the box" },
+    { "t": "5.0-5.7", "line": "кажется,", "a": "he wheels round after it on the move, the shelves tearing across the frame" },
+    { "t": "5.7-6.3", "line": "где-то", "a": "the jerboa hauls a fistful straight past the lens and he drives after him down the aisle" },
+    { "t": "6.3-7.0", "line": "за углом.", "a": "he swings round the aisle corner after the fall, shoulder raking the shelves" },
+    { "t": "7.0-7.8", "a": "the fall jumps the aisle and hammers both shelf walls past his ears, none of it near him" },
+    { "t": "7.8-8.6", "a": "he thrusts the open box up into the falling gold on the move and every nugget skips off the flaps" },
+    { "t": "8.6-9.3", "a": "a nugget the size of his head bowls past the lens and he throws himself out of its way" },
+    { "t": "9.3-10.0", "a": "he slams the empty box into the lens, deadpan, gold pouring past behind" }
+  ],
+  "must_appear": "one plain box with a stamped golden mountain; at 2.9 it opens empty; from 4.4 gold bursts out of the shelves past him, never out of the box; at 7.8 nothing lands in it; at 9.3 he slams the box into the lens",
+  "negative_prompt": "speech bubble, subtitles, watermark, letterbox, horizontal bars, night, dark scene, an open desert, dunes, a wire fence, a far background, standing bystanders, a still background, a parked camera, a hero standing to work on a prop, a hero digging, a hero rearing up in place, a wide or distant hero, a hero seen from behind, a held pose, slow motion, gold coming out of the box, a word not in the lines, a drawn-out word, cyrillic letters, readable text, extra limbs"
+}

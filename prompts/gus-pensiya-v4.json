@@ -1,0 +1,24 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Vivid 3D animal black comedy, dry slapstick; saturated cobalt and tangerine, crisp contrast, no haze",
+  "subject": "Old grey goose; COBALT-BLUE vest over chest and back throughout, glasses on cord, orange feet",
+  "second_characters": "Mole in YELLOW jacket and orange hardhat at rim",
+  "props": "ONE whole shovel held by mole; ONE teaspoon owned by goose, except final flight. No other tools.",
+  "environment": "SUNLIT tangerine clay pit 1.5 goose-heights deep; turquoise sky. Bright light reaches floor all 10s.",
+  "lighting": "Warm amber key on both faces, cyan rim from left and coral rim from right all 10s; cobalt vest and yellow jacket distinct from orange clay, no flat grey wash",
+  "motion_rule": "Camera physically moves in sharp 0.3-0.8s bursts from frame zero; at least three readable moving close-ups, strong parallax. Full-bleed vertical frame even during rotations.",
+  "audio": {"language":"Russian","delivery":"Goose alone, dry proud elderly voice; beak unobstructed throughout speech, lip-sync when visible; silent after 7.4s","lip_sync":"accurate","sfx":["0.2 dirt crash","3.8 heavy thud","6.7 tiny ding","8.4 loudest hollow cartoon BONG","9.5 tiny ding"]},
+  "timeline": [
+    {"t":"0.00-0.70","a":"Mole ALREADY dumps a shovel-load of orange clay onto goose's freshly cut step. Goose jerks his teaspoon clear as the step collapses.","c":"Camera ALREADY flies full speed from outside over rim, past foreground shovel blade, into the clod striking the spoon by 0.45s. Strong parallax, tight moving close-up; no wide intro."},
+    {"t":"0.70-2.20","a":"Goose cuts another step with the teaspoon, climbs it, cobalt vest visible. Mole braces his whole shovel above.","c":"Camera whips low from spoon to goose's speaking face, then arcs up to mole's shovel; moving close-up on goose.","line":"Говорят, на пенсии"},
+    {"t":"2.20-3.60","a":"Goose cuts a third step. Mole scoops a huge load of clay, still gripping the whole shovel.","c":"Camera swings overhead past goose's blue vest to the heaped orange shovel in foreground; sharp changing perspective.","line":"жизнь начинается."},
+    {"t":"3.60-4.80","a":"Mole tips clay onto both steps; they vanish. Goose drops onto sunlit pit floor, teaspoon safe in right wing.","c":"Camera tumbles with clod, then rushes into a moving close-up of goose's face and orange impact.","line":"Моя началась,"},
+    {"t":"4.80-6.00","a":"Goose brushes a few orange flecks off blue vest and defiantly raises tiny spoon. Mole kneels and lowers the whole shovel toward it.","c":"Camera flies up from pit floor past blue vest to mole's paws, then dives down the shovel shaft.","line":"как будто в яме."},
+    {"t":"6.00-7.40","a":"Shovel blade touches goose's teaspoon: tiny ding. Mole keeps shovel; goose keeps spoon, speaking beak clear. Goose spreads wings.","c":"Camera orbits from mole's paws along whole shovel to blade against spoon, moving close-up of their ridiculous size difference.","line":"Только без лопаты."},
+    {"t":"7.40-8.30","a":"Goose flings spoon upward, then suddenly FLIES out of pit, blue vest bright against turquoise sky.","c":"Camera shoots upward beside goose, passes his wing and rolls above rim without exposing black edges."},
+    {"t":"8.30-9.20","a":"Mole lays flat shovel blade on goose's head: soft cartoon BONG. Goose sinks straight back into pit, glasses crooked; mole holds whole shovel.","c":"Camera hurls at contact for a close-up, then drops with goose, preserving his yellow-coated opponent above."},
+    {"t":"9.20-10.00","a":"Same teaspoon falls from sky and sticks in clay before goose's beak. He picks it up and starts the SAME tiny step again; mole waits above with shovel.","c":"Camera dives after spoon to tight moving close-up of beak, spoon and first gouge; vivid orange clay fills frame.","hook":"loop"}
+  ],
+  "negative_prompt":"subtitles, captions, watermark, text overlay, English speech, static camera, slow motion, black borders, extra limbs, duplicate props, extra tools, split shovel, hat on goose, blood, dim pit, muted colors, grey wash"
+}

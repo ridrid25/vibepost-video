@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D animal black comedy, vivid saturated colors, high contrast, original character design",
+  "subject": "Old grey goose, bare head, round glasses on a cord, orange webbed feet",
+  "second_characters": "One calm mole in an orange hardhat at the pit rim",
+  "props": "Exactly two. ONE whole shovel, wooden handle and steel blade in one piece, always in the mole's paws, fully visible whenever the mole is in frame. ONE shiny teaspoon, owned by the goose.",
+  "environment": "Narrow pit about twice the goose's height in bright orange clay at a sunny summer cottage, smooth vertical walls, blue sky above the rim",
+  "lighting": "warm key on his face, sun straight overhead lights the pit floor, orange clay bounce",
+  "light_events": [{"t": "4.90", "event": "orange dust glows around the goose"}, {"t": "8.35", "event": "sun glints off the blade on his head"}],
+  "motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; the goose fills half the frame, except the close-up beats",
+  "audio": {"language": "Russian", "delivery": "goose alone, dry proud elderly voice, beak free and visible while speaking; silent after 7.4 s", "lip_sync": "accurate", "sfx": ["spoon scraping clay 0.3", "heavy dirt thud 4.0", "thin ding 6.7", "wing flaps 7.6", "loudest hollow metal BONG 8.35", "short ding 9.5, then silence"]},
+  "timeline": [
+    {"t": "0.00-0.70", "a": "From the first frame, already at the pit bottom, the goose stabs the teaspoon in his right wing into the wall and cuts a step. The mole at the rim leans on his shovel.", "c": "camera drops from the sky past the foreground shovel blade into the pit, close-up on the spoon"},
+    {"t": "0.70-2.20", "a": "The goose steps onto the first step and cuts a second one higher, wings folded, chest out.", "c": "camera climbs the wall from his foot to his beak", "line": "Говорят, на пенсии"},
+    {"t": "2.20-3.60", "a": "The goose stabs the teaspoon into a third step. Without looking down, the mole scoops a heaped load of orange dirt with his shovel.", "c": "camera swings overhead to top-down past the heaped shovel in foreground", "line": "жизнь начинается."},
+    {"t": "3.60-4.80", "a": "The mole tips the shovel: one clod falls and buries the steps, the wall is smooth again, dirt on the goose's head. Empty shovel stays in the mole's paws.", "c": "camera tumbles down with the falling clod to his face", "line": "Моя началась,"},
+    {"t": "4.80-6.00", "a": "The goose slides to the bottom in an orange dust cloud, glasses crooked. Teaspoon in his right wing.", "c": "camera rockets back up out of the pit", "line": "как будто в яме."},
+    {"t": "6.00-7.40", "a": "The goose raises the teaspoon high; the mole kneels at the rim and lowers the whole shovel, handle in both paws, blade down to the raised spoon; the huge blade touches the tiny spoon: ding. The spoon stays with the goose.", "c": "camera circles down along the whole shovel, from the mole's paws to the blade over the spoon, close-up", "line": "Только без лопаты."},
+    {"t": "7.40-8.30", "a": "The goose hisses, hurls the teaspoon up out of the pit, opens his wings for the first time and flaps up after it, head above the rim.", "c": "camera rises riding on his back into blue sky"},
+    {"t": "8.30-9.20", "a": "Climax. Without a swing the mole lays the flat blade on the goose's head: BONG. The goose sinks straight down like an elevator, wings folded, glasses on his beak tip. Shovel stays whole in the mole's paws.", "c": "camera hurls itself at his head under the blade, close-up"},
+    {"t": "9.20-10.00", "a": "The same teaspoon falls from above and sticks upright in the clay before his beak: ding. He takes it in his right wing, turns to the wall. Above, the mole holds his shovel.", "c": "camera dives with the falling spoon, close-up at his beak", "hook": "loop"}
+  ],
+  "negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, static camera, locked-off shots, a flat medium shot, floating objects, duplicate props, extra tools, split handle, hat on the goose, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

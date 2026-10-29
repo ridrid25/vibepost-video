@@ -1,0 +1,28 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D black office comedy, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+"subject": "ONE white goose clerk: big tomato-red vest, orange sleeve covers, navy tie, long neck.",
+"second_characters": "ONE squinting mole boss: purple vest, tiny thick glasses. THREE raccoon colleagues: lime-green shirts, sad faces. ONE tiny gosling, hatches at 9.40: red sleeve covers, navy tie.",
+"props": "Twig nest of gold eggs with ONE white egg: the goose's; gold eggs go into the raccoons' sleeves; the white egg stays in the goose's wings. Yellow shovel: the mole's, then stuck by the goose's neck, then the gosling's.",
+"environment": "Narrow ledge, 80th floor of a turquoise glass skyscraper, cyan sky. Window above; over it a navy sign, big white Cyrillic letters \"БАНК РОССИИ\", sharp and readable. At the foot: a soil square in yellow pavement.",
+"lighting": "Bright noon sun; warm key on the goose's face, amber rim left, hot-pink rim right; red vest and gold eggs vivid in every shot.",
+"light_events": [{"t": "7.38", "event": "sun flash off the shovel"}],
+"motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; cuts only at 2.80, 4.80, 7.38; goose fills half the frame, except the close-up beats",
+"audio": {"language": "Russian", "delivery": "Goose dry deadpan adult voice; mole smug low voice", "lip_sync": "accurate",
+"sfx": ["0.0 wind whistle", "0.4 egg clink", "2.0 window bang, hiss", "3.0 clink clink", "4.9 twigs crack", "6.0 shovel whoosh", "7.38 loudest soil thud, shovel clang", "9.5 eggshell crack"]},
+"timeline": [
+{"t": "0.00-0.70", "a": "From the first frame the goose sits on the nest on the ledge; wind rolls a gold egg to the edge, he hooks it back with his beak.", "c": "camera plunges down the facade onto the nest"},
+{"t": "0.70-2.00", "a": "He fluffs up, wiggles, tucks the white egg under him; beak free, says", "c": "camera tumbles over the drop, sign in foreground", "line": "Копил на пенсию."},
+{"t": "2.00-2.80", "a": "The window bursts open; three raccoons lean out and hug him sadly; he hisses.", "c": "camera whips up to the window"},
+{"t": "2.80-4.25", "a": "Under him raccoon paws pull gold eggs into their sleeves, push the white egg back; he gazes away, beak free, says", "c": "camera threads under the nest, twigs in foreground, close-up on a paw", "line": "Коллеги сочувствуют."},
+{"t": "4.25-4.80", "a": "The raccoons vanish; the mole pops out, sniffs, grips the empty nest.", "c": "camera rises to the mole"},
+{"t": "4.80-5.35", "a": "The mole yanks the nest away like a tablecloth; the goose hangs in the air still sitting, wings hugging the white egg, then drops.", "c": "camera rolls upside down under him"},
+{"t": "5.35-6.80", "a": "The mole leans out and hurls the yellow shovel after him, mouth free, says", "c": "camera lunges into the mole's face, close-up", "line": "Дальше — сам накопаешь."},
+{"t": "6.80-7.38", "a": "The goose falls down the facade, wings on the egg, never flapping, hissing up at the shovel.", "c": "camera free-falls face to face with him"},
+{"t": "7.38-8.58", "a": "At 7.38 he smacks into the soil square, soil fountains; the shovel stabs in an inch from his neck.", "c": "camera hurls itself in onto his face, close-up"},
+{"t": "8.58-9.20", "a": "Lying in the soil, he turns his head, one eye on the shovel, beak free, flatly says", "c": "camera tilts into his eye, close-up", "line": "Помогли."},
+{"t": "9.20-10.00", "a": "The white egg in his wings cracks; the gosling climbs out and grabs the shovel with both paws.", "c": "camera skims the soil to the gosling, close-up", "hook": "reveal"}
+],
+"negative_prompt": "subtitles, captions, watermark, added title cards, garbled sign letters, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, humans, duplicate characters, extra limbs, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

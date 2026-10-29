@@ -1,0 +1,39 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "the camera swings round him without stopping while the belt carries him down the hall, cages sweeping across the frame every beat, his face to the lens; his head half the frame; new shot size each beat, one action per beat, the hero always driving it; the tall frame filled, no bars",
+  "character": "a small slow loris with enormous round eyes and heavy rings under them, muzzle always clear of his paws",
+  "second_characters": "ONE frantic shrew auditor working the lens, big in frame, throwing coin bags at him",
+  "props": "ONE paper tally roll trailing from his paw, growing longer every beat",
+  "prop_continuity": "the roll only grows to 8.50, then tears off and balls in his paws; the coins pouring past never land in it",
+  "environment": "a coin counting hall at noon, daylight through the glass roof, sorting cages and coin towers packed a paw away both sides of the belt, no far wall",
+  "light_events": "hard noon daylight bars his face every beat, cold rim one side, warm kick the other",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "dry chesty male voice, matter-of-fact, biting off each word, 4.4 syllables/sec",
+    "pronunciation": "gla-ZA, KRUG-ly-ye, u-div-LE-ni-ya, ne-do-SY-pa, STOL-ko, schi-TAT, NA-do",
+    "pacing": "0.40-3.50, 4.20-5.55 and 6.20-7.85 each one breath; after 7.85 not a word, sfx keep going",
+    "lip_sync": "his jaw drops wide and his lips shape every syllable, brows and jaw alive, muzzle clear of paws and props, never a voice over",
+    "sfx": "belt rumble, coins pouring into cages, the roll ratcheting, the ball slapping the lens"
+  },
+  "timeline": [
+    { "t": "0.00-0.40", "a": "he rides the belt into frame head first, the roll trailing from his paw, coins stacked at his shoulder" },
+    { "t": "0.40-1.30", "line": "Мои глаза", "a": "he swings round on the moving belt and puts his round eyes into the lens" },
+    { "t": "1.30-2.00", "line": "круглые", "a": "he shoves a coin tower over past his shoulder, clear of his muzzle, as the belt runs him by" },
+    { "t": "2.00-2.45", "line": "не от", "a": "he rolls onto his side along the belt and rakes a stack of coins down with him" },
+    { "t": "2.45-3.50", "line": "удивления,", "a": "he drives the growing roll out at arm's length past the lens as the belt carries him" },
+    { "t": "3.50-4.20", "a": "he takes a coin bag on his chest from the shrew at the lens, still riding" },
+    { "t": "4.20-4.65", "line": "а от", "a": "he heaves the bag off and it bursts, coins hammering the cages sweeping past" },
+    { "t": "4.65-5.55", "line": "недосыпа.", "a": "he rubs one paw at his eye from the side, the other flat on the belt, muzzle open to the lens" },
+    { "t": "5.55-6.20", "a": "he ducks a second bag the shrew hurls and it bursts on the cages behind" },
+    { "t": "6.20-6.75", "line": "Столько", "a": "he swings the roll out and it unspools away down the belt line behind him" },
+    { "t": "6.75-7.35", "line": "считать", "a": "he rakes a shelf of coins onto the belt with one arm as he passes it" },
+    { "t": "7.35-7.85", "line": "надо.", "a": "he thrusts his face into the lens over the pouring coins, eyes stretched wide" },
+    { "t": "7.85-8.50", "a": "he shrugs the whipping roll off his shoulder as the shrew hauls a cage past the lens" },
+    { "t": "8.50-9.20", "a": "he tears the roll off and balls it to his chest, one lone coin left on the belt under it" },
+    { "t": "9.20-10.00", "a": "he hurls the paper ball into the lens and rides on hugging that one coin, eyes wide" }
+  ],
+  "must_appear": "one paper tally roll that grows every beat; his big eyes with heavy rings; at 8.50 he tears it off and one lone coin is left on the belt; at 9.20 he hurls the ball into the lens",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, a parked camera, a background that never moves, a stopped hero, a hero seen from behind, a held pose, a closed muzzle while speaking, a paw over his mouth, a prop against his mouth, slow motion, a camera pulling back, a foreign accent, a word not in the lines, cyrillic letters, readable text, extra limbs"
+}

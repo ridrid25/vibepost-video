@@ -1,0 +1,23 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D black comedy, vivid saturated color, crisp contrast, slapstick",
+  "subject": "ONE grey goose in COBALT-BLUE vest and red-yellow party cone until removed, orange feet, two wings",
+  "second_characters": "ONE mole in YELLOW jacket and orange hardhat at LEFT rim",
+  "props": "ONE whole shovel stays with mole; ONE party cone and ONE hardhat swap owners in final beats.",
+  "environment": "Bright resort patio: TANGERINE pit beside TURQUOISE pool, MAGENTA parasol, flowers. Pool reflections color pit walls all 10s.",
+  "lighting": "Warm amber key on faces, cyan rim left and magenta rim right all 10s. Blue and yellow costumes stay saturated; pit floor bright.",
+  "motion_rule": "Camera ALREADY flies to conflict at frame zero; sharp 0.3-0.8s physical moves, parallax, three moving close-ups, full-bleed vertical frame.",
+  "audio": {"language":"Russian","delivery":"Goose alone, dry indignant voice from 0.7s; beak free throughout speech, lip-sync whenever visible; silence after 8.2s","lip_sync":"accurate","sfx":["0.2 shovel clack and rush","2.8 foot slip","4.7 soft mole thud","7.3 hardhat click","9.2 paper plop"]},
+  "timeline": [
+    {"t":"0.00-0.70","a":"Mole ALREADY pries goose's LEFT wing off RIGHT rim with shovel blade. Goose hangs over pit, RIGHT wing free; party cone stays on.","c":"Camera ALREADY flies full speed past foreground magenta parasol fringe across rim into blade striking goose's wing by 0.45s; parallax, moving close-up, no wide setup."},
+    {"t":"0.70-2.20","a":"Goose hooks free RIGHT wing under shovel shaft near mole's paws and yanks down. LEFT wing catches rim again; mole's front foot edges toward LEFT drop.","c":"Camera whips around shaft to close-up of goose's wing gripping it, then arcs to his speaking beak and mole's planted foot.","line":"Говорят, на пенсии"},
+    {"t":"2.20-3.70","a":"Goose yanks; mole's foot slips over LEFT edge, hardhat spins onto RIGHT patio. Mole holds whole shovel. Goose releases shaft and opens BOTH wings.","c":"Camera hurls past foreground shaft to moving close-up of slipping foot, then swings up with goose's wings.","line":"жизнь начинается."},
+    {"t":"3.70-5.20","a":"ONE wide shot: mole falls LEFT into pit WITH shovel; goose FLIES out RIGHT past him.","c":"Camera rockets back above rim, orbits to hold both paths in one view; pool and parasol fill background.","line":"Моя началась,"},
+    {"t":"5.20-6.70","a":"Mole lands below with shovel, bare head. Goose lands above RIGHT rim, picks up hardhat with RIGHT wing; party cone still on head.","c":"Camera dives to mole then rises past pool reflections to goose and hardhat.","line":"как будто в яме."},
+    {"t":"6.70-8.20","a":"Goose removes party cone with LEFT wing, puts hardhat on with RIGHT wing; keeps cone in LEFT. Mole below reaches for help, shovel beside him.","c":"Camera flies over goose's head; moving close-up of free speaking beak and helmet click, then reveals mole below.","line":"Только без лопаты."},
+    {"t":"8.20-9.20","a":"Goose drops party cone from LEFT wing toward mole's BARE head. Mole keeps paw raised, expecting help; goose's wings now empty.","c":"Camera plunges after cone past bright wall flowers, brakes just above mole's surprised face; vivid colors remain in frame."},
+    {"t":"9.20-10.00","a":"Party cone lands on mole's BARE head; he sits in pit with shovel. Above, goose wears hardhat and shows EMPTY wings: places and hats swapped.","c":"Camera sweeps into vertical two-level close-up: mole and cone large below, helmeted goose and turquoise pool above; readable 0.5s.","hook":"reveal"}
+  ],
+  "negative_prompt":"subtitles, text, watermark, English speech, static camera, slow motion, black borders, duplicate shovel, duplicate hats, extra limbs, teleporting, dark pit, muted colors, uniform empty clay wall, blood"
+}

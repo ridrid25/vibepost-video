@@ -1,0 +1,38 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, dry satire",
+"motion_rule": "he shoulders down the locker alley all clip while cards, snow and workers burst on his coat at the lens every beat; the camera tracks alongside, locker rows sweeping past, his face to the lens, his head half the frame; new shot size each beat, one action per beat; the tall frame filled, no bars",
+"character": "a shaggy musk ox, heavy fringed coat, broad horns, muzzle clear of his hooves",
+"second_characters": "three workers in orange vests and hard hats, each leaning out of an open locker door a shoulder from the lens, slinging shovels of snow sideways across the frame onto him",
+"props": "ONE plastic card frozen into his chest fur from the first beat; A SWARM of loyalty cards in every colour heaped over a drift on his back",
+"prop_continuity": "the card in his chest fur shows from 0.00 to 10.00; the drift grows every beat and goes over his head at 8.10",
+"environment": "a parcel alley at noon, locker walls to the roof both sides a hoof away, doors banging open along them, crates and banked snow on their tops, no far wall",
+"light_events": "blazing noon, sun off the snow throwing white light up onto his muzzle, a white flash on each shovel",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "a heavy weary bass, biting each word, 4 syllables/sec",
+"pronunciation": "pod-PI-sok, u men-YA, TSE-ly, sug-ROB, ne ZNA-yu, chto da-YUT, no pla-CHU",
+"pacing": "0.60-3.45, 4.15-5.80 and 6.45-7.35 each one breath; after 7.35 not a word, sfx keep going",
+"lip_sync": "his mouth opens wide and shapes every syllable",
+"sfx": "hooves on snow, doors banging, shovels scraping, cards rustling"
+},
+"timeline": [
+{"t": "0.00-0.60", "c": "wide", "a": "he shoulders a locker door out of his way and it swings across the frame"},
+{"t": "0.60-1.35", "c": "close", "line": "Подписок", "a": "he swings his head to the lens and the card in his chest fur catches the sun"},
+{"t": "1.35-2.15", "c": "mid", "line": "у меня", "a": "he hauls his shoulders past a crate and cards rake off it across the frame"},
+{"t": "2.15-2.80", "c": "close", "line": "целый", "a": "he throws his horns up and a load of cards slides forward onto his brow"},
+{"t": "2.80-3.45", "c": "wide", "line": "сугроб.", "a": "the drift on his back rises over his shoulders as he keeps walking"},
+{"t": "3.45-4.15", "c": "mid", "a": "a worker kicks his locker door open a shoulder from the lens and slings a shovel of snow sideways onto his flank"},
+{"t": "4.15-4.95", "c": "close", "line": "Не знаю,", "a": "he shakes the snow off his muzzle without breaking stride, cards spinning off"},
+{"t": "4.95-5.80", "c": "mid", "line": "что дают,", "a": "a second door bangs open and another shovelful rakes across his chest"},
+{"t": "5.80-6.45", "c": "wide", "a": "he drives his shoulder through the drift and cards burst at the lens"},
+{"t": "6.45-7.35", "c": "close", "line": "но плачу.", "a": "he pulls one card out of his fur with his teeth and it springs straight back in"},
+{"t": "7.35-8.10", "c": "wide", "a": "all three workers lean out at once and sling their shovels together, snow crossing the frame from both walls"},
+{"t": "8.10-8.85", "c": "mid", "a": "the drift and the cards close over his horns and he vanishes under the heap, still moving forward"},
+{"t": "8.85-9.45", "c": "close", "a": "his horns and muzzle burst out of the heap at the lens, cards flying off, jaw working"},
+{"t": "9.45-10.00", "c": "mid", "a": "he walks on with the heap riding his back while the workers pull their doors shut behind him"}
+],
+"must_appear": "the card in his chest fur from first beat to last; workers leaning out of the locker doors slinging snow sideways onto him; the heap of coloured cards growing on his back every beat; at 8.10 it closes over his head and at 8.85 his horns burst back out at the lens",
+"negative_prompt": "subtitles, watermark, letterbox, night, dark scene, cyrillic letters, words, a parked camera, a closed mouth while speaking, slow motion, a camera pulling back, snow falling straight down, a wide empty snowfield, a far horizon, a foreign accent, a word not in the lines"
+}

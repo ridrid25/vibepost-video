@@ -1,0 +1,38 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "3D cartoon, Pixar, deadpan satire, hard noon sun through clear shallow water",
+"motion_rule": "he holds his spot over the sunken stall and never travels; the camera slides sideways along the market wall in EVERY beat and reverses at 1.90, 3.60, 5.55 and 7.50, so crates, ropes, buoys and nets tear past behind him; the eel hauls papers across the lens and pale fish sink through it in EVERY beat; his gold gills pump and he works fins, tail and mouth in EVERY beat; he fills half the frame height; new shot size every beat; one action per beat; no push in, no rack focus",
+"character": "a plump golden carp upright on his tail, thick lips, heavy jowls, two huge gilded gill covers pumping like bellows",
+"second_characters": "ONE lean eel broker in a silk tie, always within a fin of the lens, hauling blank papers across the frame every beat; A SWARM of pale fish with dull gills sinking behind him with papers",
+"props": "ONE fat gold ring in the sand under him; ONE blank paper sheet the sinking fish carry; furry mic bottom right",
+"prop_continuity": "the papers are never his; the ring is his",
+"environment": "a noon bright shallow lagoon over a sunken market: sun shafts to the sand, packed crates, ropes, glass buoys, hanging nets",
+"audio": {
+"language": "Russian, lines verbatim; latin hints never spoken",
+"delivery": "dry chesty male voice, flat and smug, even 4.7 syllables/sec",
+"pacing": "first word at 0.0, no silent lead-in; 0.0-3.60 one breath, short breath at 3.60, 3.60-6.85 one breath; after 6.85 only sfx",
+"pronunciation": "go-DA-mi, NO-si-te, DEN-ghi, AK-tsi-i, ZHDYO-te, CHU-da, vlo-ZHIL, ZHAB-ry, TO-ne-te",
+"lip_sync": "his mouth opens on every syllable, never a voice over",
+"sfx": "water surge, bubbles bursting, paper rustling, a bellows wheeze from his gills, brass ringing at 8.80",
+"music": "none"
+},
+"timeline": [
+{"t": "0.0-0.85", "line": "Вы годами", "a": "he throws a fin at the lens, the eel hauling papers past his shoulder"},
+{"t": "0.85-1.90", "line": "носите деньги", "a": "he sweeps both fins across the lens as nets and buoys tear past behind him"},
+{"t": "1.90-2.55", "line": "в акции", "a": "chest-up: he flicks his tail and bubbles blast into the lens"},
+{"t": "2.55-3.60", "line": "и ждёте чуда.", "a": "he spreads his fins wide, pale fish sinking past the lens with papers"},
+{"t": "3.60-4.45", "line": "А я вложил", "a": "he hammers his gold gill cover with a fin, the eel swinging papers through the frame"},
+{"t": "4.45-4.90", "line": "в жабры —", "a": "chest-up: he fans both gilded gills wide at the lens"},
+{"t": "4.90-5.55", "line": "и дышу,", "a": "he pumps the gills hard, a wall of bubbles rolling across the lens"},
+{"t": "5.55-6.20", "line": "пока вы", "a": "he jabs a fin at the lens as a sinking fish drifts through the frame"},
+{"t": "6.20-6.85", "line": "тонете.", "a": "he slaps his tail at the lens, pale fish sinking behind him"},
+{"t": "6.85-7.50", "a": "a sinking fish shoves a blank paper into his face and he flicks it past the lens"},
+{"t": "7.50-8.15", "a": "chest-up: he flares both gold gills at the lens and blasts bubbles into the camera, pale fish sinking behind him"},
+{"t": "8.15-8.80", "a": "the eel dumps an armful of papers over the sinking fish, wiping the lens"},
+{"t": "8.80-9.40", "a": "he scoops the gold ring off the sand and hooks it into his gill cover, big in frame"},
+{"t": "9.40-10.00", "a": "he grins wide at the lens and slams his gill covers shut, papers blasting past the lens"}
+],
+"must_appear": "the first word is heard at 0.0; his gold gills pump in every beat; the eel is in frame every beat; at 7.50 he flares both gills at the lens and blasts bubbles into the camera; at 9.40 he grins at the lens",
+"negative_prompt": "a silent opening, a still last second, conveyor belt, cart, rail, a hero riding anything, a hero swimming at the camera head first, speech bubble, subtitles, watermark, cyrillic, latin letters, printed words on props, digits, darkness, murky water, letterbox, a parked camera, a still background, a distant hero, a hero seen from behind, a held pose, slow motion, speech after 6.85"
+}

@@ -1,0 +1,82 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "the cart carries him across frame every beat and he never steps off it; crates and ice sweep past the lens; the camera tracks alongside at his muzzle height; new shot size each beat, never wider than his muzzle filling a third of frame; ONE sideways move per beat, never up or down, never a chain; the row tears past in the punch beat too",
+  "character": "a lean grey wolf with a scarred muzzle, riding a low flat market cart, one hind paw scooting it along, yellow eye always clear",
+  "second_characters": "ONE hog docker, going right to left a step from the lens and crossing frame himself, working wide in every spoken beat, chewing his own whole fish from 4.30, never lifting the wolf off the cart",
+  "props": "ONE bare fish spine, picked clean, see-through, nothing written on it; ONE whole fish in the hog trotters; crates of fish; a barrel",
+  "prop_continuity": "the spine rides in his paw to 9.00, then flies over his shoulder; the whole fish stays with the hog",
+  "environment": "a fish row under daylight, counters and crates packed tight both sides, no far wall, no bare stretch",
+  "light_events": "hard white noon off the ice, a side shaft through the gaps of the spine at 3.20, another on his muzzle at 6.60",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "a dry angry male voice, biting off each word, 4.2 syllables/sec",
+    "pronunciation": "zar-PLA-ta, BE-la-ya, na-STOL-ko, SHTO, pro-SVE-chi-va-yet",
+    "pacing": "0.00-2.85 and 2.85-4.30 each one breath, the first word starts at 0.00; after 4.30 not a word, sfx keep going",
+    "lip_sync": "his jaw opens on every syllable",
+    "sfx": "cart wheels, ice cracking, crates banging, chewing"
+  },
+  "timeline": [
+    {
+      "t": "0.00-0.70",
+      "line": "Зарплата",
+      "a": "the hog shoves the bare spine at him and one yank tears it out of the trotter"
+    },
+    {
+      "t": "0.70-1.40",
+      "line": "белая.",
+      "a": "he shoves the spine out sideways on a straight paw, right across frame"
+    },
+    {
+      "t": "1.40-2.15",
+      "line": "Настолько",
+      "a": "he swings the spine like an oar and shoves off a crate with it"
+    },
+    {
+      "t": "2.15-2.85",
+      "line": "белая,",
+      "a": "he whips the spine across frame and it rattles"
+    },
+    {
+      "t": "2.85-3.20",
+      "line": "что",
+      "a": "he kicks off a counter as the hog hauls a crate past the lens the other way"
+    },
+    {
+      "t": "3.20-4.30",
+      "line": "просвечивает.",
+      "a": "he rakes the spine through the daylight shaft on a straight paw, light strobing through the gaps between its ribs"
+    },
+    {
+      "t": "4.30-5.10",
+      "a": "the hog tears a bite off his whole fish a step from the lens, the wolf batting a hanging chain aside with the spine"
+    },
+    {
+      "t": "5.10-6.00",
+      "a": "he drags the spine along the crates and it clatters, the hog rolling a barrel at the lens the other way"
+    },
+    {
+      "t": "6.00-6.60",
+      "a": "he swings the spine across to his cheek and turns straight into the lens, the ribs a paw from his eye"
+    },
+    {
+      "t": "6.60-7.20",
+      "a": "he drives his muzzle at the lens through the spine, the hog muzzle chewing that same fish right in the gap between the ribs over his shoulder"
+    },
+    {
+      "t": "7.20-8.00",
+      "a": "he licks his chops and shoves the cart on with one drive of the paw, crates whipping past"
+    },
+    {
+      "t": "8.00-9.00",
+      "a": "still rolling he cracks a rib off the spine in his teeth and spits it out"
+    },
+    {
+      "t": "9.00-10.00",
+      "a": "he hurls the spine over his shoulder and cuts his eye at the hog, riding on"
+    }
+  ],
+  "must_appear": "the hog gives him the spine at 0.00 and keeps the whole fish; the wolf never leaves the moving cart; the spine is in his paw every beat to 9.00; light through its gaps at 3.20-4.30; at 6.60-7.20 the chewing hog muzzle sits in the gap between the ribs, the wolf eye and nose clear of it; every word spoken, the last by 4.30",
+  "negative_prompt": "subtitles, watermark, letterbox, night, dark scene, a static camera, a still background, standing in place, an inscription, a label, a stamp, digits, cyrillic letters, slow motion, a closed jaw while speaking, a hero moving up or down the frame, multiple wolves, clothing on the wolf, a hero lifted off the cart, a second fish spine, a whole fish in the wolf paw"
+}

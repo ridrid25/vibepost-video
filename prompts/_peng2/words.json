@@ -1,0 +1,102 @@
+{
+ "transcription": [
+  {
+   "text": " Я",
+   "offsets": {
+    "from": 0,
+    "to": 260
+   }
+  },
+  {
+   "text": " выживаю",
+   "offsets": {
+    "from": 260,
+    "to": 1020
+   }
+  },
+  {
+   "text": " на",
+   "offsets": {
+    "from": 1020,
+    "to": 1200
+   }
+  },
+  {
+   "text": " этом",
+   "offsets": {
+    "from": 1200,
+    "to": 1440
+   }
+  },
+  {
+   "text": " льду.",
+   "offsets": {
+    "from": 1440,
+    "to": 1880
+   }
+  },
+  {
+   "text": " Как",
+   "offsets": {
+    "from": 2760,
+    "to": 2860
+   }
+  },
+  {
+   "text": " и",
+   "offsets": {
+    "from": 2860,
+    "to": 3020
+   }
+  },
+  {
+   "text": " все,",
+   "offsets": {
+    "from": 3020,
+    "to": 3280
+   }
+  },
+  {
+   "text": " плачу",
+   "offsets": {
+    "from": 3700,
+    "to": 4120
+   }
+  },
+  {
+   "text": " за",
+   "offsets": {
+    "from": 4120,
+    "to": 4240
+   }
+  },
+  {
+   "text": " каждый",
+   "offsets": {
+    "from": 4240,
+    "to": 4580
+   }
+  },
+  {
+   "text": " вздох.",
+   "offsets": {
+    "from": 4580,
+    "to": 5120
+   }
+  },
+  {
+   "text": " Да,",
+   "offsets": {
+    "from": 6580,
+    "to": 7180
+   }
+  },
+  {
+   "text": " Преля!",
+   "offsets": {
+    "from": 7300,
+    "to": 7540
+   }
+  }
+ ]
+}

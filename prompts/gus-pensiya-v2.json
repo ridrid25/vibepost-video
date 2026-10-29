@@ -1,0 +1,23 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D animal black comedy, saturated colors, high contrast, brisk slapstick",
+  "subject": "Elderly grey goose, red-yellow paper party cone, two wings, two webbed feet",
+  "second_characters": "One mole in orange hardhat, standing left of goose at pit rim",
+  "props": "One shovel belongs to mole. Both hats persist through the exchange.",
+  "environment": "Sunny allotment, shallow rectangular pit in bright orange clay. Goose chest reaches near rim, left wing grips rim, feet brace wall, right wing rests on mole's shovel shaft.",
+  "lighting": "Bright sun, warm faces, two rim lights, simple contrasting clay",
+  "motion_rule": "Camera always moving: sharp physical bursts of 0.3-0.8s end on readable action. Character fills half the frame, except the close-up beats. Full-bleed rendered environment throughout rotations. Only the spatial exchange stays continuously wide.",
+  "audio": {"language":"Russian","delivery":"Goose alone, dry disgruntled voice from 0.8s; beak unobstructed throughout speech; lip-sync whenever visible. Silent after 8.2s.","lip_sync":"accurate","sfx":["opening whoosh and shaft clack","wing slap at ankle","strongest soft thud at 5.2s","paper plop at 9.2s"]},
+  "timeline": [
+    {"t":"0.00-0.70","a":"Already mole yanks his shovel from under goose's right wing. Right wing slips, left holds rim.","c":"Camera flies at full speed from OUTSIDE, 1m above outer rim, diagonally down past foreground shaft to their grip by 0.55s, strong parallax. Close-up grip and slipping wing fill frame."},
+    {"t":"0.70-2.20","a":"Goose hangs by left wing, feet braced. Mole leans over, raising shovel for a shove and planting his near foot beside goose.","c":"Camera arcs tightly around shaft: readable moving close-up through 1.0s, swings up to goose's speaking face and mole's leaning stance.","line":"Говорят, на пенсии"},
+    {"t":"2.20-3.70","a":"Goose grips mole's near ankle with right wing and pulls inward. Mole's planted foot slips over rim: balance lost. Goose's left wing stays on rim.","c":"Camera hurls itself down toward ankle. Close-up wing gripping ankle fills frame, rim and goose neck connect ownership; contact reads for 0.5s as camera curves low.","line":"жизнь начинается."},
+    {"t":"3.70-5.20","a":"Mole ALREADY falling into LEFT half of pit. Only now goose releases ankle, thrusts BOTH webbed feet against wall, LEFT wing pivots on rim, chest heaves onto RIGHT bank. Separate adjacent paths. Hardhat flies onto right bank, shovel falls with mole.","c":"Camera rockets backward into unobstructed wide, arcs above rim in ONE continuous view showing release, push and both opposite trajectories, no hidden exchange.","line":"Моя началась,"},
+    {"t":"5.20-6.70","a":"Mole lands softly beside his shovel. Goose stands outside and picks up fallen hardhat in RIGHT wing, party cone still on head.","c":"Camera rises sharply from mole's level past foreground rim to goose and hardhat, opening their changed heights.","line":"как будто в яме."},
+    {"t":"6.70-8.20","a":"Goose removes party cone with LEFT wing, holds it, puts hardhat on bare head with RIGHT wing. Mole reaches upward for help.","c":"Camera flies over goose's head to the pit-facing side, descending to a close-up of his free beak and newly worn hardhat.","line":"Только без лопаты."},
+    {"t":"8.20-9.20","a":"Goose drops party cone from LEFT wing toward mole's head, point upward. Mole keeps paw extended for help.","c":"Camera dives after cone with a sharp half-roll, levels fully by 9.0s above mole's face. Continuous clay surrounds frame."},
+    {"t":"9.20-10.00","a":"Goose's party cone lands crooked on mole's head at pit bottom. Mole freezes: the celebration has changed owner instead of help arriving.","c":"Camera sweeps into tight close-up, mole's face and cone fill frame; small descending arc preserves readable contact for 0.5s.","hook":"reveal"}
+  ],
+  "negative_prompt":"subtitles, captions, watermark, text overlay, English speech, static camera, slow motion, black borders, split screen, flying rig, extra limbs, duplicate props, teleporting, blood"
+}

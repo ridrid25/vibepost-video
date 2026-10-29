@@ -1,0 +1,23 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "Original 3D adult black comedy; vivid color, crisp physical action",
+  "subject": "ONE grey goose on a narrow ledge INSIDE a square pit, wearing a large COBALT-BLUE vest and red-purple party cone at first",
+  "second_characters": "ONE mole foreman in a vivid YELLOW jacket and ONE white hardhat at the rim at first",
+  "props": "ONE steel shovel, ONE white hardhat, ONE red-purple party cone. One owner each.",
+  "environment": "Outdoor plaza worksite, square pit of bright orange bare CLAY, turquoise rails and magenta bunting. No pool, tiles, fruit or extra characters.",
+  "lighting": "Bright warm key on both faces; cyan rim left and magenta rim right. Cobalt and yellow cover large visible areas of the characters in every shot.",
+  "motion_rule": "Full-bleed vertical 9:16. Camera ALREADY flies fast at frame zero, real travel and parallax. Sharp paths end on action; four readable moving close-ups. No black edges.",
+  "audio": {"language":"Russian","delivery":"ONE dry goose voice, 0.7 to 8.0 s, exact words once; free visible beak during speech; silent final 2 s","lip_sync":"accurate","sfx":["0.35 shovel slap","2.8 hat collision","4.4 helmet clack","6.9 boot scrape","7.8 falling thud, loudest","9.7 shovel catch"]},
+  "timeline": [
+    {"t":"0.00-0.70","a":"Mole ALREADY jams shovel against goose's LEFT wing; goose's RIGHT wing forms a C-shaped worker's grip on handle from frame zero through 0.35s, then SLAPS it away by 0.7s. Cone on goose; helmet on mole.","c":"Camera ALREADY races forward beside extreme close-up C-shaped grip from frame zero, past foreground rail with violent parallax; ends at shovel slap."},
+    {"t":"0.70-2.20","a":"Mole shoves SAME shovel toward goose again. Goose on inner ledge hooks shaft with LEFT wing, unable to escape; hats and positions unchanged.","c":"Camera whips low around goose's beak then rushes to wing on shaft, a moving close-up.","line":"Говорят, на пенсии"},
+    {"t":"2.20-3.70","a":"Mole leans down: goose's RIGHT wing snatches his ONLY hardhat; the same shovel bumps goose's cone onto mole's now bare head. Goose holds helmet; mole wears cone and holds shovel. Both stay in place.","c":"Camera dives from foreground rail into tight close-up of both hats crossing at rim.","line":"жизнь начинается."},
+    {"t":"3.70-5.20","a":"Goose puts stolen helmet on his own head just as mole strikes with SAME shovel; steel glances off hardhat. Goose is still IN pit; mole in cone still ABOVE.","c":"Camera rolls under shovel blade into close-up of helmet deflecting the strike.","line":"Моя началась,"},
+    {"t":"5.20-6.70","a":"Mole pins goose's wing with shovel; goose wedges its shaft under clay rim with free wing. Helmet on goose; cone on mole.","c":"Camera whips down past foreground clay to wing levering shaft and mole's planted boot.","line":"как будто в яме."},
+    {"t":"6.70-8.00","a":"ONE decisive reversal: goose yanks shaft and FLIES out; mole's boot slips and he falls INTO pit WITH the ONE shovel. Goose wears helmet, mole wears cone. Loudest thud at 7.8s.","c":"Camera plunges to slipping boot then rockets back and rises with goose, both paths clear.","line":"Только без лопаты."},
+    {"t":"8.00-9.20","a":"Mole below angrily THROWS the SAME shovel upward toward goose. Goose above thinks he escaped work; single shovel travels visibly between them.","c":"Camera dives after shovel then swings overhead to track its upward path against colorful rails."},
+    {"t":"9.20-10.00","a":"Goose reflexively CATCHES shovel in EXACT SAME C-shaped worker's grip as frame one. Final: shovel in blue wing, mole empty-pawed below; eyes widen.","c":"Camera snaps into the SAME low close-up angle on blue wing grip, goose's horrified eyes behind it; no fade.","hook":"reveal"}
+  ],
+  "negative_prompt":"subtitles, text overlays, watermark, English speech, static opening, slow drift, digital zoom, black borders, horizontal framing, duplicate shovel, duplicate helmet, duplicate cone, extra wings, extra paws, teleporting props, fruit, pool, blood"
+}

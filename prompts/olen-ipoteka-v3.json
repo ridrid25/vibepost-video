@@ -1,0 +1,28 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan",
+"subject":{"character":"ONE adult stag; a cozy cabin (smoking chimney, open doorway) on his antlers until 4.85, then level on the stump; mobile ears; same face throughout","anti_action":"weary serious face, brisk dry talker"},
+"second_characters":"ONE badger in the bulldozer cab, vest, visor",
+"props":"red ribbon between two birches; yellow bulldozer, words ПОД СНОС on its blade; in the cabin: a mounted trophy head with the stag's own face, glass eyes; a kettle on a hook",
+"environment":"sunny edge of a dense forest; a stump next to him; birdhouses on trees; dense background",
+"lighting":"bright warm sun behind-left; bright sky glow behind-right, high contrast; at 5.90 sun flashes off the yellow blade; inside: warm sun through log gaps",
+"motion_rule":"The camera orbits him in an arc every outdoor beat and changes shot size; trees and leaves slide behind him, never still. The stag moves his whole body in every beat he is in.",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent; first word on frame one; stress: FI-ni-sha, fi-ni-shi-RO-val, go-lo-VA, fsyeg-DA, DO-mye","pacing":"brisk, each line once, inside its beat, no speech after 5.9; silent beats: no voice","lip_sync":"mouth opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.80","line":"Нёс свой дом","a":"mouth opens on every syllable; the stag stamps a front hoof, the cabin sways; red leaves sweep past the lens; medium, camera arcs left"},
+{"t":"0.80-1.85","line":"сквозь годы,","a":"mouth opens on every syllable; the stag plods a heavy step and turns; snow sweeps past the lens and piles on the roof; orbit back closer"},
+{"t":"1.85-2.85","line":"ждал финиша.","a":"mouth opens on every syllable; the stag stretches his neck toward a red ribbon across his path, nostrils flared; arc out to medium"},
+{"t":"2.85-3.95","line":"Финишировал.","a":"mouth opens on every syllable; the stag lunges chest-first through the ribbon, it snaps, a torn end hangs on an antler tine; low arc"},
+{"t":"3.95-4.85","line":"Но голова","a":"mouth opens on every syllable; the stag carefully bows his neck, lowering the cabin to the stump, ears forward; cabin stays level; arc"},
+{"t":"4.85-5.90","line":"всегда в доме.","a":"mouth opens on every syllable; the cabin settles flat on the stump; the stag slides his antlers out from under it backward, the cabin stays put, straightens; arc around the stump"},
+{"t":"5.90-6.55","a":"the bulldozer rumbles at the stump; the stag lunges in, ramming the blade with his antlers; the badger yanks the lever; whipping arc"},
+{"t":"6.55-7.25","a":"the stag stamps the blade; it shoves him back, hooves ploughing furrows; the cabin jolts but stays level; low arc"},
+{"t":"7.25-7.95","a":"camera dives through the doorway: the wall trophy fills the frame; the wall jolts, it swings on its nail"},
+{"t":"7.95-8.65","a":"inside: the trophy swings wide in the foreground, kettle clanks on its antler, dust on its nose; behind it the stag's own face pushes into the doorway, one eye widens, ears flatten: two identical faces in one frame"},
+{"t":"8.65-9.35","a":"camera backs out; the stag yanks his head out of the doorway, shakes his antlers; the blade shoves the stump, the cabin jolts but stays level; short arc"},
+{"t":"9.35-10.00","a":"the stag turns his face to the lens, ears drooping, and snorts; short arc"}
+],
+"must_appear":"4.85 cabin set level on the stump; 5.90 ПОД СНОС bulldozer, stag rams blade; 7.95 trophy and the stag's face in one frame",
+"negative_prompt":"small hero, static camera, still background, text except ПОД СНОС on the blade, digits, logos, subtitles, watermark, writing on any prop,trophy blinking or moving its mouth, cabin falling, tumbling, tipping over, cabin dropped, running toward camera, side tracking shot, deer running off, a second live deer, duplicate props, floating objects, extra legs, bent antlers, darkness, night, dim light, darkness inside the cabin, empty field, a line said twice, foreign accent"
+}

@@ -1,0 +1,28 @@
+{
+"duration_seconds": 10,
+"aspect_ratio": "9:16",
+"style": "Original 3D black comedy about pensions, deadpan slapstick, vivid saturated colors, high contrast, original character design",
+"subject": "ONE old grey goose: white head feathers, glasses on a chain, big cobalt-blue vest. Hugs a HUGE shiny GOLD piggy bank, half his size, slot on its back, hole in its belly. Deadpan, never flies.",
+"second_characters": "ONE grinning mole boss, purple suit. THREE clerks, orange ties: white rabbit, ferret, beaver.",
+"props": "Piggy bank: goose's; its scarlet belly cork: mole's. Gold coins: from it into the mole's open cherry-red briefcase. Shovel: yellow handle, scarlet bow; mole's, then the goose's. Mole's sill: row of gold piggy banks tied with orange ties like the clerks'.",
+"environment": "Bright TURQUOISE glass tower; over its open 40th-floor window a wide navy sign, big white Cyrillic letters \"БАНК РОССИИ\", readable; pale lilac tile plaza, revolving glass door.",
+"lighting": "Noon sun; warm key on the goose's face, amber rim left, hot-pink rim right; gold, cobalt, white letters vivid.",
+"light_events": [{"t": "0.20", "event": "coins flash in the lens"}, {"t": "7.70", "event": "blade flashes"}],
+"motion_rule": "camera always moving in sharp 0.3-0.8 s moves from frame one, each ending on the gag; goose fills half the frame, except the close-up beats",
+"audio": {"language": "Russian", "delivery": "Goose alone, dry deadpan adult voice, lines exactly as written", "lip_sync": "accurate",
+"sfx": ["0.2 coins gush", "2.3 coin ding", "2.8 thud", "3.2 piggy bank cracks", "4.0 pat, hiss", "6.8 rising whistle", "7.85 silence", "7.90 LOUDEST thwack, twang", "9.6 coins pour"]},
+"timeline": [
+{"t": "0.00-0.60", "a": "From the first frame: gold coins gush into the lens from the piggy bank's belly; above, under the БАНК РОССИИ sign, the goose dangles outside, wing in the mole's farewell handshake; the mole's free paw holds the pulled scarlet cork.", "c": "flies up from the briefcase to the handshake under the sign, close-up"},
+{"t": "0.60-2.10", "a": "The mole lets go, waves bye; the goose drops, piggy bank hugged, coins spraying from the slot.", "c": "dives after him, waving paw in foreground", "line": "Копил на пенсию."},
+{"t": "2.10-2.70", "a": "Falling, he snaps a flying coin in his beak, drops it back in the slot.", "c": "barrel-rolls into his beak, close-up"},
+{"t": "2.70-3.10", "a": "He hits the lilac tiles, sinks neck-deep, cracks ringing him.", "c": "skims ahead to tile level"},
+{"t": "3.10-3.50", "a": "The piggy bank cracks on his head into two empty gold halves; the last coin rolls away.", "c": "drops onto the halves, close-up"},
+{"t": "3.50-5.00", "a": "The rabbit grabs the coin, pats the goose's head with it, darts into the revolving door; ferret, beaver follow, pitying.", "c": "threads the door, legs in foreground", "line": "Коллеги сочувствуют."},
+{"t": "5.00-6.50", "a": "His wingtip presses the empty halves together; he hugs the mended piggy bank to his neck.", "c": "circles low round the piggy bank", "line": "Дальше — сам накопаешь."},
+{"t": "6.50-7.30", "a": "Up top, under the БАНК РОССИИ sign, the mole throws the bowed shovel down like a spear; the goose jerks his head up.", "c": "rockets back up the facade"},
+{"t": "7.30-8.50", "a": "At 7.90 the shovel skewers the mended piggy bank to the tiles a finger from his neck, halves bursting; he does not blink.", "c": "rides the blade down, hurls itself into his face, close-up"},
+{"t": "8.50-9.20", "a": "He hauls himself out by the handle, stands at attention, nods, beak free.", "c": "glides up the handle", "line": "Помогли."},
+{"t": "9.20-10.00", "a": "The mole pulls the cork from the next tied piggy bank; coins pour into his briefcase. Last frame: gold flood, orange-tied piggy banks, БАНК РОССИИ above.", "c": "soars past the sign into the briefcase, close-up", "hook": "reveal"}
+],
+"negative_prompt": "subtitles, captions, watermark, text overlay, English speech, foreign accent, slow speech, static camera, locked-off shots, muted colors, dark scene, night, food, vegetables, shopping bags, cats, humans, extra characters beyond those listed, character changing appearance mid-shot, blood"
+}

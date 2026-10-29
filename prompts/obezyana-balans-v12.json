@@ -1,0 +1,66 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+ "motion_rule": "she rides a rolling market cart that never stops, the stalls flying past her every beat, the cart swerving and reversing at 0.35, 0.90, 1.90, 3.20, 4.40 and 6.60; the camera tracks sideways alongside it, new shot size each beat, ONE sideways move per beat; her muzzle never under a third of frame, jaw visible; she stays on the cart all clip, never on her feet at the lens",
+ "character": "a wiry macaque in a grey waistcoat riding a rolling market cart, exactly two arms, muzzle and jaw clear",
+ "second_characters": "A SWARM of creditors in grey suits running alongside the cart, ONE of them a shoulder from the lens every beat, crossing frame and hitting the glass; all of them moving",
+ "props": "ONE carrying pole across her shoulders; ONE sack of pale jute roped to each end, same cloth and size, the left stencilled ДОЛГИ, the right ИПОТЕКА, one big black Cyrillic word each; A SWARM of paper slips inside the sacks",
+ "prop_continuity": "the pole rides on her shoulders all clip, both sacks stay roped to its ends",
+ "environment": "a market street packed wall to wall, stalls, crates and awnings a shoulder from the lens, paper and torn leaves across the glass",
+ "light_events": "white noon, shafts between the awnings sweeping her every beat, a hard rim on her muzzle",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "a level pleased female voice, biting off each word, even 3.9 syllables per second, beats filled edge to edge",
+  "pronunciation": "pro-ve-RYA-em, SLE-va, dol-GI, SPRA-va, i-po-TE-ka, ba-LANS, so-SHOL-sya, PRO-sto, o-BE-ikh, sto-RON",
+  "pacing": "speech runs unbroken 0.00 to 7.20, first word at 0.00, no gap between beats; after 7.20 wheels, boots and paper fill the track to 10.00",
+  "lip_sync": "her jaw opens on every syllable, no voice over",
+  "sfx": "cart wheels on stone, the roar of the street, boots, paper"
+ },
+ "timeline": [
+  {
+   "t": "0.00-0.90",
+   "line": "Проверяем.",
+   "a": "the cart is already rolling in the very first frame, stalls streaming past her, a creditor crossing a shoulder from the lens onto the glass"
+  },
+  {
+   "t": "0.90-1.90",
+   "line": "Слева долги,",
+   "a": "her left shoulder drives the left sack across frame to the lens, its word to the glass, the cart swerving under her"
+  },
+  {
+   "t": "1.90-3.20",
+   "line": "справа ипотека.",
+   "a": "her right shoulder drives the right sack to the lens the same way, its word to the glass, and she shoves a running creditor off the rail"
+  },
+  {
+   "t": "3.20-4.40",
+   "line": "Баланс сошёлся.",
+   "a": "the cart drops off a kerb at the lens, both sacks carried forward level with each other"
+  },
+  {
+   "t": "4.40-6.60",
+   "line": "Просто с обеих сторон —",
+   "a": "she yanks the left rope mid-roll, a jet of slips into the face of the creditor at the rail"
+  },
+  {
+   "t": "6.60-7.20",
+   "line": "долги.",
+   "a": "she yanks the right rope mid-roll, the same jet of slips into the same face"
+  },
+  {
+   "t": "7.20-8.00",
+   "a": "the cart clips a crate and slews sideways, the pole and both sacks sweeping the frame"
+  },
+  {
+   "t": "8.00-8.80",
+   "a": "the creditors haul the cart across frame by its rail, her muzzle filling the glass"
+  },
+  {
+   "t": "8.80-10.00",
+   "a": "the cart rides at the lens through the paper, her muzzle into the glass, jaw open, both sacks thrown forward"
+  }
+ ],
+ "must_appear": "the cart already rolling in frame one; ДОЛГИ on the left sack, ИПОТЕКА on the right, both readable at 3.20; the left sack opened at 4.40 and the right at 6.60 by the same yank, the same slips out of both; nothing touches her before 7.20; every word spoken, the last by 7.20; jaw open on every syllable",
+ "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a still first frame, a held pose, a parked cart, a tree branch under her, a hero sitting in place, a hero running at the camera on her feet, a wide or distant hero, standing bystanders, an empty street, slow motion, digits, a word not in the lines, a closed jaw while speaking, hands grabbing or carrying the hero before 7.20, extra limbs, multiple monkeys, foreign accent"
+}

@@ -1,0 +1,66 @@
+{
+ "duration_seconds": 10,
+ "aspect_ratio": "9:16",
+ "style": "3D cartoon, Pixar, dry deadpan satire, vertical 9:16 frame, taller than wide",
+ "motion_rule": "she is already running along the bough in frame one and never sits, the grove tearing past her every beat; the camera tracks sideways alongside her to a new shot size each beat, reversing at 0.40, 1.05, 3.60 and 6.70; her muzzle never under a third of frame, jaw visible; she never runs at the camera on her feet",
+ "character": "a wiry macaque in a grey waistcoat and a tall pointed clown cap, running the boughs, exactly two arms, muzzle and jaw clear",
+ "second_characters": "A SWARM of creditors in grey suits climbing the trunks at her, ONE a shoulder from the lens every beat, two in the first second; all moving",
+ "props": "ONE carrying pole across her shoulders; ONE sack of pale jute roped to each end, same cloth and size, the left stencilled ДОЛГИ, the right ИПОТЕКА, one big black Cyrillic word each; A SWARM of paper slips inside the sacks; ONE fistful of iron weights, gone by 1.05",
+ "prop_continuity": "the clown cap stays on her head all clip, the pole rides on her shoulders, both sacks stay roped to its ends",
+ "environment": "a grove packed wall to wall with boughs and climbers a shoulder from the lens, torn leaves across the glass, a market street below",
+ "light_events": "white noon, shafts through the leaves sweeping her every beat",
+ "audio": {
+  "language": "Russian, lines verbatim",
+  "delivery": "a level pleased female voice, even 3.9 syllables per second, beats filled edge to edge",
+  "pronunciation": "GIR-ki, do-LOY, SLE-va, dol-GI, SPRA-va, i-po-TE-ka, ba-LANS, so-SHOL-sya, PRO-sto, o-BE-ikh, sto-RON",
+  "pacing": "speech runs unbroken 0.00 to 7.20, first word on frame one; after 7.20 leaves, boots and paper fill the track to 10.00",
+  "lip_sync": "her jaw opens on every syllable, no voice over",
+  "sfx": "boughs whipping, the roar of the grove, boots on bark"
+ },
+ "timeline": [
+  {
+   "t": "0.00-1.05",
+   "line": "Гирьки долой.",
+   "a": "she is already running along the bough in the first frame, the weights already flying from her fist past the lens, leaves tearing past, ONE creditor a shoulder away"
+  },
+  {
+   "t": "1.05-2.05",
+   "line": "Слева долги,",
+   "a": "her left shoulder drives the left sack across frame to the lens, its whole word inside the frame, the bough bending under her stride"
+  },
+  {
+   "t": "2.05-3.60",
+   "line": "справа ипотека.",
+   "a": "her right shoulder drives the right sack to the lens the same way, its whole word inside the frame, and she runs on"
+  },
+  {
+   "t": "3.60-4.90",
+   "line": "Баланс сошёлся.",
+   "a": "she swings the pole and both sacks sweep the bough like a swing-boat, knocking TWO climbing creditors off it across frame"
+  },
+  {
+   "t": "4.90-6.70",
+   "line": "Просто с обеих сторон",
+   "a": "she yanks the left rope mid-stride, a jet of slips into the nearest creditor's face"
+  },
+  {
+   "t": "6.70-7.20",
+   "line": "долги.",
+   "a": "she yanks the right rope the same way, the same jet of slips into the same face"
+  },
+  {
+   "t": "7.20-8.00",
+   "a": "she runs on into the next tree, the pole and both sacks sweeping the frame"
+  },
+  {
+   "t": "8.00-8.80",
+   "a": "the creditors swarm the trunk and she rides the bending bough down across frame, her muzzle filling the glass"
+  },
+  {
+   "t": "8.80-10.00",
+   "a": "she swings in on a vine across frame and past the lens through the paper, jaw open, the cap over one eye"
+  }
+ ],
+ "must_appear": "the clown cap on her head in every beat; ДОЛГИ on the left sack, ИПОТЕКА on the right, each word whole, never cropped by the frame edge, readable at 3.60; the left sack opened at 4.90 and the right at 6.70 by the same yank, the same slips from both; nothing touches her before 7.20; every word spoken, the last by 7.20",
+ "negative_prompt": "subtitles, watermark, letterbox, horizontal frame, a static camera, a still background, a still first frame, a held pose, a hero sitting on a branch, a cart, a cap blowing off, a word cut by the frame edge, a hero running at the camera on her feet, a wide or distant hero, slow motion, digits, a word not in the lines, a closed jaw while speaking, hands grabbing or carrying the hero before 7.20, multiple monkeys, foreign accent"
+}

@@ -1,0 +1,42 @@
+{
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "style": "3D cartoon, Pixar, dry satire",
+  "motion_rule": "the world flies at her: a pulley clothesline hauls right to left all clip and she rides it, kicking off peg after peg, wire and bird crossing the lens together; every action crosses the frame past the lens, never up or down; a second mover passes within a wingspan every beat; new shot size every beat, never wider than her head filling a third of frame, one action per beat",
+  "character": "a slim grey turtle dove, pink breast, black neck ring, head stabbing the air",
+  "second_characters": "A SWARM of crows crossing the lens; ONE sparrow",
+  "props": "ONE rolled banknote under her wing; ONE coin nest riding the same wire",
+  "prop_continuity": "the banknote stays under her wing to 2.70, then the sparrow has it; the nest rides the wire, only shoved, never held; coins only in the nest or crow claws",
+  "environment": "sunlit yards jammed with washing lines, wet sheets and pillowcases sliding past the lens a wingspan away, a window hauling the line",
+  "light_events": "blazing noon, wet sheets bouncing white light on her; at 7.25 the sun flares behind her",
+  "audio": {
+    "language": "Russian, lines verbatim; latin hints never spoken",
+    "delivery": "soft cooing female voice gone hard, preaching, biting each word, 4 syllables/sec",
+    "pronunciation": "ot-LO-zhish, CHOR-ny, pri-DYOT, CHOR-na-ya, DEN-gi, spa-SUT, TOL-ko, KRY-lya",
+    "pacing": "0.95-2.70, 3.10-4.65 and 5.05-7.25 each one breath; after 7.25 not a word, sfx keep going",
+    "lip_sync": "her beak opens wide and shapes every syllable",
+    "sfx": "pulley squealing, sheets cracking, wingbeats, crow calls, coins ringing"
+  },
+  "timeline": [
+    { "t": "0.00-0.50", "a": "she lands running on the moving wire, it hauls her past the lens, a wet sheet ripping off" },
+    { "t": "0.50-0.95", "a": "A SWARM tears past the lens the other way, she ducks without slowing" },
+    { "t": "0.95-1.65", "line": "Отложишь", "a": "she races down the moving wire at the lens, banknote under her wing; ONE crow crosses a wingspan away" },
+    { "t": "1.65-2.35", "line": "на чёрный", "a": "she kicks off peg after peg past pillowcases sliding a wingspan from the lens" },
+    { "t": "2.35-2.70", "line": "день.", "a": "she overtakes the coin nest and shoves it down the wire past the lens" },
+    { "t": "2.70-3.10", "a": "the sparrow snatches the banknote from under her wing on the run and hauls it past the lens" },
+    { "t": "3.10-3.60", "line": "Придёт", "a": "she tears after the sparrow down the wire, the camera arcing with her" },
+    { "t": "3.60-4.30", "line": "чёрная", "a": "she swerves along the wire under a diving crow, the crow ripping past the lens" },
+    { "t": "4.30-4.65", "line": "ночь.", "a": "she overtakes that crow and they run the wire shoulder to shoulder at the lens" },
+    { "t": "4.65-5.05", "a": "A SWARM comes as a wall at the lens, shadows racing over the laundry" },
+    { "t": "5.05-5.55", "line": "Деньги", "a": "she hurls a handful of coins from the nest at the crows" },
+    { "t": "5.55-6.25", "line": "не спасут,", "a": "the crows catch the coins at the lens and wheel off across frame" },
+    { "t": "6.25-6.75", "line": "только", "a": "she shoves the emptying nest down the wire past the lens" },
+    { "t": "6.75-7.25", "line": "крылья.", "a": "she throws her wings wide and the wire flings her at the lens, coins pouring out behind" },
+    { "t": "7.25-7.85", "a": "she dives onto the camera filling the lens, wings hammering, beak snapping" },
+    { "t": "7.85-8.40", "a": "she swings the empty nest into the lens on the run, nothing in it" },
+    { "t": "8.40-9.10", "a": "she snaps at A SWARM hauling her coins across the lens" },
+    { "t": "9.10-10.00", "a": "the wire hauls her past the lens beside the empty nest; the sparrow crosses the lens with her banknote" }
+  ],
+  "must_appear": "she rides the moving wire the whole clip and never stands still; every word spoken, the last by 7.25; at 7.25 she dives filling the lens, wings hammering, alive and furious; the crows carry her coins off",
+  "negative_prompt": "subtitles, watermark, letterbox, digits, night, dark scene, a wide shot, an empty yard, a parked camera, a bird staying in place, slow motion, a foreign accent, a word not in the lines, cyrillic letters"
+}

@@ -1,0 +1,31 @@
+{
+"duration_seconds":10,
+"aspect_ratio":"9:16",
+"style":"3D animated satire, deadpan slapstick; penguin fills two thirds of frame height",
+"subject":{"character":"ONE neat emperor penguin accountant, black tailcoat, bow tie, orange beak; same face throughout, fully serious"},
+"second_characters":"ONE big tusked walrus collector",
+"props":{"jars_crate":"plain glass jars, screw lids; plain wooden crate; no labels","leaflets":"white leaflets printed ДЕКЛАРАЦИЯ in black Cyrillic capitals"},
+"environment":"small ice floe, dense pressure ridges with icicles, deep blue water",
+"lighting":"low polar sun behind-left, gold glints; cold blue sky glow behind-right; flares on every move",
+"light_events":[{"t":"4.75-7.40","event":"rotor shadows strobe across the floe"}],
+"motion_rule":"the camera orbits them every beat, new shot size every beat, never parked; he moves his whole body every beat; the walrus acts every beat",
+"audio":{"language":"Russian","delivery":"flat low brisk male voice, native, no accent","pacing":"brisk, each line once inside its beat, no pause after Я; after 4.75 rotor roar, gasps, glass clinks, no words","lip_sync":"beak opens on every syllable"},
+"timeline":[
+{"t":"0.00-0.30","line":"Я","a":"medium low, orbit left; he belly-slides in along the ridge; the walrus yanks a jar from the crate"},
+{"t":"0.30-1.15","line":"выживаю","a":"waist shot, orbit right; he brakes with his flippers, springs up, breath puffs; the walrus unscrews the jar with a tusk"},
+{"t":"1.15-2.00","line":"на этом льду.","a":"medium, orbit left; he trips on flat ice, flails, waddles on; the walrus slaps the ice, spray flies, jar under flipper"},
+{"t":"2.00-2.65","line":"Как и все,","a":"medium, counter-arc; he waddles round the walrus, flippers flapping; the walrus lumbers after him, jar under flipper"},
+{"t":"2.65-3.90","line":"плачу за каждый вздох.","a":"waist shot, orbit; he bolts across the floe, flippers flung wide, three-quarter to camera, a breath puff bursts; the walrus belly-bounds after him, swipes the puff into his open jar mid-lunge, slaps the lid on"},
+{"t":"3.90-4.75","line":"До апреля.","a":"medium, arc; he spins on his heel, waddles along the edge in profile, flipper up; the walrus flings the jar into the crate, slams the lid"},
+{"t":"4.75-5.45","a":"low medium, swift orbit; helicopter skids drop to top frame edge, spray bursts; he is knocked flat, belly-slides in a circle; the walrus digs tusks into the ice"},
+{"t":"5.45-6.10","a":"waist shot, arc, leaflets pour from the helicopter; he springs up, a leaflet slaps his face, he spins, peels it off; one sticks to the walrus's tusks"},
+{"t":"6.10-6.70","a":"waist shot, orbit; he reads it backing away, gasps, beak wide, staggers sideways; the walrus snatches a clean jar"},
+{"t":"6.70-7.40","a":"medium, arc, his face to camera; the walrus belly-flops in from frame edge, rams the jar over the gasping beak; knocked sideways, he spins on one foot, ends facing camera, jar fogging"},
+{"t":"7.40-8.05","a":"medium, arc left; he scrambles sideways across the floe, flippers windmilling; the walrus bounds after him, slaps the ice, spray flies"},
+{"t":"8.05-8.70","a":"waist shot, arc right; he whips round, his jar clanks the walrus's tusk; the walrus reels onto the crate, it bursts, jars roll"},
+{"t":"8.70-9.35","a":"low medium, arc; he skids, waddles on, kicks a rolling jar; the walrus heaves up, grabs a leaflet, lunges"},
+{"t":"9.35-10.00","a":"waist shot, short arc toward him; he skids to a halt facing camera, fogged jar on beak, calmly fixes his bow tie; the walrus slaps the leaflet on his chest"}
+],
+"must_appear":"0.00 penguin belly-slides in; 4.75 rotor shadows, skids at top edge, spray; 5.45 leaflets ДЕКЛАРАЦИЯ; 6.70 walrus rams a jar over the gasping beak",
+"negative_prompt":"static camera, locked-off shots, subtitles, watermark, jar labels, digits, duplicate penguins, two walruses, duplicate props, floating jars, his back to camera, top-down wide shot, a jar held up to the lens, a repeated word, speech after 4.9, a spoken word on the leaflets, English speech, foreign accent, extra limbs"
+}
